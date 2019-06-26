@@ -13,9 +13,9 @@ class Config(object):
     NETOWL_KEY = os.environ.get('NETOWL_KEY')
     ACS_FACE_API_KEY = os.environ.get('ACS_FACE_API_KEY')
     ACS_CV_API_KEY = os.environ.get('ACS_CV_API_KEY')
-    NETOWL_INT_FOLDER = '/static/temp'
-    UPLOAD_FOLDER = '/static/uploads'
-    NETOWL_FINAL_FOLDER = '/static/temp'
+    NETOWL_INT_FOLDER = os.getcwd() + '/static/temp'
+    UPLOAD_FOLDER = os.getcwd() + '/static/uploads'
+    NETOWL_FINAL_FOLDER = os.getcwd() + '/static/temp'
     GIS_USERNAME = os.environ.get('gis_username')
     GIS_PASSWORD = os.environ.get('gis_password')
     GIS_URL = os.environ.get('gis_url')

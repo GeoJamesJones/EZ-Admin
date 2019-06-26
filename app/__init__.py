@@ -35,8 +35,8 @@ if not app.debug:
 
     app.logger.setLevel(logging.INFO)
     app.logger.info('Microblog startup')
-    app.redis = Redis.from_url(app.config['REDIS_URL'])
+    app.redis = ""
     app.task_queue = rq.Queue('microblog-tasks', connection=app.redis)
 
-from app.routes import routes, nlp_routes, errors
+from app.routes import routes, errors, query_routes, api_routes, admin_routes, upload_routes
 from app.models import models
