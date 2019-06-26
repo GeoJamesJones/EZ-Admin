@@ -1,0 +1,46 @@
+<h2>{{ u.name }}</h2>
+<table class="table table-hover">
+        <tr>
+            <td>
+                Group Owner:
+                <a>
+                    {{ u.owner }}
+                </a>
+                <br>
+                Group Admininstrators:
+                <a>
+                    {{ u.admins }}
+                </a>
+                <br>
+                Group Users:
+                <a>
+                    {{ u.users }}
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <h4>Group Content</h4>
+    {% for s in u.content %}
+    <table class="table table-hover">
+            <tr>
+                <td>
+                    Title:
+                    <a>
+                        {{ s.title }}
+                    </a>
+                    <br>
+                    Type:
+                    <a>
+                        {{ s.type }}
+                    </a>
+                    <br>
+                    Number of Views:
+                    <a>
+                        {{ s.numViews }}
+                    </a>
+                </td>
+            </tr>
+        </table>
+    {% endfor %}
+

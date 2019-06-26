@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <table class="table table-hover">
+        <tr>
+            <td>
+                <h1>Portal: {{ portal_url.name }}</h1>
+            </td>
+        </tr>
+    </table>
+
+    {% for u in groups %}
+        {% include '_group.html' %}
+    {% endfor %}
+
+
+{% endblock %}s

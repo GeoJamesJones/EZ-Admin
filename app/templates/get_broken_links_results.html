@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Broken Items:</h2>
+    {% for bi in broken_items %}
+        {% include '_broken_item.html' %}
+    {% endfor %}
+
+    <h2>Checked Items:</h2>
+    {% for ci in checked_items %}
+        {% include '_checked_item.html' %}
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Job Summary</h1>
+        <p> Job Type:<br>{{ job.jobtype }}</p><br>
+        <p> Copied Files:<br>{{ job.copiedfiles }}</p><br>
+        <p> Errors:<br>{{ job.errorfiles }}</p><br>
+{% endblock %}

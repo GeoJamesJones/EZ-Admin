@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% for q in query %}
+        {% include '_query.html' %}
+    {% endfor %}
+{% endblock %}

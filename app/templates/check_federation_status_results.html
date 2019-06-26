@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <table class="table table-hover">
+        <tr>
+            <td>
+                <h1>Federation Status: {{ val_status.val_status }}</h1>
+            </td>
+        </tr>
+    </table>
+
+<h2>Federated Servers</h2>
+    {% for fs in federated_servers %}
+        {% include '_server.html' %}
+    {% endfor %}
+<h2>Server Validation Status</h2>
+    {% for sv in server_val %}
+        {% include '_validate.html' %}
+    {% endfor %}
+
+{% endblock %}
