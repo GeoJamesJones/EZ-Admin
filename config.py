@@ -2,22 +2,23 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config(object):
-    SECRET_KEY = os.environ.get('SECRET_KEY')
-    POSTGRES_URL = os.environ.get('POSTGRES_URL')
-    POSTGRES_USER = os.environ.get('POSTGRES_USER')
-    POSTGRES_PW = os.environ.get('POSTGRES_PW')
-    POSTGRES_DB = os.environ.get('POSTGRES_DB')
+    SECRET_KEY = 'you-will-never-guess'
     #SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///' + os.path.join(basedir, 'app.db')
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user=POSTGRES_USER,pw=POSTGRES_PW,url=POSTGRES_URL,db=POSTGRES_DB)
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    NETOWL_KEY = os.environ.get('NETOWL_KEY')
-    ACS_FACE_API_KEY = os.environ.get('ACS_FACE_API_KEY')
-    ACS_CV_API_KEY = os.environ.get('ACS_CV_API_KEY')
     NETOWL_INT_FOLDER = os.getcwd() + '/static/temp'
     UPLOAD_FOLDER = os.getcwd() + '/static/uploads'
     NETOWL_FINAL_FOLDER = os.getcwd() + '/static/temp'
-    GIS_USERNAME = os.environ.get('gis_username')
     GIS_PASSWORD = os.environ.get('gis_password')
-    GIS_URL = os.environ.get('gis_url')
     GEOEVENT_URL = r'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/ca-query-in'
+    GIS_URL = 'https://wdcdefense.esri.com/portal'
+    GIS_USERNAME = "james_jones"
+    GIS_PASSWORD = "QWerty654321@!"
+    NETOWL_KEY='netowl ff5e6185-5d63-459b-9765-4ebb905affc8'
+    POSTGRES_URL="wdcdefense.esri.com:5432"
+    POSTGRES_USER="postgres"
+    POSTGRES_PW="H0neyBadger5"
+    POSTGRES_DB="jones"
+    ACS_FACE_API_KEY="53242be6635c420c807d15a44a7015cf"
+    ACS_CV_API_KEY="b5c56de0406947f5a5ef90c6f32e0665"
     

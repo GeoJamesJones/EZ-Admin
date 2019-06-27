@@ -289,65 +289,73 @@ def main(query, category):
             spatial_entities = []
             for value in json.loads(result)['webPages']['value']:
 
-                r = requests.get(value['url'], verify=False, timeout=10)
-                soup = BeautifulSoup(r.content, features="html.parser")
+                try:
 
-                soup_list = [s.extract() for s in soup(['style', 'script', '[document]', 'head', 'title'])]
-                visible_text = soup.getText()
+                    r = requests.get(value['url'], verify=False, timeout=10)
+                    soup = BeautifulSoup(r.content, features="html.parser")
 
-                filename = term.replace(" ", "_") + str(randint(1,1000))
-                text_file_path = os.path.join(directory, filename + '.txt')
-                with open(text_file_path, 'w', encoding='utf-8') as text_file:
-                    print_text = cleanup_text(visible_text)
-                    text_file.write(print_text)
-                    text_file.close()
+                    soup_list = [s.extract() for s in soup(['style', 'script', '[document]', 'head', 'title'])]
+                    visible_text = soup.getText()
 
-                netowl_curl(text_file_path, directory, ".json", netowl_key)
+                    filename = term.replace(" ", "_") + str(randint(1,1000))
+                    text_file_path = os.path.join(directory, filename + '.txt')
+                    with open(text_file_path, 'w', encoding='utf-8') as text_file:
+                        print_text = cleanup_text(visible_text)
+                        text_file.write(print_text)
+                        text_file.close()
 
-                with open(text_file_path + ".json", 'rb') as json_file:
-                    data = json.load(json_file)
+                    netowl_curl(text_file_path, directory, ".json", netowl_key)
 
-                    entity_list = process_netowl_json(filename, data, value['url'], term, category, value['dateLastCrawled'], value['snippet'], value['language'])
+                    with open(text_file_path + ".json", 'rb') as json_file:
+                        data = json.load(json_file)
 
-                    for entity in entity_list:
-                        if entity.geo_entity == True:
-                            if entity.geo_type == 'coordinate' or entity.geo_type == 'address' or entity.geo_subtype == 'city':
-                                spatial_entities.append(vars(entity))
-                                post_to_geoevent(json.dumps(vars(entity)), geoevent_url)
-                                #print(vars(entity))
-                
-                os.remove(text_file_path)
-                os.remove(text_file_path + ".json")
+                        entity_list = process_netowl_json(filename, data, value['url'], term, category, value['dateLastCrawled'], value['snippet'], value['language'])
+
+                        for entity in entity_list:
+                            if entity.geo_entity == True:
+                                if entity.geo_type == 'coordinate' or entity.geo_type == 'address' or entity.geo_subtype == 'city':
+                                    spatial_entities.append(vars(entity))
+                                    post_to_geoevent(json.dumps(vars(entity)), geoevent_url)
+                                    #print(vars(entity))
+                    
+                    os.remove(text_file_path)
+                    os.remove(text_file_path + ".json")
+                except Exception as e:
+                    print("Error:" + str(e))
 
             for j in search(query, tld="com", num=int(10), stop=10, pause=2):
-                r = requests.get(j)
-                soup = BeautifulSoup(r.content, features="html.parser")
+                try:
 
-                soup_list = [s.extract() for s in soup(['style', 'script', '[document]', 'head', 'title'])]
-                visible_text = soup.getText()
+                    r = requests.get(j, verify=False, timeout=10)
+                    soup = BeautifulSoup(r.content, features="html.parser")
 
-                filename = query.replace(" ", "_") + str(randint(1,1000))
-                text_file_path = os.path.join(directory, filename + '.txt')
-                with open(text_file_path, 'w', encoding='utf-8') as text_file:
-                    print_text = cleanup_text(visible_text)
-                    text_file.write(print_text)
-                    text_file.close()
+                    soup_list = [s.extract() for s in soup(['style', 'script', '[document]', 'head', 'title'])]
+                    visible_text = soup.getText()
 
-                netowl_curl(text_file_path, directory, ".json", netowl_key)
+                    filename = query.replace(" ", "_") + str(randint(1,1000))
+                    text_file_path = os.path.join(directory, filename + '.txt')
+                    with open(text_file_path, 'w', encoding='utf-8') as text_file:
+                        print_text = cleanup_text(visible_text)
+                        text_file.write(print_text)
+                        text_file.close()
 
-                with open(text_file_path + ".json", 'rb') as json_file:
-                    data = json.load(json_file)
+                    netowl_curl(text_file_path, directory, ".json", netowl_key)
 
-                    entity_list = process_netowl_json(filename, data, j, query, category, '', '', '')
+                    with open(text_file_path + ".json", 'rb') as json_file:
+                        data = json.load(json_file)
 
-                    entity_count = 0
-                    for entity in entity_list:
-                        if entity.geo_entity == True:
-                            if entity.geo_type == 'coordinate' or entity.geo_type == 'address' or entity.geo_subtype == 'city':
-                                spatial_entities.append(vars(entity))
-                                post_to_geoevent(json.dumps(vars(entity)), geoevent_url)
-                                #print(vars(entity))
-                                entity_count +=1
+                        entity_list = process_netowl_json(filename, data, j, query, category, '', '', '')
+
+                        entity_count = 0
+                        for entity in entity_list:
+                            if entity.geo_entity == True:
+                                if entity.geo_type == 'coordinate' or entity.geo_type == 'address' or entity.geo_subtype == 'city':
+                                    spatial_entities.append(vars(entity))
+                                    post_to_geoevent(json.dumps(vars(entity)), geoevent_url)
+                                    #print(vars(entity))
+                                    entity_count +=1
+                except Exception as e:
+                    print("Error: " + str(e))
 
                 
                 #print("-------------------------------------------------------")
