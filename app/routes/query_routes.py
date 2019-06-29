@@ -27,7 +27,9 @@ def form_query_web():
     if form.validate_on_submit():
         query = form.query.data
         category = form.category.data
+        flash("Searching...")
         bucketizebing.main(query, category)
+        flash("Success!")
         return render_template('query_web_results.html')
     return render_template('query_web.html', form=form)
 
@@ -37,6 +39,8 @@ def form_query_news():
     form = QueryNews()
     if form.validate_on_submit():
         query = form.query.data
-        news = bucketizenews.main(query, "News Query")
+        flash("Searching...")
+        bucketizenews.main(query, "News Query")
+        flash("Success!")
         return render_template('query_news_results.html')
     return render_template('query_news.html', form=form)   
