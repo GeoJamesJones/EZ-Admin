@@ -1,0 +1,1306 @@
+
+
+
+
+
+
+
+
+
+
+
+Nuclear power in Japan
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to navigation
+Jump to search
+ The Onagawa Nuclear Power Plant, a 3-unit BWR site typical of Japan's nuclear plants.
+ The Kashiwazaki-Kariwa Nuclear Power Plant, a nuclear plant with seven units, the largest single nuclear power station in the world, was completely shut down for 21 months following an earthquake in 2007.[1]
+ The 2011 Fukushima Daiichi nuclear disaster, the world's worst nuclear accident since 1986, displaced 50,000 households after radioactivity leaked into the air, soil and sea.[2] Radiation checks led to bans of some shipments of vegetables and fish.[3]
+Prior to the 2011 Thoku earthquake and tsunami, Japan had generated 30% of its electrical power from nuclear reactors and planned to increase that share to 40%.[4] Nuclear power energy was a national strategic priority in Japan.
+As of February 2019, there are 42 operable reactors in Japan. 
+Of these, 9 reactors in 5 power plants are operating.[5][6]
+Though all of Japan's nuclear reactors successfully withstood shaking from the Tohoku earthquake, flooding from the ensuing tsunami caused the failure of cooling systems at the Fukushima I Nuclear Power Plant on 11 March 2011. 
+Japan's first-ever nuclear emergency was declared, and 140,000 residents within 20km (12mi) of the plant were evacuated. 
+A comprehensive assessment by international experts on the health risks associated with the Fukushima I nuclear power plant disaster concluded in 2013 that, for the general population inside and outside Japan, the predicted risks were low and no observable increases in cancer rates above baseline rates were anticipated.[7] 
+All Japan's nuclear plants were closed, or their operations suspended for safety inspections. The last of Japan's fifty reactors (Tomari-3) went offline for maintenance on 5 May 2012,[8] leaving Japan completely without nuclear-produced electrical power for the first time since 1970.
+Problems in stabilizing the triple reactor meltdowns at Fukushima I nuclear plant hardened attitudes to nuclear power. 
+In June 2011, more than 80 percent of Japanese said they were anti-nuclear and distrusted government information on radiation.[9][10][11] 
+By October 2011, there had been electricity shortages, but Japan survived the summer without the extensive blackouts that some had predicted.[12][13][14] 
+An energy white paper, approved by the Japanese Cabinet in October 2011, stated that Public confidence in safety of nuclear power was greatly damaged by the Fukushima nuclear disaster, and called for a reduction in the nations reliance on nuclear power.[15]
+Despite protests, on 1 July 2012 unit 3 of the i Nuclear Power Plant was restarted.[16] 
+In September 2013, i units 3 and 4 went offline, making Japan again completely without nuclear-produced electrical power.[17] 
+On August 11, 2015, the Sendai Nuclear Power Plant was brought back online, followed by two units (3 and 4) of the Takahama Nuclear Power Plant on January 29, 2016.[18][19] 
+However, Unit 4 was shut down three days after restart due to an internal failure and Unit 3 in March 2016 after district court in Shiga prefecture issued an injunction to halt operation of Takahama Nuclear Power Plant.[20][21] Though 43 of Japan's pre-2011 total of 54 plants remain idled, the Ministry of Economy, Trade and Industry said in 2017 that if the country is to meet its obligations under the Paris climate accord, then nuclear energy needs to make up between 20-22% of the nation's portfolio mix. 26 restart applications are now pending with an estimated 12 units to come back in service by 2025 and 18 by 2030.[22][23]
+
+Contents
+
+1 History
+
+1.1 Early years
+
+1.1.1 Overcoming popular resistance
+1.1.2 Light water reactors
+
+
+1.2 Later years
+1.3 2000s
+1.4 Fukushima disaster and aftermath
+
+1.4.1 Investigations on the Fukushima disaster
+
+
+1.5 Post-Fukushima nuclear policy
+
+
+2 Seismicity
+
+2.1 Design standards
+2.2 Geological surveys
+
+
+3 Nuclear power plants
+4 Nuclear accidents
+
+4.1 2011 accidents
+4.2 Fukushima Daiichi nuclear disaster
+4.3 Other accidents
+
+
+5 Nuclear waste disposal
+6 Nuclear regulatory bodies in Japan
+7 Nuclear power companies
+
+7.1 Electric utilities running nuclear plants
+7.2 Nuclear vendors and fuel cycle companies
+
+
+8 Nuclear Research and professional organizations in Japan
+
+8.1 Research organizations
+8.2 Academic/professional organizations
+8.3 Other proprietary organizations
+
+
+9 Anti-nuclear movement
+10 See also
+11 Notes
+12 References
+13 Further reading
+14 External links
+
+
+History[edit]
+ Japan has steadily increased its nuclear generation over time. A dip in 2003 was due to TEPCO data falsification scandals in 2002 and caused a poor operating record.
+ The Ikata Nuclear Power Plant.
+ The Kashiwazaki-Kariwa Nuclear Power Plant as seen from space.
+ The Tomari Nuclear Power Plant.
+Early years[edit]
+Overcoming popular resistance[edit]
+In 1954, the Operations Coordinating Board of the United States National Security Council proposed that the U.S. government undertake a vigorous offensive urging nuclear energy for Japan in order to overcome the widespread reluctance of the Japanese population to build nuclear reactors in the country. Thirty two million Japanese people, a third of the Japanese population, signed a petition calling for banning hydrogen bombs.[24] The Washington Post called for adopting the proposal to build nuclear reactors in Japan, stating: Many Americans are now aware...that the dropping of the atomic bombs on Japan was not necessary....How better to make a contribution to amends than by offering Japan...atomic energy.[25] For several years starting in 1954, the United States Central Intelligence Agency and other U.S. government agencies ran a propaganda war targeting the Japanese population to vanquish the Japanese people's opposition to nuclear power.[26][25][not in citation given]
+In 1954, Japan budgeted 230 million yen for nuclear energy, marking the beginning of the Japan's nuclear program. The Atomic Energy Basic Law limited activities to only peaceful purposes.[27]  The first nuclear power plant in Japan, the Tkai Nuclear Power Plant, was built by the UK's GEC and was commissioned in 1966.
+
+Light water reactors[edit]
+In the 1970s, the first light water reactors were built in cooperation with American companies. These plants were bought from U.S. vendors such as General Electric and Westinghouse with contractual work done by Japanese companies, who would later get a license themselves to build similar plant designs. Developments in nuclear power since that time have seen contributions from Japanese companies and research institutes on the same level as the other big users of nuclear power. From the early 1970s to the present, the Japanese government promoted the siting of nuclear power plants through a variety of policy instruments involving soft social control and financial incentives.[28] By offering large subsidies and public works projects to rural communities and by using educational trips, junkets for local government officials, and OpEds written as news by pro-nuclear supporters, the central government won over the support of depopulating, hard-on-their-luck coastal towns and villages.
+
+Later years[edit]
+Japan's nuclear industry was not hit as hard by the effects of the Three Mile Island accident (TMI) or the Chernobyl disaster as some other countries. 
+Construction of new plants continued to be strong through the 1980s, 1990s, and up to the present day. 
+While many new plants had been proposed, all were subsequently canceled or never brought past initial planning. 
+Cancelled plant orders include:
+
+The Hhoku Nuclear Power Plant at Hhoku, Yamaguchi1994
+The Kushima Nuclear Power Plant at Kushima, Miyazaki1997
+The Ashihama Nuclear Power Plant at Ashihama, Mie2000 (the first Project at the site in the 1970s was completed at Hamaoka as Unit 1&2)
+The Maki Nuclear Power Plant at Maki, Niigata (Kambara)Canceled in 2003
+The Suzu Nuclear Power Plant at Suzu, Ishikawa2003
+However, starting in the mid-1990s there were several nuclear related accidents and cover-ups in Japan that eroded public perception of the industry, resulting in protests and resistance to new plants. 
+These accidents included the Tokaimura nuclear accident, the Mihama steam explosion, cover-ups after an accident at the Monju reactor, among others, more recently the Chetsu offshore earthquake aftermath. 
+While exact details may be in dispute, it is clear that the safety culture in Japan's nuclear industry has come under greater scrutiny.[29]
+
+2000s[edit]
+On April 18, 2007, Japan and the United States signed the United States-Japan Joint Nuclear Energy Action Plan, aimed at putting in place a framework for the joint research and development of nuclear energy technology.[30] 
+Each country will conduct research into fast reactor technology, fuel cycle technology, advanced computer simulation and modeling, small and medium reactors, safeguards and physical protection; and nuclear waste management.[31] 
+In March 2008, Tokyo Electric Power Company announced that the start of operation of four new nuclear power reactors would be postponed by one year due to the incorporation of new earthquake resistance assessments. 
+Units 7 and 8 of the Fukushima Daiichi plant would now enter commercial operation in October 2014 and October 2015, respectively. 
+Unit 1 of the Higashidori plant is now scheduled to begin operating in December 2015, while unit 2 will start up in 2018 at the earliest.[32] 
+As of September 2008, Japanese ministries and agencies were seeking an increase in the 2009 budget by 6%. 
+The total requested comes to 491.4 billion Japanese yen (4.6 billion USD), and the focuses of research are development of the fast breeder reactor cycle, next-generation light water reactors, the Iter project, and seismic safety.[33]
+
+Fukushima disaster and aftermath[edit]
+ The use of nuclear power (in yellow) in Japan declined significantly after the Fukushima accident
+Main article: Fukushima Daiichi nuclear disaster
+This section needs expansion. You can help by adding to it. (May 2017)
+A 2011 independent investigation in Japan has revealed a long history of nuclear power companies conspiring with governments to manipulate public opinion in favour of nuclear energy. One nuclear company even stacked public meetings with its own employees who posed as ordinary citizens to speak in support of nuclear power plants.[34] 
+An energy white paper, approved by the Japanese Cabinet in October 2011, says public confidence in safety of nuclear power was greatly damaged by the Fukushima disaster, and calls for a reduction in the nations reliance on nuclear power. 
+It also omits a section on nuclear power expansion that was in last years policy review.[15] 
+Nuclear Safety Commission Chairman Haruki Madarame told a parliamentary inquiry in February 2012 that Japan's atomic safety rules are inferior to global standards and left the country unprepared for the Fukushima nuclear disaster last March. 
+There were flaws in, and lax enforcement of, the safety rules governing Japanese nuclear power companies, and this included insufficient protection against tsunamis.[35]
+On 6 May 2011, Prime Minister Naoto Kan ordered the Hamaoka Nuclear Power Plant be shut down as an earthquake of magnitude 8.0 or higher is likely to hit the area within the next thirty years.[36][37][38][39][40]
+As of 27 March 2012, Japan had only one out of 54 nuclear reactors operating; the Tomari-3, after the Kashiwazaki-Kariwa 6 was shut down.[41] 
+The Tomari-3 was shut down for maintenance on 5 May, leaving Japan with no nuclear-derived electricity for the first time since 1970, when the country's then only two reactors was taken offline five days for maintenance.[8] On 15 June 2012, approval was given to restart i Units 3 and 4[42] which could take six weeks to bring them to full operation. On 1 July 2012 unit 3 of the i Nuclear Power Plant was restarted. 
+This reactor can provide 1,180 MW of electricity.[43][44] On 21 July 2012 unit 4 was restarted, also 1,180 MW.[45] 
+The reactor was shut down again on 14 September 2013, again leaving Japan with no operating power reactors.[46]
+
+ Global status of nuclear deployment as of 2017    Operating reactors, building new reactors 
+Government figures in the 2014 Annual Report on Energy show that Japan depended on imported fossil fuels for 88% of its electricity in fiscal year 2013, compared with 62% in fiscal 2010. Without significant nuclear power, the country was self-sufficient for just 6% of its energy demand in 2012, compared with 20% in 2010. 
+The additional fuel costs to compensate for its nuclear reactors being idled was 3.6 trillion. 
+In parallel, domestic energy users have seen a 19.4% increase in their energy bills between 2010 and 2013, while industrial users have seen their costs rise 28.4% over the same period.[47]
+In 2018 the Japanese government revised its energy plan to update the 2030 target for nuclear energy to 20%-22% of power generation by restarting reactors, compared to LNG 27%, coal 25%, renewables 23% and oil 3%.  This would reduce Japan's carbon dioxide emissions by 26% compared to 2013, and increase self-sufficiency to about 24% by 2030, compared to 8% in 2016.[48]
+
+Investigations on the Fukushima disaster[edit]
+The National Diet of Japan Fukushima Nuclear Accident Independent Investigation Commission (NAIIC) is the first independent investigation commission by the National Diet in the 66-year history of Japans constitutional government. 
+NAICC was established on December 8, 2011 with the mission to investigate the direct and indirect causes of the Fukushima nuclear accident. 
+NAICC submitted its inquiry report to both houses on July 5, 2012.[a][49]
+The 10-member commission compiled its report based on more than 1,167 interviews and 900 hours of hearings.[50][51] 
+It was a six-month independent investigation, the first of its kind with wide-ranging subpoena powers in Japan's constitutional history, which held public hearings with former Prime Minister Naoto Kan and Tokyo Electric Power Co's former president Masataka Shimizu, who gave conflicting accounts of the disaster response.[52] 
+The commission chairman, Kiyoshi Kurokawa, declared with respect to the Fukushima nuclear incident: It was a profoundly man-made disaster  that could and should have been foreseen and prevented.[53] 
+He added that the fundamental causes of the disaster were rooted in the ingrained conventions of Japanese culture.[54] 
+The report outlines errors and willful negligence at the plant before the 2011 Thoku earthquake and tsunami on March 11, 2011 and a flawed response in the hours, days and weeks that followed. It also offers recommendations and encourages Japan's parliament to thoroughly debate and deliberate the suggestions.[55]
+
+Post-Fukushima nuclear policy[edit]
+Japan's nuclear power reactors Timeline[56][57][58] [ view/edit ]
+
+Japan's new energy plan, approved by the Liberal Democratic Party cabinet in April 2014, calls nuclear power the country's most important power source.[59] Reversing a decision by the previous Democratic Party, the government will re-open nuclear plants, aiming for a realistic and balanced energy structure. In May 2014 the Fukui District Court blocked the restart of the Oi reactors.[60] 
+In April 2015 courts blocked the restarting of two reactors at Takahama Nuclear Power Plant but permitted the restart of two reactors at Sendai Nuclear Power Plant.[61] The government hopes that nuclear power will produce 20% of Japans electricity by 2030.[61]
+As of June 2015, approval was being sought from the new Nuclear Regulatory Agency for 24 units to restart, of the 54 pre-Fukushima units. 
+The units also have to be approved by the local prefecture authorities before restarting.[62]
+In July 2015 fuel loading was completed at the Sendai-1 nuclear plant, it restarted August 11, 2015 and was followed by unit 2 on November 1, 2015. Japans Nuclear Regulatory Authority approved the restart of Ikata-3 which took place on April 19, 2016, this reactor is the fifth to receive approval to restart.[63] The Takahama Nuclear Power Plant unit 4 restarted in May 2017 and unit 3 in June 2017.
+In November 2016 Japan signed a nuclear cooperation agreement with India. 
+Japanese nuclear plant builders saw this as potential lifeline given that domestic orders had ended following the Fukushima disaster, and India is proposing to build about 20 new reactors over the next decade. However, there is Japanese domestic opposition to the agreement, as India has not agreed to the Treaty on the Non-Proliferation of Nuclear Weapons.[64]
+In 2014, following the failure of the prototype Monju sodium-cooled fast reactor, Japan agreed to cooperate in developing the French ASTRID demonstration sodium-cooled fast breeder reactor.[65][66] As of 2016, France was seeking the full involvement of Japan in the ASTRID development.[66][67]
+In 2015, the Agency for Natural Resources and Energy changed the accounting provisions of the Electricity Business Act, so companies can account for decommissioning costs in ten yearly instalments rather than a one-time charge. This will encourage the decommissioning of older and smaller nuclear units, most of which have not restarted since 2011.[68]
+
+Seismicity[edit]
+Japan has had a long history of earthquakes and seismic activity, and destructive earthquakes, often resulting in tsunamis, occur several times a century. Due to this, concern has been expressed about the particular risks of constructing and operating nuclear power plants in Japan. Amory Lovins has said: An earthquake-and-tsunami zone crowded with 127 million people is an un-wise place for 54 reactors.[69] To date, the most serious seismic-related accident has been the Fukushima Daiichi nuclear disaster, following the 2011 Thoku earthquake and tsunami.
+Professor Katsuhiko Ishibashi, one of the seismologists who have taken an active interest in the topic, coined the term genpatsu-shinsai (), from the Japanese words for nuclear power and quake disaster to express the potential worst-case catastrophe that could ensue.[70][71] Dr Kiyoo Mogi, former chair of the Japanese Coordinating Committee for Earthquake Prediction,[72] has expressed similar concerns, stating in 2004 that the issue 'is a critical problem which can bring a catastrophe to Japan through a man-made disaster'.[73][74]
+Warnings from Kunihiko Shimazaki, a professor of seismology at the University of Tokyo, were also ignored. In 2004, as a member of an influential cabinet office committee on offshore earthquakes, Mr. Shimazaki warned that Fukushima's coast was vulnerable to tsunamis more than twice as tall as the forecasts of as much as five meters put forth by regulators and Tokyo Electric.[75] Minutes of the meeting on Feb. 19, 2004, show that the government bureaucrats running the committee moved quickly to exclude his views from the committee's final report. He said the committee did not want to force Tokyo Electric to make expensive upgrades at the plant.[75]
+Hidekatsu Yoshii, a member of the House of Representatives for Japanese Communist Party and an anti-nuclear campaigner, warned in March and October 2006 about the possibility of the severe damage that might be caused by a tsunami or earthquake.[76] During a parliamentary committee in May 2010 he made similar claims, warning that the cooling systems of a Japanese nuclear plant could be destroyed by a landslide or earthquake.[76] In response Yoshinobu Terasaka, head of the Nuclear and Industrial Safety Agency, replied that the plants were so well designed that such a situation is practically impossible.[76] Following damage at the Kashiwazaki-Kariwa Nuclear Power Plant due to the 2007 Chetsu offshore earthquake, Kiyoo Mogi called for the immediate closure of the Hamaoka Nuclear Power Plant,[72][77] which was knowingly built close to the centre of the expected Tkai earthquake.[73] Katsuhiko Ishibashi previously claimed, in 2004, that Hamaoka was considered to be the most dangerous nuclear power plant in Japan.[78]
+The International Atomic Energy Agency (IAEA) has also expressed concern. At a meeting of the G8's Nuclear Safety and Security Group, held in Tokyo in 2008, an IAEA expert warned that a strong earthquake with a magnitude above 7.0 could pose a 'serious problem' for Japan's nuclear power stations.[79] Before Fukushima, 14 lawsuits charging that risks had been ignored or hidden were filed in Japan, revealing a disturbing pattern in which operators underestimated or hid seismic dangers to avoid costly upgrades and keep operating. But all the lawsuits were unsuccessful.[80] Underscoring the risks facing Japan, a 2012 research institute investigation has determined there is a 70% chance of a magnitude-7 earthquake striking the Tokyo metropolitan area within the next four years, and 98% over 30 years. The March 2011 earthquake was a magnitude-9.[81]
+
+Design standards[edit]
+ Horizontal acceleration experienced and design values during the 2007 and 2011 major earthquake and earthquake-tsunami events.
+Between 2005 and 2007, three Japanese nuclear power plants were shaken by earthquakes that far exceeded the maximum peak ground acceleration used in their design.[82] The tsunami that followed the 2011 Thoku earthquake, inundating the Fukushima I Nuclear Power Plant, was more than twice the design height,[83] while the ground acceleration also slightly exceeded the design parameters.[84]
+In 2006 a Japanese government subcommittee was charged with revising the national guidelines on the earthquake-resistance of nuclear power plants, which had last been partially revised in 2001,[85] resulting in the publication of a new seismic guide  the 2006 Regulatory Guide for Reviewing Seismic Design of Nuclear Power Reactor Facilities.[85] The subcommittee membership included Professor Ishibashi, however his proposal that the standards for surveying active faults should be reviewed was rejected and he resigned at the final meeting, claiming that the review process was 'unscientific'[72][86] and the outcome rigged[86][87] to suit the interests of the Japan Electric Association, which had 11 of its committee members on the 19-member government subcommittee.[87] Ishibashi has subsequently claimed that, although the new guide brought in the most far-reaching changes since 1978, it was 'seriously flawed' because it underestimated the design basis earthquake ground motion.[70] He has also claimed that the enforcement system is 'a shambles'[70][82] and questioned the independence of the Nuclear Safety Commission after a senior Nuclear and Industrial Safety Agency official appeared to rule out a new review of the NSC's seismic design guide in 2007.[70]
+Following publication of the new 2006 Seismic Guide, the Nuclear and Industrial Safety Agency, at the request of the Nuclear Safety Commission, required the design of all existing nuclear power plants to be re-evaluated.[88]
+
+Geological surveys[edit]
+The standard of geological survey work in Japan is another area causing concern. In 2008 Taku Komatsubara, a geologist at the National Institute of Advanced Industrial Science and Technology alleged that the presence of active faults was deliberately ignored when surveys of potential new power plant sites were undertaken, a view supported by a former topographer.[89] Takashi Nakata, a seismologist from the Hiroshima Institute of Technology has made similar allegations, and suggest that conflicts of interest between the Japanese nuclear industry and the regulators contribute to the problem.[87]
+A 2011 Natural Resources Defense Council report that evaluated the seismic hazard to reactors worldwide, as determined by the Global Seismic Hazard Assessment Program data, placed 35 of Japan's reactors in the group of 48 reactors worldwide in very high and high seismic hazard areas.[90]
+
+Nuclear power plants[edit]
+For the details of each reactor, see list of nuclear reactors Japan.
+As of May 2018, there are 39 operable reactors in Japan. 
+Of these, 9 reactors in 5 power plants are currently operating.[91]
+Additionally, 5 reactors have been approved for restart and further 12 have restart applications under review.[92][91]
+
+
+
+
+Map all coordinates using: OpenStreetMap
+
+
+Download coordinates as: KMLGPX
+
+FukushimaI,IIGenkaiHamaokaIkataKashiwazaki-KariwaMihamaMonjuiOnagawaSendaiShikaShimaneTakahamaTkaiTomariTsuruga/FugenHigashidrimaNamie-OdakaKaminoseki Nuclear power plants in Japan (view)Active plantsInactive plantsDecommissioned plantsPlanned plants
+
+
+
+Station
+Operablecapacity (MW)
+Community
+Coordinates
+Status
+
+
+Fugen
+N/A
+Tsuruga, Fukui
+354516N 1360059E / 35.75444N 136.01639E / 35.75444; 136.01639 (Fugen Nuclear Power Station)
+Decommissioned
+
+
+Fukushima I
+N/A
+Futaba, Fukushima
+372517N 1410157E / 37.42139N 141.03250E / 37.42139; 141.03250 (Fukushima I Nuclear Power Station)
+To be decommissioned[93]
+
+
+Fukushima II
+4,400
+Futaba, Fukushima
+371910N 1410116E / 37.31944N 141.02111E / 37.31944; 141.02111 (Fukushima II Nuclear Power Station)
+Suspended
+
+
+Genkai
+2,919
+
+333056N 1295014E / 33.51556N 129.83722E / 33.51556; 129.83722 (Genkai Nuclear Power Station)
+Operational (units 3[94] and 4 only,[91] unit 1 to be decommissioned[95])
+
+
+Hamaoka
+3,504
+
+343725N 1380833E / 34.62361N 138.14250E / 34.62361; 138.14250 (Hamaoka Nuclear Power Station)
+Suspended (units 1 and 2 to be decommissioned)
+
+
+Higashidri
+1,100
+
+411117N 1412325E / 41.18806N 141.39028E / 41.18806; 141.39028 (Higashidri Nuclear Power Station)
+Suspended
+
+
+Ikata
+890
+
+332927N 1321841E / 33.49083N 132.31139E / 33.49083; 132.31139 (Ikata Nuclear Power Station)
+Operational (unit 3 only, units 1 and 2 to be decommissioned[95][96])
+
+
+Kashiwazaki-Kariwa
+8,212
+
+372542N 1383606E / 37.42833N 138.60167E / 37.42833; 138.60167 (Kashiwazaki-Kariwa Nuclear Power Station)
+Suspended[97]
+
+
+Maki
+N/A
+
+372517N 1410157E / 37.42139N 141.03250E / 37.42139; 141.03250 (Maki Nuclear Power Station)
+Withdrawn
+
+
+Mihama
+780
+
+354209N 1355748E / 35.70250N 135.96333E / 35.70250; 135.96333 (Mihama Nuclear Power Station)
+Suspended (units 1 and 2 to be decommissioned[95])
+
+
+Monju
+N/A
+
+354425N 1355917E / 35.74028N 135.98806E / 35.74028; 135.98806 (Monju Nuclear Power Station)
+To be decommissioned
+
+
+Namie-Odaka
+N/A
+
+
+Withdrawn
+
+
+i
+2,254
+
+353226N 1353907E / 35.54056N 135.65194E / 35.54056; 135.65194 (i Nuclear Power Station)
+Operational (units 3 and 4[6] only, units 1 and 2 to be decommissioned)
+
+
+ma
+1,383
+
+413035N 1405437E / 41.50972N 140.91028E / 41.50972; 140.91028 (ma Nuclear Power Plant)
+Under construction
+
+
+Onagawa
+2,174
+
+382404N 1412959E / 38.40111N 141.49972E / 38.40111; 141.49972 (Onagawa Nuclear Power Station)
+Suspended (unit 1 to be decommissioned[98])
+
+
+Sendai
+1,780
+
+315001N 1301123E / 31.83361N 130.18972E / 31.83361; 130.18972 (Sendai Nuclear Power Station)
+Operational
+
+
+Shika
+1,898
+
+370340N 1364335E / 37.06111N 136.72639E / 37.06111; 136.72639 (Shika Nuclear Power Station)
+Suspended
+
+
+Shimane
+820
+
+353218N 1325957E / 35.53833N 132.99917E / 35.53833; 132.99917 (Shimane Nuclear Power Station)
+Suspended (unit 1 to be decommissioned[95])
+
+
+Takahama
+3,304
+
+353120N 1353017E / 35.52222N 135.50472E / 35.52222; 135.50472 (Takahama Nuclear Power Station)
+Operational (units 3 and 4)
+
+
+Tkai
+1,100
+
+362759N 1403624E / 36.46639N 140.60667E / 36.46639; 140.60667 (Tkai Nuclear Power Station)
+Suspended
+
+
+Tomari
+2,070
+
+430210N 1403045E / 43.03611N 140.51250E / 43.03611; 140.51250 (Tomari Nuclear Power Station)
+Suspended[99]
+
+
+Tsuruga
+1,160
+
+354022N 1360438E / 35.67278N 136.07722E / 35.67278; 136.07722 (Tsuruga Nuclear Power Station)
+Suspended (unit 1 to be decommissioned[95])
+
+
+Total
+39,748
+
+
+On 6 May 2011, then Prime Minister Naoto Kan requested the Hamaoka Nuclear Power Plant be shut down as an earthquake of magnitude 8.0 or higher is estimated 87% likely to hit the area within the next 30 years.[100][101][102] Kan wanted to avoid a possible repeat of the Fukushima nuclear disaster.[39] On 9 May 2011, Chubu Electric decided to comply with the government request. In July 2011, a mayor in Shizuoka Prefecture and a group of residents filed a lawsuit seeking the decommissioning of the reactors at the Hamaoka nuclear power plant permanently.[103]
+In April 2014, Reuters reported that Prime Minister Shinzo Abe favours restarting nuclear plants, but that its analysis suggests that only about one-third to two-thirds of reactors will be in a technical and economic position to restart.[104]
+In April 2017 the Nuclear Regulation Authority approved plans to decommission the Genkai 1, Mihama 1 and 2, Shimane 1 and Tsuruga 1 reactors.[95]
+
+Nuclear accidents[edit]
+See also: List of Japanese nuclear incidents
+In terms of consequences of radioactivity releases and core damage the Fukushima I nuclear accidents in 2011 were the worst experienced by the Japanese nuclear industry, in addition to ranking among the worst civilian nuclear accidents, though no fatalities were caused and no serious exposure of radiation to workers occurred. 
+The Tokaimura reprocessing plant fire in 1999 had 2 worker deaths, one more exposed to radiation levels above legal limits and over 660 others received detectable radiation doses but within permissible levels, well below the threshold to affect human health. The Mihama Nuclear Power Plant experienced a steam explosion in one of the turbine buildings in 2004 where five workers were killed and six injured.[105]
+
+2011 accidents[edit]
+ A map showing epicenter of earthquake and position of nuclear power plants
+There have been many nuclear shutdowns, failures, and three partial meltdowns which were triggered by the 2011 Thoku earthquake and tsunami.
+
+
+
+Plant description
+
+Accident descriptions
+
+
+Fukushima Daiichi Nuclear Power Plant
+
+
+Fukushima Daiichi nuclear disaster
+Timeline of the Fukushima Daiichi nuclear disaster
+
+
+Fukushima II Nuclear Power Plant
+
+Fukushima II nuclear accidents
+
+
+Onagawa Nuclear Power Plant
+
+Onagawa Nuclear Power Plant incidents
+
+
+Tkai Nuclear Power Plant
+
+Tkai Nuclear Power Plant incidents
+
+
+Rokkasho Reprocessing Plant
+
+Rokkasho Reprocessing Plant incidents
+
+Fukushima Daiichi nuclear disaster[edit]
+According to the Federation of Electric Power Companies of Japan, by April 27 approximately 55 percent of the fuel in reactor unit 1 had melted, along with 35 percent of the fuel in unit 2, and 30 percent of the fuel in unit 3; and overheated spent fuels in the storage pools of units 3 and 4 probably were also damaged.[106] The accident exceeds the 1979 Three Mile Island accident in seriousness, and is comparable to the 1986 Chernobyl disaster.[106] The Economist reports that the Fukushima disaster is a bit like three Three Mile Islands in a row, with added damage in the spent-fuel stores,[107] and that there will be ongoing impacts:
+
+
+Years of clean-up will drag into decades. A permanent exclusion zone could end up stretching beyond the plants perimeter. Seriously exposed workers may be at increased risk of cancers for the rest of their lives...[107]
+
+
+On March 24, 2011, Japanese officials announced that radioactive iodine-131 exceeding safety limits for infants had been detected at 18 water-purification plants in Tokyo and five other prefectures. Officials said also that the fallout from the Dai-ichi plant is hindering search efforts for victims from the March 11 earthquake and tsunami.[108]
+Problems in stabilizing the Fukushima Daiichi nuclear power plant have hardened attitudes to nuclear power. As of June 2011, more than 80 percent of Japanese now say they are anti-nuclear and distrust government information on radiation.[9] The ongoing Fukushima crisis may spell the end of nuclear power in Japan, as citizen opposition grows and local authorities refuse permission to restart reactors that have undergone safety checks. Local authorities are skeptical that sufficient safety measures have been taken and are reticent to give their permission  now required by law  to bring suspended nuclear reactors back online.[9][109]
+Two government advisers have said that Japan's safety review of nuclear reactors after the Fukushima disaster is based on faulty criteria and many people involved have conflicts of interest. Hiromitsu Ino, Professor Emeritus at the University of Tokyo, says
+The whole process being undertaken is exactly the same as that used previous to the Fukushima Dai-Ichi accident, even though the accident showed all these guidelines and categories to be insufficient.[110]
+In 2012, former prime minister Naoto Kan was interviewed about the Fukushima nuclear disaster, and has said that at one point Japan faced a situation where there was a chance that people might not be able to live in the capital zone including Tokyo and would have to evacuate. He says he is haunted by the specter of an even bigger nuclear crisis forcing tens of millions of people to flee Tokyo and threatening the nation's existence. If things had reached that level, not only would the public have had to face hardships but Japan's very existence would have been in peril.[111] That convinced Kan to declare the need for Japan to end its reliance on atomic power and promote renewable sources of energy such solar that have long taken a back seat in the resource-poor country's energy mix.[111]
+
+Other accidents[edit]
+Main article: List of nuclear power accidents by country
+See also: Lists of nuclear disasters and radioactive incidents
+Other accidents of note include:[112]
+
+1981: Almost 300 workers were exposed to excessive levels of radiation after a fuel rod ruptured during repairs at the Tsuruga Nuclear Power Plant.[112]
+December 1995: The fast breeder Monju Nuclear Power Plant sodium leak.[112] State-run operator Donen was found to have concealed videotape footage that showed extensive damage to the reactor.[113]
+March 1997: The Tokaimura nuclear reprocessing plant fire and explosion, northeast of Tokyo. 37 workers were exposed to low doses of radiation. Donen later acknowledged it had initially suppressed information about the fire.[112][113]
+1999: A fuel loading system malfunctioned at a nuclear plant in the Fukui Prefecture and set off an uncontrolled nuclear reaction and explosion.[112]
+September 1999: The criticality accident at the Tokai fuel fabrication facility.[112] Hundreds of people were exposed to radiation, three workers received doses above legal limits of whom two later died.[113]
+2000: Three TEPCO executives were forced to quit after the company in 1989 ordered an employee to edit out footage showing cracks in nuclear plant steam pipes in video being submitted to regulators.[113]
+August 2002: a widespread falsification scandal starting in that led to the shut down of all Tokyo Electric Power Companys 17 nuclear reactors; Tokyo Electric's officials had falsified inspection records and attempted to hide cracks in reactor vessel shrouds in 13 of its 17 units.[1]
+2002: Two workers were exposed to a small amount of radiation and suffered minor burns during a fire at Onagawa Nuclear Power Station in northern Japan.[113]
+2006: A small amount of radioactive steam was released at the Fukushima Dai-ichi plant and it escaped the compound.[113]
+16 July 2007: A severe earthquake (measuring 6.6 on the moment magnitude scale) hit the region where Tokyo Electric's Kashiwazaki-Kariwa Nuclear Power Plant is located and radioactive water spilled into the Sea of Japan; as of March 2009, all of the reactors remain shut down for damage verification and repairs; the plant with seven units was the largest single nuclear power station in the world.[1]
+Nuclear waste disposal[edit]
+Japanese policy is to reprocess its spent nuclear fuel. Originally spent fuel was reprocessed under contract in England and France, but then the Rokkasho Reprocessing Plant was built, with operations originally expected to commence in 2007.[114] The policy to use recovered plutonium as mixed oxide (MOX) reactor fuel was questioned on economic grounds, and in 2004 it was revealed the Ministry of Economy, Trade and Industry had covered up a 1994 report indicating reprocessing spent fuel would cost four times as much as burying it.[115]
+In 2000, a Specified Radioactive Waste Final Disposal Act called for creation of a new organization to manage high level radioactive waste, and later that year the Nuclear Waste Management Organization of Japan (NUMO) was established under the jurisdiction of the Ministry of Economy, Trade and Industry. NUMO is responsible for selecting a permanent deep geological repository site, construction, operation and closure of the facility for waste emplacement by 2040.[116][117] Site selection began in 2002 and application information was sent to 3,239 municipalities, but by 2006, no local government had volunteered to host the facility.[118] Kchi Prefecture showed interest in 2007, but its mayor resigned due to local opposition. In December 2013 the government decided to identify suitable candidate areas before approaching municipalities.[119]
+In 2014 the head of the Science Council of Japans expert panel has said Japan's seismic conditions makes it difficult to predict ground conditions over the necessary 100,000 years, so it will be impossible to convince the public of the safety of deep geological disposal.[119]
+The cost of MOX fuel had roughly quadrupled from 1999 to 2017, creating doubts about the economics of nuclear fuel reprocessing.[120]
+In 2018 the Japanese Atomic Energy Commission updated plutonium guidelines to try to reduce plutonium stockpiles, stipulating that the Rokkasho Reprocessing Plant should only produce the amount of plutonium required for MOX fuel for Japans nuclear power plants.[121]
+
+Nuclear regulatory bodies in Japan[edit]
+Nuclear Regulation Authority  A nuclear safety agency under the environment ministry, created on September 19, 2012. It replaced the Nuclear and Industrial Safety Agency and the Nuclear Safety Commission.
+Japanese Atomic Energy Commission (AEC)   Now operating as a commission of inquiry to the Japanese cabinet, this organization coordinates the entire nation's plans in the area of nuclear energy.
+Nuclear Safety Commission   The former Japanese regulatory body for the nuclear industry.
+Nuclear and Industrial Safety Agency (NISA)   A former agency that performed regulatory activities and was formed on January 6, 2001, after a reorganization of governmental agencies.
+Nuclear power companies[edit]
+Electric utilities running nuclear plants[edit]
+Japan is divided into a number of regions that each get electric service from their respective regional provider, all utilities hold a monopoly and are strictly regulated by the Japanese government. For more background information, see Energy in Japan. All regional utilities in Japan currently operate nuclear plants with the exception of the Okinawa Electric Power Company. They are also all members of the Federation of Electric Power Companies (FEPCO) industry organization. The companies are listed below.
+
+Regional electric providers
+Hokkaid Electric Power Company (HEPCO) - 
+Thoku Electric Power Company (Thoku Electric) - 
+Tokyo Electric Power Company (TEPCO) - 
+Chbu Electric Power Company (CHUDEN) - 
+Hokuriku Electric Power Company (RIKUDEN) - 
+Kansai Electric Power Company (KEPCO) - 
+Chgoku Electric Power Company (Energia) - 
+Shikoku Electric Power Company (YONDEN) - 
+Kysh Electric Power Company (Kysh Electric) - 
+Other companies with a stake in nuclear power
+ The headquarters of Electric Power Development, or J-Power, whose activities are specially directed towards R&D on new power sources.
+Japan Atomic Energy Agency (JAEA) - 
+Japan Atomic Power Company (JPAC) - 
+JAPC, jointly owned by several Japan's major electric utilities, was created by special provisions from the Japanese government to be the first company in Japan to run a nuclear plant. Today it still operates two separate sites.
+Electric Power Development Company (EDPC, J-POWER) - 
+This company was created by a special law after the end of World War II, it operates a number of coal fired, hydroelectric, and wind power plants, the Ohma nuclear plant that is under construction will mark its entrance to the industry upon completion.
+Nuclear vendors and fuel cycle companies[edit]
+Nuclear vendors provide fuel in its fabricated form, ready to be loaded in the reactor, nuclear services, and/or manage construction of new nuclear plants. The following is an incomplete list of companies based in Japan that provide such services. The companies listed here provide fuel or services for commercial light water plants, and in addition to this, JAEA has a small MOX fuel fabrication plant. Japan operates a robust nuclear fuel cycle.[122]
+
+Nuclear Fuel Industries (NFI) -  NFI operates nuclear fuel fabrication plants in both Kumatori, Osaka and in Tkai, Ibaraki, fabricating 284 and 200 (respectively) metric tons Uranium per year. The Tkai site produces BWR, HTR, and ATR fuel while the Kumatori site produces only PWR fuel.
+Japan Nuclear Fuel Limited (JNFL, JNF) -  The shareholders of JNFL are the Japanese utilities. JNFL plans to open a full scale enrichment facility in Rokkasho, Aomori with a capacity of 1.5 million SWU/yr along with a MOX fuel fabrication facility. JNFL has also operated a nuclear fuel fabrication facility called Kurihama Nuclear Fuel Plant in Yokosuka, Kanagawa as GNF, producing BWR fuel.
+Mitsubishi Heavy Industries / Atmea -   MHI operates a fuel manufacturing plant in Tkai, Ibaraki, and contributes many heavy industry components to construction of new nuclear plants, and has recently designed its own APWR plant type, fuel fabrication has been completely PWR fuel, though MHI sells components to BWRs as well. It was selected by the Japanese government to develop fast breeder reactor technology and formed Mitsubishi FBR Systems. MHI has also announced an alliance with Areva to form a new company called Atmea.
+Global Nuclear Fuel (GNF). GNF was formed as a joint venture with GE Nuclear Energy (GENE), Hitachi, and Toshiba on January 1, 2000. GENE has since strengthened its relationship with Hitachi, forming a global nuclear alliance:
+GE Hitachi Nuclear Energy (GEH) - GE This company was formed July 1, 2007. Its next generation reactor, the ESBWR has made significant progress with US regulators. Its predecessor design, the ABWR, has been approved by the UK regulator for construction in the UK, following successful completion of the generic design assessment (GDA) process in 2017.
+Toshiba -    Toshiba has maintained a large nuclear business focused mostly on Boiling Water Reactors. With the purchase of the American Westinghouse by 5.4 Billion USD in 2006, which is focused mainly on Pressurized Water Reactor technology, it increased the size of its nuclear business about twofold. On 29 March 2017 Toshiba placed Westinghouse in Chapter 11 bankruptcy because of $9 billion of losses from its nuclear reactor construction projects, mostly the construction of four AP1000 reactors in the U.S.[123] Toshiba still has a profitable maintenance and nuclear fuel supply business in Japan, and is a significant contractor in the Fukushima clean-up.[124]
+Recyclable-Fuel Storage Co. A company formed by TEPCO and Japan Atomic Power Co. to build a spent nuclear fuel storage facility in Aomori Prefecture.[125]
+There have been discussions between Hitachi, Mitsubishi Heavy Industries and Toshiba about possibly consolidating some of their nuclear activities.[124]
+
+Nuclear Research and professional organizations in Japan[edit]
+Research organizations[edit]
+These organizations are government-funded research organizations, though many of them have special status to give them power of administration separate from the Japanese government. Their origins date back to the Atomic Energy Basic Law, but they have been reorganized several times since their inception.
+
+Japan Atomic Energy Research Institute (JAERI) -   The original nuclear energy research organization established by the Japanese government under cooperation with U.S. partners.
+Atomic Fuel Corporation -   This organization was formed along with JAERI under the Atomic Energy Basic Law and was later reorganized to be PNC.
+Power Reactor and Nuclear Fuel Development Corporation (PNC) - Succeeded the AFC in 1967 in order to perform more direct construction of experimental nuclear plants, and was renamed JNC in 1998.
+Japan Nuclear Cycle Development Institute (JNC) -  (semi-governmental agency) Was formed in 1998 as the direct successor to the PNC. This organization operated Lojo and Monju experimental and demonstration reactors.
+Japan Atomic Energy Agency (JAEA) -  This is the modern, currently operating primary nuclear research organization in Japan. It was formed by a merger of JAERI and JNC in 2005.
+Academic/professional organizations[edit]
+Japan Atomic Industrial Forum (JAIF)  is a non-profit organization, established in 1956 to promote the peaceful use of atomic energy.[126]
+The Atomic Energy Society of Japan (AESJ)  is a major academic organization in Japan focusing on all forms of nuclear power. The Journal of Nuclear Science and Technology is the academic journal run by the AESJ. It publishes English and Japanese articles, though most submissions are from Japanese research institutes, universities, and companies.[127][citation needed]
+Japan Nuclear Technology Institute (JANTI)  was established to by the nuclear power industry to support and lead that industry.[128]
+Japan Electric Association (JEA)  develops and publishes codes and guides for the Japanese nuclear power industry[129] and is active in promoting nuclear power.[130]
+Other proprietary organizations[edit]
+JCO. Established in 1978 as by Sumimoto Metal Mining Co. this company did work with Uranium conversion and set up factories at the Tokai-mura site. Later, it was held solely responsible for the Tokaimura nuclear accident
+Anti-nuclear movement[edit]
+Main article: Anti-nuclear power movement in Japan
+ Anti-Nuclear Power Plant Rally on 19 September 2011 at Meiji Shrine complex in Tokyo. Sixty thousand people marched chanting Sayonara nuclear power and waving banners, to call on Japan's government to abandon nuclear power, following the Fukushima disaster.[11][131]
+ Peaceful anti-nuclear protest in Tokyo, Japan, escorted by policemen, 16 April 2011.
+Long one of the worlds most committed promoters of civilian nuclear power, Japan's nuclear industry was not hit as hard by the effects of the 1979 Three Mile Island accident (USA) or the 1986 Chernobyl disaster (USSR) as some other countries.  Construction of new plants continued to be strong through the 1980s and into the 1990s.  However, starting in the mid-1990s there were several nuclear related accidents and cover-ups in Japan that eroded public perception of the industry, resulting in protests and resistance to new plants.  These accidents included the Tokaimura nuclear accident, the Mihama steam explosion, cover-ups after accidents at the Monju reactor, and more recently the Kashiwazaki-Kariwa Nuclear Power Plant was completely shut down for 21 months following an earthquake in 2007.  While exact details may be in dispute, it is clear that the safety culture in Japan's nuclear industry has come under greater scrutiny.[29]
+The negative impact of the 2011 Fukushima nuclear disaster has changed attitudes in Japan. Political and energy experts describe nothing short of a nationwide loss of faith, not only in Japans once-vaunted nuclear technology but also in the government, which many blame for allowing the accident to happen.[132] Sixty thousand people marched in central Tokyo on 19 September 2011, chanting Sayonara nuclear power and waving banners, to call on Japan's government to abandon nuclear power, following the Fukushima disaster.[11][131] Bishop of Osaka, Michael Goro Matsuura, has called on the solidarity of Christians worldwide to support this anti-nuclear campaign.[133] In July 2012, 75,000 people gathered near in Tokyo for the capitals largest anti-nuclear event. Organizers and participants said such demonstrations signal a fundamental change in attitudes in a nation where relatively few have been willing to engage in political protests since the 1960s.[134]
+Anti-nuclear groups include the Citizens' Nuclear Information Center, Stop Rokkasho, Hidankyo, Sayonara Nuclear Power Plants, Women from Fukushima Against Nukes, and the Article 9 group. People associated with the anti-nuclear movement include: Jinzaburo Takagi, Haruki Murakami, Kenzabur e, Nobuto Hosaka, Mizuho Fukushima, Ryuichi Sakamoto and Tetsunari Iida.
+
+See also[edit]
+Energy in Japan
+Environmental issues in Japan
+Nuclear Regulation Authority
+Japan's non-nuclear weapons policy
+Japanese nuclear weapon program
+United States-Japan Joint Nuclear Energy Action Plan
+Energy portalJapan portalNuclear technology portal
+Notes[edit]
+
+
+^ The startpage of the Fukushima Nuclear Accident Independent Investigation Commission internetsite stated on July 10, 2012 the following information which was used as the basis for the previous sentences: NAIIC (The National Diet of Japan Fukushima Nuclear Accident Independent Investigation Commission) is the first independent investigation commission by the National Diet in the 66-year history of Japans constitutional government. NAICC was established on December 8, 2011 with the mission to investigate the direct and indirect causes of the Fukushima nuclear incident. NAICC submitted its inquiry report to both houses on July 5, 2012.
+
+
+References[edit]
+
+
+^ a b c The European Parliament's Greens-EFA Group - The World Nuclear Industry Status Report 2007 Archived 2008-06-25 at the Wayback Machine p. 23.
+
+^ Tomoko Yamazaki & Shunichi Ozasa (June 27, 2011). Fukushima Retiree Leads Anti-Nuclear Shareholders at Tepco Annual Meeting. Bloomberg.
+
+^ Mari Saito (May 7, 2011). Japan anti-nuclear protesters rally after PM call to close plant. Reuters.
+
+^ Nuclear Power in Japan. World Nuclear Association. Retrieved 17 June 2012.
+
+^ Nuclear Power in Japan | Japanese Nuclear Energy - World Nuclear Association. world-nuclear.org. Retrieved 1 May 2018.
+
+^ a b Ohi No.4 reactor restarted- News - NHK WORLD - English. NHK WORLD. Archived from the original on 2018-05-10. Retrieved 10 May 2018.
+
+^ Global report on Fukushima nuclear accident details health risks World Health Organization, news release 2013-02-28, accessed 2013-07-04
+
+^ a b David Batty (May 5, 2012). Japan shuts down last working nuclear reactor. The Guardian.
+
+^ a b c Gavin Blair (June 20, 2011). Beginning of the end for nuclear power in Japan?. CSMonitor.
+
+^ M. V. Ramana (July 2011). Nuclear power and the public. Bulletin of the Atomic Scientists. p.43.
+
+^ a b c Thousands march against nuclear power in Tokyo. USA Today. September 2011.
+
+^ Stephanie Cooke (October 10, 2011). After Fukushima, Does Nuclear Power Have a Future?. New York Times.
+
+^ Antoni Slodkowski (June 15, 2011). Japan anti-nuclear protesters rally after quake. Reuters.
+
+^ Hiroko Tabuchi (July 13, 2011). Japan Premier Wants Shift Away From Nuclear Power. New York Times.
+
+^ a b Tsuyoshi Inajima & Yuji Okada (Oct 28, 2011). Nuclear Promotion Dropped in Japan Energy Policy After Fukushima. Bloomberg.
+
+^ Gerhardt, Tina (22 July 2012). After Fukushima, Nuclear Power on Collision Course with Japanese Public. Alternet.
+
+^ Anti-nuke protesters call for end to nuclear energy use. The Asahi Shimbun. 2013-09-13. Archived from the original on 2014-11-29. Retrieved 2015-03-28.
+
+^ https://www.pbs.org/wgbh/pages/frontline/health-science-technology/nuclear-aftershocks/four-years-after-fukushima-japan-makes-a-return-to-nuclear-power/
+
+^ Japan restarts Takahama nuclear reactor Japan Today: Japan News and Discussion. www.japantoday.com. Retrieved 2016-02-01.
+
+^ Japan court issues injunction to halt Takahama nuclear reactors
+
+^ Kensai Electric Power To Take Takahama Unit 3 Offline
+
+^ Japan - is there a future in nuclear?. Nuclear Engineering International. 4 July 2018. Retrieved 14 September 2018.
+
+^ Silverstein, Ken. Japan Circling Back To Nuclear Power After Fukushima Disaster. forbes.com. Retrieved 12 January 2018.
+
+^ John Swenson-Wright, Unequal Allies: United States Security and Alliance Policy Toward Japan, 1945-1960 (Stanford, CA: Stanford University Press, 2005), p. 181
+
+^ a b Washington Post, 23 September 1954, p. 18, A Reactor for Japan
+
+^ New York Times, 8 June 1956, Tokyo Press Stirs Ire of Americans
+
+^ Johnston, Eric, Key players got nuclear ball rolling, Japan Times, 16 July 2011, p. 3.
+
+^ Daniel P. Aldrich 'How the Japanese Government Manipulated Public Opinion'[1]
+
+^ a b Japan cancels nuclear plant. BBC News. February 22, 2000. [The news fails to note that the Tokaimura accident did not happen in a power plant.]
+
+^ United States and Japan Sign Joint Nuclear Energy Action Plan Archived 2009-07-20 at the Wayback Machine, United States Department of Energy, published 2007-04-25, accessed 2007-05-02
+
+^ Fact Sheet: United States-Japan Joint Nuclear Energy Action Plan Archived 2011-05-21 at the Wayback Machine, United States Department of Energy, published 2007-04-25, accessed 2007-05-02
+
+^ New Japanese nuclear power reactors delayed. World-nuclear-news.org. 2008-03-26. Retrieved 2013-09-25.
+
+^ NucNet. Japan Budget Proposals Seek Increase In Nuclear Spending Archived 2011-10-04 at the Wayback Machine. September 11, 2008.
+
+^ Mark Willacy (October 3, 2011). Japan nuke companies stacked public meetings. ABC News.
+
+^ Nuclear Safety Chief Says Lax Rules Led to Fukushima Crisis. Bloomberg. 16 February 2012.[permanent dead link]
+
+^ Story at BBC News, 2011-05-06. retrieved 2011-05-08
+
+^ Story at Digital Journal. retrieved 2011-05-07
+
+^ Story at Bloomberg, 2011-05-07. retrieved 2011-05-08
+
+^ a b Japan nuke plant suspends work. Herald Sun. May 15, 2011.
+
+^ M. V. Ramana (July 2011). Nuclear power and the public. Bulletin of the Atomic Scientists. p.44.
+
+^ Soon Japan's nuclear power stands still NyTeknik, 27 March 2012. Retrieved 27 March 2012. See Tfd(in Swedish) English translation
+
+^ Real-time display Archived 2012-06-18 at the Wayback Machine Japanese - Ohi 3 and 4 are the last two on the page
+
+^ Davis, Will (2012-06-15). Ohi reactor restart in Japan fully approved. Atomicpowerreview.blogspot.com. Retrieved 2013-09-25.
+
+^ Japan approves two reactor restarts. Taipeitimes.com. 2013-09-18. Retrieved 2013-09-25.
+
+^ Oi nuclear plant's No 4 reactor begins generating power. Zeenews.india.com. Retrieved 2013-09-25.
+
+^ Matsuyama, Kanoko.  Shutdown of Japans Last Nuclear Reactor Raises Power Concerns. Bloomberg.  2013-09-15.  Retrieved 2014-02-05.
+
+^ Japan continues to count cost of idled reactors. World Nuclear News. June 17, 2014.
+
+^ Japanese Cabinet approves new basic energy plan. World Nuclear News. 3 July 2018. Retrieved 9 July 2018.
+
+^ National Diet of Japan Fukushima Nuclear Accident Independent Investigation Commission.  | . National Diet of Japan Fukushima Nuclear Accident Independent Investigation Commission. Retrieved 9 July 2012.[permanent dead link]
+
+^ Harlan, Chico (5 July 2012). Report blasts Japan's preparation for, response to Fukushima disaster. The Washington Post. Retrieved 9 July 2012.
+
+^ Hiroko Tabuchi (5 July 2012). Inquiry Declares Fukushima Crisis a Man-Made Disaster. The New York Times. Retrieved 9 July 2012.
+
+^ Fukushima nuclear accident 'man-made', not natural disaster. Bloomberg. The Sydney Morning Herald. Retrieved 9 July 2012.
+
+^ Editorial Board (6 July 2012). Japan's nuclear meltdown could have been prevented. The Washington Post. Retrieved 9 July 2012.
+
+^ Kiyoshi Kurokawa. Message from the Chairman (PDF). Executive Summary, The official report of The Fukushima Nuclear Accident Independent Investigation Commission. NAIIC. p.9. Archived from the original (PDF) on 10 July 2012. Retrieved 12 July 2012. What must be admitted  very painfully  is that this was a disaster Made in Japan. Its fundamental causes are to be found in the ingrained conventions of Japanese culture: our reflexive obedience; our reluctance to question authority; our devotion to sticking with the program; our groupism; and our insularity.
+
+^ Yoko Wakatsuki & Jethro Mullen. Japanese parliament report: Fukushima nuclear crisis was 'man-made'. CNN. Retrieved 9 July 2012.
+
+^ Nuclear Power Reactors in the World (PDF). Vienna: International Atomic Energy Agency. 2016. ISBN978-92-0-103716-9. ISSN1011-2642.
+
+^ TABLE-Japan nuclear reactor operations. Reuters. August 12, 2016.
+
+^ Nuclear Power Plants in Japan - The Federation of Electric Power Companies of Japan(FEPC). www.fepc.or.jp. Retrieved 28 March 2019.
+
+^ http://en.haberler.com/japan-reverses-its-withdrawal-from-nuclear-power-418262/
+
+^ Reflect on Fukui nuclear ruling. The Japan Times. 23 May 2014.
+
+^ a b Nuclear power in Japan - Legal fallout. The Economist. 25 April 2015. Retrieved 3 May 2015.
+
+^ Steve Kidd (24 June 2015). Japan - what is the future for nuclear power?. Nuclear Engineering International. Retrieved 11 July 2015.
+
+^ http://www.nei.org/News-Media/News/Japan-Nuclear-Update
+
+^ Jonathan Soble (11 November 2016). Japan's Nuclear Industry Finds a Lifeline in India After Foundering Elsewhere. The Japan Times. Retrieved 17 November 2016.
+
+^ Tara Patel, Gregory Viscusi (5 May 2014). Japan to Work With France on Future Fast-Breeder Atomic. Bloomberg. Retrieved 3 December 2016.
+
+^ a b France wants Japan to share 570 billion yen ASTRID reactor development cost. The Mainichi. 22 October 2016. Retrieved 3 December 2016.
+
+^ Ministries spar as Japan focuses on fast reactor project in France. The Asahi Shimbun. 22 September 2016. Retrieved 3 December 2016.
+
+^ Genkai 2 to be decommissioned. World Nuclear News. 13 February 2019. Retrieved 15 February 2019.
+
+^ Amory Lovins (March 18, 2011). With Nuclear Power, No Acts of God Can Be Permitted. Huffington Post.
+
+^ a b c d Katsuhiko Ishibashi, Why worry? Japan's nuclear plants at grave risk from quake damage The Asia-Pacific Journal: Japan Focus (August 11, 2007) Also published by the International Herald Tribune (August 11, 2007). Retrieved March 24, 2011
+
+^ Michael Reilly, Insight: Where not to build nuclear power stations (preview only) New Scientist (July 28, 2007). Retrieved March 24, 2011 (subscription required)
+
+^ a b c Quake shuts world's largest nuclear plant Nature, vol 448, 392-393, doi:10.1038/448392a, published 2007-07-25, accessed 2011-03-18
+
+^ a b Two grave issues concerning the expected Tokai Earthquake Kiyoo Mogi, Earth Planets Space, Vol. 56 (No. 8), pp. li-lxvi, published 2004, accessed 2011-03-11
+
+^ Japan Holds Firm to Shaky Science Science, Vol. 264 no. 5166 pp. 1656-1658, doi:10.1126/science.264.5166.1656, published 1994-06-17, accessed 2011-03-18
+
+^ a b Warnings on Fukushima ignored, insiders say; They attribute failure to cozy ties between government and industry. Power Engineering. 03/11/2012. Check date values in: |date= (help)
+
+^ a b c Dvorak, Phred; Hayashi, Yuka (March 28, 2011). Lawmaker Broached Plant Risk. The Wall Street Journal. Retrieved March 28, 2011.
+
+^ Nuclear crisis in Japan as scientists reveal quake threat to power plants The Times, published 2007-07-19, accessed 2011-03-18
+
+^ Japan's deadly game of nuclear roulette The Japan Times, published 2004-05-23, accessed 2011-03-18
+
+^ IAEA warned Japan over nuclear quake risk: WikiLeaks. physorg.com. Retrieved 2013-09-25.
+
+^ Charles Perrow (November/December 2011 vol. 67 no. 6). Fukushima and the inevitability of accidents. Bulletin of the Atomic Scientists. pp.4452. Check date values in: |date= (help)
+
+^ Mitsuru Obe (January 24, 2012). Japan Reviews Disaster Plan Amid New Quake Concerns. Wall Street Journal.
+
+^ a b Japan's nuclear plant quake protection too lax, said expert The Australian published 2011-03-13, accessed 2011-04-06
+
+^ Fukushima faced 14-metre tsunami. World Nuclear News. 23 March 2011. Retrieved March 24, 2011.
+
+^ Japan's Earthquake Regulations for Nuclear Power The Neutron Economy published 2011-04-04, accessed 2011-04-06
+
+^ a b Regulatory Guide for Reviewing Seismic Design of Nuclear Power Reactor Facilities Archived 2011-07-21 at the Wayback Machine Nuclear Safety Commission, published 2006-09-19, accessed 2011-04-06
+
+^ a b Jason Clenfield (March 17, 2011). Japan Nuclear Disaster Caps Decades of Faked Reports, Accidents. Bloomberg Businessweek.
+
+^ a b c Japan Nuclear Energy Drive Compromised by Conflicts of Interest Bloomberg, published 2007-12-12, accessed 2011-04-11
+
+^ The NSC views on, and future actions to take for, the impacts due to the Niigata-ken Chuetsu-oki Earthquake in 2007 - NSC Decision No. 17, 2007 Archived 2011-10-01 at the Wayback Machine Nuclear Safety Commission, published 2007-07-30, accessed 2011-04-06
+
+^ Japan's nuclear facilities face quake risk UPI Asia, published 2008-06-12, accessed 2011-04-11
+
+^ Thomas B. Cochran; Matthew G. McKinzie (19 August 2011). Global Implications of the Fukushima Disaster for Nuclear Power (PDF). Natural Resources Defense Council. Archived from the original (PDF) on 2012-07-26. Retrieved 24 February 2012.
+
+^ a b c Genkai unit 4 supplying power again. www.world-nuclear-news.org. Retrieved 22 June 2018.
+
+^ Nuclear Power Plants in Japan - The Federation of Electric Power Companies of Japan(FEPC). www.fepc.or.jp. Retrieved 1 May 2018.
+
+^ Fukushima plant to be decommissioned BreakingNews, published 2011-03-31, accessed 2011-04-08
+
+^ Seventh Japanese reactor restarted. www.world-nuclear-news.org. Retrieved 24 March 2018.
+
+^ a b c d e f Decommissioning plans approved for five Japanese units. World Nuclear News. 19 April 2017. Retrieved 24 April 2017.
+
+^ Shikoku decides to retire Ikata 2. www.world-nuclear-news.org. Retrieved 4 May 2018.
+
+^ Alex K. Tang, PE and Anshel J. Schiff, ed. (2007). Kashiwazaki, Japan Earthquake of July 16, 2007. Reston, VA: ASCE Press, Technical Council on Lifeline Earthquake Engineering. ISBN9780784410622. Archived from the original on September 28, 2013.
+
+^ Tohoku decides to decommission oldest Onagawa unit. World Nuclear News. Retrieved 3 December 2018.
+
+^ Nuclear Power Plants in Japan - The Federation of Electric Power Companies of Japan(FEPC). www.fepc.or.jp. Retrieved 8 May 2018.
+
+^ Story at BBC News, 2011-05-06.  retrieved 2011-05-08
+
+^ Story at Digital Journal.  retrieved 2011-05-07
+
+^ Story at Bloomberg, 2011-05-07.  retrieved 2011-05-08]
+
+^ Suit seeks to shut Hamaoka reactors for good. Japan Times. July 1, 2011.
+
+^ Mari Saito; Aaron Sheldrick; Kentaro Hamada (2 April 2014). Only a third of nuclear reactors may be restarted. The Japan Times. Reuters. Retrieved 4 April 2014.
+
+^ Restarting Commercial Operation of Mihama Nuclear Power Plant Unit 3. KEPCO. 7 February 2007. Archived from the original on 16 April 2014. Retrieved 16 April 2014.
+
+^ a b Jungmin Kang (4 May 2011). Five steps to prevent another Fukushima. Bulletin of the Atomic Scientists.
+
+^ a b Nuclear power: When the steam clears. The Economist. March 24, 2011.
+
+^ Michael Winter (March 24, 2011). Report: Emissions from Japan plant approach Chernobyl levels. USA Today.
+
+^ Johnston, Eric, Current nuclear debate to set nation's course for decades, Japan Times, 23 September 2011, p. 1.
+
+^ Japan Post-Fukushima Reactor Checks 'Insufficient,' Advisers Say. Businessweek. January 27, 2012. Archived from the original on February 14, 2012.
+
+^ a b Linda Sieg & Yoko Kubota (Feb 17, 2012). Nuclear crisis turns Japan ex-PM Kan into energy apostle. Reuters.
+
+^ a b c d e f Benjamin K. Sovacool. A Critical Evaluation of Nuclear Power and Renewable Electricity in Asia, Journal of Contemporary Asia, Vol. 40, No. 3, August 2010, pp. 380.
+
+^ a b c d e f A look at Japan's history of nuclear power trouble. Bloomberg Businessweek. Associated Press. March 17, 2011. For background on Japan's nuclear development, see Peter Dauvergne, Nuclear Power Development in Japan: 'Outside Forces' and the Politics of Reciprocal Consent, Asian Survey 33 (June 1993), pp. 576-591. Archived 2012-05-06 at the Wayback Machine
+
+^ Operational progress. Japan Nuclear Fuel Limited. 2006-03-31. Archived from the original on 2008-05-26.
+
+^ Bursting point. Economist: 55. 2004-08-14.
+
+^ Burnie, Shaun; Smith, Aileen Mioko (MayJune 2001). Japan's nuclear twilight zone. Bulletin of the Atomic Scientists (57): 58.
+
+^ Open solicitation for candidate sites for safe disposal of high-level radioactive waste. Nuclear Waste Management Organization of Japan. Tokyo. 2002.
+
+^ Vandenbosch 2007, p.240.
+
+^ a b Japan's nuclear waste problem. The Japan Times. 21 January 2014. Retrieved 23 January 2014.
+
+^ Japanese power companies face surging nuclear fuel recycling costs. The Japan Times. 19 December 2017. Retrieved 19 December 2017.
+
+^ Japan revises plutonium guidelines. Nuclear Engineering International. 2 August 2018. Retrieved 2 August 2018.
+
+^ Nagata, Kazuaki, Vicious nuclear fuel cycle proving difficult to break, Japan Times, 18 September 2012, p. 3
+
+^ Fuse, Taro (24 March 2017). Toshiba decides on Westinghouse bankruptcy, sees $9 billion in charges: sources. Reuters. Retrieved 25 March 2017.
+
+^ a b Sheldrick, Aaron (31 March 2017). Big in Japan? Hope at home for Toshiba's nuclear arm after U.S. debacle. Reuters. Retrieved 4 April 2017.
+
+^ Kyodo News, Work resumes on Aomori atomic fuel storage site, Japan Times, 17 March 2012, p. 2.
+
+^ Japan Atomic Industrial Forum. Jaif.or.jp. Archived from the original on 2011-08-18. Retrieved 2013-09-25.
+
+^ Atomic Energy Society of Japan. Aesj.or.jp. Retrieved 2013-09-25.
+
+^ Japan Nuclear Technology Institute. Gengikyo.jp. Retrieved 2013-09-25.
+
+^ Convention on Nuclear Safety; National Report of Japan for Fourth Review Meeting Government of Japan, published September 2007, accessed 2011-04-07
+
+^ See Tfd(in Japanese) Work Archived 2011-03-05 at the Wayback Machine Japan Electric Association, accessed 2011-04-07
+
+^ a b David H. Slater (Nov 9, 2011). Fukushima women against nuclear power: finding a voice from Tohoku. The Asia-Pacific Journal.
+
+^ Martin Fackler (March 8, 2012). Japan's Nuclear Energy Industry Nears Shutdown, at Least for Now. New York Times.
+
+^ Sean McDonagh (March 6, 2012). After Fukushima, Vatican joins growing army of opponents of nuclear power. The Irish Times.
+
+^ Mure Dickie (July 17, 2012). Japanese anti-nuclear demonstrations grow. Washington Post.
+
+
+Further reading[edit]
+Bacon, Paul, and Christopher Hobson. Human Security and Japan's Triple Disaster: Responding to the 2011 earthquake, tsunami and Fukushima nuclear crisis (2014)
+Dreiling, Michael. An Energy Industrial Complex in Post-Fukushima Japan: A Network Analysis of the Nuclear Power Industry, the State and the Media. XVIII ISA World Congress of Sociology (July 1319, 2014). Isaconf, 2014.
+Fam, Shun Deng, et al. Post-Fukushima Japan: The continuing nuclear controversy. Energy Policy 68 (2014): 199-205.
+Jackson, Keith. Natural Disaster and Nuclear Crisis in Japan: Response and recovery after Japan's 3/11 and After the Great East Japan Earthquake: Political and Policy Change in post-Fukushima Japan. Asia Pacific Business Review (2014): 1-9.
+Kelly, Dominic. US Hegemony and the Origins of Japanese Nuclear Power: The Politics of Consent. New Political Economy 19.6 (2014): 819-846.
+Kinefuchi, Etsuko. Nuclear Power for Good: Articulations in Japan's Nuclear Power Hegemony. Communication, Culture & Critique (2015).
+Kingston, Jeff. Abe'S Nuclear Renaissance: Energy Politics in Post3.11 Japan. Critical Asian Studies 46.3 (2014): 461-484.
+Len, Christopher, and Victor Nian. Nuclear versus Natural Gas: An Assessment on the Drivers Influencing Japan's Energy Future. Energy Procedia 61 (2014): 194-197.
+Nian, Victor, and S. K. Chou. The state of nuclear power two years after FukushimaThe ASEAN perspective. Applied Energy 136 (2014): 838-848.
+Zhang, Qi, and Benjamin C. Mclellan. Review of Japan's power generation scenarios in light of the Fukushima nuclear accident. International Journal of Energy Research 38.5 (2014): 539-550.
+External links[edit]
+
+
+
+Wikimedia Commons has media related to Nuclear power plants in Japan.
+
+Nuclear power in Japan on the World Nuclear Association website
+vteNuclear power in Japan
+Energy in Japan
+Nuclear power
+Reactors(Active) LWRHokkaido
+Tomari
+Tohoku
+Onagawa
+Higashidri
+TEPCO
+Fukushima Daiichi
+Fukushima Daini
+Kashiwazaki-Kariwa
+Chubu
+Hamaoka
+Hokuriku
+Shika
+Kansai
+i
+Mihama
+Takahama
+Chugoku
+Shimane
+Shikoku
+Ikata
+Kyushu
+Sendai
+Genkai
+JAPC
+Tkai
+Tsuruga
+Closed
+Fugen
+ATR
+Monju
+prototype fast (breeder) reactor
+Canceled
+Maki
+Namie-Odaka
+Under construction
+ma
+Other
+Jy
+research fast reactor
+OrganisationsRegulatory bodies
+ Japanese Atomic Energy Commission(JAEC)
+ Nuclear Regulation Authority(NRA)
+formerly  Japan's NSC and  NISA
+Companies
+Hitachi
+Toshiba
+Mitsubishi FBR Systems
+Japan Nuclear Fuel Limited
+JCO
+Research institutions
+ Japan Atomic Energy Agency(JAEA)
+Dnen (abolished)
+Other
+ Japan Electric Association(JEA) 
+membership organization
+Rokkasho
+reprocessing
+Accidents
+Fukushima Daiichi nuclear disaster
+Tokaimura nuclear accident
+Mihama nuclear accidents
+Japanese nuclear incidents
+Anti-nuclearmovement
+Ashes to Honey
+Japanese Communist Party
+Genpatsu-shinsai
+Mizuho Fukushima
+Katsumi Furitsu
+Nobuto Hosaka
+Tetsunari Iida
+Kiyoshiro Imawano
+Project Sunshine for Japan
+Sanshiro Kume
+Kenzabur e
+Rokkasho Rhapsody
+Ryuichi Sakamoto
+Sayonara Nuclear Power Plants
+Jinzaburo Takagi
+
+ Category
+ Commons
+
+vteNuclear power by countryGWe > 10
+Canada
+China
+France
+Japan
+Russia
+South Korea
+Ukraine
+United States
+GWe > 2
+Belgium
+Czech Republic
+Finland
+Germany
+India
+Taiwan
+Spain
+Sweden
+Switzerland
+United Kingdom
+GWe > 1
+Argentina
+Brazil
+Bulgaria
+Hungary
+Mexico
+Romania
+Slovakia
+South Africa
+Pakistan
+GWe < 1
+Armenia
+Iran
+Netherlands
+Slovenia
+Planned
+Albania
+Algeria
+Bangladesh
+Belarus
+Chile
+Egypt
+Indonesia
+Jordan
+Kazakhstan
+Kenya
+Morocco
+Myanmar
+Nigeria
+North Korea
+Poland
+Saudi Arabia
+Sri Lanka
+Thailand
+Tunisia
+Turkey
+UAE
+Abandoning  plans for  new plants
+Australia
+Austria
+Azerbaijan
+Cuba
+Georgia
+Ghana
+Ireland
+Kuwait
+Libya
+Lithuania
+Oman
+Peru
+Portugal
+Singapore
+Syria
+Taiwan
+Venezuela
+Vietnam
+Phasing-out
+Austria [already]
+Belgium
+Germany
+Italy [already]
+South Korea [gradually]
+Spain
+Switzerland
+Taiwan
+Other opposed
+Australia
+Denmark
+Greece
+Ireland
+Israel
+Latvia
+Luxembourg
+Malaysia
+Malta
+New Zealand
+Norway
+Philippines
+
+List of nuclear power stations
+Nuclear energy policy
+Nuclear energy policy by country
+Nuclear accidents
+Nuclear technology portal
+
+vte2011 Thoku earthquake and tsunami
+Aftermath
+Geology
+Japan Trench
+Pacific Plate
+North American Plate
+Okhotsk Plate
+Honshu Island
+Oshika Peninsula
+Pacific Ocean
+Affected areasAreas  severely  damagedHokkaido
+Hokkaido
+Oshima Subprefecture
+Hakodate
+Thoku  Region
+Iwate Prefecture
+Kamaishi
+Miyako
+funato
+tsuchi
+Rikuzentakata
+Yamada
+Miyagi Prefecture
+East-Matsushima (Naruse)
+Ishinomaki
+Kesennuma
+Kurihara
+Natori
+Onagawa
+Sendai
+South-Sanriku (Shizugawa)
+Yamamoto
+Fukushima Prefecture
+Iwaki
+kuma
+Sma
+South-Sma (Haranomachi)
+Tomioka
+Kant  Region
+Ibaraki Prefecture
+Hitachinaka
+Itako
+Kashima
+North-Ibaraki (Isohara)
+arai
+Chiba Prefecture
+Asahi
+Chshi
+Ichihara
+Urayasu
+Affected  infrastructure
+Ichihara refinery
+Fujinuma Dam
+Sendai Airport
+Taro sea wall
+Rail lines
+arai-Kashima Line
+Thoku Shinkansen
+Joban Line
+Shinchi Station
+Tomioka Station
+Senseki Line
+Nobiru Station
+Kesennuma Line
+
+Nuclear Accidentsand IncidentsFukushimaDaiichi nucleardisasterAccident reactors
+Fukushima Daiichi plant
+Unit 1
+Unit 2
+Unit 3
+Units 4-6
+Sequence of events
+Timeline
+reactions
+International
+Japanese
+Radiation effects
+Topics
+Casualties
+Cleanup
+Fukushima 50
+Investigation
+National Diet
+Government
+Comparison
+Accident Rating
+Movements
+Project Sunshine for Japan
+Safecast (organization)
+Sayonara Nuclear Power Plants
+OthersReactors/Facilities
+Fukushima Daini plant
+Tkai plant
+Onagawa plant
+Higashidori plant
+Rokkasho Reprocessing Plant
+Foreshocks,Aftershocks
+Sanriku, Japan[ja] (7.3, 9 March 2011)
+Miyagi, Japan (7.1, 7 April 2011)
+Fukushima, Japan (6.6, 11 April 2011)
+Chiba, Japan (6.1, 14 March 2011)
+Miyagi, Japan (7.3, 7 December 2012)
+People
+Naoto Kan
+Yukio Edano
+Katsuhiko Ishibashi
+Kiyoo Mogi
+Masao Yoshida
+Miki Endo
+Takashi Shimokawara
+Hideaki Akaiwa
+Katsunobu Sakurai[fr; ja]
+Relief andRecoveryEfforts
+Humanitarian response
+Operation Pacific Assist
+Operation Tomodachi
+Reconstruction Agency
+Fundraisers
+All Together
+Artistes 311 Love Beyond Borders
+Download to Donate: Tsunami Relief
+Fight and Smile
+Songs for Japan
+Pray for Japan
+Side by Side
+Reunion
+MediaDocumentaries
+Pray for Japan
+Surviving Japan
+Surviving the Tsunami - My Atomic Aunt
+The Tsunami and the Cherry Blossom
+Documentary of AKB48 Show Must Go On
+Movies
+Himizu
+Homeland
+Land of Hope
+Reunion
+Drama
+Amachan
+Songs
+Side by Side
+Songs for Japan
+Anata ga Irukara
+Books
+Strong in the Rain
+Ichi-F
+Other
+Impact on video game industry
+No.18 Kyotoku-maru
+Tsunami fish
+Japan Trench Fast Drilling Project
+Ryou-Un Maru
+869 Sanriku earthquake
+2011 local elections
+Miracle pine[ja; fr]
+Shinkansen Relay
+
+See also:  Japanese earthquakes 
+ Seismicity of the Sanriku coast 
+ List of historical tsunamis 
+  Nuclear power in Japan, section Seismicity 
+ Nuclear and radioactive incidents
+  Portal 
+
+
+
+
+
+Retrieved from https://en.wikipedia.org/w/index.php?title=Nuclear_power_in_Japan&oldid=902362859
+Categories: Nuclear energy in JapanNuclear accidents and incidentsHidden categories: Pages using TimelineWebarchive template wayback linksAll articles with dead external linksArticles with dead external links from February 2018Articles with permanently dead external linksArticles with Swedish-language external linksArticles with dead external links from April 2019Pages containing links to subscription-only contentCS1 errors: datesArticles with Japanese-language external linksAll articles with failed verificationArticles with failed verification from November 2018Articles to be expanded from May 2017All articles to be expandedArticles using small message boxesLists of coordinatesGeographic coordinate listsArticles with GeoAll articles with unsourced statementsArticles with unsourced statements from March 2011Commons category link is on WikidataInterlanguage link template link number
+
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+ArticleTalk 
+
+
+
+
+Variants
+
+
+
+
+
+
+
+Views
+
+ReadEditView history 
+
+
+
+More
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+DeutschEspaolFranaisBahasa IndonesiaItalianoNederlandsPortugusSvenskaTing Vit 
+Edit links 
+
+
+
+
+
+ This page was last edited on 18 June 2019, at 09:10(UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+

@@ -21,14 +21,14 @@ from config import Config
 urllib3.disable_warnings()
 
 @app.route('/query/web', methods=['POST', 'GET'])
-@login_required
 def form_query_web():
     form = QueryWeb()
     if form.validate_on_submit():
         query = form.query.data
         category = form.category.data
         bucketizebing.main(query, category)
-        return render_template('query_web_results.html')
+        flash("Success!")
+        return render_template('query_web.html', form=form)
     return render_template('query_web.html', form=form)
 
 @app.route('/query/news', methods=['POST', 'GET'])
@@ -38,5 +38,6 @@ def form_query_news():
     if form.validate_on_submit():
         query = form.query.data
         news = bucketizenews.main(query, "News Query")
-        return render_template('query_news_results.html')
+        flash("Success!")
+        return render_template('query_news.html', form=form)
     return render_template('query_news.html', form=form)   

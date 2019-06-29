@@ -1,0 +1,1771 @@
+
+
+
+
+
+
+
+
+
+
+
+Fukushima Daiichi nuclear disaster
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to navigation
+Jump to search
+Fukushima nuclear disaster redirects here. For the incidents at Fukushima Daini, see Fukushima Daini Nuclear Power Plant.
+2011 Japanese nuclear accidents redirects here. For other 2011 Japanese nuclear accidents/incidents, see Fukushima Daini Nuclear Power Plant, Onagawa Nuclear Power Plant, Tkai Nuclear Power Plant, and Rokkasho Reprocessing Plant.
+This article may be too long to read and navigate comfortably. The readable prose size is 92 kilobytes. Please consider splitting content into sub-articles, condensing it, or adding subheadings. (September 2018)
+
+
+Fukushima Daiichi nuclear disasterImage on 16 March 2011 of the four damaged reactor buildings. From left to right: Unit 4, 3, 2, and 1. Hydrogen-air explosions occurred in Unit 1, 3, and 4, causing structural damage. A vent in Unit 2's wall, with water vapor/steam clearly visible, prevented a similar large explosion. Drone overflights on 20 March captured clearer images.[1]Date11March2011(2011-03-11)Locationkuma, Fukushima Prefecture, JapanCoordinates372517N 141157E / 37.42139N 141.03250E / 37.42139; 141.03250OutcomeINES Level 7 (major accident)[2][3]Deaths1 cancer death attributed to radiation exposure by government panel.[4][5]Non-fatal injuries16 with physical injuries due to hydrogen explosions,[6] 2 workers taken to hospital with possible radiation burns[7]
+ IAEA experts at Fukushima Daiichi Nuclear Power Plant Unit 4, 2013
+The Fukushima Daiichi nuclear disaster (, Fukushima Dai-ichi (pronunciation) genshiryoku hatsudensho jiko) was a nuclear accident at the Fukushima Daiichi Nuclear Power Plant in kuma, Fukushima Prefecture. The disaster was the most significant nuclear incident since the 26 April 1986 Chernobyl disaster and the only other disaster since to be given the Level 7 event classification of the International Nuclear Event Scale.[8]
+The accident was started by the tsunami following the Thoku earthquake on 11 March 2011.[9] Immediately after the earthquake, the active reactors automatically shut down their sustained fission reactions.[10] However, the ensuing tsunami flooded the emergency generators that were providing power to the pumps that cooled the reactors to remove the decay heat. The  coolant loss led to three nuclear meltdowns, hydrogen-air explosions, and the release of radioactive material in Units 1, 2 and 3 between 12 and 15 March. Coolant loss also raised concerns over the recently loaded spent fuel pool of Reactor 4, which increased in temperature on 15 March due to decay heat from the newly-added spent fuel rods but did not boil down to exposure.[11]
+On 5 July 2012, the National Diet of Japan Fukushima Nuclear Accident Independent Investigation Commission (NAIIC) found that the causes of the accident had been foreseeable, and that the plant operator, Tokyo Electric Power Company (TEPCO), had failed to meet basic safety requirements such as risk assessment, preparing for containing collateral damage, and developing evacuation plans. On 12 October 2012, TEPCO admitted for the first time that it had failed to take necessary measures for fear of inviting lawsuits or protests against its nuclear plants.[12][13][14][15]
+Two TEPCO employees died of injuries from the earthquake, and six others received ionizing radiation exposure above the lifetime limit.[10] As of September 2018, one cancer fatality had resulted in a financial settlement to the family of a  former station workman.[4][16] A report by the United Nations Scientific Committee on the Effects of Atomic Radiation[17] and World Health Organization projected no increase in miscarriages, stillbirths or physical and mental disorders in babies born after the accident.[18] More than 171,000 evacuees were still unable to return home as of March 2016.[10]
+An ongoing intensive cleanup program to both decontaminate affected areas and decommission the plant will take 30 to 40 years, plant management estimate.[19] A frozen soil barrier, built in an attempt to prevent further contamination of seeping groundwater,[20] slowed down the amount of contaminated water collected.[21] The collected water is treated and all radioactive elements are removed, except for tritium.[22]
+In February 2017, TEPCO released images taken inside Reactor 2 by a remote-controlled camera that show  a 2-meter (6.5ft) wide hole[23] in the metal grating under the pressure vessel in the reactor's primary containment vessel,[24] which could have been caused by fuel escaping the pressure vessel,  indicating a meltdown/melt-through had occurred, through this layer of containment. Radiation levels of about 210 Sv per hour were subsequently detected inside the Unit 2 containment vessel.[25] Undamaged spent fuel typically has values of 270 Sv/h, after ten years of cold shutdown with no shielding.[26]
+
+Contents
+
+1 Overview
+2 Plant description
+
+2.1 Cooling
+2.2 Backup generators
+2.3 Central fuel storage areas
+2.4 Zircaloy
+
+
+3 Prior safety concerns
+
+3.1 1967: Layout of the emergency-cooling system
+3.2 1991: Backup generator of Reactor 1 flooded
+3.3 2000: Tsunami study ignored
+3.4 2008: Tsunami study ignored
+3.5 Vulnerability to earthquakes
+
+
+4 Events
+
+4.1 Thoku earthquake
+4.2 Tsunami and flooding
+4.3 Evacuation
+4.4 Hydrogen explosions
+4.5 Core meltdowns in units 1, 2, and 3
+4.6 Damage to unit 4
+4.7 Units 5 and 6
+4.8 Central fuel storage areas
+4.9 Contamination
+
+4.9.1 Contamination in the eastern Pacific
+
+
+
+
+5 Response
+
+5.1 Poor communication and delays
+
+
+6 Event rating
+7 Aftermath
+
+7.1 Risks from radiation
+7.2 Thyroid screening program
+
+7.2.1 Chernobyl comparison
+
+
+7.3 Effects on evacuees
+7.4 Radioactivity releases
+7.5 Insurance
+7.6 Compensation
+7.7 Energy policy implications
+7.8 Equipment, facility, and operational changes
+
+
+8 Reactions
+
+8.1 Japan
+8.2 International
+8.3 Investigations
+
+8.3.1 NAIIC
+8.3.2 Investigation Committee
+
+
+
+
+9 See also
+10 References
+
+10.1 Notes
+10.2 Sources
+
+
+11 External links
+
+11.1 Investigation
+11.2 Video, drawings, and images
+11.3 Artwork
+11.4 Other
+
+
+
+
+
+Overview[edit]
+The Fukushima Daiichi Nuclear Power Plant comprised six separate boiling water reactors originally designed by General Electric (GE) and maintained by the Tokyo Electric Power Company (TEPCO). At the time of the Thoku earthquake on 11 March 2011, Reactors 4, 5, and 6 were shut down in preparation for re-fueling.[27] However, their spent fuel pools still required cooling.[28][29]
+Immediately after the earthquake, the electricity-producing Reactors 1, 2, and 3 automatically shut down their sustained fission reactions by inserting control rods in a legally mandated safety procedure referred to as a SCRAM, which ends the reactors' normal running conditions. As the reactors were unable to generate power to run their own coolant pumps, emergency diesel generators came online, as designed, to power electronics and coolant systems. These operated nominally until the tsunami destroyed the generators for Reactors 15. The two generators cooling Reactor 6 were undamaged and were sufficient to be pressed into service to cool the neighboring Reactor 5 along with their own reactor, averting the overheating issues the other reactors suffered.[28]
+The largest tsunami wave was 13 meters (43ft) high and hit 50 minutes after the initial earthquake, overwhelming the plant's seawall, which was 10m (33ft) high.[9] The moment of impact was recorded by a camera.[30] Water quickly flooded the low-lying rooms in which the emergency generators were housed.[31] The flooded diesel generators failed soon afterwards, resulting in a loss of power to the critical coolant water pumps. These pumps were needed to continuously circulate coolant water through the Generation II reactors for several days to keep the fuel rods from melting, as the fuel rods continued to generate decay heat after the SCRAM event. The fuel rods would become hot enough to melt during the fuel decay time period if an adequate heat sink was not available. After the secondary emergency pumps (run by back-up electrical batteries) ran out, one day after the tsunami on 12 March,[32] the water pumps stopped and the reactors began to overheat.
+As workers struggled to supply power to the reactors' coolant systems and restore power to their control rooms, a number of hydrogen-air chemical explosions occurred, the first in Unit 1 on 12 March, and the last in Unit 4, on 15 March.[32][33][34] It is estimated that the hot zirconium fuel cladding-water reaction in Reactors 13 produced 8001,000 kilograms (1,8002,200lb) of hydrogen gas each. The pressurized gas was vented out of the reactor pressure vessel where it mixed with the ambient air, and eventually reached explosive concentration limits in Units 1 and 3. Due to piping connections between Units 3 and 4, or alternatively from the same reaction occurring in the spent fuel pool in Unit 4 itself,[35] Unit 4 also filled with hydrogen, resulting in an explosion. In each case, the hydrogen-air explosions occurred at the top of each unit, that was in their upper secondary containment buildings.[36][37] Drone overflights on 20 March and afterwards captured clear images of the effects of each explosion on the outside structures, while the view inside was largely obscured by shadows and debris.[1]
+Coinciding with the well understood implications of a loss of coolant accident, the insufficient cooling eventually led to meltdowns in Reactors 1, 2, and 3. The full extent of the movement of the resulting corium is unknown but it is now considered to be at least through the bottom of each reactor pressure vessel(RPV), residing somewhere between there and the water-table below each reactor, in a similar manner to what was observed at reactor 4 in Chernobyl.
+As of September 2018, one cancer fatality was the subject of a financial settlement, to the family of a  former station workman.[4][16] while approximately 18,500 people died due to the earthquake and tsunami. The maximum predicted eventual cancer mortality and morbidity estimate according to the linear no-threshold theory is 1,500 and 1,800 but with the strongest weight of evidence producing an estimate much lower, in the range of a few hundred.[38] In addition, the rates of psychological distress among evacuated people rose fivefold compared to the Japanese average due to the experience of the disaster and evacuation.[39]
+In 2013, the World Health Organization (WHO) indicated that the residents of the area who were evacuated were exposed to low amounts of radiation and that radiation-induced health impacts are likely to be low.[40][41] In particular, the 2013 WHO report predicts that for evacuated infant girls, their 0.75% pre-accident lifetime risk of developing thyroid cancer is calculated to be increased to 1.25% by being exposed to radioiodine, with the increase being slightly less for males. The risks from a number of additional radiation-induced cancers are also expected to be elevated due to exposure caused by the other low boiling point fission products that were released by the safety failures. The single greatest increase is for thyroid cancer, but in total, an overall 1% higher lifetime risk of developing cancers of all types, is predicted for infant females, with the risk slightly lower for males, making both some of the most radiation-sensitive groups.[41] The WHO predicted those within the womb, depending on their gender, would have the same elevations in risk as the infant groups.[42]
+A screening program a year later in 2012 found that more than a third (36%) of children in Fukushima Prefecture have abnormal growths in their thyroid glands.[43] As of August 2013, there have been more than 40 children newly diagnosed with thyroid cancer and other cancers in Fukushima prefecture as a whole. In 2015, the number of thyroid cancers or detections of developing thyroid cancers numbered 137.[44] However, whether these incidences of cancer are elevated above the rate in un-contaminated areas and therefore were due to exposure to nuclear radiation is unknown at this stage.[45] Data from the Chernobyl accident showed that an unmistakable rise in thyroid cancer rates following the disaster in 1986 only began after a cancer incubation period of 35 years;[46] however, whether this data can be directly compared to the Fukushima nuclear disaster is yet to be determined.[47]
+On 5 July 2012, the Japanese National Diet-appointed Fukushima Nuclear Accident Independent Investigation Commission (NAIIC) submitted its inquiry report to the Japanese Diet.[48] The Commission found the nuclear disaster was manmade, that the direct causes of the accident were all foreseeable prior to 11 March 2011. The report also found that the Fukushima Daiichi Nuclear Power Plant was incapable of withstanding the earthquake and tsunami. TEPCO, the regulatory bodies (NISA and NSC) and the government body promoting the nuclear power industry (METI), all failed to correctly develop the most basic safety requirements such as assessing the probability of damage, preparing for containing collateral damage from such a disaster, and developing evacuation plans for the public in the case of a serious radiation release. Meanwhile, the government-appointed Investigation Committee on the Accident at the Fukushima Nuclear Power Stations of Tokyo Electric Power Company submitted its final report to the Japanese government on 23 July 2012.[49] A separate study by Stanford researchers found that Japanese plants operated by the largest utility companies were particularly unprotected against potential tsunami.[9]
+TEPCO admitted for the first time on 12 October 2012 that it had failed to take stronger measures to prevent disasters for fear of inviting lawsuits or protests against its nuclear plants.[12][13][14][15] There are no clear plans for decommissioning the plant, but the plant management estimate is thirty or forty years.[19]
+A frozen soil barrier was constructed in an attempt to prevent further contamination of seeping groundwater by melted-down nuclear fuel,[20] but in July 2016 TEPCO revealed that the ice wall had failed to stop groundwater from flowing in and mixing with highly radioactive water inside the wrecked reactor buildings, adding that they are technically incapable of blocking off groundwater with the frozen wall.[50][51]
+In 2018, tours to visit the Fukushima disaster area began.[52]
+
+Plant description[edit]
+Main article: Fukushima Daiichi Nuclear Power Plant
+
+
+
+
+Fukushima Daiichi Nuclear Power Plant site close-up
+
+
+
+
+
+
+Map of Japan's electricity distribution network, showing incompatible systems between regions. Fukushima is in the 50 hertz Tohoku region.
+
+
+
+
+
+
+Simplified cross-section sketch of a typical BWR Mark I containment as used in units 1 to 5Key:RPV: reactor pressure vesselDW: dry well enclosing reactor pressure vessel.WW: wet well  torus-shaped all around the base enclosing steam suppression pool. Excess steam from the dry well enters the wet well water pool via downcomer pipes.SFP: spent fuel pool areaSCSW: secondary concrete shield wall
+
+
+
+
+The Fukushima Daiichi Nuclear Power Plant consisted of six GE light water boiling water reactors (BWRs) with a combined power of 4.7 gigawatts, making it one of the world's 25 largest nuclear power stations. It was the first GE-designed nuclear plant to be constructed and run entirely by the Tokyo Electric Power Company (TEPCO). Reactor 1 was a 439 MWe type (BWR-3) reactor constructed in July 1967, and commenced operation on 26 March 1971.[53] It was designed to withstand an earthquake with a peak ground acceleration of 0.18 g (1.4m/s2, 4.6ft/s2) and a response spectrum based on the 1952 Kern County earthquake.[54] Reactors 2 and 3 were both 784 MWe type BWR-4s. Reactor 2 commenced operation in July 1974, and Reactor 3 in March 1976. The earthquake design basis for all units ranged from 0.42g (4.12m/s2, 13.5ft/s2) to 0.46g (4.52m/s2, 14.8ft/s2).[55][56] After the 1978 Miyagi earthquake, when the ground acceleration reached 0.125g (1.22m/s2, 4.0ft/s2) for 30seconds, no damage to the critical parts of the reactor was found.[54] Units 15 have a Mark-1 type (light bulb torus) containment structure; unit 6 has Mark 2-type (over/under) containment structure.[54] In September 2010, Reactor 3 was partially fueled by mixed-oxides (MOX).[57]
+At the time of the accident, the units and central storage facility contained the following numbers of fuel assemblies:[58]
+
+
+
+Location
+Unit 1
+Unit 2
+Unit 3
+Unit 4
+Unit 5
+Unit 6
+Central storage
+
+
+Reactor fuel assemblies
+
+400
+548
+548
+0
+548
+764
+N/A
+
+
+Spent fuel assemblies[59]
+
+292
+587
+514
+1331
+946
+876
+6375[60]
+
+
+Fuel type
+
+UO2
+UO2
+UO2/MOX
+UO2
+UO2
+UO2
+UO2
+
+
+New fuel assemblies[61]
+
+100
+28
+52
+204
+48
+64
+N/A
+
+There was no MOX fuel in any of the cooling ponds at the time of the incident. The only MOX fuel was currently loaded in the Unit 3 reactor.[62]
+
+Cooling[edit]
+ Diagram of the cooling systems of a BWR
+See also: Decay heat Power reactors in shutdown, and Nuclear reactor safety system
+Nuclear reactors generate electricity by using the heat of the fission reaction to produce steam, which is used to drive turbines in order to generate electricity. When the reactor stops operating, the radioactive decay of unstable isotopes in the fuel continues to generate heat (decay heat) for a time, and so require continued cooling.[63][64] Initially this decay heat amounts to approximately 6.5% of the amount produced by fission,[63] decreasing over several days before reaching shutdown levels.[65] Afterwards, spent fuel rods typically require several years in a spent fuel pool before they can be safely transferred to dry cask storage vessels.[66] The decay heat in the Unit 4 spent fuel pool had the capacity to boil about 70 metric tons (69 long tons; 77 short tons) of water per day.[67]
+In the reactor core, high-pressure systems cycle water between the reactor pressure vessel and heat exchangers. These systems transfer heat to a secondary heat exchanger via the essential service water system, using water pumped out to sea or an onsite cooling tower.[68] Units 2 and 3 were equipped with steam turbine-driven emergency core cooling systems that could be directly operated by steam produced by decay heat, and which could inject water directly into the reactor.[69] Some electrical power was needed to operate valves and monitoring systems.
+Unit 1 was equipped with a different, entirely passive cooling system, the Isolation Condenser (IC). It consisted of a series of pipes run from the reactor core to the inside of a large tank of water. When the valves are opened, steam flows upward to the IC where the cool water in the tank condenses the steam back to water, and it runs under gravity back to the reactor core. For unknown reasons, Unit 1's IC was operated only intermittently during the emergency. However, during a 25 March 2014 presentation to the TVA, Dr Takeyuki Inagaki explained that the IC was being operated intermittently to maintain reactor vessel level and to prevent the core from cooling too quickly which can increase reactor power. Unfortunately, as the tsunami engulfed the station, the IC valves were closed and could not be reopened automatically due to the loss of electrical power, but could have been opened manually.[70] On 16 April 2011, TEPCO declared that cooling systems for Units 14 were beyond repair.[71]
+
+Backup generators[edit]
+When a reactor is not producing electricity, its cooling pumps can be powered by other reactor units, the grid, diesel generators, or batteries.[72][73]
+Two emergency diesel generators were available for each of Units 15 and three for Unit 6.[74]
+In the late 1990s, three additional backup generators for Units 2 and 4 were placed in new buildings located higher on the hillside, to comply with new regulatory requirements. All six units were given access to these generators, but the switching stations that sent power from these backup generators to the reactors' cooling systems for Units 1 through 5 were still in the poorly protected turbine buildings. The switching station for Unit 6 was protected inside the only GE Mark II reactor building and continued to function.[75] All three of the generators added in the late 1990s were operational after the tsunami. If the switching stations had been moved to inside the reactor buildings or to other flood-proof locations, power would have been provided by these generators to the reactors' cooling systems.[75]
+The reactor's emergency diesel generators and DC batteries, crucial components in powering cooling systems after a power loss, were located in the basements of the reactor turbine buildings, in accordance with GE's specifications. Mid-level GE engineers expressed concerns, relayed to Tepco, that this left them vulnerable to flooding.[76]
+The Fukushima reactors were not designed for such a large tsunami,[77][78] nor had the reactors been modified when concerns were raised in Japan and by the IAEA.[79]
+Fukushima II was also struck by the tsunami. However, it had incorporated design changes that improved its resistance to flooding, reducing flood damage. Generators and related electrical distribution equipment were located in the watertight reactor building, so that power from the electricity grid was being used by midnight.[80] Seawater pumps for cooling were protected from flooding, and although 3 of 4 initially failed, they were restored to operation.[81]
+
+Central fuel storage areas[edit]
+Used fuel assemblies taken from reactors are initially stored for at least 18 months in the pools adjacent to their reactors. They can then be transferred to the central fuel storage pond.[82] Fukushima I's storage area contains 6375 fuel assemblies. After further cooling, fuel can be transferred to dry cask storage, which has shown no signs of abnormalities.[83]
+
+Zircaloy[edit]
+Many of the internal components and fuel assembly cladding are made from zircaloy because it is relatively transparent to neutrons. At normal operating temperatures of approximately 300C (572F), zircaloy is inert. However, above 1,200 degrees Celsius (2,190F), zirconium metal can react exothermically with water to form free hydrogen gas.[84] The reaction between zirconium and the coolant produces more heat, accelerating the reaction.[85] In addition, zircaloy can react with uranium dioxide to form zirconium dioxide and uranium metal. This exothermic reaction together with the reaction of boron carbide with stainless steel can release additional heat energy, thus contributing to the overheating of a reactor.[86]
+
+Prior safety concerns[edit]
+1967: Layout of the emergency-cooling system[edit]
+ The Fukushima reactor control room in 1999
+In 1967 when the plant was built TEPCO levelled the sea coast to make it easier to bring in equipment. This put the new plant at 10 meters (33ft) above sea level, rather than the original 30 meters (98ft).[10]
+On 27 February 2012, the Nuclear and Industrial Safety Agency ordered TEPCO to report its reasoning for changing the piping layout for the emergency cooling system.
+The original plans separated the piping systems for two reactors in the isolation condenser from each other. However, the application for approval of the construction plan showed the two piping systems connected outside the reactor. The changes were not noted, in violation of regulations.[87]
+After the tsunami, the isolation condenser should have taken over the function of the cooling pumps, by condensing the steam from the pressure vessel into water to be used for cooling the reactor. However, the condenser did not function properly and TEPCO could not confirm whether a valve was opened.
+
+1991: Backup generator of Reactor 1 flooded[edit]
+On 30 October 1991, one of two backup generators of Reactor 1 failed, after flooding in the reactor's basement. Seawater used for cooling leaked into the turbine building from a corroded pipe at 20 cubic meters per hour, as reported by former employees in December 2011. An engineer was quoted as saying that he informed his superiors of the possibility that a tsunami could damage the generators. TEPCO installed doors to prevent water from leaking into the generator rooms.
+The Japanese Nuclear Safety Commission stated that it would revise its safety guidelines and would require the installation of additional power sources. On 29 December 2011, TEPCO admitted all these facts: its report mentioned that the room was flooded through a door and some holes for cables, but the power supply was not cut off by the flooding, and the reactor was stopped for one day. One of the two power sources was completely submerged, but its drive mechanism had remained unaffected.[88]
+
+2000: Tsunami study ignored[edit]
+An in-house TEPCO report in 2000 recommended safety measures against seawater flooding, based on the potential of a 50-foot tsunami. TEPCO leadership said the study's technological validity could not be verified. After the tsunami a TEPCO report said that the risks discussed in the 2000 report had not been announced because announcing information about uncertain risks would create anxiety.[10]
+
+2008: Tsunami study ignored[edit]
+In 2007, TEPCO set up a department to supervise its nuclear facilities. Until June 2011, its chairman was Masao Yoshida, the Fukushima Daiichi chief. A 2008 in-house study identified an immediate need to better protect the facility from flooding by seawater. This study mentioned the possibility of tsunami-waves up to 10.2 meters (33ft). Headquarters officials insisted that such a risk was unrealistic and did not take the prediction seriously.[89][verification needed]
+Dr Yukinobu Okamura of the Active Fault and Earthquake Research Center (replaced in 2014 by Research Institute of Earthquake and Volcano Geology (IEVG), Geological Survey of Japan (GSJ), AIST) urged TEPCO and NISA to revise their assumptions for possible tsunami heights upwards, based on his team's findings about the 869 Sanriku earthquake, but this was not seriously considered at the time.[90][10]
+The U.S. Nuclear Regulatory Commission warned of a risk of losing emergency power in 1991 (NUREG-1150) and NISA referred to that report in 2004, but took no action to mitigate the risk.[91]
+Warnings by government committees, such as one in the Cabinet Office in 2004, that tsunamis taller than the maximum of 5.6 meters (18ft) forecast by TEPCO and government officials were possible, were also ignored.[92]
+
+Vulnerability to earthquakes[edit]
+Japan, like the rest of the Pacific Rim, is in an active seismic zone, prone to earthquakes.
+A seismologist named Katsuhiko Ishibashi wrote a 1994 book titled A Seismologist Warns criticizing lax building codes, which became a best seller when an earthquake in Kobe killed thousands shortly after its publication. In 1997 he coined the term nuclear earthquake disaster, and in 1995 wrote an article for the International Herald Tribune warning of a cascade of events much like the Fukushima disaster.[10]
+The International Atomic Energy Agency (IAEA) had expressed concern about the ability of Japan's nuclear plants to withstand earthquakes. At a 2008 meeting of the G8's Nuclear Safety and Security Group in Tokyo, an IAEA expert warned that a strong earthquake with a magnitude above 7.0 could pose a serious problem for Japan's nuclear power stations.[93] The region had experienced three earthquakes of magnitude greater than 8, including the 869 Sanriku earthquake, the 1896 Sanriku earthquake, and the 1933 Sanriku earthquake.
+
+Events[edit]
+Further information: Timeline of the Fukushima Daiichi nuclear disaster and 2011 Thoku earthquake and tsunami
+Thoku earthquake[edit]
+The 9.0 MW Thoku earthquake occurred at 14:46 on Friday, 11 March 2011, with the epicenter near Honshu, the largest island of Japan.[94] It produced maximum ground g-forces of 0.56, 0.52, 0.56 (5.50,5.07 and 5.48m/s2, 18.0,16.6 and 18.0ft/s2) at units 2, 3, and 5 respectively. This exceeded the earthquake reactor design tolerances of 0.45, 0.45, and 0.46g (4.38,4.41 and 4.52m/s2, 14.4,14.5 and 14.8ft/s2). The shock values were within the design tolerances at units 1, 4, and 6.[56]
+When the earthquake struck, units 1, 2, and 3 were operating, but units 4, 5, and 6 had been shut down for a scheduled inspection.[55][95] Reactors 1, 2, and 3 immediately shut down automatically;[96][97] this meant the plant stopped generating electricity and could no longer use its own power.[98] One of the two connections to off-site power for units 13 also failed,[98] so 13 on-site emergency diesel generators began providing power.[99]
+
+Tsunami and flooding[edit]
+ The height of the tsunami that struck the station approximately 50 minutes after the earthquake. A: Power station buildings  B: Peak height of tsunami  C: Ground level of site D: Average sea level E: Seawall to block waves
+The earthquake triggered a 13-to-15-meter (43 to 49ft)-high tsunami that arrived approximately 50minutes later. The waves overtopped the plant's 5.7-meter (19ft) seawall,[100][101][102] flooding the basements of the power plant's turbine buildings and disabling the emergency diesel generators[74][103][104] at approximately 15:41.[98][105] TEPCO then notified authorities of a first-level emergency.[96] The switching stations that provided power from the three backup generators located higher on the hillside failed when the building that housed them flooded.[75] Power for the plant's control systems switched to batteries designed to provide power for about eight hours.[106] Further batteries and mobile generators were dispatched to the site, but were delayed by poor road conditions; the first arrived at 21:00 11 March,[99][107] almost six hours after the tsunami struck.
+Unsuccessful attempts were made to connect portable generating equipment to power water pumps. The failure was attributed to flooding at the connection point in the Turbine Hall basement and the absence of suitable cables.[103] TEPCO switched its efforts to installing new lines from the grid.[108] One generator at unit 6 resumed operation on 17 March, while external power returned to units 5 and 6 only on 20 March.[109]
+
+Evacuation[edit]
+The government initially set in place a four-stage evacuation process: a prohibited access area out to 3km (1.9mi), an on-alert area 320km (1.912.4mi) and an evacuation prepared area 2030km (1219mi). On day one, an estimated 170,000 people[110] were evacuated from the prohibited access and on-alert areas. Prime Minister Kan instructed people within the on-alert area to leave and urged those in the prepared area to stay indoors.[111][112] The latter groups were urged to evacuate on 25 March.[113] The 20km (12mi) exclusion zone was guarded by roadblocks to ensure that fewer people would be affected by the radiation.[114] During the evacuation of hospitals and nursing homes, 51 patients and elderly people died.[115]
+The earthquake and tsunami damaged or destroyed more than one million buildings leading to a total of 470,000 people needing evacuation. Of the 470,000, the nuclear accident was responsible for 154,000 being evacuated.[116]
+
+Hydrogen explosions[edit]
+In Reactors 1, 2, and 3, overheating caused a reaction between the water and the zircaloy, creating hydrogen gas.[117][118][119] On 12 March, leaking hydrogen mixed with oxygen exploded in Unit 1,[10] destroying the upper part of the building and injuring five people. On 14 March, a similar explosion occurred in the Reactor 3 building, blowing off the roof and injuring eleven people.[6] On the 15th, there was an explosion in the Reactor 4 building due to a shared vent pipe with Reactor 3.
+
+Core meltdowns in units 1, 2, and 3[edit]
+See also: Fukushima Daiichi nuclear disaster (Unit 1 Reactor), Fukushima Daiichi nuclear disaster (Unit 2 Reactor), and Fukushima Daiichi nuclear disaster (Unit 3 Reactor)
+The amount of damage sustained by the reactor cores during the accident, and the location of molten nuclear fuel (corium) within the containment buildings, is unknown; TEPCO has revised its estimates several times.[120] On 16 March 2011, TEPCO estimated that 70% of the fuel in Unit 1 had melted and 33% in Unit 2, and that Unit 3's core might also be damaged.[121] As of 2015 it can be assumed that most fuel melted through the reactor pressure vessel (RPV), commonly known as the reactor core, and is resting on the bottom of the primary containment vessel (PCV), having been stopped by the PCV concrete.[122][123][124][125] In July 2017 a remotely controlled robot filmed for the first time apparently melted fuel, just below the reactor pressure vessel of Unit 3.[126]
+TEPCO released further estimates of the state and location of the fuel in a November 2011 report.[127] The report concluded that the Unit 1 RPV was damaged during the disaster and that significant amounts of molten fuel had fallen into the bottom of the PCV. The erosion of the concrete of the PCV by the molten fuel after the core meltdown was estimated to stop at approx. 0.7 meters (2ft 4in) in depth, while the thickness of the containment is 7.6 meters (25ft) thick. Gas sampling carried out before the report detected no signs of an ongoing reaction of the fuel with the concrete of the PCV and all the fuel in Unit 1 was estimated to be well cooled down, including the fuel dropped on the bottom of the reactor. Fuel in Units 2 and 3 had melted, however less than in Unit 1, and fuel was presumed to be still in the RPV, with no significant amounts of fuel fallen to the bottom of the PCV.[needs update] The report further suggested that there is a range in the evaluation results from all fuel in the RPV (none fuel fallen to the PCV) in Unit 2 and Unit 3, to most fuel in the RPV (some fuel in PCV). For Unit 2 and Unit 3 it was estimated that the fuel is cooled sufficiently. According to the report, the greater damage in Unit 1 (when compared to  the other two units) was due to the longer time that no cooling water was injected in Unit 1. This resulted in much more decay heat  accumulating, as for about 1 day there was no water injection for Unit 1, while Unit 2 and Unit 3 had only a quarter of a day without water injection.[127]
+In November 2013, Mari Yamaguchi reported for Associated Press that there are computer simulations which suggest that the melted fuel in Unit 1, whose core damage was the most extensive, has breached the bottom of the primary containment vessel and even partially eaten into its concrete foundation, coming within about 30 centimeters (1ft) of leaking into the ground  a Kyoto University nuclear engineer said with regards to these estimates: We just can't be sure until we actually see the inside of the reactors.[120]
+According to a December 2013 report, TEPCO estimated for Unit 1 that the decay heat must have decreased enough, the molten fuel can be assumed to remain in PCV (primary containment vessel).[122]
+In August 2014, TEPCO released a new revised estimate that Reactor 3 had a complete melt through in the initial phase of the accident. According to this new estimate within the first three days of the accident the entire core content of Reactor 3 had melted through the RPV and fallen to the bottom of the PCV.[124][125][128] These estimates were based on a simulation, which indicated that Reactor 3's melted core penetrated through 1.2 meters (3ft 11in) of the PCV's concrete base, and came close to 2668 centimeters (1027in) of the PCV's steel wall.[123]
+In February 2015, TEPCO started the muon scanning process for Units 1, 2, and 3.[129][130] With this scanning setup it will be possible to determine the approximate amount and location of the remaining nuclear fuel within the RPV, but not the amount and resting place of the corium in the PCV. In March 2015 TEPCO released the result of the muon scan for Unit 1 which showed that no fuel was visible in the RPV, which would suggest that most if not all of the molten fuel had dropped onto the bottom of the PCV  this will change the plan for the removal of the fuel from Unit 1.[131][132]
+In February 2017, six years after the disaster, radiation levels inside the Unit 2 containment building were crudely estimated to be about 650 Sv/h.[133] The estimation was revised later to 80 Sv/h.[134] These readings were the highest recorded since the disaster occurred in 2011 and the first recorded in that area of the reactor since the meltdowns. Images showed a hole in metal grating beneath the reactor pressure vessel, suggesting that melted nuclear fuel had escaped the vessel in that area.[135]
+In January 2018, a remote-controlled camera confirmed that nuclear fuel debris was at the bottom of the Unit 2 PCV, showing fuel had escaped the RPV. The handle from the top of a nuclear fuel assembly was also observed, confirming that a considerable amount of the nuclear fuel had melted.[136][137]
+
+Damage to unit 4[edit]
+Main article: Fukushima Daiichi units 4, 5 and 6
+ Aerial view of the station in 1975, showing separation between units 5 and 6, and 14. Unit 6, not completed until 1979, is seen under construction.
+ Unit 4 after the hydrogen explosion. The bright yellow object is the lid of the Reactor Containment Vessel. The green object is the crane for the spent fuel pool.
+Reactor 4 was not operating when the earthquake struck. All fuel rods from Unit 4 had been transferred to the spent fuel pool on an upper floor of the reactor building prior to the tsunami. On 15 March, an explosion damaged the fourth floor rooftop area of Unit 4, creating two large holes in a wall of the outer building. It was reported that water in the spent fuel pool might be boiling.[citation needed] Radiation inside the Unit 4 control room prevented workers from staying there for long periods. Visual inspection of the spent fuel pool on 30 April revealed no significant damage to the rods. A radiochemical examination of the pond water confirmed that little of the fuel had been damaged.[138]
+In October 2012, the former Japanese Ambassador to Switzerland and Senegal, Mitsuhei Murata, said that the ground under Fukushima Unit 4 was sinking, and the structure may collapse.[139][140]
+In November 2013, TEPCO began moving the 1533 fuel rods in the Unit 4 cooling pool to the central pool. This process was completed on 22 December 2014.[141]
+
+Units 5 and 6[edit]
+Main article: Fukushima Daiichi units 4, 5 and 6
+Reactors 5 and 6 were also not operating when the earthquake struck. Unlike Reactor 4, their fuel rods remained in the reactor. The reactors had been closely monitored, as cooling processes were not functioning well.[142] Both Unit 5 and Unit 6 shared a working generator and switchgear during the emergency and achieved a successful cold shutdown nine days later on 20 March.[143][75]
+
+Central fuel storage areas[edit]
+On 21 March, temperatures in the fuel pond had risen slightly, to 61C (142F) and water was sprayed over the pool.[82] Power was restored to cooling systems on 24 March and by 28 March, temperatures were reported down to 35C (95F).[144]
+
+Contamination[edit]
+Main article: Radiation effects from the Fukushima Daiichi nuclear disaster
+Sub article: Comparison of Fukushima and Chernobyl nuclear accidents with detailed tables inside
+This section is in list format, but may read better as prose. You can help by converting this section, if appropriate. Editing help is available. (November 2017) Map of contaminated areas around the plant (22 March  3 April 2011)
+ Fukushima dose rate comparison to other incidents and standards, with graph of recorded radiation levels and specific accident events from 11 to 30 March
+ Radiation measurements from Fukushima Prefecture, March 2011
+ Seawater-contamination along coast with Caesium-137, from 21 March until 5 May 2011 (Source: GRS)
+ Radiation hotspot in Kashiwa, February 2012
+Radioactive material was released from the containment vessels for several reasons: deliberate venting to reduce gas pressure, deliberate discharge of coolant water into the sea, and uncontrolled events. Concerns about the possibility of a large scale release led to a 20-kilometer (12mi) exclusion zone around the power plant and recommendations that people within the surrounding 2030km (1219mi) zone stay indoors. Later, the UK, France, and some other countries told their nationals to consider leaving Tokyo, in response to fears of spreading contamination.[145] In 2015, the tap water contamination was still higher in Tokyo compared to other cities in Japan.[146] Trace amounts of radioactivity, including iodine-131, caesium-134, and caesium-137, were widely observed.[147][148][149]
+Between 21 March and mid-July, around 27PBq of caesium-137 (about 8.4kg or 19lb) entered the ocean, with about 82percent having flowed into the sea before 8 April.[150] However, the Fukushima coast has some of the world's strongest currents and these transported the contaminated waters far into the Pacific Ocean, thus causing great dispersion of the radioactive elements. The results of measurements of both the seawater and the coastal sediments led to the supposition that the consequences of the accident, in terms of radioactivity, would be minor for marine life as of autumn 2011 (weak concentration of radioactivity in the water and limited accumulation in sediments). On the other hand, significant pollution of sea water along the coast near the nuclear plant might persist, due to the continuing arrival of radioactive material transported towards the sea by surface water running over contaminated soil. Organisms that filter water and fish at the top of the food chain are, over time, the most sensitive to caesium pollution. It is thus justified to maintain surveillance of marine life that is fished in the coastal waters off Fukushima. Despite caesium isotopic concentrations in the waters off of Japan being 10 to 1000 times above the normal concentrations prior to the accident, radiation risks are below what is generally considered harmful to marine animals and human consumers.[151]
+Researchers at the University of Tokyo's Underwater Technology Research Center towed detectors behind boats to map hot spots on the ocean floor off Fukushima. Blair Thornton, an associate professor the university, said in 2013 that radiation levels remained hundreds of times as high as in other areas of the sea floor, suggesting ongoing contamination (at the time) from the plant.[152]
+A monitoring system operated by the Preparatory Commission for the Comprehensive Nuclear-Test-Ban Treaty Organization (CTBTO) tracked the spread of radioactivity on a global scale. Radioactive isotopes were picked up by over 40 monitoring stations.[153]
+On 12 March, radioactive releases first reached a CTBTO monitoring station in Takasaki, Japan, around 200km (120mi) away. The radioactive isotopes appeared in eastern Russia on 14 March and the west coast of the United States two days later. By day 15, traces of radioactivity were detectable all across the northern hemisphere. Within one month, radioactive particles were noted by CTBTO stations in the southern hemisphere.[154][155]
+Estimates of radioactivity released ranged from 1040%[156][157][158][159] of that of Chernobyl. The significantly contaminated area was 10[156]-12%[157] of that of Chernobyl.[156][160][161]
+In March 2011, Japanese officials announced that radioactive iodine-131 exceeding safety limits for infants had been detected at 18 water-purification plants in Tokyo and five other prefectures.[162] On 21 March, the first restrictions were placed on the distribution and consumption of contaminated items.[163] As of July2011[update], the Japanese government was unable to control the spread of radioactive material into the nation's food supply. Radioactive material was detected in food produced in 2011, including spinach, tea leaves, milk, fish, and beef, up to 320kilometres from the plant. 2012 crops did not show signs of radioactivity contamination. Cabbage, rice[164] and beef showed insignificant levels of radioactivity. A Fukushima-produced rice market in Tokyo was accepted by consumers as safe.[164]
+On 24 August 2011, the Nuclear Safety Commission (NSC) of Japan published the results of its recalculation of the total amount of radioactive materials released into the air during the accident at the Fukushima Daiichi Nuclear Power Station. The total amounts released between 11 March and 5 April were revised downwards to 130PBq (petabecquerels, 3.5 megacuries) for iodine-131 and 11PBq for caesium-137, which is about 11% of Chernobyl emissions. Earlier estimations were 150PBq and 12PBq.[165][166]
+In 2011, scientists working for the Japan Atomic Energy Agency, Kyoto University and other institutes, recalculated the amount of radioactive material released into the ocean: between late March through April they found a total of 15PBq for the combined amount of iodine-131 and caesium-137, more than triple the 4.72PBq estimated by TEPCO. The company had calculated only the direct releases into the sea. The new calculations incorporated the portion of airborne radioactive substances that entered the ocean as rain.[167]
+In the first half of September 2011, TEPCO estimated the radioactivity release at some 200MBq (megabecquerels, 5.4 millicuries) per hour. This was approximately one four-millionth that of March.[168] Traces of iodine-131 were detected in several Japanese prefectures in November[169] and December 2011.[170]
+According to the French Institute for Radiological Protection and Nuclear Safety, between 21 March and mid-July around 27PBq of caesium-137 entered the ocean, about 82percent before 8 April. This emission represents the most important individual oceanic emissions of artificial radioactivity ever observed. The Fukushima coast has one of the world's strongest currents (Kuroshio Current). It transported the contaminated waters far into the Pacific Ocean, dispersing the radioactivity. As of late 2011 measurements of both the seawater and the coastal sediments suggested that the consequences for marine life would be minor. Significant pollution along the coast near the plant might persist, because of the continuing arrival of radioactive material transported to the sea by surface water crossing contaminated soil. The possible presence of other radioactive substances, such as strontium-90 or plutonium, has not been sufficiently studied. Recent measurements show persistent contamination of some marine species (mostly fish) caught along the Fukushima coast.[171]
+Migratory pelagic species are highly effective and rapid transporters of radioactivity throughout the ocean. Elevated levels of caesium-134 appeared in migratory species off the coast of California that were not seen pre-Fukushima.[172] Scientists have also discovered increased traces of radioactive isotope Caesium-137 in wine grown in a vineyard in Napa Valley, California. The trace-level radioactivity was in dust blown across the Pacific Ocean.[173]
+As of March 2012, no cases of radiation-related ailments had been reported. Experts cautioned that data was insufficient to allow conclusions on health impacts. Michiaki Kai, professor of radiation protection at Oita University of Nursing and Health Sciences, stated, If the current radiation dose estimates are correct, (cancer-related deaths) likely won't increase.[174]
+In May 2012, TEPCO released their estimate of cumulative radioactivity releases. An estimated 538.1PBq of iodine-131, caesium-134 and caesium-137 was released. 520PBq was released into the atmosphere between 1231 March 2011 and 18.1PBq into the ocean from 26 March  30 September 2011. A total of 511PBq of iodine-131 was released into both the atmosphere and the ocean, 13.5PBq of caesium-134 and 13.6PBq of caesium-137.[175] TEPCO reported that at least 900PBq had been released into the atmosphere in March last year [2011] alone.[176][177]
+In 2012 researchers from the Institute of Problems in the Safe Development of Nuclear Energy, Russian Academy of Sciences, and the Hydrometeorological Center of Russia concluded that on March 15, 2011, ~400 PBq iodine, ~100 PBq caesium, and ~400 PBq inert gases entered the atmosphere on that day alone.[178]
+In August 2012, researchers found that 10,000 nearby residents had been exposed to less than 1 millisievert of radiation, significantly less than Chernobyl residents.[179]
+As of October 2012, radioactivity was still leaking into the ocean. Fishing in the waters around the site was still prohibited, and the levels of radioactive 134Cs and 137Cs in the fish caught were not lower than immediately after the disaster.[180]
+On 26 October 2012, TEPCO admitted that it could not stop radioactive material entering the ocean, although emission rates had stabilized. Undetected leaks could not be ruled out, because the reactor basements remained flooded. The company was building a 2,400-foot-long steel and concrete wall between the site and the ocean, reaching 30 meters (98ft) below ground, but it would not be finished before mid-2014. Around August 2012 two greenling were caught close to shore. They contained more than 25,000 becquerels (0.67 millicuries) of caesium-137 per kilogram (11,000Bq/lb; 0.31Ci/lb), the highest measured since the disaster and 250 times the government's safety limit.[181][182]
+On 22 July 2013, it was revealed by TEPCO that the plant continued to leak radioactive water into the Pacific Ocean, something long suspected by local fishermen and independent investigators.[183] TEPCO had previously denied that this was happening. Japanese Prime Minister Shinz Abe ordered the government to step in.[184]
+On 20 August, in a further incident, it was announced that 300 metric tons (300 long tons; 330 short tons) of heavily contaminated water had leaked from a storage tank,[185] approximately the same amount of water as one eighth (1/8) of that found in an Olympic-size swimming pool.[186] The 300 metric tons (300 long tons; 330 short tons) of water was radioactive enough to be hazardous to nearby staff, and the leak was assessed as Level 3 on the International Nuclear Event Scale.[187]
+On 26 August, the government took charge of emergency measures to prevent further radioactive water leaks, reflecting their lack of confidence in TEPCO.[188]
+As of 2013, about 400 metric tons (390 long tons; 440 short tons) of water per day of cooling water was being pumped into the reactors. Another 400 metric tons (390 long tons; 440 short tons) of groundwater was seeping into the structure. Some 800 metric tons (790 long tons; 880 short tons) of water per day was removed for treatment, half of which was reused for cooling and half diverted to storage tanks.[189] Ultimately the contaminated water, after treatment to remove radionuclides other than tritium, may have to be dumped into the Pacific.[19] TEPCO intend to create an underground ice wall to reduce the rate contaminated groundwater reaches the sea.[190]
+In February 2014, NHK reported that TEPCO was reviewing its radioactivity data, after finding much higher levels of radioactivity than was reported earlier. TEPCO now says that levels of 5 MBq (0.12 millicuries) of strontium per liter (23MBq/impgal; 19MBq/U.S.gal; 610Ci/impgal; 510Ci/U.S.gal) were detected in groundwater collected in July 2013 and not the 900 kBq (0.02 millicuries) (4.1MBq/impgal; 3.4MBq/U.S.gal; 110Ci/impgal; 92Ci/U.S.gal) that were initially reported.[191][192][193]
+On 10 September 2015, floodwaters driven by Typhoon Etau prompted mass evacuations in Japan and overwhelmed the drainage pumps at the stricken Fukushima nuclear plant. A TEPCO spokesperson said that hundreds of metric tons of radioactive water entered the ocean as a result.[194] Plastic bags filled with contaminated soil and grass were also swept away by the flood waters.[195]
+
+Contamination in the eastern Pacific[edit]
+In March 2014, numerous news sources, including NBC,[196] began predicting that the radioactive underwater plume traveling through the Pacific Ocean would reach the western seaboard of the continental United States. The common story was that the amount of radioactivity would be harmless and temporary once it arrived. The National Oceanic and Atmospheric Administration measured caesium-134 at points in the Pacific Ocean and models were cited in predictions by several government agencies to announce that the radiation would not be a health hazard for North American residents. Groups, including Beyond Nuclear and the Tillamook Estuaries Partnership, challenged these predictions on the basis of continued isotope releases after 2011, leading to a demand for more recent and comprehensive measurements as the radioactivity made its way east. These measurements were taken by a cooperative group of organizations under the guidance of a marine chemist with the Woods Hole Oceanographic Institution, and  revealed that total radiation levels, of which only a fraction bore the fingerprint of Fukushima, were not high enough to pose any direct risk to human life and in fact were far less than Environmental Protection Agency guidelines or several other sources of radiation exposure deemed safe.[197] Integrated Fukushima Ocean Radionuclide Monitoring project (InFORM) also failed to show any significant amount of radiation[198] and as a result its authors received death threats from supporters of a Fukushima-induced wave of cancer deaths across North America theory.[199]
+
+Response[edit]
+See also: Investigations into the Fukushima Daiichi nuclear disaster
+Government agencies and TEPCO were unprepared for the cascading nuclear disaster.[200] The tsunami that began the nuclear disaster could and should have been anticipated and that ambiguity about the roles of public and private institutions in such a crisis was a factor in the poor response at Fukushima.[200] In March 2012, Prime Minister Yoshihiko Noda said that the government shared the blame for the Fukushima disaster, saying that officials had been blinded by a false belief in the country's technological infallibility, and were taken in by a safety myth. Noda said Everybody must share the pain of responsibility.[201]
+According to Naoto Kan, Japan's prime minister during the tsunami, the country was unprepared for the disaster, and nuclear power plants should not have been built so close to the ocean.[202] Kan acknowledged flaws in authorities' handling of the crisis, including poor communication and coordination between nuclear regulators, utility officials, and the government. He said the disaster laid bare a host of an even bigger man-made vulnerabilities in Japan's nuclear industry and regulation, from inadequate safety guidelines to crisis management, all of which he said need to be overhauled.[202]
+Physicist and environmentalist Amory Lovins said that Japan's rigid bureaucratic structures, reluctance to send bad news upwards, need to save face, weak development of policy alternatives, eagerness to preserve nuclear power's public acceptance, and politically fragile government, along with TEPCO's very hierarchical management culture, also contributed to the way the accident unfolded. Moreover, the information Japanese people receive about nuclear energy and its alternatives has long been tightly controlled by both TEPCO and the government.[203]
+
+Poor communication and delays[edit]
+The Japanese government did not keep records of key meetings during the crisis.[204] Data from the SPEEDI network were emailed to the prefectural government, but not shared with others. Emails from NISA to Fukushima, covering 12 March 11:54PM to 16 March 9AM and holding vital information for evacuation and health advisories, went unread and were deleted. The data was not used because the disaster countermeasure office regarded the data as useless because the predicted amount of released radiation is unrealistic.[205] On 14 March 2011 TEPCO officials were instructed not to use the phrase core meltdown at press conferences.[206]
+On the evening of 15 March, Prime Minister Kan called Seiki Soramoto, who used to design nuclear plants for Toshiba, to ask for his help in managing the escalating crisis. Soramoto formed an impromptu advisory group, which included his former professor at the University of Tokyo, Toshiso Kosako, a top Japanese expert on radiation measurement. Mr. Kosako, who studied the Soviet response to the Chernobyl crisis, said he was stunned at how little the leaders in the prime minister's office knew about the resources available to them. He quickly advised the chief cabinet secretary, Yukio Edano, to use SPEEDI, which used measurements of radioactive releases, as well as weather and topographical data, to predict where radioactive materials could travel after being released into the atmosphere.[207]
+The Investigation Committee on the Accident at the Fukushima Nuclear Power Stations of Tokyo Electric Power Company's interim report stated that Japan's response was flawed by poor communication and delays in releasing data on dangerous radiation leaks at the facility. The report blamed Japan's central government as well as TEPCO, depicting a scene of harried officials incapable of making decisions to stem radiation leaks as the situation at the coastal plant worsened in the days and weeks following the disaster.[208] The report said poor planning worsened the disaster response, noting that authorities had grossly underestimated tsunami risks that followed the magnitude 9.0 earthquake. The 12.1-meter (40ft) high tsunami that struck the plant was double the height of the highest wave predicted by officials. The erroneous assumption that the plant's cooling system would function after the tsunami worsened the disaster. Plant workers had no clear instructions on how to respond to such a disaster, causing miscommunication, especially when the disaster destroyed backup generators.[208]
+In February 2012, the Rebuild Japan Initiative Foundation described how Japan's response was hindered by a loss of trust between the major actors: Prime Minister Kan, TEPCO's Tokyo headquarters and the plant manager. The report said that these conflicts produced confused flows of sometimes contradictory information.[209][210] According to the report, Kan delayed the cooling of the reactors by questioning the choice of seawater instead of fresh water, accusing him of micromanaging response efforts and appointing a small, closed, decision-making staff. The report stated that the Japanese government was slow to accept assistance from U.S. nuclear experts.[211]
+A 2012 report in The Economist said: The operating company was poorly regulated and did not know what was going on. The operators made mistakes. The representatives of the safety inspectorate fled. Some of the equipment failed. The establishment repeatedly played down the risks and suppressed information about the movement of the radioactive plume, so some people were evacuated from more lightly to more heavily contaminated places.[212]
+From 17 to 19 March 2011, US military aircraft measured radiation within a 45km (28mi) radius of the site. The data recorded 125 microsieverts per hour of radiation as far as 25km (15.5mi) northwest of the plant. The US provided detailed maps to the Japanese Ministry of Economy, Trade and Industry (METI) on 18 March and to the Ministry of Education, Culture, Sports, Science and Technology (MEXT) two days later, but officials did not act on the information.[213]
+The data were not forwarded to the prime minister's office or the Nuclear Safety Commission (NSC), nor were they used to direct the evacuation. Because a substantial portion of radioactive materials reached ground to the northwest, residents evacuated in this direction were unnecessarily exposed to radiation. According to NSC chief Tetsuya Yamamoto, It was very regrettable that we didn't share and utilize the information. Itaru Watanabe, from the Science and Technology Policy Bureau, blamed the US for not releasing the data.[214]
+Data on the dispersal of radioactive materials were provided to the U.S. forces by the Japanese Ministry for Science a few days after 11 March; however, the data was not shared publicly until the Americans published their map on 23 March, at which point Japan published fallout maps compiled from ground measurements and SPEEDI the same day.[215] According to Watanabe's testimony before the Diet, the US military was given access to the data to seek support from them on how to deal with the nuclear disaster. Although SPEEDI's effectiveness was limited by not knowing the amounts released in the disaster, and thus was considered unreliable, it was still able to forecast dispersal routes and could have been used to help local governments designate more appropriate evacuation routes.[216]
+On 19 June 2012, science minister Hirofumi Hirano stated that his job was only to measure radiation levels on land and that the government would study whether disclosure could have helped in the evacuation efforts.[215]
+On 28 June 2012, Nuclear and Industrial Safety Agency officials apologized to mayor Yuko Endo of Kawauchi Village for NISA having failed to release the American-produced radiation maps in the first days after the meltdowns. All residents of this village were evacuated after the government designated it a no-entry zone. According to a Japanese government panel, authorities had shown no respect for the lives and dignity of village people. One NISA official apologized for the failure and added that the panel had stressed the importance of disclosure; however, the mayor said that the information would have prevented the evacuation into highly polluted areas, and that apologies a year too late had no meaning.[217]
+In June 2016, it was revealed that TEPCO officials had been instructed on 14 March 2011 not to describe the reactor damage using the word meltdown. Officials at that time were aware that 2555% of the fuel had been damaged, and the threshold for which the term meltdown became appropriate (5%) had been greatly exceeded. TEPCO President Naomi Hirose told the media: I would say it was a cover-up... Its extremely regrettable.[218]
+
+Event rating[edit]
+Main article: Accident rating of the Fukushima Daiichi nuclear disaster
+ Comparison of radiation levels for different nuclear events
+The incident was rated 7 on the International Nuclear Event Scale (INES).[219] This scale runs from 0, indicating an abnormal situation with no safety consequences, to 7, indicating an accident causing widespread contamination with serious health and environmental effects. Prior to Fukushima, the Chernobyl disaster was the only level 7 event on record, while the Three Mile Island accident was rated as level 5.
+A 2012 analysis of the intermediate and long-lived radioactivity released found about 1020% of that released from the Chernobyl disaster.[220][221] Approximately 15PBq of caesium-137 was released,[222] compared with approximately 85PBq of caesium-137 at Chernobyl,[223] indicating the release of 26.5 kilograms (58lb) of caesium-137.
+Unlike Chernobyl, all Japanese reactors were in concrete containment vessels, which limited the release of strontium-90, americium-241, and plutonium, which were among the radioisotopes released by the earlier incident.[220][223]
+Some 500PBq of iodine-131 were released,[222] compared to approximately 1,760PBq at Chernobyl.[223] Iodine-131 has a half-life of 8.02 days, decaying into a stable nuclide. After ten half lives (80.2 days), 99.9% has decayed to xenon-131, a stable isotope.[224]
+
+Aftermath[edit]
+Main article: Fukushima Daiichi nuclear disaster casualties
+Although there were no deaths from radiation exposure in the immediate aftermath of the incident, there were a number of (non-radiation related) deaths during the evacuation of the nearby population.[225][226]  As of February 2014, 15,884 deaths were attributed to the earthquake and tsunami.[227]
+
+Risks from radiation[edit]
+Although people in the incident's worst affected areas have a slightly higher risk of developing certain cancers such as leukemia, solid cancers, thyroid cancer, and breast cancer, very few cancers would be expected as a result of accumulated radiation exposures.[228][229][230][231][232] Estimated effective doses outside Japan are considered to be below (or far below) the levels regarded as very small by the international radiological protection community.[233][198]
+In 2013, the World Health Organization reported that area residents who were evacuated were exposed to so little radiation that radiation-induced health effects were likely to be below detectable levels.[234][235] The health risks were calculated by applying conservative assumptions, including the conservative linear no-threshold model of radiation exposure, a model that assumes even the smallest amount of radiation exposure will cause a negative health effect.[236][237] The report indicated that for those infants in the most affected areas, lifetime cancer risk would increase by about 1%.[235][238] It predicted that populations in the most contaminated areas faced a 70% higher relative risk of developing thyroid cancer for females exposed as infants, and a 7% higher relative risk of leukemia in males exposed as infants and a 6% higher relative risk of breast cancer in females exposed as infants.[41] One-third of involved emergency workers would have increased cancer risks.[41][239] Cancer risks for fetuses were similar to those in 1 year old infants.[42] The estimated cancer risk to children and adults was lower than it was to infants.[240]
+
+These percentages represent estimated relative increases over the baseline rates and are not absolute risks for developing such cancers. Due to the low baseline rates of thyroid cancer, even a large relative increase represents a small absolute increase in risks. For example, the baseline lifetime risk of thyroid cancer for females is just three-quarters of one percent and the additional lifetime risk estimated in this assessment for a female infant exposed in the most affected location is one-half of one percent.World Health Organization. Health Risk Assessment from the nuclear accident after the 2011 Great East Japan Earthquake and Tsunami based on a preliminary dose estimation (PDF). Archived from the original (PDF) on 22 October 2013.
+
+The World Nuclear Association reports that the radiation exposure to those living in proximity to Fukushima is expected to be below 10 mSv, over the course of a lifetime. In comparison, the dosage of background radiation received over a lifetime is 170 mSv.[241][242]
+According to a linear no-threshold model (LNT model), the accident would most likely cause 130 cancer deaths.[243][244][245]   However, radiation epidemiologist Roy Shore countered that estimating health effects from the LNT model is not wise because of the uncertainties.[246] Darshak Sanghavi noted that to obtain reliable evidence of the effect of low-level radiation would require an impractically large number of patients, Luckey reported that the body's own repair mechanisms can cope with small doses of radiation[247] and Aurengo stated that The LNT model cannot be used to estimate the effect of very low doses[248]
+In April 2014, studies confirmed the presence of radioactive tuna off the coasts of the Pacific U.S.[249] Researchers carried out tests on 26 albacore tuna caught prior to the 2011 power plant disaster and those caught after. However, the amount of radioactivity is less than that found naturally in a single banana.[250][251] Caesium-137 and caesium-134 have been noted in Japanese whiting in Tokyo Bay as of 2016. Concentration of radiocesium in the Japanese whiting was one or two orders of magnitude higher than that in the sea water, and an order of magnitude lower than that in the sediment. They were still within food safety limits.[252]
+In June 2016 Tilman Ruff, co-president of the political advocacy group, the International Physicians for the Prevention of Nuclear War  argues that 174,000 people have been unable to return to their homes and ecological diversity has decreased and malformations have been found in trees, birds, and mammals.[253] Although physiological abnormalities have been reported within the vicinity of the accident zone,[254] the scientific community has largely rejected any such findings of genetic or mutagenic damage caused by radiation, instead showing it can be attributed either to experimental error or other toxic effects.[255]
+Five years after the event, the Department of Agriculture from the University of Tokyo (which holds many experimental agricultural research fields around the affected area) has noted that the fallout was found at the surface of anything exposed to air at the time of the accident. The main radioactive nuclides are now caesium-137 and caesium-134, but these radioactive compounds have not dispersed much from the point where they landed at the time of the explosion, which was very difficult to estimate from our understanding of the chemical behavior of cesium.[256]
+In February 2018, Japan renewed the export of fish caught off Fukushima's nearshore zone. According to prefecture officials, no seafood had been found with radiation levels exceeding Japan safety standards since April 2015. In 2018, Thailand was the first country to receive a shipment of fresh fish from Japan's Fukushima prefecture.[257] A group campaigning to help prevent global warming has demanded the Food and Drug Administration disclose the name of the importer of fish from Fukushima and of the Japanese restaurants in Bangkok serving it. Srisuwan Janya, chairman of the Stop Global Warming Association, said the FDA must protect the rights of consumers by ordering restaurants serving Fukushima fish to make that information available to their customers, so they could decide whether to eat it or not.[258]
+In July 2018, a robotic probe has found that radiation levels remain too high for humans to work inside one of the reactor buildings.
+
+Thyroid screening program[edit]
+The World Health Organization stated that a 2013 thyroid ultrasound screening program was, due to the screening effect, likely to lead to an increase in recorded thyroid cases due to early detection of non-symptomatic disease cases.[259] The overwhelming majority of thyroid growths are benign growths that will never cause symptoms, illness, or death, even if nothing is ever done about the growth. Autopsy studies on people who died from other causes show that more than one third of adults technically have a thyroid growth/cancer.[260] As a precedent, in 1999 in South Korea, the introduction of advanced ultrasound thyroid examinations resulted in an explosion in the rate of benign thyroid cancers being detected and needless surgeries occurring.[261] Despite this, the death rate from thyroid cancer has remained the same.[261]
+According to the Tenth Report of the Fukushima Prefecture Health Management Survey released in February 2013, more than 40% of children screened around Fukushima prefecture were diagnosed with thyroid nodules or cysts. Ultrasonographic detectable thyroid nodules and cysts are extremely common and can be found at a frequency of up to 67% in various studies.[262] 186 (0.5%) of these had nodules larger than 5.1mm (0.20in) and/or cysts larger than 20.1mm (0.79in) and underwent further investigation, while none had thyroid cancer. A Russia Today report into the matter was highly misleading.[263] Fukushima Medical University give the number of children diagnosed with thyroid cancer, as of December 2013, as 33 and concluded it is unlikely that these cancers were caused by the exposure from I-131 from the nuclear power plant accident in March 2011.[264]
+In October 2015, 137 children from the Fukushima Prefecture were described as either being diagnosed with or showing signs of developing thyroid cancer. The study's lead author Toshihide Tsuda from Okayama University stated that the increased detection could not be accounted for by attributing it to the screening effect. He described the screening results to be 20 times to 50 times what would be normally expected.[44] By the end of 2015, the number had increased to 166 children.[265]
+However, despite his paper being widely reported by the media,[261] an undermining error, according to teams of other epidemiologists who point out Tsuda's remarks are fatally wrong, is that Tsuda did an apples and oranges comparison by comparing the Fukushima surveys, which uses advanced ultrasound devices that detect otherwise unnoticeable thyroid growths, with data from traditional non-advanced clinical examinations, to arrive at his 20 to 50 times what would be expected conclusion. In the critical words of epidemiologist Richard Wakeford, It is inappropriate to compare the data from the Fukushima screening program with cancer registry data from the rest of Japan where there is, in general, no such large-scale screening,. Wakeford's criticism was one of seven other author's letters that were published criticizing Tsuda's paper.[261] According to Takamura, another epidemiologist, who examined the results of small scale advanced ultrasound tests on Japanese children not near Fukushima, The prevalence of thyroid cancer [using the same detection technology] does not differ meaningfully from that in Fukushima Prefecture,.[261]
+In 2016 Ohira et al. conducted a study cross-comparing thyroid cancer patients from Fukushima prefecture evacuees with rates of Thyroid cancer in from those outside of the evacuation zone. Ohira et al. found that The duration between accident and thyroid examination was not associated with thyroid cancer prevalence. There were no significant associations between individual external doses and prevalence of thyroid cancer. External radiation dose was not associated with thyroid cancer prevalence among Fukushima children within the first 4 years after the nuclear accident..[266]
+A 2018 publication by Yamashita et al. also concluded that Thyroid cancer rate differences can be attributed to the screening effect. They noted that the mean age of the patients at the time of the accident was 1015 years, while no cases were found in children from the ages of 0-5 who would have been most susceptible. Yamashita et al. thus conclude that In any case, the individual prognosis cannot be accurately determined at the time of FNAC at present. It is therefore urgent to search not only for intraoperative and postoperative prognostic factors but also for predictive prognostic factors at the FNAC/preoperative stage.[267]
+Thyroid cancer is one of the most survivable cancers, with an approximate 94% survival rate after first diagnosis. That rate increases to a nearly 100% survival rate if caught early.[268]
+
+Chernobyl comparison[edit]
+Main article: Comparison of Fukushima and Chernobyl nuclear accidents
+ Protest against nuclear power in Berlin, Germany, March 2011
+Radiation deaths at Chernobyl were also statistically undetectable. Only 0.1% of the 110,645 Ukraninian cleanup workers, included in a 20-year study out of over 500,000 former Soviet clean up workers, had as of 2012 developed leukemia, although not all cases resulted from the accident.[269][270]
+Data from Chernobyl showed that there was a steady but sharp increase in thyroid cancer rates following the disaster in 1986, but whether this data can be directly compared to Fukushima is yet to be determined.[46][47]
+Chernobyl thyroid cancer incidence rates did not begin to increase above the prior baseline value of about 0.7 cases per 100,000 people per year until 1989 to 1991, 35 years after the incident in both adolescent and child age groups.[46][47] The rate reached its highest point so far, of about 11 cases per 100,000 in the decade of the 2000s, approximately 14 years after the accident.[46] From 1989 to 2005, an excess of 4,000 children and adolescent cases of thyroid cancer were observed. Nine of these had died as of 2005, a 99% survival rate.[271]
+
+Effects on evacuees[edit]
+In the former Soviet Union, many patients with negligible radioactive exposure after the Chernobyl disaster displayed extreme anxiety about radiation exposure. They developed many psychosomatic problems, including radiophobia along with an increase in fatalistic alcoholism. As Japanese health and radiation specialist Shunichi Yamashita noted:[272]
+
+We know from Chernobyl that the psychological consequences are enormous. Life expectancy of the evacuees dropped from 65 to 58 years  not because of cancer, but because of depression, alcoholism, and suicide. Relocation is not easy, the stress is very big. We must not only track those problems, but also treat them. Otherwise people will feel they are just guinea pigs in our research.[272]
+
+A survey by the Iitate local government obtained responses from approximately 1,743 evacuees within the evacuation zone. The survey showed that many residents are experiencing growing frustration, instability, and an inability to return to their earlier lives. Sixty percent of respondents stated that their health and the health of their families had deteriorated after evacuating, while 39.9% reported feeling more irritated compared to before the disaster.[273]
+
+
+Summarizing all responses to questions related to evacuees' current family status, one-third of all surveyed families live apart from their children, while 50.1% live away from other family members (including elderly parents) with whom they lived before the disaster. The survey also showed that 34.7% of the evacuees have suffered salary cuts of 50% or more since the outbreak of the nuclear disaster. A total of 36.8% reported a lack of sleep, while 17.9% reported smoking or drinking more than before they evacuated.[273]
+
+
+Stress often manifests in physical ailments, including behavioral changes such as poor dietary choices, lack of exercise, and sleep deprivation. Survivors, including some who lost homes, villages, and family members, were found likely to face mental health and physical challenges. Much of the stress came from lack of information and from relocation.[274]
+In a 2017 risk analysis, relying on the metric of potential months of life lost, it determined that unlike Chernobyl, relocation was unjustified for the 160,000 people relocated after Fukushima, when the potential future deaths from exposure to radiation around Fukushima, would have been much less, if the alternative of the shelter in place protocol had instead been deployed.[275][276]
+
+Radioactivity releases[edit]
+In June 2011, TEPCO stated the amount of contaminated water in the complex had increased due to substantial rainfall.[277] On 13 February 2014, TEPCO reported 37kBq (1.0 microcurie) of caesium-134 and 93kBq (2.5 microcuries) of caesium-137 were detected per liter of groundwater sampled from a monitoring well.[278] Dust particles gathered 4km from the reactors in 2017 included microscopic nodules of melted core samples encased in cesium.[279] After decades of exponential decline in ocean cesium from weapons testing fallout, radioactive isotopes of cesium in the Sea of Japan increased after the accident from 1.5mBq/L to about 2.5mBq/L and are still rising as of 2018, while those just off the eastern coast of Japan are declining.[280]
+
+Insurance[edit]
+According to reinsurer Munich Re, the private insurance industry will not be significantly affected by the disaster.[281] Swiss Re similarly stated, Coverage for nuclear facilities in Japan excludes earthquake shock, fire following earthquake and tsunami, for both physical damage and liability. Swiss Re believes that the incident at the Fukushima nuclear power plant is unlikely to result in a significant direct loss for the property & casualty insurance industry.[282][not in citation given]
+
+Compensation[edit]
+The amount of compensation to be paid by TEPCO is expected to reach 7 trillion yen.[283]
+Costs to Japanese taxpayers are likely to exceed 12 trillion yen ($100 billion).[284] In December 2016 the government estimated decontamination, compensation, decommissioning, and radioactive waste storage costs at 21.5 trillion yen ($187 billion), nearly double the 2013 estimate.[285]
+In March 2017, a Japanese court ruled that negligence by the Japanese government had led to the Fukushima disaster by failing to use its regulatory powers to force TEPCO to take preventive measures. The Maebashi district court near Tokyo awarded 39 million (US$345,000) to 137 people who were forced to flee their homes following the accident.[286]
+
+Energy policy implications[edit]
+ The number of nuclear power plant constructions started each year worldwide, from 1954 to 2013. Following an increase in new constructions from 2007 to 2010, there was a decline after the Fukushima nuclear disaster.
+ Electricity generation by source in Japan (month-level data). Nuclear energy's contribution declined steadily throughout 2011 due to shutdowns and has been mainly replaced with thermal power stations such as fossil gas and coal power plants.
+ The use of nuclear power (in yellow) in Japan declined significantly after the Fukushima accident
+ Part of the Seto Hill Windfarm in Japan, one of several windfarms that continued generating without interruption after the 2011 earthquake and tsunami and the Fukushima nuclear disaster
+ Price of PV modules (yen/Wp) in Japan
+ Anti-nuclear power plant rally on 19 September 2011 at the Meiji Shrine complex in Tokyo
+By March 2012, one year after the disaster, all but two of Japan's nuclear reactors had been shut down; some had been damaged by the quake and tsunami. Authority to restart the others after scheduled maintenance throughout the year was given to local governments, which all decided against reopening them. According to The Japan Times, the disaster changed the national debate over energy policy almost overnight. By shattering the government's long-pitched safety myth about nuclear power, the crisis dramatically raised public awareness about energy use and sparked strong anti-nuclear sentiment.[citation needed] An energy white paper, approved by the Japanese Cabinet in October 2011, says public confidence in safety of nuclear power was greatly damaged by the disaster and called for a reduction in the nation's reliance on nuclear power. It also omitted a section on nuclear power expansion that was in the previous year's policy review.[287]
+Michael Banach, the current Vatican representative to the IAEA, told a conference in Vienna in September 2011 that the disaster created new concerns about the safety of nuclear plants globally. Auxiliary Bishop of Osaka Michael Goro Matsuura said this incident should cause Japan and other countries to abandon nuclear projects. He called on the worldwide Christian community to support this anti-nuclear campaign. Statements from Bishops' conferences in Korea and the Philippines called on their governments to abandon atomic power. Author Kenzabur e, who received a Nobel prize in literature, urged Japan to abandon its reactors.[288]
+The nuclear plant closest to the epicenter of the earthquake, the Onagawa Nuclear Power Plant, successfully withstood the cataclysm. Reuters said it may serve as a trump card for the nuclear lobby, providing evidence that it is possible for a correctly designed and operated nuclear facility to withstand such a cataclysm.[289]
+The loss of 30% of the country's generating capacity led to much greater reliance on liquified natural gas and coal.[290] Unusual conservation measures were undertaken. In the immediate aftermath, nine prefectures served by TEPCO experienced power rationing.[291] The government asked major companies to reduce power consumption by 15%, and some shifted their weekends to weekdays to smooth power demand.[292] Converting to a nuclear-free gas and oil energy economy would cost tens of billions of dollars in annual fees. One estimate is that even including the disaster, more years of life would have been lost in 2011 if Japan had used coal or gas plants instead of nuclear.[243]
+Many political activists have  called for a phase-out of nuclear power in Japan, including Amory Lovins, who claimed, Japan is poor in fuels, but is the richest of all major industrial countries in renewable energy that can meet the entire long-term energy needs of an energy-efficient Japan, at lower cost and risk than current plans. Japanese industry can do it faster than anyone  if Japanese policymakers acknowledge and allow it.[203] Benjamin K. Sovacool asserted that Japan could have exploited instead its renewable energy base. Japan has a total of 324GW of achievable potential in the form of onshore and offshore wind turbines (222GW), geothermal power plants (70 GW), additional hydroelectric capacity (26.5GW), solar energy (4.8GW) and agricultural residue (1.1GW).[293]
+In contrast, others have said that the zero mortality rate from the Fukushima incident confirms their opinion that nuclear fission is the only viable option available to replace fossil fuels. Journalist George Monbiot wrote Why Fukushima made me stop worrying and love nuclear power. In it he said, As a result of the disaster at Fukushima, I am no longer nuclear-neutral. I now support the technology.[294][295] He continued, A crappy old plant with inadequate safety features was hit by a monster earthquake and a vast tsunami. The electricity supply failed, knocking out the cooling system. The reactors began to explode and melt down. The disaster exposed a familiar legacy of poor design and corner-cutting. Yet, as far as we know, no one has yet received a lethal dose of radiation.[296][297] Responses to Monbiot noted his false calculation that [nuclear powered electricity] is needed, that it can work economically, and that it can solve its horrific waste, decommissioning and proliferation-security pitfalls ... [along with human] safety, health and indeed human psychology issues.[298]
+In September 2011, Mycle Schneider said that the disaster can be understood as a unique chance to get it right on energy policy. Germany  with its nuclear phase-out decision based on a renewable energy program  and Japan  having suffered a painful shock but possessing unique technical capacities and societal discipline  can be at the forefront of an authentic paradigm shift toward a truly sustainable, low-carbon and nuclear-free energy policy.[299]
+On the other hand, climate and energy scientists James Hansen, Ken Caldeira, Kerry Emanuel, and Tom Wigley released an open letter calling on world leaders to support development of safer nuclear power systems, stating There is no credible path to climate stabilization that does not include a substantial role for nuclear power. [300] In December 2014, an open letter from 75 climate and energy scientists on the website of pro-nuclear advocate Barry Brook asserted nuclear power has lowest impact on wildlife and ecosystems  which is what we need given the dire state of the worlds biodiversity.[301] Brook's advocacy for nuclear power has been challenged by opponents of nuclear industries, including environmentalist Jim Green of Friends of the Earth.[302] Brook has described the Australian Greens political party (SA Branch) and Australian Youth Climate Coalition as sad and increasingly irrelevant after they expressed their opposition to nuclear industrial development.[303]
+As of September2011[update], Japan planned to build a pilot offshore floating wind farm, with six 2 MW turbines, off the Fukushima coast.[304] The first became operational in November 2013.[305] After the evaluation phase is complete in 2016, Japan plans to build as many as 80 floating wind turbines off Fukushima by 2020.[304] In 2012, Prime Minister Kan said the disaster made it clear to him that Japan needs to dramatically reduce its dependence on nuclear power, which supplied 30% of its electricity before the crisis, and has turned him into a believer of renewable energy.[citation needed] Sales of solar panels in Japan rose 30.7% to 1,296 MW in 2011, helped by a government scheme to promote renewable energy. Canadian Solar received financing for its plans to build a factory in Japan with capacity of 150 MW, scheduled to begin production in 2014.[306]
+As of September 2012, the Los Angeles Times reported that Prime Minister Yoshihiko Noda acknowledged that the vast majority of Japanese support the zero option on nuclear power,[307] and Prime Minister Noda and the Japanese government announced plans to make the country nuclear-free by the 2030s. They announced the end to construction of nuclear power plants and a 40-year limit on existing nuclear plants. Nuclear plant restarts must meet safety standards of the new independent regulatory authority. The plan requires investing $500 billion over 20 years.[308]
+On 16 December 2012, Japan held its general election. The Liberal Democratic Party (LDP) had a clear victory, with Shinz Abe as the new Prime Minister. Abe supported nuclear power, saying that leaving the plants closed was costing the country 4 trillion yen per year in higher costs.[309] The comment came after Junichiro Koizumi, who chose Abe to succeed him as premier, made a recent statement to urge the government to take a stance against using nuclear power.[310] A survey on local mayors by the Yomiuri Shimbun newspaper in January 2013 found that most of them from cities hosting nuclear plants would agree to restarting the reactors, provided the government could guarantee their safety.[311] More than 30,000 people marched on 2 June 2013, in Tokyo against restarting nuclear power plants. Marchers had gathered more than 8 million petition signatures opposing nuclear power.[312]
+In October 2013, it was reported that TEPCO and eight other Japanese power companies were paying approximately 3.6 trillion yen (37 billion dollars) more in combined imported fossil fuel costs compared to 2010, before the accident, to make up for the missing power.[313]
+From 2016 to 2018 the nation fired up at least eight new coal power plants. Plans for an additional 36 coal stations over the next decade are the biggest planned coal power expansion in any developed nation. The new national energy plan that would have coal provide 26% of Japan's electricity in 2030, presents the abandoning of a previous goal of reducing coal's share to 10%. The coal revival is seen as having alarming implications for air pollution and Japan's ability to meet its pledges to cut greenhouse gases by 80% by 2050.[314]
+
+Equipment, facility, and operational changes[edit]
+A number of nuclear reactor safety system lessons emerged from the incident. The most obvious was that in tsunami-prone areas, a power station's sea wall must be adequately tall and robust.[9] At the Onagawa Nuclear Power Plant, closer to the epicenter of 11 March earthquake and tsunami,[315] the sea wall was 14 meters (46ft) tall and successfully withstood the tsunami, preventing serious damage and radioactivity releases.[316][317]
+Nuclear power station operators around the world began to install Passive Autocatalytic hydrogen Recombiners (PARs), which do not require electricity to operate.[318][319][320] PARs work much like the catalytic converter on the exhaust of a car to turn potentially explosive gases such as hydrogen into water. Had such devices been positioned at the top of Fukushima I's reactor buildings, where hydrogen gas collected, the explosions would not have occurred and the releases of radioactive isotopes would arguably have been much less.[31]
+Unpowered filtering systems on containment building vent lines, known as Filtered Containment Venting Systems (FCVS), can safely catch radioactive materials and thereby allow reactor core depressurization, with steam and hydrogen venting with minimal radioactivity emissions.[31][321] Filtration using an external water tank system is the most common established system in European countries, with the water tank positioned outside the containment building.[322] In October 2013, the owners of Kashiwazaki-Kariwa nuclear power station began installing wet filters and other safety systems, with completion anticipated in 2014.[323][324]
+For generation II reactors located in flood or tsunami prone areas, a 3+ day supply of back-up batteries has become an informal industry standard.[325][326] Another change is to harden the location of back-up diesel generator rooms with water-tight, blast-resistant doors and heat sinks, similar to those used by nuclear submarines.[31] The oldest operating nuclear power station in the world, Beznau, which has been operating since 1969, has a 'Notstand' hardened building designed to support all of its systems independently for 72hours in the event of an earthquake or severe flooding. This system was built prior to Fukushima Daiichi.[327][328]
+Upon a station blackout, similar to the one that occurred after Fukushima's back-up battery supply was exhausted,[329] many constructed Generation III reactors adopt the principle of passive nuclear safety. They take advantage of convection (hot water tends to rise) and gravity (water tends to fall) to ensure an adequate supply of cooling water to handle the decay heat, without the use of pumps.[330][331]
+As the crisis unfolded, the Japanese government sent a request for robots developed by the U.S. military. The robots went into the plants and took pictures to help assess the situation, but they couldn't perform the full range of tasks usually carried out by human workers.[332] The Fukushima disaster illustrated that robots lacked sufficient dexterity and robustness to perform critical tasks. In response to this shortcoming, a series of competitions were hosted by DARPA to accelerate the development of humanoid robots that could supplement relief efforts.[333][334]
+Eventually a wide variety of specially designed robots were employed (leading to a robotics boom in the region),[335] but as of early 2016 three of them had promptly become non-functional due to the intensity of the radioactivity; one was destroyed within a day.[336]
+
+Reactions[edit]
+Japan[edit]
+Main article: Japanese reaction to Fukushima Daiichi nuclear disaster
+ Japan towns, villages, and cities in and around the Daiichi nuclear plant exclusion zone. The 20 and 30km (12 and 19mi) areas had evacuation and shelter in place orders, and additional administrative districts that had an evacuation order are highlighted. However, the above map's factual accuracy is called into question as only the southern portion of Kawamata district had evacuation orders. More accurate maps are available.[337][338]
+Japanese authorities later admitted to lax standards and poor oversight.[339] They took fire for their handling of the emergency and engaged in a pattern of withholding and denying damaging information.[339][340][341][342] Authorities allegedly[dubious   discuss] wanted to limit the size of costly and disruptive evacuations in land-scarce Japan and to avoid public questioning of the politically powerful nuclear industry. Public anger emerged over an official campaign[citation needed][not in citation given] to play down the scope of the accident and the potential health risks.[341][342][343]
+In many cases, the Japanese government's reaction was judged to be less than adequate by many in Japan, especially those who were living in the region. Decontamination equipment was slow to be made available and then slow to be utilized. As late as June 2011, even rainfall continued to cause fear and uncertainty in eastern Japan because of its possibility of washing radioactivity from the sky back to earth.[citation needed]
+To assuage fears, the government enacted an order to decontaminate over a hundred areas with a level contamination greater than or equivalent to one millisievert[clarification needed] of radiation. This is a much lower threshold than is necessary for protecting health. The government also sought to address the lack of education on the effects of radiation and the extent to which the average person was exposed.[344]
+Previously a proponent of building more reactors, Kan took an increasingly anti-nuclear stance following the disaster. In May 2011, he ordered the aging Hamaoka Nuclear Power Plant closed over earthquake and tsunami concerns, and said he would freeze building plans. In July 2011, Kan said, Japan should reduce and eventually eliminate its dependence on nuclear energy.[345] In October 2013, he said that if the worst-case scenario had been realized, 50 million people within a 250-kilometer (160mi) radius would have had to evacuate.[346]
+On 22 August 2011, a government spokesman mentioned the possibility that some areas around the plant could stay for some decades a forbidden zone. According to Yomiuri Shimbun the Japanese government was planning to buy some properties from civilians to store waste and materials that had become radioactive after the accidents.[347][348] Chiaki Takahashi, Japan's foreign minister, criticized foreign media reports as excessive. He added that he could understand the concerns of foreign countries over recent developments at the nuclear plant, including the radioactive contamination of seawater.[349]
+Due to frustration with TEPCO and the Japanese government providing differing, confusing, and at times contradictory, information on critical health issues[350] a citizen's group called Safecast recorded detailed radiation level data in Japan.[351][352] The Japanese government does not consider nongovernment readings to be authentic. The group uses off-the-shelf Geiger counter equipment. A simple Geiger counter is a contamination meter and not a dose rate meter. The response differs too much between different radioisotopes to permit a simple GM tube for dose rate measurements when more than one radioisotope is present. A thin metal shield is needed around a GM tube to provide energy compensation to enable it to be used for dose rate measurements. For gamma emitters either an ionization chamber, a gamma spectrometer or an energy compensated GM tube are required. Members of the Air Monitoring station facility at the Department of Nuclear Engineering at the University of Berkeley, California have tested many environmental samples in Northern California.[353]
+
+International[edit]
+Main article: International reactions to the Fukushima Daiichi nuclear disaster
+ Evacuation flight departs Misawa
+ U.S. Navy humanitarian flight undergoes radioactive decontamination
+ Protest against nuclear power in Cologne, Germany on 26 March 2011
+The international reaction to the disaster was diverse and widespread. Many inter-governmental agencies immediately offered help, often on an ad hoc basis. Responders included IAEA, World Meteorological Organization and the Preparatory Commission for the Comprehensive Nuclear Test Ban Treaty Organization.[354]
+In May 2011, UK chief inspector of nuclear installations Mike Weightman traveled to Japan as the lead of an International Atomic Energy Agency (IAEA) expert mission. The main finding of this mission, as reported to the IAEA ministerial conference that month, was that risks associated with tsunamis in several sites in Japan had been underestimated.[355]
+In September 2011, IAEA Director General Yukiya Amano said the Japanese nuclear disaster caused deep public anxiety throughout the world and damaged confidence in nuclear power.[356][357] Following the disaster, it was reported in The Economist that the IAEA halved its estimate of additional nuclear generating capacity to be built by 2035.[358]
+In the aftermath, Germany accelerated plans to close its nuclear power reactors and decided to phase the rest out by 2022.[359] Italy held a national referendum, in which 94 percent voted against the government's plan to build new nuclear power plants.[360] In France, President Hollande announced the intention of the government to reduce nuclear usage by one third. So far, however, the government has only earmarked one power station for closure  the aging plant at Fessenheim on the German border  which prompted some to question the government's commitment to Hollande's promise. Industry Minister Arnaud Montebourg is on record as saying that Fessenheim will be the only nuclear power station to close. On a visit to China in December 2014 he reassured his audience that nuclear energy was a sector of the future and would continue to contribute at least 50% of France's electricity output.[361] Another member of Hollande's Socialist Party, the MP Christian Bataille, said that Hollande announced the nuclear curb to secure the backing of his Green coalition partners in parliament.[362]
+Nuclear power plans were not abandoned in Malaysia, the Philippines, Kuwait, and Bahrain, or radically changed, as in Taiwan. China suspended its nuclear development program briefly, but restarted it shortly afterwards. The initial plan had been to increase the nuclear contribution from 2 to 4 percent of electricity by 2020, with an escalating program after that. Renewable energy supplies 17 percent of China's electricity, 16% of which is hydroelectricity. China plans to triple its nuclear energy output to 2020, and triple it again between 2020 and 2030.[363]
+New nuclear projects were proceeding in some countries. KPMG reports 653 new nuclear facilities planned or proposed for completion by 2030.[364] By 2050, China hopes to have 400500 gigawatts of nuclear capacity  100 times more than it has now.[365] The Conservative Government of the United Kingdom is planning a major nuclear expansion despite some public objection.[citation needed] So is Russia.[366] India is also pressing ahead with a large nuclear program, as is South Korea.[367] Indian Vice President M Hamid Ansari said in 2012 that nuclear energy is the only option for expanding India's energy supplies,[368] and Prime Minister Modi announced in 2014 that India intended to build 10 more nuclear reactors in a collaboration with Russia.[369]
+
+Investigations[edit]
+Three investigations into the Fukushima disaster showed the man-made nature of the catastrophe and its roots in regulatory capture associated with a network of corruption, collusion, and nepotism.[370][371] Regulatory capture refers to the situation where regulators charged with promoting the public interest defer to the wishes and advance the agenda of the industry or sector they ostensibly regulate. Those with a vested interest in specific policy or regulatory outcomes lobby regulators and influence their choices and actions. Regulatory capture explains why some of the risks of operating nuclear power reactors in Japan were systematically downplayed and mismanaged so as to compromise operational safety.[371]
+Many reports say that the government shares blame with the regulatory agency for not heeding warnings and for not ensuring the independence of the oversight function.[372] The New York Times said that the Japanese nuclear regulatory system sided with and promoted the nuclear industry because of amakudari ('descent from heaven') in which senior regulators accepted high paying jobs at companies they once oversaw. To protect their potential future position in the industry, regulators sought to avoid taking positions that upset or embarrass the companies. TEPCO's position as the largest electrical utility in Japan made it the most desirable position for retiring regulators. Typically the most senior officials went to work at TEPCO, while those of lower ranks ended up at smaller utilities.[373]
+In August 2011, several top energy officials were fired by the Japanese government; affected positions included the Vice-minister for Economy, Trade and Industry; the head of the Nuclear and Industrial Safety Agency, and the head of the Agency for Natural Resources and Energy.[374]
+In 2016 three former TEPCO executives, chairman Tsunehisa Katsumata and two vice presidents, were indicted for negligence resulting in death and injury.[226][375] In June 2017 the first hearing took place, in which the three pleaded not guilty to professional negligence resulting in death and injury.[376]
+
+NAIIC[edit]
+Main article: National Diet of Japan Fukushima Nuclear Accident Independent Investigation Commission
+The Fukushima Nuclear Accident Independent Investigation Commission (NAIIC) was the first independent investigation commission by the National Diet in the 66-year history of Japan's constitutional government.
+Fukushima cannot be regarded as a natural disaster, the NAIIC panel's chairman, Tokyo University professor emeritus Kiyoshi Kurokawa, wrote in the inquiry report. It was a profoundly man-made disaster  that could and should have been foreseen and prevented. And its effects could have been mitigated by a more effective human response.[377] Governments, regulatory authorities and Tokyo Electric Power [TEPCO] lacked a sense of responsibility to protect people's lives and society, the Commission said. They effectively betrayed the nation's right to be safe from nuclear accidents.[378]
+The Commission recognized that the affected residents were still struggling and facing grave concerns, including the health effects of radiation exposure, displacement, the dissolution of families, disruption of their lives and lifestyles and the contamination of vast areas of the environment.
+
+Investigation Committee[edit]
+Main article: Investigation Committee on the Accident at the Fukushima Nuclear Power Stations of Tokyo Electric Power Company
+The purpose of the Investigation Committee on the Accident at the Fukushima Nuclear Power Stations (ICANPS) was to identify the disaster's causes and propose policies designed to minimize the damage and prevent the recurrence of similar incidents.[379] The 10 member, government-appointed panel included scholars, journalists, lawyers, and engineers.[380][381] It was supported by public prosecutors and government experts.[382] and released its final, 448-page[383] investigation report on 23 July 2012.[49][384]
+The panel's report faulted an inadequate legal system for nuclear crisis management, a crisis-command disarray caused by the government and TEPCO, and possible excess meddling on the part of the Prime Minister's office in the crisis' early stage.[385] The panel concluded that a culture of complacency about nuclear safety and poor crisis management led to the nuclear disaster.[380]
+
+See also[edit]
+
+Japan portal
+Energy portal
+Nuclear technology portal
+Disasters portal
+
+Comparison of Fukushima and Chernobyl nuclear accidents
+Environmental issues in Japan
+Fukushima disaster cleanup
+List of Japanese nuclear incidents
+Japanese Nuclear Safety Commission
+List of civilian nuclear accidents
+Lists of nuclear disasters and radioactive incidents
+Nuclear power in Japan
+Nuclear power phase-out
+Radiation effects from the Fukushima Daiichi nuclear disaster
+Timeline of the Fukushima Daiichi nuclear disaster
+
+References[edit]
+Notes[edit]
+
+
+^ a b 
+High-resolution photos of Fukushima Daiichi (Press release). Air Photo Service Co. Ltd., Japan. 24 March 2011. Retrieved 14 January 2014.
+
+^ Negishi, Mayumi (12 April 2011). Japan raises nuclear crisis severity to highest level. Reuters.
+
+^ Fukushima accident upgraded to severity level 7. IEEE Spectrum. 12 April 2011.
+
+^ a b c Japan acknowledges first radiation death from nuclear plant hit by tsunami. ABC News. 6 September 2018. Retrieved 30 April 2019.
+
+^ Fukushima nuclear disaster: Japan confirms first worker death from radiation. BBC News. BBC. 5 September 2018. Retrieved 5 September 2018.
+
+^ a b Hasegawa, A.; Ohira, T.; Maeda, M.; Yasumura, S.; Tanigawa, K. (1 April 2016). Emergency Responses and Health Consequences after the Fukushima Accident; Evacuation and Relocation. Clinical Oncology. 28cissue=4 (4): 237244. doi:10.1016/j.clon.2016.01.002. ISSN0936-6555. PMID26876459.
+
+^ Radiation-exposed workers to be treated at Chiba hospital. Kyodo News. 17 April 2011. Retrieved 12 February 2016.
+
+^ Analysis: A month on, Japan nuclear crisis still scarring Archived 15 August 2012 at the Wayback Machine International Business Times (Australia). 9 April 2011, retrieved 12 April 2011
+
+^ a b c d 
+Lipscy, Phillip; Kushida, Kenji; Incerti, Trevor (2013). The Fukushima Disaster and Japan's Nuclear Plant Vulnerability in Comparative Perspective (PDF). Environmental Science & Technology. 47 (12): 608288. Bibcode:2013EnST...47.6082L. doi:10.1021/es4004813. PMID23679069.
+
+^ a b c d e f g h Richard A. Clarke; R.P. Eddy (2017). Warnings: Finding Cassandras to stop catastrophe. Harper Collins. p.84.
+
+^ Wayback Machine (PDF). 26 February 2017. Archived from the original (PDF) on 26 February 2017.
+
+^ a b Fackler, Martin (12 October 2012). Japan Power Company Admits Failings on Plant Precautions. The New York Times. Archived from the original on 6 October 2014. Retrieved 13 October 2012.
+
+^ a b Sheldrick, Aaron (12 October 2012). Fukushima operator must learn from mistakes, new adviser says. Reuters. Archived from the original on 9 March 2014. Retrieved 13 October 2012.
+
+^ a b Yamaguchi, Mari (12 October 2012). Japan utility agrees nuclear crisis was avoidable. Boston.com. Associated Press. Archived from the original on 5 October 2013. Retrieved 13 October 2012.
+
+^ a b Japanese nuclear plant operator admits playing down risk. CNN Wire Staff. CNN. 12 October 2012. Archived from the original on 9 March 2014. Retrieved 13 October 2012.
+
+^ a b No, The Cancer Death Was Probably Not From Fukushima. Retrieved 30 April 2019.
+
+^ Increase in Cancer Unlikely following Fukushima Exposure  says UN Report. Unis.unvienna.org.
+
+^ Fukushima disaster predicted to raise cancer rates slightly.
+
+^ a b c Justin Mccurry (10 March 2014). Fukushima operator may have to dump contaminated water into Pacific. The Guardian. Archived from the original on 18 March 2014. Retrieved 10 March 2014.
+
+^ a b Peter Fairley (20 October 2015). Startup Time for Fukushima's Frozen Wall. Here's Why it Should Work. IEEE. Retrieved 13 November 2015.
+
+^ Tepco's 'ice wall' fails to freeze Fukushima's toxic water buildup. 8 March 2018. Retrieved 30 April 2019   via www.reuters.com.
+
+^ Eight years on, water woes threaten Fukushima cleanup. Reuters. 11 March 2019. Retrieved 6 June 2019.
+
+^ fukushima-is-still-news. TEPCO footage shows fuel debris in No. 2 reactor.
+
+^ Highest radiation reading since 3/11 detected at Fukushima No. 1 reactor. The Japan Times Online. 3 February 2017. ISSN0447-5763. Retrieved 12 February 2017.
+
+^ Beser, Ari (22 February 2017). After Alarmingly High Radiation Levels Detected, What Are the Facts in Fukushima?. National Geographic Society. Retrieved 9 April 2017.
+
+^ Su, S. (August 2006). TAD Source Term and Dose Rate Evaluation (PDF). Bechtel Saic. 000-30R-GGDE-00100-000-00A. Retrieved 20 May 2012.
+
+^ Black, Richard (15 March 2011). Reactor breach worsens prospects. BBC Online. Retrieved 23 March 2011.
+
+^ a b Japanese Earthquake Update (19 March 2011, 4:30 UTC): IAEA Alert Log: Fukushima Daiichi Nuclear Accident. 7 June 2011. Archived from the original on 7 June 2011.
+
+^ https://web.archive.org/web/20170226171624/http://www.jsmillerdesign.com/FukushimaPapers/Fukuchima_AREVA.pdf Accident Progression.
+
+^ W. Maschek; A. Rineiski; M. Flad; V. Kriventsev; F. Gabrielli; K. Morita. Recriticality, a Key Phenomenon to Investigate in Core Disruptive Accident Scenarios of Current and Future Fast Reactor Designs (PDF). IAEA & Institute for Nuclear and Energy Technologies (IKET). Archived from the original (PDF) on 15 June 2018. Retrieved 31 August 2018. Note: See picture in the upper left corner of page 2.
+
+^ a b c d 24Hours at Fukushima A blow-by-blow account of the worst nuclear accident since Chernobyl By Eliza Strickland Posted 31 Oct 2011 Archived 14 November 2013 at the Wayback Machine
+
+^ a b OECD Timeline for the Fukushima Daiichi nuclear power plant accident. Archived from the original on 29 October 2013.
+
+^ Fukushima nuclear accident update log, updates of 15March2011. IAEA. 15 March 2011. Archived from the original on 9 April 2011. Retrieved 8 May 2011.
+
+^ Hydrogen explosions Fukushima nuclear plant: what happened? Archived 2 December 2013 at the Wayback Machine
+
+^ MELCOR Model of the Spent Fuel Pool of Fukushima Dai-ichi Unit 4 (PDF). Oak Ridge National Laboratory. Archived from the original (PDF) on 5 March 2013.
+
+^ page 6 (PDF).
+
+^ Archived copy (PDF). Archived from the original (PDF) on 2 December 2013. Retrieved 11 April 2013.CS1 maint: Archived copy as title (link) What happened at Fukushima a Technical Perspective. Nuclear Regulatory Commission Page 11, 26, 29.
+
+^ Sadiq Aliyu, Abubakar;  et al. (2015). An overview of current knowledge concerning the health and environmental consequences of the Fukushima Daiichi Nuclear Power Plant (FDNPP) accident. Environment International. 85: 21328. doi:10.1016/j.envint.2015.09.020. PMID26425805.
+
+^ Hasegawa;  et al. (2015). From Hiroshima and Nagasaki to Fukushima 2. Health effects of radiation and other health problems in the aftermath of nuclear accidents, with an emphasis on Fukushima. The Lancet. 386 (9992): 47988. doi:10.1016/S0140-6736(15)61106-0. PMID26251393.
+
+^ Health risk assessment from the nuclear accident after the 2011 Great East Japan Earthquake and Tsunami based on a preliminary dose estimation (PDF). Apps.who.int. p.92. Retrieved 30 April 2019.
+
+^ a b c d Walsh, Bryan. (1 March 2013) WHO Report Says That Fukushima Nuclear Accident Posed Minimal Risk to Health |Time.com. Science.time.com. Retrieved on 2013-09-06. Archived 4 November 2013 at the Wayback Machine
+
+^ a b WHO 2013, pp.70, 7980.
+
+^ Ryall, Julian (19 July 2012). Nearly 36pc of Fukushima children diagnosed with thyroid growths. The Daily Telegraph.
+
+^ a b Experts link higher incidence of children's cancer to Fukushima radiation. Sciencealert.com. Retrieved 15 January 2016.
+
+^ WHO | FAQs: Fukushima Five Years On. WHO. Retrieved 6 June 2019.
+
+^ a b c d Radioactivity and thyroid cancer*Christopher Reiners Clinic and Polyclinic of Nuclear Medicine University of Wrzburg. See Figure 1. Thyroid cancer Incidence in children and adolescents from Belarus after the Chernobyl accident. Archived from the original on 15 October 2013.
+
+^ a b c Disturbing thyroid cancer rise in Fukushima minors. RT. 21 August 2013. Archived from the original on 27 March 2014.
+
+^ National Diet of Japan Fukushima Nuclear Accident Independent Investigation Commission.  |  (in Japanese). National Diet of Japan Fukushima Nuclear Accident Independent Investigation Commission. Archived from the original on 19 January 2013. Retrieved 9 July 2012.
+
+^ a b Update: Government panel blasts lack of 'safety culture' in nuclear accident. The Asahi Shimbun. 23 July 2012. Archived from the original on 13 April 2014. Retrieved 29 July 2012.
+
+^ Otake, Tomoko (20 July 2016). In first, Tepco admits ice wall can't stop Fukushima No. 1 groundwater. The Japan Times Online   via Japan Times Online.
+
+^ Otake, Tomoko (20 July 2016). In first, Tepco admits ice wall can't stop Fukushima No. 1 groundwater. The Japan Times Online. ISSN0447-5763. Retrieved 12 February 2017.
+
+^ Fukushima disaster area Tour  Feel the reality of the disaster in a life-changing tour. Fukushima.tohoku-tour.com.
+
+^ Fukushima Daiichi Information Screen. Icjt.org. Archived from the original on 12 July 2013. Retrieved 15 March 2011.
+
+^ a b c Brady, A. Gerald (1980).  Ellingwood, Bruce (ed.). An Investigation of the Miyagi-ken-oki, Japan, earthquake of June12,1978. United States Department of Commerce, National Bureau of Standards. NBS special publication. 592. p.123.
+
+^ a b The record of the earthquake intensity observed at Fukushima Daiichi Nuclear Power Station and Fukushima Daini Nuclear Power Station (Interim Report). TEPCO (Press release). 1 April 2011. Archived from the original on 6 May 2014.
+
+^ a b Fukushima faced 14-metre tsunami. World Nuclear News. 24 March 2011. Archived from the original on 16 June 2011. Retrieved 24 March 2011.
+
+^ Fukushima to Restart Using MOX Fuel for First Time. Nuclear Street. 17 September 2010. Archived from the original on 29 April 2014. Retrieved 12 March 2011.
+
+^ Martin, Alex, Lowdown on nuclear crisis and potential scenarios, Japan Times, 20 March 2011, p. 3.[dead link]
+
+^ Fukushima: Background on Fuel Ponds. Archived from the original (PDF) on 16 October 2013. Retrieved 23 November 2013.
+
+^ Yoshida, Reiji (20 March 2013). No. 1 fuel pool power to be restored: Tepco. The Japan Times Online. Archived from the original on 7 January 2014. Retrieved 20 March 2013.
+
+^ NISA  The 2011 off the Pacific coast of Tohoku Pacific Earthquake and the seismic damage to the NPPs, p. 35 (PDF). Archived from the original (PDF) on 1 May 2011. Retrieved 24 April 2011.
+
+^ International Atomic Energy Agency (IAEA) (August 2015). The Fukushima Daiichi Accident: Technical Volume 1/5  Description and Context of the Accident (PDF). International Atomic Energy Agency (IAEA). Retrieved 5 August 2017.
+
+^ a b Grier, Peter (16 March 2011). Meltdown 101: Why is Fukushima crisis still out of control?. Christian Science Monitor. Archived from the original on 6 May 2014. Retrieved 27 March 2011.
+
+^ Helman, Christopher (15 March 2011). Explainer: What caused the incident at Fukushima-Daiichi. Forbes. Archived from the original on 16 March 2011. Retrieved 7 April 2011.
+
+^ DOE fundamentals handbook  Decay heat, Nuclear physics and reactor theory (PDF). Archived from the original (PDF) on 16 March 2011. Retrieved 16 May 2009., Vol. 2, module 4, p. 61.
+
+^ What if it happened here?. Somdnews.com. Archived from the original on 7 April 2011. Retrieved 7 April 2011.
+
+^ More on spent fuel pools at Fukushima. Allthingsnuclear.org. 21 March 2011. Archived from the original on 9 April 2011. Retrieved 7 April 2011.
+
+^ Pre-construction safety report  Sub-chapter 9.2  Water Systems. AREVA NP / EDF, published 2009-06-29, Retrieved 23 March 2011.
+
+^ Why has it become impossible for Fukushima Dai-ichi Nuclear Power Station to cool reactor core?. Shimbun.denki.or.jp. Archived from the original on 27 April 2011. Retrieved 7 April 2011.
+
+^ Meltdown.
+
+^ Higgins, Andrew, disorder intensified Japan's crisis, The Washington Post, 19 April 2011, Retrieved 21 April 2011. Archived 23 December 2018 at the Wayback Machine
+
+^ Mike Soraghan (24 March 2011). Japan disaster raises questions about backup power at US nuclear plants. The New York Times. Greenwire. Retrieved 7 April 2011.
+
+^ Regulatory effectiveness of the station blackout rule (PDF). Retrieved 7 April 2011.
+
+^ a b The 2011 off the Pacific coast of Tohoku Pacific Earthquake and the seismic damage to the NPPs (PDF). Archived from the original (PDF) on 22 May 2011. Retrieved 13 July 2011.
+
+^ a b c d Shirouzu, Norihiko (1 July 2011). Wall Street Journal: Design Flaw Fueled Nuclear Disaster. Online.wsj.com. Archived from the original on 1 July 2011. Retrieved 13 July 2011.
+
+^ Yoshida, Reiji, GE plan followed with inflexibility, Japan Times, 14 July 2011, p. 1. Archived 13 July 2011 at WebCite
+
+^ Arita, Eriko, Disaster analysis you may not hear elsewhere Archived 29 August 2011 at the Wayback Machine, Japan Times, 20 March 2011, p. 12.
+
+^ Agence France-Presse/Jiji Press, Tsunami that knocked out nuke plant cooling systems topped 14 meters, Japan Times, 23 March 2011, p. 2.
+
+^ IAEA warned Japan over nuclear quake risk: WikiLeaks. physorg.com. Archived from the original on 17 January 2012. Retrieved 26 March 2011.
+
+^ Plant Status of Fukushima Daini Nuclear Power Station (as of 0AM 12 March ), TEPCO, end of day 11 April. Archived 15 February 2014 at the Wayback Machine
+
+^ Fukushima No. 1 plant designed on 'trial-and-error' basis, Asahi Shimbun, 7 April 2011. Archived 13 April 2011 at WebCite
+
+^ a b IAEA Update on Japan Earthquake. June 2011. Archived from the original on 12 March 2011. Retrieved 16 March 2011. As reported earlier, a 400 millisieverts (mSv) per hour radiation dose observed at Fukushima Daiichi occurred between 1s 3 and 4. This is a high dose-level value, but it is a local value at a single location and at a certain point in time. The IAEA continues to confirm the evolution and value of this dose rate. It should be noted that because of this detected value, non-indispensable staff was evacuated from the plant, in line with the Emergency Response Plan, and that the population around the plant is already evacuated.
+
+^ Spraying continues at Fukushima Daiichi. 18 March 2011. Archived from the original on 18 March 2011. Retrieved 19 March 2011.
+
+^ The Japanese Nuclear Emergency  Sydney Technical Presentation. Engineers Australia. 6 June 2011. Archived from the original on 30 September 2011. Retrieved 22 August 2011.
+
+^ B. Cox, Journal of Nuclear Materials, Pellet Clad Interaction (PCI) Failures of Zirconium Alloy Fuel Cladding  A Review, 1990, volume 172, pp. 24992/
+
+^ St. John Foreman, Mark Russell (2015). An introduction to serious nuclear accident chemistry. Cogent Chemistry. 1. doi:10.1080/23312009.2015.1049111.
+
+^ The Mainichi Shimbun (28 28 February 2012)TEPCO ordered to report on change in piping layout at Fukushima plant Archived 30 May 2012 at Archive.today
+
+^ NHK-world (29 December 2011) Fukushima plant's backup generator failed in 1991[dead link].JAIF (30 December 2011)Earthquake report 304:Fukushima plant's backup generator failed in 1991 Archived 3 January 2012 at the Wayback Machine.The Mainichi Daily News (30 December 2011) TEPCO neglected anti-flood measures at Fukushima plant despite knowing risk[permanent dead link].
+
+^ TEPCO did not act on tsunami risk projected for nuclear plant |. Jagadees.wordpress.com. 13 February 2012. Archived from the original on 12 April 2014. Retrieved 30 December 2013.
+
+^ AFERC urged to review assumption on Tsunami in 2009. Yomiuri News Paper. 11 March 2011. Archived from the original on 16 February 2014. Retrieved 14 September 2013.
+
+^ Fukushima Nuclear Accident  U.S. NRC warned a risk on emergency power 20 years ago. Bloomberg L.P. 16 March 2011. Archived from the original on 16 February 2014. Retrieved 14 September 2013.
+
+^ Fackler, Martin (9 March 2012). Nuclear Disaster in Japan Was Avoidable, Critics Contend. The New York Times. Retrieved 24 September 2018.
+
+^ IAEA warned Japan over nuclear quake risk: WikiLeaks. physorg.com. Daily Telegraph. 17 March 2011. Archived from the original on 17 January 2012.
+
+^ Magnitude 9.0  near the East coast of Honshu, Japan. Earthquake.usgs.gov. Archived from the original on 12 March 2011. Retrieved 17 March 2011.
+
+^ Plant Status of Fukushima Daiichi Nuclear Power Station (as of 0AM March 12th ). TEPCO (Press release). 12 March 2011. Archived from the original on 10 May 2011. Retrieved 13 March 2011.
+
+^ a b Occurrence of a specific incident stipulated in Article 10, Clause 1 of the Act on Special measures concerning nuclear emergency preparedness (Fukushima Daiichi). TEPCO (Press release). 11 March 2011. Archived from the original on 3 April 2011. Retrieved 13 March 2011.
+
+^ Associated Press, How the first 24hours shaped Fukushima nuclear crisis, Japan Times, 7 July 2011, p. 3. Archived 7 July 2011 at WebCite
+
+^ a b c TEPCO press release 3. Tepco (Press release). 11 March 2011. Archived from the original on 25 April 2011.
+
+^ a b TEPCO tardy on N-plant emergency: National: Daily Yomiuri Online (The Daily Yomiuri). Yomiuri.co.jp (12 April 2011). Retrieved 30 April 2011. Archived 13 April 2011 at WebCite
+
+^ Eric Talmadge (1 July 2011). AP: First 24hours shaped Japan nuke crisis. Google.com. Retrieved 13 July 2011.
+
+^ Japan Meteorological Agency|Tsunami Warnings/Advisories, Tsunami Information. Jma.go.jp. Retrieved 30 April 2011. Archived 18 April 2011 at WebCite
+
+^ Bloomberg, Tepco revises tsunami's height to 15 meters, 10 April 2011, Archived 29 December 2013 at the Wayback Machine
+
+^ a b David Sanger and Matthew Wald, Radioactive releases in Japan could last months, experts say. The New York Times 13 March 2011 Archived 25 September 2012 at the Wayback Machine
+
+^ Massive earthquake hits Japan. World Nuclear News. 11 March 2011. Archived from the original on 11 April 2011. Retrieved 13 March 2011.;
+
+^ Bloomberg L.P., Time not on workers' side as crisis raced on, Japan Times, 5 May 2011, p. 3. Archived 6 May 2011 at WebCite
+
+^ Inajima, Tsuyoshi; Okada, Yuji (11 March 2011). Japan Orders Evacuation From Near Nuclear Plant After Quake. Bloomberg BusinessWeek. Archived from the original on 2 February 2012. Retrieved 11 March 2011.
+
+^ Japan Earthquake Update (2210 CET). International Atomic Energy Agency (Press release). 11 March 2011. Archived from the original on 14 March 2011. Retrieved 12 March 2011.
+
+^ Magnier, Mark;  et al. (16 March 2011). New power line could restore cooling systems at Fukushima Daiichi plant. Los Angeles Times. Archived from the original on 17 March 2011. Retrieved 19 March 2011.
+
+^ Stabilisation at Fukushima Daiichi. World-nuclear-news.org. 20 March 2011. Archived from the original on 11 April 2011. Retrieved 24 April 2011.
+
+^ AP, IAEA: 170,000 Evacuated near Japan nuclear plant, 12 March 2011. https://news.yahoo.com/iaea-170-000-evacuated-near-japan-nuclear-plant-20110312-133929-901.html accessed 23 February 2016.
+
+^ Richard Black (15 March 2011). Japan quake: Radiation rises at Fukushima nuclear plant. BBC Online. Archived from the original on 15 March 2011. Retrieved 15 March 2011.
+
+^ Japan's PM urges people to clear 20-km zone around Fukushima NPP (Update-1). RIA Novosti. Archived from the original on 11 May 2013. Retrieved 15 March 2011.
+
+^ Makinen, Julie (25 March 2011). Japan steps up nuclear plant precautions; Kan apologizes. Los Angeles Times.
+
+^ Herman, Steve (12 April 2011). VOA Correspondent Reaches Crippled Fukushima Daiichi Nuclear Plant. VOA. Archived from the original on 1 June 2013. Retrieved 5 March 2014.
+
+^ The Fukushima Daiichi Accident. Technical Volume 3/5. Emergency Preparedness and Response (PDF). International Atomic Energy Agency. 2015. p.56. Retrieved 12 January 2019.
+
+^ Reconstruction Agency. Reconstruction.go.jp. Retrieved 2 June 2016.
+
+^ Takahashi, Hideki, and Shinya Kokubun, Workers grappled with darkness at start of Fukushima nuclear crisis, Japan Times, 3 September 2014, p. 3
+
+^ Takahashi, Hideki, Shinya Kokubun, and Yukiko Maeda, Response stymied by loss of electricity, Japan Times, 3 September 2014, p. 3
+
+^ Takahashi, Hideki, and Hisashi Ota, Fukushima workers tried to save reactor 1 through venting, Japan Times, 3 September 2014, p. 3
+
+^ a b Uncertainties abound in Fukushima decommissioning. Phys.org. 19 November 2013. Archived 14 March 2014 at the Wayback Machine
+
+^ Fukushima Timeline scientificamerican.com Archived 6 March 2014 at the Wayback Machine
+
+^ a b Most of fuel NOT remaining in reactor1 core / Tepco but molten fuel is stopped in the concrete base Fukushima-Diary.com Archived 25 March 2014 at the Wayback Machine
+
+^ a b Reactor 3 fuel is assumed to have melted concrete base up to 26cm to the wall of primary vessel. Fukushima Diary. Retrieved 12 June 2015.
+
+^ a b TEPCO Admits Unit 3 Had Total Melt Through. SimplyInfo. Retrieved 12 June 2015.
+
+^ a b Fukushima Unit 3 Reactor Vessel Failure Preceded Explosion. SimplyInfo. Retrieved 12 June 2015.
+
+^ Fukushima robot finds potential fuel debris hanging like icicles in reactor 3. The Japan Times. Bloomberg. 21 July 2017. Retrieved 23 July 2017.
+
+^ a b The Evaluation Status of Reactor Core Damage at Fukushima Daiichi Nuclear Power Station Units 1 to 3 30 November 2011 Tokyo Electric Power Company
+
+^ Report on the Investigation and Study of Unconfirmed/Unclear Matters in the Fukushima Nuclear Accident  Progress Report No.2  6 August 2014 Tokyo Electric Power Company, Inc (PDF).
+
+^ TEPCO to start scanning inside of Reactor 1 in early February by using muon  Fukushima Diary
+
+^ Muon Scans Begin At Fukushima Daiichi  SimplyInfo
+
+^ Muon Scan Finds No Fuel In Fukushima Unit 1 Reactor Vessel  SimplyInfo
+
+^ IRID saw no fuel or water remaining in reactor core of Reactor 1  Fukushima Diary
+
+^ High radiation readings at Fukushima's No. 2 reactor complicate robot-based probe. The Japan Times. 10 February 2017. Archived from the original on 15 February 2017. Retrieved 11 February 2017.
+
+^    (in Japanese). NHK. 28 July 2017. Archived from the original on 27 July 2017. Retrieved 28 July 2017.
+
+^ Justin McCurry (3 February 2017). Fukushima nuclear reactor radiation at highest level since 2011 meltdown. The Guardian. Archived from the original on 11 March 2017. Retrieved 3 February 2017.
+
+^ Tepco surveys interior of unit 2 containment vessel. World Nuclear News. 19 January 2018. Retrieved 20 January 2018.
+
+^ Kawahara, Chikako (20 January 2018). Melted nuclear fuel seen inside No. 2 reactor at Fukushima plant. The Asahi Shimbun. Retrieved 20 January 2018.
+
+^ Most fuel in Fukushima 4 pool undamaged. world nuclear news. 14 April 2011. Archived from the original on 15 April 2011. Retrieved 27 January 2012.
+
+^ Japan Diplomat: Ground underneath Fukushima Unit 4 is sinking  More than 30inches in some areas  Now in danger of collapse. ENENews. Archived from the original on 26 March 2014. Retrieved 24 October 2012. Due to its ground has been sinking, reactor 4 is now endangered in collapse.  According to secretary of former Prime Minister Kan, the ground level of the building has been sinking 80cm  unevenly. Because the ground itself has the problem, whether the building can resist a quake bigger than M6 still remains a question.
+
+^ Gundersen: Japan ambassador confirms Fukushima Unit 4 is sinking unevenly  Building may begin to be tilting. ENENews. Archived from the original on 11 March 2014. Retrieved 24 October 2012. So I have been able to confirm that there is unequal sinking at Unit 4, not just the fact the site sunk by 36inches immediately after the accident, but also that Unit 4 continues to sink something on the order of 0.8meters, or around 30inches.
+
+^ Fuel Removal From Unit 4 Reactor Building Completed at Fukushima Daiichi. TEPCO. 22 December 2014. Retrieved 24 December 2014.
+
+^ Staff, CNN Wire. Agency: Damaged container may be causing smoke, radiation spike.
+
+^ Wayback Machine (PDF). Web.archive.org. 23 May 2011. Retrieved 30 April 2019.
+
+^ Seismic Damage Information (the 61st Release) (PDF). Nuclear and Industrial Safety Agency. 29 March 2011. Archived from the original (PDF) on 11 April 2011. Retrieved 12 April 2011.
+
+^ Cresswell, Adam (16 March 2011). Stealthy, silent destroyer of DNA. The Australian
+
+^ Fukushima Radiation Found In Tap Water Around Japan.
+
+^ Fukushima radioactive fallout nears Chernobyl levels  24 March 2011. New Scientist. Retrieved 30 April 2011. Archived 25 March 2011 at WebCite
+
+^ Report: Emissions from Japan plant approach Chernobyl levels, USA Today, 24 March 2011 Archived 18 August 2013 at the Wayback Machine
+
+^ Doughton, Sandi. (5 April 2011) Local News|Universities come through in monitoring for radiation|Seattle Times Newspaper. Seattletimes.nwsource.com. Retrieved 30 April 2011. Archived 21 September 2011 at the Wayback Machine
+
+^ IRSN (26 October 2011). Synthse actualise des connaissances relatives  l'impact sur le milieu marin des rejets radioactifs du site nuclaire accident de Fukushima Dai-ichi (PDF). Retrieved 3 January 2012.
+
+^ Buesseler, Ken O.; Jayne, Steven R.; Fisher, Nicholas S.; Rypina, Irina I.; Baumann, Hannes; Baumann, Zofia; Breier, Crystaline F.; Douglass, Elizabeth M.; George, Jennifer; MacDonald, Alison M.; Miyamoto, Hiroomi; Nishikawa, Jun; Pike, Steven M.; Yoshida, Sashiko (2012). Fukushima-derived radionuclides in the ocean and biota off Japan. Proceedings of the National Academy of Sciences. 109 (16): 598488. Bibcode:2012PNAS..109.5984B. doi:10.1073/pnas.1120794109. PMC3341070. PMID22474387.
+
+^ Fackler, Martin; Tabuchi, Hiroko (24 October 2013). With a Plant's Tainted Water Still Flowing, No End to Environmental Fears. The New York Times. Retrieved 24 September 2018.
+
+^ CTBTO to Share Data with IAEA and WHO. CTBTO Press Release 18 March 2011. Archived from the original on 24 December 2013. Retrieved 17 May 2012.
+
+^ Fukushima-Related Measurements by the CTBTO. CTBTO Press Release 13 April 2011. Archived from the original on 6 May 2011. Retrieved 17 May 2012.
+
+^ CTBTO Trakcs Fukushima's Radioactive Release. Animation CTBTO YouTube Channel. Archived from the original on 23 May 2012. Retrieved 17 May 2012.
+
+^ a b c Frank N. von Hippel (2011). The radiological and psychological consequences of the Fukushima Daiichi accident. Bulletin of the Atomic Scientists. pp.2736. Archived from the original on 20 December 2011.
+
+^ a b No-Man's Land Attests to Japan's Nuclear Nightmare. ABC News, 27.December 2011. Archived 28 December 2011 at the Wayback Machine
+
+^ Reactor accident Fukushima  New international study. Norwegian Institute for Air Research. 21 October 2011. Archived from the original on 6 January 2014. Retrieved 20 January 2012.
+
+^ David Guttenfelder (27 December 2011). No-man's land attests to Japan's nuclear nightmare. theStar.com. Toronto. Archived from the original on 10 January 2012. Retrieved 20 January 2012.
+
+^ Kyodo News, Radioactivity Dispersal Distance From Fukushima 1/10th Of Chernobyl's, 13 March 2012, (wire service report), The data showed, for example, more than 1.48 million becquerels (40 microcuries) of radioactive caesium per square meter was detected in soil at a location some 250kilometers away from the Chernobyl plant. In the case of the Fukushima Daiichi plant, the distance was much smaller at about 33km, the officials said.
+
+^ Hongo, Jun, Fukushima soil fallout far short of Chernobyl, Japan Times, 15 March 2012, p. 1. Archived 16 March 2012 at the Wayback Machine
+
+^ Michael Winter (24 March 2011). Report: Emissions from Japan plant approach Chernobyl levels. USA Today. Archived from the original on 18 August 2013.
+
+^ Hamada, Nobuyuki (2012). Safety regulations of food and water implemented in the first year following the Fukushima nuclear accident. Journal of Radiation Research. 53 (5): 64171. Bibcode:2012JRadR..53..641H. doi:10.1093/jrr/rrs032. PMC3430419. PMID22843368. Retrieved 30 November 2013.
+
+^ a b .  Nikkei Kyodo news. 1 September 2012. Archived from the original on 3 December 2013. Retrieved 18 April 2013.
+
+^ JAIF (5 September 2011) NSC Recalculates Total Amount of Radioactive Materials Released Archived 20 December 2011 at WebCite
+
+^ INES (the International Nuclear and Radiological Event Scale) Rating on the Events in Fukushima Dai-ichi Nuclear Power Station by the Tohoku District  off the Pacific Ocean Earthquake. NISA/METI, 12 April 2011, archived from Original.
+
+^ JAIF (9 September 2011) Radioactive release into sea estimated triple Archived 11 December 2011 at WebCite
+
+^ JAIF 20 September 2011 Earthquake-report 211: A new plan set to reduce radiation emissions
+
+^ Possibility of recriticality again, Fukushima Diary Archived 24 December 2013 at the Wayback Machine
+
+^ Increasing leakage of Iodine-131, Fukushima Diary Archived 24 December 2013 at the Wayback Machine
+
+^ IRSN (26 October 2011). Synthse actualise des connaissances relatives  l'impact sur le milieu marin des rejets radioactifs du site nuclaire accident de Fukushima Dai-ichi (PDF). Retrieved 3 January 2012
+
+^ Daniel J. Madigan; Zofia Baumann; Nicholas S. Fisher (29 May 2012). Pacific bluefin tuna transport Fukushima-derived radionuclides from Japan to California. Proceedings of the National Academy of Sciences of the United States of America. 109 (24): 948386. Bibcode:2012PNAS..109.9483M. doi:10.1073/pnas.1204859109. PMC3386103. PMID22645346
+
+^ Zaveri, Mihir (20 July 2018). Fukushima's Nuclear Imprint Is Found in California Wine (Drinkers, Don't Panic). The New York Times.
+
+^ Aoki, Mizuho, Tohoku fears nuke crisis evacuees gone for good, Japan Times, 8 March 2012, p. 1. Archived 7 March 2012 at the Wayback Machine
+
+^ TEPCO Press Release. The Estimated Amount of Radioactive Materials Released into the Air and the Ocean Caused by Fukushima Daiichi Nuclear Power Station Accident Due to the Tohoku-Chihou-Taiheiyou-Oki Earthquake (As of May 2012). TEPCO. Archived from the original on 15 February 2014. Retrieved 24 May 2012.
+
+^ Kevin Krolicki (24 May 2012). Fukushima radiation higher than first estimated. Reuters. Archived from the original on 15 October 2013. Retrieved 24 May 2012.
+
+^ TEPCO puts radiation release early in Fukushima crisis at 900 PBq. Kyodo News. 24 May 2012. Archived from the original on 24 May 2012. Retrieved 24 May 2012.
+
+^ Estimation of radionuclide emission during 15 March 2011 accident at the fukushima-1 npp (japan), R.V. Arutyunyan, L.A. Bolshov, D.A. Pripachkin, V.N. Semyonov, O.S. Sorokovikova, A.L. Fokin, K.G. Rubinstein, R. Yu. Ignatov, M. M. Smirnova, Atomnaya nergiya, Vol. 112, No. 3, pp. 15963, March 2012, as reported in Atomic Energy, July 2012, Volume 112, Issue 3, pp 188-193s
+
+^ Boytchev, Hristio, First study reports very low internal radioactivity after Fukushima disaster, Washington Post, 15 August 2012
+
+^ Ken O. Buesseler (26 October 2012). Fishing for Answers off Fukushima. Science. 338 (6106): 48082. Bibcode:2012Sci...338..480B. doi:10.1126/science.1228250. hdl:1912/5816. PMID23112321. Archived from the original on 17 August 2013.
+
+^ Tabuchi, Hiroko (25 October 2012). Fish Off Japan's Coast Said to Contain Elevated Levels of Cesium. New York Times Asia Pacific. Retrieved 28 October 2012.
+
+^ See Tfd(in Dutch) Nu.nl (26 October 2012) Tepco sluit niet uit dat centrale Fukushima nog lekt Archived 8 January 2014 at the Wayback Machine
+
+^ Fukushima Plant Admits Radioactive Water Leaked To Sea. Huffingtonpost.com. Retrieved on 6 September 2013. Archived 17 April 2014 at the Wayback Machine
+
+^ Adelman, Jacob. (7 August 2013) Abe Pledges Government Help to Stem Fukushima Water Leaks. Bloomberg. Retrieved on 2013-09-06. Archived 2 December 2013 at the Wayback Machine
+
+^ Wrecked Fukushima storage tank leaking highly radioactive water. Reuters. 20 August 2013. Archived from the original on 29 April 2014. Retrieved 21 August 2013.
+
+^ Chavez, Isabel (1 August 2011). SI Units  Volume.
+
+^ Japan nuclear agency upgrades Fukushima alert level. BBC. 21 August 2013. Archived from the original on 29 April 2014. Retrieved 21 August 2013.
+
+^ Takashi Hirokawa; Jacob Adelman; Peter Langan; Yuji Okada (26 August 2013). Fukushima Leaks Prompt Government to 'Emergency Measures' (1). Businessweek. Bloomberg. Archived from the original on 30 September 2013. Retrieved 27 August 2013.
+
+^ Japan seeks outside help for contaminated water. World Nuclear News. 26 September 2013. Archived from the original on 2 April 2014. Retrieved 1 October 2013.
+
+^ How TEPCO plans to build an ice wall at Fukushima. Nuclear Engineering International. 18 February 2014. Archived from the original on 24 February 2014. Retrieved 19 February 2014.
+
+^ Varma, Subodh (10 February 2014). Fukushima radiation data is wildly wrong, management apologizes. TNN. Archived from the original on 11 February 2014. Retrieved 11 March 2016.
+
+^ TEPCO to review erroneous radiation data. NHK World. NHK. 9 February 2014. Archived from the original on 9 February 2014. Retrieved 9 February 2014. Tokyo Electric Power Company, or TEPCO, says it has detected a record high 5 million becquerels (0.13 millicuries)per liter of radioactive strontium in groundwater collected last July from one of the wells close to the ocean. ... Based on the result, levels of radioactive substances that emit beta particles are estimated to be 10 million becquerels (0.26 millicuries) per liter, which is more than 10 times the initial reading.
+
+^ TEPCO to Review Erroneous Radiation Data. Yomiuri Online. Yomiuri Shimbun. 9 February 2014. Retrieved 9 February 2014. On February 6, TEPCO announced that 5 million Bq/Liter of radioactive strontium was detected from the groundwater sample taken on June 5 last year from one of the observation wells on the embankment of Fukushima I Nuclear Power Plant. The density is 160,000 times that of the legal limit for release into the ocean, and it is about 1,000 times that of the highest density in the groundwater that had been measured so far (5,100 Bq/L). TEPCO didn't disclose the result of measurement of strontium alone, as the company believed there was a possibility that the result of measurement was wrong. As to this particular sample, TEPCO had announced on July last year that the sample had contained 900,000 Bq/L of all-beta including strontium. On February 6, TEPCO explained that they had underestimated all of the results of high-density all-beta, which exceeded the upper limit of measurement. This particular sample may contain about 10 million Bq/L of all-beta, according to TEPCO. The company recently switched to a different method of analysis that uses diluted samples when the density of radioactive materials is high.
+
+^ Fernquest, John. Japan floods: After typhoon, rivers overflow, nuclear water. Retrieved 10 September 2015.
+
+^ Flooding swept away radiation cleanup bags in Fukushima. The Japan Times Online. 12 September 2015. ISSN0447-5763. Retrieved 13 September 2015.
+
+^ Fukushima's radioactive ocean plume due to reach US waters in 2014  NBC News Archived 26 March 2014 at the Wayback Machine
+
+^ Sherwood, Courtney (11 November 2014). Fukushima radiation nears California coast, judged harmless. Science.
+
+^ a b British Columbia | Home. Fukushimainform.ca. Retrieved 2 November 2015.
+
+^ Canadian researcher targeted by hate campaign over Fukushima findings. The Globe and Mail. Retrieved 2 November 2015.
+
+^ a b Yoichi Funabashi; Kay Kitazawa (1 March 2012). Fukushima in review: A complex disaster, a disastrous response. Bulletin of the Atomic Scientists.
+
+^ Hiroko Tabuchi (3 March 2012). Japanese Prime Minister Says Government Shares Blame for Nuclear Disaster. The New York Times.
+
+^ a b AP Interview: Japan woefully unprepared for nuclear disaster, ex-prime minister says. ctv.ca. 17 February 2012. Archived from the original on 15 January 2013.
+
+^ a b Amory Lovins (2011). Soft Energy Paths for the 21st Century. Web.archive.org. Archived from the original on 24 December 2013.
+
+^ Japan did not keep records of nuclear disaster meetings. BBC Online. 27 January 2012. Archived from the original on 20 February 2014.
+
+^ Fukushima Pref. deleted 5 days of radiation dispersion data just after meltdowns. The Mainichi Shimbun. 22 March 2012. Archived from the original on 25 March 2012.
+
+^ Tepco concealed core meltdowns during Fukushima accident. Nuclear Engineering International. 24 June 2016. Retrieved 25 June 2016.
+
+^ Onishi, Norimitsu; Fackler, Martin (8 August 2011). Japan Held Nuclear Data, Leaving Evacuees in Peril. The New York Times. Retrieved 24 September 2018.
+
+^ a b Report: Japan, utility at fault for response to nuclear disaster. LA Times. 26 December 2011. Archived from the original on 23 January 2014.
+
+^ Martin Fackler (27 February 2012). Japan Weighed Evacuating Tokyo in Nuclear Crisis. The New York Times. Archived from the original on 26 June 2012.
+
+^ Yoshida, Reiji (17 March 2012). Kan hero, or irate meddler?. Japan Times. p.2. Archived from the original on 1 November 2012.
+
+^ Hongo, Jun (29 February 2012). Panel lays bare Fukushima recipe for disaster. Japan Times. p.1. Archived from the original on 29 February 2012.
+
+^ Blow-ups happen: Nuclear plants can be kept safe only by constantly worrying about their dangers. The Economist. 10 March 2012. Archived from the original on 12 April 2014.
+
+^ Kyodo News (20 June 2012). Japan sat on U.S. radiation maps showing immediate fallout from nuke crisis. Japan Times. p.1. Archived from the original on 1 November 2012.
+
+^ Japan failed to use U.S. radiation data gathered after nuke crisis. The Mainichi Shimbun. 18 June 2012. Archived from the original on 16 July 2012.
+
+^ a b Japan Atomic Industrial Forum, Inc. (JAIF) (19 June 2012). Earthquake report 447 (PDF)[dead link]
+
+^ The Japan Times (17 January 2012) U.S. forces given SPEEDI data early
+
+^ JIAF (29 June 2012)Earthequake-report 455: NISA sorry for withholding US radiation maps[permanent dead link]
+
+^ Japanese utility admits to 'coverup' during Fukushima nuclear meltdown. Toronto Star. Retrieved 1 July 2016.
+
+^ NISA News Release April12,2011 (PDF). Archived from the original (PDF) on 23 July 2012. Retrieved 24 April 2011.
+
+^ a b Directly comparing Fukushima to Chernobyl: Nature News Blog. Blogs.nature.com (31 January 2013). Retrieved on 2013-02-13. Archived 28 October 2013 at the Wayback Machine
+
+^ Austria (12 April 2011). IAEA Fukushima Nuclear Accident Update Log  Updates of 12April2011. Iaea.org. Archived from the original on 15 April 2011. Retrieved 24 April 2011.
+
+^ a b Press Release |The Estimated Amount of Radioactive Materials Released into the Air and the Ocean Caused by Fukushima Daiichi Nuclear Power Station Accident Due to the Tohoku-Chihou-Taiheiyou-Oki Earthquake (As of May 2012). TEPCO. Retrieved on 13 February 2013. Archived 15 February 2014 at the Wayback Machine
+
+^ a b c Chapter II The release, dispersion and deposition of radionuclides  Chernobyl: Assessment of Radiological and Health Impact. Oecd-nea.org. Retrieved on 13 February 2013. Archived 20 April 2011 at WebCite
+
+^ Isotopic ratio of radioactive iodine (129I/131I) released from Fukushima Daiichi NPP accident (PDF).
+
+^ Johnson, George (21 September 2015). When Radiation Isn't the Real Risk. The New York Times. Retrieved 30 November 2015.
+
+^ a b Fukushima disaster: Ex-Tepco executives charged with negligence. BBC News. 29 February 2016. Retrieved 13 March 2016.
+
+^ Japan Earthquake  Tsunami Fast Facts, CNN, 20 February 2014, archived from the original on 31 October 2013, retrieved 6 April 2014
+
+^ Brumfiel, Geoffrey (23 May 2012). World Health Organization weighs in on Fukushima. Nature. Archived from the original on 6 October 2013. Retrieved 20 March 2013.
+
+^ Brumfiel, Geoff (January 2013). Fukushima: Fallout of fear. Nature. 493 (7432): 29093. Bibcode:2013Natur.493..290B. doi:10.1038/493290a. PMID23325191.
+
+^ Brumfiel, Geoff (May 2012). Print  Fukishima. Nature. 485 (7399): 42324. doi:10.1038/485423a. PMID22622542.
+
+^ Nebehay, Stephanie (28 February 2013). Higher cancer risk after Fukushima nuclear disaster: WHO. Reuters. Archived from the original on 15 October 2013.
+
+^ Rojavin, Y; Seamon, MJ; Tripathi, RS; Papadimos, TJ; Galwankar, S; Kman, N; Cipolla, J; Grossman, MD; Marchigiani, R; Stawicki, SP (April 2011). Civilian nuclear incidents: An overview of historical, medical, and scientific aspects. J Emerg Trauma Shock. 4 (2): 26072. doi:10.4103/0974-2700.82219. PMC3132367. PMID21769214.
+
+^ WHO 2013, p.42.
+
+^ WHO 2013, p.92.
+
+^ a b Global report on Fukushima nuclear accident details health risks. Archived from the original on 12 April 2014. Retrieved 28 April 2014.
+
+^ Frequently asked questions on the Fukushima health risk assessment, questions 3 & 4 Archived 13 February 2014 at the Wayback Machine
+
+^ WHO 2013, p.83.
+
+^ WHO: Slight cancer risk after Japan nuke accident. Archived from the original on 3 March 2013.
+
+^ WHO report: cancer risk from Fukushima is low. Nuclear Engineering International. 1 March 2013. Archived from the original on 14 October 2013. Retrieved 6 March 2013.
+
+^ WHO 2013, p.13.
+
+^ Fukushima Accident. World Nuclear Association. Retrieved 9 September 2018.
+
+^ Goldberg, Jeanne (September  October 2018). From the Spectral to the Spectrum. Skeptical Inquirer. 42 (5).
+
+^ a b Dennis Normile (27 July 2012). Is Nuclear Power Good for You?. Science. 337 (6093): 39596. doi:10.1126/science.337.6093.395-b. Archived from the original on 13 February 2013.
+
+^ John E. Ten Hoeve; Mark Z. Jacobson (2012). Worldwide health effects of the Fukushima Daiichi nuclear accident (PDF). Energy & Environmental Science. 5 (9): 8743. CiteSeerX10.1.1.360.7269. doi:10.1039/c2ee22019a. Retrieved 18 July 2012.
+
+^ Evangeliou, Nikolaos; Balkanski, Yves; Cozic, Anne; Pape Mller, Anders (2014). Predictions on the contamination levels from various fission products released from the accident and updates on the risk assessment for solid and thyroid cancers. Science of the Total Environment. 500-501: 15572. doi:10.1016/j.scitotenv.2014.08.102. PMID25217754.
+
+^ Normile, D. (2011). Fukushima Revives the Low-Dose Debate (PDF). Science. 332 (6032): 90810. Bibcode:2011Sci...332..908N. doi:10.1126/science.332.6032.908. PMID21596968.
+
+^ Luckey, T.J. (27 September 2006). Radiation Hormesis: The Good, the Bad, and the Ugly. Dose-Response. 4 (3): 18990. doi:10.2203/dose-response.06-102.Luckey. PMC2477686. PMID18648595.
+
+^ Aurengo, A.;  et al. (2005). Dose-Effect Relationships and Estimation of the Carcinogenic Effects of Low Doses of Ionizing Radiation. Academies of Sciences and Medicine, Paris. 2 (3/4): 135. doi:10.1504/IJLR.2006.009510.
+
+^ Radioactive Tuna Fish From Fukushima Reactor Spotted Off U.S. Shores. Fox Weekly. 30 April 2014. Archived from the original on 2 May 2014.
+
+^ Sebens, Shelby (29 April 2014). Study finds Fukushima radioactivity in tuna off Oregon, Washington. Yahoo. Archived from the original on 3 May 2014.
+
+^ Worstall, Tim (16 November 2013). Fukushima Radiation In Pacific Tuna Is Equal To One Twentieth Of A Banana. Forbes. Archived from the original on 2 May 2014.
+
+^ Teishima, Hirohiko;  et al. (2017). Concentration of radiocesium in Japanese whiting Sillago japonica living in Tokyo Bay after the Fukushima Daiichi Nuclear Power Station accident. Journal of Advanced Marine Science and Technology Society (in Japanese and English). 23 (1): 19. doi:10.14928/amstec.23.1_1.
+
+^ Tilman Ruff. Fukushima: The Misery Piles up, Pursuit magazine, University of Melbourne, 2016.
+
+^ Hiyama;  et al. (2012). The biological impacts of the Fukushima nuclear accident on the pale grass blue butterfly. Scientific Reports. 2: 570. Bibcode:2012NatSR...2E.570H. doi:10.1038/srep00570. PMC3414864. PMID22880161.
+
+^ Sutou;  et al. (2015). Commentary 2: abnormalities of butterflies captured around Fukushima areas might not be caused by non-genetic but toxic effects. Fukushima Nuclear Accident: Global Implications, Long-Term Health Effects and Ecological Consequences. New York: Nova Sciences Publishers Inc. pp.22530.
+
+^ Nakanishi, Tomoko M. (2017). What Has Become Obvious from an Agricultural Perspective in These 5 Years after the Fukushima Daiichi Nuclear Power Plant Accident. Bunseki Kagaku (in Japanese and English). 66 (4): 21722. doi:10.2116/bunsekikagaku.66.217.
+
+^ Thailand receives Fukushima's first fish export since 2011 nuclear disaster. The Straits Times. 6 March 2018. Retrieved 14 March 2018.
+
+^ Activists oppose imports of fish from Fukushima. Bangkok Post. Retrieved 14 March 2018.
+
+^ WHO 2013, pp.8788.
+
+^ Welch, H. Gilbert; Woloshin, Steve; Schwartz, Lisa A. (2011). Overdiagnosed: Making People Sick in the Pursuit of Health. Beacon Press. pp.6134. ISBN978-0-8070-2200-9.
+
+^ a b c d e Screening effect? Examining thyroid cancers found in Fukushima children. 6 March 2016.
+
+^ Guth, S; Theune, U; Aberle, J; Galach, A; Bamberger, CM (2009). Very high prevalence of thyroid nodules detected by high frequency (13 MHz) ultrasound examination. Eur. J. Clin. Invest. 39 (8): 699706. doi:10.1111/j.1365-2362.2009.02162.x. PMID19601965.
+
+^ Fukushima kids have skyrocketing number of thyroid abnormalities  report. Russia Times. 18 February 2013. Archived from the original on 15 April 2014.
+
+^ Archived copy (PDF). Archived from the original (PDF) on 9 February 2015. Retrieved 1 December 2014.CS1 maint: Archived copy as title (link)
+
+^ Experts divided on causes of high thyroid cancer rates among Fukushima children  The Mainichi. Mainichi Daily News. 7 March 2016. Retrieved 6 July 2016.
+
+^ Ohira, Tetsuya;  et al. (August 2016). Comparison of childhood thyroid cancer prevalence among 3 areas based on external radiation dose after the Fukushima Daiichi nuclear power plant accident. Medicine. 95 (35): e4472 PubMed. doi:10.1097/MD.0000000000004472. PMC5008539. PMID27583855.
+
+^ Yamashita, Shunichi;  et al. (1 January 2018). Lessons from Fukushima: Latest Findings of Thyroid Cancer After the Fukushima Nuclear Power Plant Accident. Thyroid. 28 (1): 1122 PubMed. doi:10.1089/thy.2017.0283. PMC5770131. PMID28954584.
+
+^ cancer.org Thyroid Cancer By the American Cancer Society. In turn citing: AJCC Cancer Staging Manual (7th ed). Archived 18 October 2013 at the Wayback Machine
+
+^ Brumfiel, Geoff (10 September 2012). Fukushima's doses tallied. Archived from the original on 14 February 2014. Retrieved 23 May 2013.
+
+^ Zablotska, Lydia (8 November 2012). Chernobyl Cleanup Workers Had Significantly Increased Risk of Leukemia. UCSF. Archived from the original on 4 January 2014.
+
+^ Chernobyl: the true scale of the accident. 20 Years Later a UN Report Provides Definitive Answers and Ways to Repair Lives. Archived from the original on 3 October 2007.
+
+^ a b Studying the Fukushima Aftermath: 'People Are Suffering from Radiophobia' . Spiegel.de (19 August 2011). Retrieved on 2013-09-06. Archived 16 January 2014 at the Wayback Machine
+
+^ a b Evacuees of Fukushima village report split families, growing frustration (PDF). Mainichi Daily News. 30 January 2012. Archived from the original (PDF) on 22 September 2013.
+
+^ Katherine Harmon (2 March 2012). Japan's Post-Fukushima Earthquake Health Woes Go Beyond Radiation Effects. Nature. Archived from the original on 13 October 2013.
+
+^ Homes should not be abandoned after a big nuclear accident, study suggests.
+
+^ Thomas, P.J (November 2017). J-value assessment of relocation measures following the nuclear power plant accidents at Chernobyl and Fukushima Daiichi. Process Safety and Environmental Protection. 112: 1649. doi:10.1016/j.psep.2017.03.012.
+
+^ Rain raises fear of more contamination at Fukushima. CNN. 4 June 2011. Archived from the original on 24 December 2013.
+
+^ about the situation at the Fukushima Daiichi nuclear power plant. 3 February 2014. Archived from the original on 22 February 2014.
+
+^ Gebl, Katy (14 February 2018). How did Fukushima disaster affect air pollution? (Interview). Stanford Center for International Security and Cooperation. Retrieved 27 February 2018.
+
+^ Takata, H.; Kusakabe, M.; Inatomi, N.; Ikenoue, T. (2018). Appearances of Fukushima Daiichi Nuclear Power Plant-derived Cs-137 in coastal waters around Japan: Results from marine monitoring off nuclear power plants and facilities. Environmental Science and Technology. 52 (5): 262937. doi:10.1021/acs.est.7b03956. PMID29336565.
+
+^ estimates claims burden from earthquake in Japan at around 1.5bn. Munich Re. 22 March 2011. Archived from the original on 15 May 2011. Retrieved 24 April 2011.
+
+^ Swiss Re provides estimate of its claims costs from Japan earthquake and tsunami, Swiss Re, news release, 21 March 2011
+
+^ UPDATE 1-Fukushima operator's mounting legal woes to fuel nuclear opposition. Reuters. 17 August 2015. Retrieved 2 February 2016.
+
+^ Robin Harding (6 March 2016). Japan taxpayers foot $100bn bill for Fukushima disaster. Financial Times. Retrieved 20 March 2016.
+
+^ Justin McCurry (30 January 2017). Possible nuclear fuel find raises hopes of Fukushima plant breakthrough. The Guardian. Retrieved 3 February 2017.
+
+^ McCurry, Justin (17 March 2017). Japanese government liable for negligence in Fukushima disaster. The Guardian. London, United Kingdom. ISSN0261-3077. Retrieved 17 March 2017.
+
+^ Tsuyoshi Inajima; Yuji Okada (28 October 2011). Nuclear Promotion Dropped in Japan Energy Policy After Fukushima. Bloomberg. Archived from the original on 28 December 2013.
+
+^ Mari Yamaguchi (September 2011). Kenzaburo Oe, Nobel Winner Urges Japan To Abandon Nuclear Power. Huffington Post. Archived from the original on 20 December 2013.
+
+^ Japanese nuclear plant survived tsunami, offers clues. Reuters. Retrieved on 6 September 2013. Archived 25 October 2011 at the Wayback Machine
+
+^ Fukushima Starts Long Road To Recovery. NPR. 10 March 2012. Archived from the original on 19 December 2013. Retrieved 16 April 2012.
+
+^ Neon city goes dim as power shortage threatens traffic lights and telephones in Tokyo. news.com.au. 15 March 2011. Archived from the original on 15 March 2011.
+
+^ Yuri Kageyama, dealing with power shortage. Associated Press, 22 May 2011[dead link]
+
+^ Benjamin K. Sovacool (2011). Contesting the Future of Nuclear Power: A Critical Global Assessment of Atomic Energy, World Scientific, p. 287.
+
+^ George Monbiot (21 March 2011). Why Fukushima made me stop worrying and love nuclear power. the Guardian. Retrieved 12 June 2015.
+
+^ Why This Matters. Retrieved 12 June 2015.
+
+^ The Moral Case for Nuclear Power. Retrieved 12 June 2015.
+
+^ How the Greens Were Misled. Retrieved 12 June 2015.
+
+^ Jeremy Leggett (24 March 2011). Response: George Monbiot is wrong. Nuclear power is not the way to fight climate change. the Guardian. Retrieved 21 December 2017.
+
+^ Mycle Schneider (9 September 2011). Fukushima crisis: Can Japan be at the forefront of an authentic paradigm shift?. Bulletin of the Atomic Scientists. Archived from the original on 6 January 2013.
+
+^ Dr. Ken Caldeira, Senior Scientist, Department of Global Ecology, Carnegie Institution, Dr. Kerry Emanuel, Atmospheric Scientist, Massachusetts Institute of Technology, Dr. James Hansen, Climate Scientist, Columbia University Earth Institute, Dr. Tom Wigley, Climate Scientist, University of Adelaide and the National Center for Atmospheric Research. There is no credible path to climate stabilization that does not include a substantial role for nuclear power. cnn.com.CS1 maint: Multiple names: authors list (link)
+
+^ Barry W. Brook  Professor of Environmental Sustainability at University of Tasmania, Corey Bradshaw Professor and Director of Ecological Modelling at University of Adelaide. It's time for environmentalists to give nuclear a fair go. theconversation.com.
+
+^ Green, Jim (12 March 2012). Nuclear power isn't a green bullet. NewMatilda.com. Retrieved 9 February 2015.
+
+^ Brook, Barry (8 February 2015). South Australia announces Royal Commission into Nuclear Energy. Brave New Climate. Retrieved 10 February 2015.
+
+^ a b Japan Plans Floating Wind Power Plant. Breakbulk. 16 September 2011. Archived from the original on 21 May 2012. Retrieved 12 October 2011.
+
+^ Elaine Kurtenbach. Japan starts up offshore wind farm near Fukushima The Sydney Morning Herald, 12 November 2013. Accessed: 11 November 2013. Archived 30 December 2013 at the Wayback Machine
+
+^ Joshua S Hill (11 December 2013). Canadian Solar Signs Loan Agreement For Japan Development. CleanTechnica. Retrieved 30 December 2013.
+
+^ Carol J. Williams (14 September 2012). In wake of Fukushima disaster, Japan to end nuclear power by 2030s. LA Times. Archived from the original on 23 January 2014.
+
+^ Gerhardt, Tina (22 July 2012). After Fukushima, Nuclear Power on Collision Course With Japanese Public. Alternet. Archived from the original on 14 October 2013. Retrieved 8 August 2013.
+
+^ Abe dismisses Koizumi's call for zero nuclear power plants. Asahi Shimbun. 25 October 2013. Archived from the original on 13 April 2014. Retrieved 30 December 2013.
+
+^ Supporters of zero nuclear power irresponsible: Abe. Archived from the original on 29 October 2013.
+
+^ Most Japan cities hosting nuclear plants OK restart: survey. Bangkok Post. Archived from the original on 15 February 2013. Retrieved 30 December 2013.
+
+^ United Press International (2 June 2013). 60,000 protest Japan's plan to restart nuclear power plants. UPI Asia. Archived from the original on 29 October 2013.
+
+^ Japan's Fuel Costs May Rise to 7.5 Trillion Yen, Meti Estimates. Archived from the original on 9 October 2013.
+
+^ Normile, Dennis (4 May 2018). Bucking global trends, Japan again embraces coal power. Science. 360 (6388): 47677. Bibcode:2018Sci...360..476N. doi:10.1126/science.360.6388.476. PMID29724935   via science.sciencemag.org.
+
+^ Maeda, Risa (20 October 2011). Japanese nuclear plant survived tsunami, offers clues. Reuters. Archived from the original on 25 October 2011. Retrieved 27 October 2013.
+
+^ IAEA Expert Team Concludes Mission to Onagawa NPP Archived 29 October 2013 at the Wayback Machine
+
+^ Japanese nuclear plant 'remarkably undamaged' in earthquake  UN atomic agency. Archived 29 October 2013 at the Wayback Machine
+
+^ Hydrogen fix for Japanese reactors Archived 14 February 2014 at the Wayback Machine
+
+^ Hydrogen recombiners at all 20 NPC plants to avoid Fukushima. Sanjay Jog |Mumbai 7 April 2011 Last Updated at 00:29 IST Archived 29 October 2013 at the Wayback Machine
+
+^ CFD analysis of passive autocatalytic recombiner interaction with atmosphere. Archive Kerntechnik  Issue 2011/02. Archived 29 October 2013 at the Wayback Machine
+
+^ Daly, Matthew (10 March 2013). Nuclear chief: U.S. plants safer after Japan crisis. March 10, 2013. USA Today.
+
+^ Vents and Filtering Strategies Come to Forefront in Fukushima Response Nuclear Energy Insight. Fall 2012.
+
+^ TEPCO implements new safety measures in bid to restart Niigata reactors. Archived from the original on 13 April 2014.
+
+^ Kashiwazaki-Kariwa plant shown to reporters. Archived from the original on 29 October 2013.
+
+^ Nuclear power plant operator in China orders backup batteries for installation at plants 7 September 2012 Archived 29 October 2013 at the Wayback Machine
+
+^ Chinas Guangdong Nuclear Power Corp Announces Orders for BYD Battery Back-up for Nuclear Plants Archived 29 October 2013 at the Wayback Machine
+
+^ Epstein, Woody (7 May 2012). Not losing to the rain. Woody.com. Quantitative Risk Assessment. Archived from the original on 14 October 2013. Retrieved 26 February 2016. The Notstand building, a bunkered facility which could support all of the plant systems for at least 72hours given a severe flood or earthquake which could take out the normal power and cooling facilities. I asked Martin Richner, the head of risk assessment, why Beznau spent so much money on the Notstand building when there was no regulation or government directive to do so. Martin answered me, Woody, we live here.[not in citation given]
+
+^ A PRA Practioner Looks at the Fukushima Daiichi Accident (PDF). Archived from the original on 14 December 2013.
+
+^ Naitoh, Masanori; Suzuki, Hiroaki; Okada, Hidetoshi (2012). Function of Isolation Condenser of Fukushima Unit-1 Nuclear Power Plant. 2012 20th International Conference on Nuclear Engineering and the ASME 2012 Power Conference. p.819. doi:10.1115/ICONE20-POWER2012-55239. ISBN978-0-7918-4499-1. Archived from the original on 15 December 2013.
+
+^ Gen III reactor design 04/06/2011 By Brian Wheeler Associate Editor. Archived from the original on 14 December 2013.
+
+^ Nuclear Science and Techniques 24 (2013) 040601 Study on the long-term passive cooling extension of AP1000 reactor. Archived from the original on 14 December 2013.
+
+^ Disaster response robots, Open Minds blog, featuring BBC Documentary Archived 22 February 2014 at the Wayback Machine
+
+^ Seiji Iwata; Ryuichi Kanari (26 May 2011). Japanese robots long gone before Fukushima accident. Asahi Shimbun. Archived from the original on 3 September 2014. Retrieved 27 August 2014.
+
+^ DARPA Robotics Challenge. DRC. DARPA. Archived from the original on 28 April 2016. Retrieved 27 April 2016.
+
+^ Gross, Rachel (10 March 2016). The Slatest Your News Companion March 10 2016 1:35 PM Decontamination Bots Are Dying on Our Behalf in Fukushima. Slate.com.
+
+^ McIntyre, Niamh (5 March 2017). Experts baffled as robots sent to clean up Fukushima nuclear site keep dying: The latest probe was destroyed in less than a day. Dailymail.co.uk.
+
+^ Areas to which evacuation orders have been issued (PDF). 7 August 2013.
+
+^ Designating and Rearranging the Areas of Evacuation (p. 7) (PDF).
+
+^ a b Dahl, Fredrik (15 August 2011). U.N. atom body wants wider nuclear safety checks. Reuters. Archived from the original on 6 May 2014.
+
+^ Brasor, Philip, Public wary of official optimism, Japan Times, 11 March 2012, p. 11. Archived 3 January 2013 at the Wayback Machine
+
+^ a b Norimitsu Onishi (8 August 2011). Japan Held Nuclear Data, Leaving Evacuees in Peril. The New York Times. Archived from the original on 21 August 2011.
+
+^ a b Charles Digges (10 August 2011). Japan ignored its own radiation forecasts in days following disaster, imperiling thousands. Bellona. Archived from the original on 18 March 2012.
+
+^ Analysis: A month on, Japan nuclear crisis still scarring, Archived 18 April 2011 at WebCite International Business Times (Australia). 9 April 2011, retrieved 12 April 2011; excerpt, According to James Acton, Associate of the Nuclear Policy Program at the Carnegie Endowment for International Peace, Fukushima is not the worst nuclear accident ever but it is the most complicated and the most dramatic ... This was a crisis that played out in real time on TV. Chernobyl did not.
+
+^ Hasegawa, Koichi (2012). Facing Nuclear Risks: Lessons from the Fukushima Nuclear Disaster. International Journal of Japanese Sociology. 21 (1): 8491. doi:10.1111/j.1475-6781.2012.01164.x.
+
+^ Hiroko Tabuchi (13 July 2011). Japan Premier Wants Shift Away From Nuclear Power. The New York Times.
+
+^ Naoto Kan (28 October 2013). Encountering the Fukushima Daiichi Accident. The Huffington Post. Archived from the original on 25 January 2014. Retrieved 9 November 2013.
+
+^ (dutch)Nu.nl (22 August 2011)Area around Fukushima maybe a forbidden zone for decades to come Archived 23 October 2013 at the Wayback Machine
+
+^ The Guardian (22 August 2011)residents may never return to radiation-hit homes Archived 23 August 2011 at the Wayback Machine
+
+^ Earthquake Report  JAIF, No. 45: 20:00, 7 April. JAIF / NHK, 7 April 2011, archived from original on 9 April 2011, Retrieved 9 April 2011.
+
+^ Al-Jazeera English: Citizen group tracks down Japan's radiation (10 August 2011) Archived 31 August 2011 at the Wayback Machine
+
+^ Safecast Organization Official Blog Archived 15 April 2014 at the Wayback Machine
+
+^ Franken, Pieter (17 January 2014). Volunteers Crowdsource Radiation Monitoring to Map Potential Risk on Every Street in Japan. Democracy Now! (Interview). Interviewed by Amy Goodman. Tokyo, Japan. Archived from the original on 25 April 2014. Retrieved 17 January 2014.
+
+^ UC Berkeley Nuclear Engineering Air Monitoring Station |The Nuclear Engineering Department at UC Berkely web site Archived 1 April 2011 at WebCite
+
+^ USS Ronald Reagan Exposed to Radiation. Navy Handbook. 14 March 2011. Archived from the original on 10 November 2013. Retrieved 18 March 2011.
+
+^ Grimes, Robin (16 June 2014). The UK Response to Fukushima and Anglo-Japanese Relations. Science & Diplomacy. 3 (2).
+
+^ IAEA sees slow nuclear growth post Japan. UPI. 23 September 2011. Archived from the original on 9 March 2014.
+
+^ Nuclaire: une trentaine de racteurs dans le monde risquent d'tre ferms Les chos, published 12 April 2011, accessed 15 April 2011
+
+^ Gauging the pressure. The Economist. 28 April 2011. Archived from the original on 31 August 2012.
+
+^ Poch, Rafael (31 May 2011). Merkel se despide de lo nuclear y anuncia una revolucin en renovables (in Spanish). lavanguardia.com. Retrieved 26 January 2014.
+
+^ Italy nuclear: Berlusconi accepts referendum blow. BBC News. 14 June 2011. Archived from the original on 12 June 2011. Retrieved 26 January 2014.
+
+^ Broomby, Rob (11 January 2014). France struggles to cut down on nuclear power. BBC News. Retrieved 12 June 2015.
+
+^ Rob Broomby (11 January 2014). France struggles to cut down on nuclear power. BBC News Magazine. Archived from the original on 7 February 2014. Retrieved 26 January 2014.
+
+^ China Nuclear Power  Chinese Nuclear Energy. Retrieved 12 June 2015.
+
+^ Insights (PDF). KPMG. 20 September 2018.
+
+^ Shannon Tiezzi; The Diplomat. Why China Will Go All-In on Nuclear Power. The Diplomat. Retrieved 12 June 2015.
+
+^ Plans For New Reactors Worldwide. World Nuclear Association. Retrieved 23 January 2019.
+
+^ Nuclear Power in South Korea. Retrieved 12 June 2015.
+
+^ Nuclear energy only option before country: Ansari. The Indian Express. 20 October 2012. Retrieved 12 June 2015.
+
+^ Modi: India to build 10 more nuclear reactors with Russia. International Business Times. 12 December 2014.
+
+^ Richard Tanter (October  December 2013). After Fukushima: A Survey of Corruption in the Global Nuclear Power Industry. Asian Perspective. Vol. 37, No. 4. doi:10.5555/0258-9184-37.4.475 (inactive 11 February 2019).
+
+^ a b Jeff Kingston (10 September 2012). Japan's Nuclear Village. Japan Focus. Archived from the original on 29 March 2014.
+
+^ Kaufmann, Daniel; Veronika Penciakova (17 March 2011). Japan's triple disaster: Governance and the earthquake, tsunami and nuclear crises. Brookings Institution. Archived from the original on 3 May 2012.
+
+^ Culture of complicity tied to stricken nuclear plant, NYTimes, 27 April 2011
+
+^ Japan to fire 3 top nuclear officials  CNN. Articles.cnn.com. 4 August 2011. Archived from the original on 19 August 2011. Retrieved 11 August 2011.
+
+^ 3 former TEPCO executives face criminal trial over Fukushima crisis. The Asahi Shimbun. 31 July 2015. Archived from the original on 14 March 2016. Retrieved 13 March 2016.
+
+^ McCurry, Justin (30 June 2017). Fukushima nuclear disaster: former Tepco executives go on trial. The Guardian. Retrieved 5 July 2017.
+
+^ Fukushima nuclear accident 'man-made', not natural disaster. Bloomberg L.P. The Sydney Morning Herald. Archived from the original on 3 November 2013. Retrieved 9 July 2012.
+
+^ Japan says Fukushima disaster was 'man-made'. Al Jazeera and agencies. AL Jazeera English. 5 July 2012. Archived from the original on 30 January 2014. Retrieved 9 July 2012.
+
+^ Official website of the Investigation Committee on the Accident at the Fukushima Nuclear Power Stations of Tokyo Electric Power Company. Archived from the original on 31 July 2011. Retrieved 29 July 2012. This committee was established with the aim of conducting an investigation to determine the causes of the accident that occurred at Fukushima Daiichi and Daini Nuclear Power Stations of Tokyo Electric Power Company, and those of the damages generated by the accident, and thereby making policy proposals designed to prevent the expansion of the damages and the recurrence of similar accidents in the future.
+
+^ a b Japan nuclear plants 'still not safe'. Al Jazeera Online. 23 July 2012. Archived from the original on 16 April 2014. Retrieved 29 July 2012.
+
+^ Japan, TEPCO ignored atomic accident risks due to 'myth of nuclear safety': Report. Asian News International (ANI). News Track India. 23 July 2012. Archived from the original on 25 December 2013. Retrieved 29 July 2012.
+
+^ Mitsuru Obe; Eleanor Warnock (23 July 2012). Japan Panel Says Plant Operator Falls Short on Nuclear Safety. The Wall Street Journal. Archived from the original on 27 September 2013. Retrieved 30 July 2012.
+
+^ Tsuyoshi Inajima; Yuji Okada (23 July 2012). Fukushima Investigators Say More Study Needed on What Went Wrong. Bloomsberg Businessweek. Archived from the original on 28 September 2013. Retrieved 29 July 2012.
+
+^ Hancocks, Paula (23 July 2012). New report criticizes TEPCO over Fukushima nuclear crisis. CNN. Archived from the original on 26 December 2013. Retrieved 29 July 2012.
+
+^ Kazuaki Nagata (24 July 2012). Government, Tepco again hit for nuke crisis. The Japan Times. Archived from the original on 1 November 2012. Retrieved 29 July 2012.
+
+
+Cite error: A list-defined reference named mainichi.jp is not used in the content (see the help page).
+
+Cite error: A list-defined reference named Smith is not used in the content (see the help page).
+
+
+Sources[edit]
+Cited
+
+WHO (2013). Health risk assessment from the nuclear accident after the 2011 Great East Japan Earthquake and Tsunami (PDF). ISBN978-9241505130. Retrieved 7 September 2016.
+Other
+
+Caldicott, Helen [ed.]: Crisis Without End: The Medical and Ecological Consequences of the Fukushima Nuclear Catastrophe. [From the Symposium at the New York Academy of Medicine, March 1112, 2013]. The New Press, 2014. ISBN978-1-59558-970-5 (eBook)
+Nadesan, Majia (2013). Fukushima and the Privatization of Risk. London, Palgrave, 2013. ISBN978-1137343116
+External links[edit]
+
+
+
+Wikimedia Commons has media related to Fukushima I accidents.
+
+
+
+
+Wikiquote has quotations related to: Fukushima Daiichi nuclear disaster
+
+Investigation[edit]
+The Fukushima Nuclear Accident Independent Investigation Commission Report website in English
+Investigation Committee on the accidents at the Fukushima Nuclear Power Station of Tokyo Electric Power Company
+The Radioactive Waters of Fukushima
+Lessons Learned From Fukushima Dai-ichi  Report & Movie
+International Atomic Energy Agency (IAEA) Fukushima report
+Video, drawings, and images[edit]
+Video of the Unit 1 explosion
+Video of the Unit 3 explosion
+Webcam Fukushima nuclear power plant I, Unit 1 through Unit 4
+Inside the slow and dangerous clean up of the Fukushima nuclear crisis
+TerraFly Timeline Aerial Imagery of Fukushima Nuclear Reactor after 2011 Tsunami and Earthquake
+In graphics: Fukushima nuclear alert, as provided by the BBC, 9 July 2012
+Analysis by IRSN of the Fukushima Daiichi accident
+Kumamoto, Murata & Nakate: Fukushima Evacuees Face New Hardship Six Years On, provided by the Foreign Correspondents' Club of Japan, 9 March 2017
+Video from the Unit 2 containment below the reactor in February 2019
+Artwork[edit]
+Ah humanity!- a film essay by Lucien Castaign-Taylor, Ernst Karel and Vrna Paravel
+Statue of child clad in protective suit met with criticism in disaster-hit Fukushima. The Japan Times Online. 13 August 2018.
+Other[edit]
+Fukushima Revitalization Station (Fukushima Prefectural Government) in English
+TEPCO News Releases, Tokyo Electric Power Company
+Reassessment of Fukushima Nuclear Accident and Outline of Nuclear Safety Reform Plan(Interim Report) by TEPCO Nuclear Reform Special Task Force.14 December 2012
+vte2011 Thoku earthquake and tsunami
+Aftermath
+Geology
+Japan Trench
+Pacific Plate
+North American Plate
+Okhotsk Plate
+Honshu Island
+Oshika Peninsula
+Pacific Ocean
+Affected areasAreas  severely  damagedHokkaido
+Hokkaido
+Oshima Subprefecture
+Hakodate
+Thoku  Region
+Iwate Prefecture
+Kamaishi
+Miyako
+funato
+tsuchi
+Rikuzentakata
+Yamada
+Miyagi Prefecture
+East-Matsushima (Naruse)
+Ishinomaki
+Kesennuma
+Kurihara
+Natori
+Onagawa
+Sendai
+South-Sanriku (Shizugawa)
+Yamamoto
+Fukushima Prefecture
+Iwaki
+kuma
+Sma
+South-Sma (Haranomachi)
+Tomioka
+Kant  Region
+Ibaraki Prefecture
+Hitachinaka
+Itako
+Kashima
+North-Ibaraki (Isohara)
+arai
+Chiba Prefecture
+Asahi
+Chshi
+Ichihara
+Urayasu
+Affected  infrastructure
+Ichihara refinery
+Fujinuma Dam
+Sendai Airport
+Taro sea wall
+Rail lines
+arai-Kashima Line
+Thoku Shinkansen
+Joban Line
+Shinchi Station
+Tomioka Station
+Senseki Line
+Nobiru Station
+Kesennuma Line
+
+Nuclear Accidentsand IncidentsFukushimaDaiichi nucleardisasterAccident reactors
+Fukushima Daiichi plant
+Unit 1
+Unit 2
+Unit 3
+Units 4-6
+Sequence of events
+Timeline
+reactions
+International
+Japanese
+Radiation effects
+Topics
+Casualties
+Cleanup
+Fukushima 50
+Investigation
+National Diet
+Government
+Comparison
+Accident Rating
+Movements
+Project Sunshine for Japan
+Safecast (organization)
+Sayonara Nuclear Power Plants
+OthersReactors/Facilities
+Fukushima Daini plant
+Tkai plant
+Onagawa plant
+Higashidori plant
+Rokkasho Reprocessing Plant
+Foreshocks,Aftershocks
+Sanriku, Japan[ja] (7.3, 9 March 2011)
+Miyagi, Japan (7.1, 7 April 2011)
+Fukushima, Japan (6.6, 11 April 2011)
+Chiba, Japan (6.1, 14 March 2011)
+Miyagi, Japan (7.3, 7 December 2012)
+People
+Naoto Kan
+Yukio Edano
+Katsuhiko Ishibashi
+Kiyoo Mogi
+Masao Yoshida
+Miki Endo
+Takashi Shimokawara
+Hideaki Akaiwa
+Katsunobu Sakurai[fr; ja]
+Relief andRecoveryEfforts
+Humanitarian response
+Operation Pacific Assist
+Operation Tomodachi
+Reconstruction Agency
+Fundraisers
+All Together
+Artistes 311 Love Beyond Borders
+Download to Donate: Tsunami Relief
+Fight and Smile
+Songs for Japan
+Pray for Japan
+Side by Side
+Reunion
+MediaDocumentaries
+Pray for Japan
+Surviving Japan
+Surviving the Tsunami - My Atomic Aunt
+The Tsunami and the Cherry Blossom
+Documentary of AKB48 Show Must Go On
+Movies
+Himizu
+Homeland
+Land of Hope
+Reunion
+Drama
+Amachan
+Songs
+Side by Side
+Songs for Japan
+Anata ga Irukara
+Books
+Strong in the Rain
+Ichi-F
+Other
+Impact on video game industry
+No.18 Kyotoku-maru
+Tsunami fish
+Japan Trench Fast Drilling Project
+Ryou-Un Maru
+869 Sanriku earthquake
+2011 local elections
+Miracle pine[ja; fr]
+Shinkansen Relay
+
+See also:  Japanese earthquakes 
+ Seismicity of the Sanriku coast 
+ List of historical tsunamis 
+  Nuclear power in Japan, section Seismicity 
+ Nuclear and radioactive incidents
+  Portal 
+
+vteNuclear power in Japan
+Energy in Japan
+Nuclear power
+Reactors(Active) LWRHokkaido
+Tomari
+Tohoku
+Onagawa
+Higashidri
+TEPCO
+Fukushima Daiichi
+Fukushima Daini
+Kashiwazaki-Kariwa
+Chubu
+Hamaoka
+Hokuriku
+Shika
+Kansai
+i
+Mihama
+Takahama
+Chugoku
+Shimane
+Shikoku
+Ikata
+Kyushu
+Sendai
+Genkai
+JAPC
+Tkai
+Tsuruga
+Closed
+Fugen
+ATR
+Monju
+prototype fast (breeder) reactor
+Canceled
+Maki
+Namie-Odaka
+Under construction
+ma
+Other
+Jy
+research fast reactor
+OrganisationsRegulatory bodies
+ Japanese Atomic Energy Commission(JAEC)
+ Nuclear Regulation Authority(NRA)
+formerly  Japan's NSC and  NISA
+Companies
+Hitachi
+Toshiba
+Mitsubishi FBR Systems
+Japan Nuclear Fuel Limited
+JCO
+Research institutions
+ Japan Atomic Energy Agency(JAEA)
+Dnen (abolished)
+Other
+ Japan Electric Association(JEA) 
+membership organization
+Rokkasho
+reprocessing
+Accidents
+Fukushima Daiichi nuclear disaster
+Tokaimura nuclear accident
+Mihama nuclear accidents
+Japanese nuclear incidents
+Anti-nuclearmovement
+Ashes to Honey
+Japanese Communist Party
+Genpatsu-shinsai
+Mizuho Fukushima
+Katsumi Furitsu
+Nobuto Hosaka
+Tetsunari Iida
+Kiyoshiro Imawano
+Project Sunshine for Japan
+Sanshiro Kume
+Kenzabur e
+Rokkasho Rhapsody
+Ryuichi Sakamoto
+Sayonara Nuclear Power Plants
+Jinzaburo Takagi
+
+ Category
+ Commons
+
+vteAsia pollution topicsAir pollution
+North, East and Northeast Asia
+Asian Dust
+2010 China drought and dust storms
+Green Wall of China
+Pollution in China
+South and Southeast Asia
+ASEAN Agreement on Transboundary Haze Pollution
+Southeast Asian haze
+1997 SEA haze
+1997 Indonesian forest fires
+2005 Malaysian haze
+2006 SEA haze
+2009 SEA haze
+2010 SEA haze
+2013 SEA haze
+2015 SEA haze
+2016 Malaysian haze
+2016 SEA haze
+Asian brown cloud
+Operation Haze
+Air pollution in India
+Shamal
+Pollutant Standards Index
+Water pollution
+China water crisis
+Fukushima Daiichi nuclear disaster
+Water pollution in China
+Water pollution in India
+Water pollution in Japan
+Water pollution in the Philippines
+Water pollution in Vietnam
+Related pages
+Air pollution in China
+Taiwan
+Hong Kong
+Macau
+Air pollution in India
+Air pollution in Malaysia
+Pollution of the Pasig River (Philippines)
+
+Authority control 
+BNF: cb16500489j (data)
+LCCN: sh2011003738
+NDL: 01228618
+
+
+
+
+
+Retrieved from https://en.wikipedia.org/w/index.php?title=Fukushima_Daiichi_nuclear_disaster&oldid=903555826
+Categories: Fukushima Daiichi nuclear disasterCivilian nuclear power accidentsEnvironmental controversiesFukushima PrefectureHealth disasters in Japan2011 in Japan2011 in the environment2011 industrial disasters2011 Thoku earthquake and tsunamiRadiation accidents and incidentsHidden categories: Pages with reference errorsPages with incorrect ref formattingCS1: long volume valueWebarchive template wayback linksCS1 maint: Archived copy as titleCS1 uses Japanese-language script (ja)CS1 Japanese-language sources (ja)All articles with dead external linksArticles with dead external links from June 2016Webarchive template webcite linksWebarchive template archiveis linksArticles with dead external links from February 2018Articles with dead external links from March 2018Articles with permanently dead external linksArticles with inconsistent citation formatsArticles with Dutch-language external linksArticles with dead external links from September 2012Articles with dead external links from October 2017Articles with dead external links from May 2014CS1 maint: Multiple names: authors listAll articles with failed verificationArticles with failed verification from February 2016CS1 Spanish-language sources (es)Pages with DOIs inactive as of 2019Wikipedia indefinitely move-protected pagesArticles that may be too long from September 2018Use dmy dates from September 2018Use American English from August 2016All Wikipedia articles written in American EnglishArticles with hAudio microformatsArticles containing Japanese-language textAll pages needing factual verificationWikipedia articles needing factual verification from July 2013Wikipedia articles in need of updating from February 2017All Wikipedia articles in need of updatingAll articles with unsourced statementsArticles with unsourced statements from April 2019Articles needing cleanup from November 2017All pages needing cleanupArticles with sections that need to be turned into prose from November 2017Articles containing potentially dated statements from July 2011All articles containing potentially dated statementsArticles with failed verification from October 2014Articles with unsourced statements from May 2019Articles containing potentially dated statements from September 2011Articles with unsourced statements from December 2013All accuracy disputesArticles with disputed statements from June 2015Articles with unsourced statements from June 2015Articles with failed verification from June 2015Articles with unsourced statements from July 2013Wikipedia articles needing clarification from April 2015Portal templates with redlinked portalsCommons category link is on WikidataInterlanguage link template link numberWikipedia articles with BNF identifiersWikipedia articles with LCCN identifiersWikipedia articles with NDL identifiers
+
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+ArticleTalk 
+
+
+
+
+Variants
+
+
+
+
+
+
+
+Views
+
+ReadEditView history 
+
+
+
+More
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikiquote 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+Asturianu ()BrezhonegCataletinaCymraegDanskDeutschEestiEspaolEsperantoEuskaraFranaisGaeilgeGalegoHrvatskiBahasa IndonesiaItalianoJawaLatinaLatvieuMagyarBahasa MelayuNederlandsNorskOccitanPicardPolskiPortugusRomnRumantschScotsSimple EnglishSloveninaSlovenina / srpskiSrpskohrvatski / SuomiSvenskaTrkeTing Vit 
+Edit links 
+
+
+
+
+
+ This page was last edited on 26 June 2019, at 11:01(UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+

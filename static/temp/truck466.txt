@@ -1,0 +1,412 @@
+
+
+
+
+
+
+
+
+
+
+
+Truck classification
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to navigation
+Jump to search
+
+
+This article is about commercial truck classifications. For passenger car and pickup truck classifications, see Car classifications.
+Further information: List of truck types
+Truck classifications are typically based upon the maximum loaded weight of the truck, typically using the gross vehicle weight rating (GVWR) and sometimes also the gross trailer weight rating (GTWR), and can vary among jurisdictions.
+
+Contents
+
+1 United States
+
+1.1 Table of US GVWR classifications
+1.2 Notes on weight classes
+
+1.2.1 Ton rating
+1.2.2 Class 8
+
+
+
+
+2 Canada
+3 European Union
+4 List of truck types
+5 Gallery
+6 See also
+7 References
+8 External links
+
+
+
+United States[edit]
+In the United States, commercial truck classification is determined based on the vehicle's gross vehicle weight rating (GVWR). The classes range from 18.[1][2] Trucks are also classified more broadly by the Federal Highway Administration (FHWA), which groups classes 12 as light duty, 36 as medium duty, and 78 as heavy duty; a commercial driver's license (CDL) is generally required to operate heavy duty trucks.[1][3][4] The Environmental Protection Agency (EPA) has a separate system of emissions classifications for trucks.[1][5] The United States Census Bureau also assigned classifications in its now-discontinued Vehicle Inventory and Use Survey (VIUS) (formerly Truck Inventory and Use Survey (TIUS)).[6]
+
+Table of US GVWR classifications[edit]
+
+
+US truck class
+Duty classification
+Weight limit [1][7]
+Examples
+
+
+Class 1
+Light truck
+06,000 pounds (02,722kg)
+Chevrolet Colorado/GMC Canyon, Ford Ranger, Nissan Frontier, Toyota Tacoma[8]
+
+
+Class 2a
+Light truck
+6,0018,500 pounds (2,7223,856kg)
+Chevrolet Silverado/GMC Sierra 1500, Ford F-150, Nissan Titan, Ram 1500, Toyota Tundra[8][9][10]
+
+
+Class 2b
+Light/Medium truck
+8,50110,000 pounds (3,8564,536kg)
+Chevrolet Silverado/GMC Sierra 2500, Ford F-250, Nissan Titan XD, Ram 2500[8][9][10]
+
+
+Class 3
+Medium truck
+10,00114,000 pounds (4,5366,350kg)
+Isuzu NPR[11], Chevrolet Silverado/GMC Sierra 3500, Ford F-350, Ram 3500
+
+
+Class 4
+Medium truck
+14,00116,000 pounds (6,3517,257kg)
+Isuzu NPR-HD[11], Chevrolet Silverado/GMC Sierra 4500, Ford F-450, Ram 4500[8]
+
+
+Class 5
+Medium truck
+16,00119,500 pounds (7,2588,845kg)
+Isuzu NRR[11], Chevrolet Silverado/GMC Sierra 5500, Ford F-550, Ram 5500, Peterbilt 325, International TerraStar [12]
+
+
+Class 6
+Medium truck
+19,50126,000 pounds (8,84611,793kg)
+Chevrolet Kodiak C6500, Ford F-650, Peterbilt 330, International Durastar [13]
+
+
+Class 7
+Heavy truck
+26,00133,000 pounds (11,79414,969kg)
+Autocar ACMD, GMC C7500, Peterbilt 220 & 337, Ford F-750 [14]
+
+
+Class 8
+Heavy truck
+33,001 pounds (14,969kg) +
+Autocar ACX, Autocar DC, International WorkStar, Kenworth T600, Kenworth T660, Kenworth T680, Orange EV T-Series Electric, Peterbilt 579, Peterbilt 389[15] - Semi-trailer trucks fall into this category
+
+Notes on weight classes[edit]
+Ton rating[edit]
+When light-duty trucks were first produced in the United States, they were rated by their payload capacity in tons (e.g., 12-, 34- and 1-ton). Over time, payload capacities for most domestic pickup trucks have increased while the ton titles have stayed the same. The now-imprecise ton rating is presently used to compare standard sizes, rather than actual capacities.
+This has led to categorizing trucks similarly, even if their payload capacities are different. Therefore, the Chevrolet Colorado/GMC Canyon, Ford Ranger, Honda Ridgeline, Nissan Frontier, and Toyota Tacoma are called quarter-ton pickups. The Chevrolet Silverado/GMC Sierra 1500, Ford F-150, Nissan Titan, Ram 1500, and Toyota Tundra are called half-ton pickups (12-ton). The Chevrolet Silverado/GMC Sierra 2500, Ford F-250, and Ram 2500 are called three-quarter-ton pickups. The Cheverolet Silverado/GMC Sierra 3500, Ford F-350, and Ram 3500 are known as one ton pickups.
+Similar schemes exist for vans and SUVs (e.g. a 1-ton Dodge Van or a 12-ton GMC Suburban), medium duty trucks (e.g. the 112-ton Ford F-450) and some military vehicles, like the ubiquitous deuce-and-a-half.
+
+Class 8[edit]
+This section needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources:Truck classificationnews newspapers books scholar JSTOR (June 2019) (Learn how and when to remove this template message)
+The Class 8 truck gross vehicle weight rating (GVWR) is a vehicle with a GVWR exceeding 33000 lb (14969 kg).[1][16] These include tractor trailer tractors as well as single-unit dump trucks of a GVWR over 33,000 lb; such trucks typically have 3 or more axles.  The typical 5-axle tractor-trailer combination, also called a semi or 18-wheeler, is a Class 8 vehicle.  Standard trailers vary in length from 8' containers to 57' van trailers, with the most common length being the 53' trailer.  Specialized trailers for oversized loads can be considerably longer.  Commercial operation of a Class 8 vehicle in the United States requires either a Class-B CDL for non-combination vehicles, or a Class-A CDL for combination vehicles (tractor-trailers)
+Regardless of GVW and arrangement whether single or combination, Class 8 vehicles are those equipped with air brake systems combining service, emergency and parking brake functions in a fail safe system that provides for break-in-two brake operation in the event trailers become separated from tractors. 
+All powered and un-powered non-steering axles on tractors and at least one axle on trailers are required to be equipped with a combination of a spring-applied, air-released section and an air-applied spring-released section in a single brake actuator unit per wheel (two per axle) to provide emergency and park brake functions when air pressure is low or lost and service braking during normal operation. 
+Steerable axles on tractors and all axles on trailers are equipped with air-applied service brakes and tandem axle assemblies on trailers are typically equipped with parking/emergency
+brakes on both axles to simplify, lighten and make less expensive trailer construction, operation, repair and maintenance.  
+Class 8 tractors must also be equipped with a separate system for manually operating trailer brakes without applying tractor brakes. A hand-operated lever on the right-hand side of the steering column allows trailer service brake application to check for trailer service brake function, proper engagement and locking of the fifth-wheel hitch assembly, sliding fifth-wheel hitch lock mechanism and trailer sliding suspension system locking mechanisms. There is more to a semi-tractor than meets the eye and tractors must be equipped for proper operation with a wide variety of trailers in a virtually endless combination of applications, environments, vocations and jurisdictions.  
+Many dry goods enclosed trailers are equipped with sliding suspension and axle sub-frames to shift weight and forward and rearward and change the wheelbase relative to the tractor steer axle and sliding fifth-wheel hitches are standard equipment on Class 8 OTR tractors to allow weight transfer to and from the driving axles to and from the tractor steer axle and trailer. The independent trailer brake allows trailer service brakes to be set so these systems can be unlocked, slid, locked and checked for lockup using tractor power. Tractor parking brakes are sufficiently powerful that even in low gear the tractor typically can't overcome them and attempting to do so invites mechanical system damage and failure.
+Although not always required per law or regulation, these features are necessary in a general-purpose, non-specialized combination vehicle to allow true interchangeability among tractors and trailers and 50-state compliance with local, state and federal laws regulating commercial vehicles and freight transportation. 
+Discussions and definitions of semi class focusing only on GVW and whether or not the vehicle is a combination vehicle while ignoring air brakes are inaccurate and incomplete and there is no such thing as a semi if the vehicle is not a combination vehicle with a fifth-wheel hitch, air brakes and attached semi-trailer. A  semi-trailer has only load carrying axles and splits its load between those and its towing tractor. A full trailer has its own steering axle(s) and relies on the towing vehicle only for power. Full trailers are by definition not semis and a semi tractor sans semi-trailer is simply a bob-tail truck. However, it is still a commercial vehicle when equipped with functional air brakes and a standard fifth-wheel hitch. And a Class A CDL is required to operate it on public roads even as a bob-tail, because CDL endorsements are equipment-based rather than vehicle weight capacity/rating-based.
+Class A CDLs is simply an air-brake endorsement. There is no CDL for combination vehicles without air brakes as such vehicles are not present or legal on U.S. highways and vehicles with air brakes below 33,000 lbs. GVW require a Class A CDL. 
+Vehicles below 26,000 lbs. GVW require no CDL whether single or combination because they have no air brakes and are not considered commercial motor vehicles. 
+In addition to required, standard features Class 8 trucks are generally required and expected to be equipped with or capable of being equipped with PTO-operated (Power Take-Off) wet kits using engine power and a transmission-mounted gear-driven driveshaft to power a hydraulic pump. 
+Wet kit hydraulics power dump boxes, live floors (conveyor systems), hydraulic hoists or cranes and or winches on tractors and/or trailers. PTO systems can also provide direct mechanical power through drivelines to power pumps on tractors and/or trailers hauling, loading and unloading bulk liquids such as fuel or fertilizer.
+
+Canada[edit]
+Vehicle classifications vary among provinces in Canada, due to differences in size and weight regulations, economic activity, physical environment, and other issues.[17]:3 While several provinces use their own classification schemes for traffic monitoring, Manitoba, Ontario, Prince Edward Island and Saskatchewan have adopted the 13-class system from the United States' Federal Highway Administrationsometimes with modifications, or in Ontario's case, for limited purposes.[17]:34[needs update] British Columbia and Ontario also distinguish between short- and long-combination trucks.[17]:34[needs update] In accident reporting, eight jurisdictions subdivide trucks by GVWR into light and heavy classes at approximately 4500 kg 9921 lb.[17]:6
+
+European Union[edit]
+In the European scheme the drivers licenses are (among others) B for cars, C for trucks (lorries), D for buses, and are limited by the GVWR.
+Divides into two types:
+
+appending a number to the class denotes the light versions of said class.
+appending the letter E allows for larger trailers (GTWR).
+Class B permits the use of vehicles with GVWRs of not more than 3500 kg and a trailer with GTWRs not exceeding 750 kg, or a trailer above said limit, if the gross weight of car and trailer combined does not exceed 3500 kg (or 4250 kg after a theoretical and practical course of 7 hours).
+Such vehicles are also commonly known as light commercial vehicles (LCVs), and include the Ford Transit, Mercedes-Benz Sprinter and Fiat Ducato.Class BE allows for trailers up to 3500 kg GTWR while driving a class B vehicle.Class C1 raises the GVWR limit to 7500 kg and a trailer of GTWR not exceeding 750 kg.Class C removes the GVWR limit, but the GTWR limit for the trailer of 750 kg stays.Class C1E allows for a class B or C1 vehicle and a trailer of more than 750 kg GTWR, if the combined gross weight does not exceed 12000 kg.Class CE removes the trailers GTWR limit while driving a Class C vehicle.
+List of truck types[edit]
+Truck (Lorry) See List of truck types
+Box truck
+Cab over
+Chassis cab
+Concrete mixer
+Conversion van
+Flatbed truck
+Logging truck
+Panel van
+Platform truck
+Pickup truck
+Refuse truck
+Semi tractor
+Sport utility vehicle
+Tow truck
+Van
+Gallery[edit]
+
+
+
+
+Class 1 Light duty Toyota Tacoma
+
+
+
+
+
+
+Class 2 2001 Ford Excursion 44 (GVWR: 8,600 pounds (3.9t)
+
+
+
+
+
+
+Class 3 Ford F-350
+
+
+
+
+
+
+Class 4 2008 Ford F-450 44 pick-up truck (GVWR: 14,500 pounds (6.6t))
+
+
+
+
+
+
+Class 5 2005 Chevy Kodiak 44 (GVWR: 17,500 pounds (7.9t))
+
+
+
+
+
+
+Class 6 2002 Ford F-650 in front (GVWR: 26000 lb), 1989 Ford F-600 in back (GVWR: 20,200 pounds (9.2t)
+
+
+
+
+
+
+Class 7 Peterbilt 330 dump truck.
+
+
+
+
+
+
+Class 8 Kenworth W900 tractor with spread-axle 48 feet (15m) refrigerated trailer.
+
+
+
+
+
+
+Class 9 Western Star 6900XD tractor.
+
+
+
+
+See also[edit]
+
+
+Trucks portal
+
+Car classification
+Corporate Average Fuel Economy (CAFE)
+Commercial vehicle
+Curb weight
+Driver's license
+Gross weight:
+Gross axle weight rating (GAWR)
+Gross combined weight rating (GCWR)
+Gross trailer weight rating (GTWR)
+Gross vehicle weight rating (GVWR)
+Large goods vehicle
+List of truck types
+Tow hitch
+Trailer
+Vehicle category
+
+References[edit]
+
+
+^ a b c d e Vehicle Weight Classes & Categories from the United States Department of Energy
+
+^ NTEA.com  Gross Vehicle Weight Rating (GVWR) by Class 
+
+^ FHWA Vehicle Types from the United States Department of Transportation
+
+^ Truck Classification, Changingears.com, March 28, 2009, retrieved April 9, 2012
+
+^ Vehicle Weight Classifications from the United States Environmental Protection Agency
+
+^ Vehicle Inventory and Use Survey  Discontinued. Census.gov. June 30, 2015. Archived from the original on September 5, 2015. Retrieved August 17, 2015.
+
+^ Class 3-4-5 Truck Model Roundup. Nextexitlogistics.com. October 22, 2014. Retrieved August 17, 2015.
+
+^ a b c d Appendix: Truck Types and Classes (PDF). Archived from the original (PDF) on July 22, 2011. Retrieved March 12, 2018.(archived)
+
+^ a b 2005 Dodge Dakota Specifications, Fuel Economy & Overview. Truck Trend. February 26, 2007. Retrieved April 9, 2012.
+
+^ a b http://www.epa.gov/otaq/climate/regulations/420b10039.pdf
+
+^ a b c Isuzu N-Series Diesel Trucks. www.isuzucv.com. Retrieved June 6, 2019.
+
+^ Save to MyGarage (February 10, 2005), 2005 Chicago Auto Show, Autobytel.com, retrieved April 9, 2012
+
+^ GMC TopKick 4500[dead link]
+
+^ Rik Hinton, Idaho Transportation Department (December 22, 2011), Idaho Commercial Driver's License Program, Itd.idaho.gov, retrieved April 9, 2012
+
+^ http://www.peterbilt.com/products/on-highway/389/
+
+^ International Class 7 Crew Cab Pickup. Truck Trend. February 26, 2007. Retrieved April 9, 2012.
+
+^ a b c d Clayton, Alan; Montufar, Jeannette; Middleton, Dan; McCauley, Bill (August 2731, 2000), Feasibility of a New Vehicle Classification System for Canada (PDF), North American Travel Monitoring Exhibition and Conference (NATMEC) 2000, archived from the original (PDF) on November 1, 2004, retrieved August 9, 2013, Furthermore, the fleet characteristics vary significantly from jurisdiction to jurisdiction across the country because of differences in size and weight regulations, economic activity, physical environment, and other issues. This has led to a wide variety of vehicle classification systems used by highway agencies and municipal authorities in their traffic monitoring programs.
+
+
+External links[edit]
+Reducing CO2 emissions from Heavy-Duty Vehicles (European Union).
+Source in german
+
+
+
+
+Retrieved from https://en.wikipedia.org/w/index.php?title=Truck_classification&oldid=903766397
+Categories: Vehicle lawTrucksHidden categories: All articles with dead external linksArticles with dead external links from April 2012Use mdy dates from February 2019Articles needing additional references from June 2019All articles needing additional referencesWikipedia articles in need of updating from August 2013All Wikipedia articles in need of updating
+
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+ArticleTalk 
+
+
+
+
+Variants
+
+
+
+
+
+
+
+Views
+
+ReadEditView history 
+
+
+
+More
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+
+Add links 
+
+
+
+
+
+ This page was last edited on 27 June 2019, at 20:36(UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+

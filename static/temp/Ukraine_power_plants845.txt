@@ -1,0 +1,730 @@
+
+
+
+
+
+
+
+
+
+
+
+Nuclear power in Ukraine
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to navigation
+Jump to search
+This article needs to be updated. Please update this article to reflect recent events or newly available information. (March 2013)
+ Ukrainian coin commemorating nuclear power
+Ukraine operates four nuclear power plants with 15 reactors located in Volhynia and South Ukraine.[1] 
+The total installed nuclear power capacity is over 13 GWe,[2] ranking seventh in the world in 2016.[1]
+Energoatom, a Ukrainian state enterprise, operates all four active nuclear power stations in Ukraine.[3]
+In 2014, nuclear power supplied 49.4% of Ukraine's electricity production of 168TWh.
+
+Contents
+
+1 Overview
+2 Uranium mining
+3 List of reactors
+
+3.1 Active plants with power generating capabilities
+3.2 Research reactors
+3.3 Unfinished and closed plants
+
+
+4 See also
+5 References
+6 External links
+7 News media
+
+
+Overview[edit]
+ Zaporizhia Nuclear Power Plant is Europe's largest with six reactors whose total capacity is 6 GW[1]
+ Khmelnizka NPP
+ Rivne NPP
+Ukraine relies to a large extent on nuclear energy. 
+The largest nuclear power plant in Europe, the Zaporizhzhia Nuclear Power Plant, is located in Ukraine. 
+In 2006, the government planned to build 11 new reactors by the year 2030, which would almost double the current amount of nuclear power capacity.[4] 
+Ukraine's power sector is the twelfth-largest in the world in terms of installed capacity, with 54gigawatts (GW).[5]
+Renewable energy still plays a very modest role in electrical output; in 2005 energy production was met by the following sources: nuclear (47percent), thermal (45percent), hydroelectric and other (8percent).[4]
+
+ Chernobyl AES
+The Chernobyl disaster was a nuclear accident that occurred on 26 April 1986 at the Chernobyl Nuclear Power Plant in Ukraine. 
+An explosion and fire released large quantities of radioactive contamination into the atmosphere, which spread over much of Western USSR and Europe. 
+It is considered the worst nuclear power plant accident in history, and is one of only two classified as a level 7 event on the International Nuclear Event Scale (the other being the Fukushima Daiichi nuclear disaster).[6] The battle to contain the contamination and avert a greater catastrophe ultimately involved over 500,000 workers and cost an estimated 18billion rubles, crippling the Soviet economy.[7]
+Ukraine used to receive its nuclear fuel exclusively from Russia by the Russian company TVEL. Since 2008 the country also gets nuclear fuel from Westinghouse.[8] 
+Since 2014 Westinghouse's share of imports grew to more than 30% in 2016.[1] In 2018 Westinghouse's contract to supply VVER fuel was extended to 2025.[9] Oil and natural gas provide the remainder of the country's energy; these are also imported from the former Soviet Union.
+In 2011 Energoatom began a project to bring safety into line with international standards at an estimated cost of $1.8 billion, with a target completion date of 2017. In 2015 the completion date was put back to 2020, due to financing delays.[10] In 2015 some government agencies made corruption allegations against Energoatom, with concerns raised by Prime Minister Arseniy Yatsenyuk.[11] In March 2016, Energoatom's assets and bank accounts were frozen by Ukrainian courts over allegedly unpaid debts; Energoatom appealed the decision, but the frozen finances led to contractual breaches.[12] In June 2016 its bank accounts were unfrozen.[13]
+In February 2018 Ukraine secured $250 million of U.S. funding to build a spent nuclear fuel storage facility, which will avoid the need ship spent nuclear fuel to Russia.[14]
+In March 2018 Energoatom stated that electricity prices were too low to cover the cost of new nuclear fuel, and called for a price increase.[15]
+
+Uranium mining[edit]
+In 2005 there were 17 deposits on the state balance account.[16] Three of them Vatutine, Central, and Michurinske were being developed, while an ore enrichment factory was being built at Novokostiantyniv.[16] Number of deposits are exhausted (i.e. Devladove, Zhovtorichenske, Pershotravneve, Bratske).[17][16]
+
+List of reactors[edit]
+Main article: List of nuclear reactors Ukraine
+See also: List of power stations in Ukraine
+All of Ukraine's RBMK reactors (the type involved in the 1986 Chernobyl nuclear disaster) were located at the Chernobyl Nuclear Power Plant. All of the reactors there have been shut down, leaving only the much safer VVER reactors operating in the country.[1] Three of the reactors listed were built in post-independence Ukraine, with the first one of these being constructed in 1995; the other sixteen reactors the country inherited from the Soviet Union.
+
+ChernobylChyhyrynCrimeaKharkivKhmelnytskyiOdessaRivneSouthUkraineZaporizhia Nuclear power plants in Ukraine (view)Active plantsClosed plantsUnfinished plants
+Active plants with power generating capabilities[edit]
+
+
+Name
+
+Location
+
+Type
+
+Capacity, MWe
+
+Operational
+
+Notes
+
+
+Khmelnytsky
+Netishyn
+VVER
+1000
+1987-
+
+
+
+
+VVER
+1000
+2004-
+
+
+
+
+VVER
+1000
+construction
+started in 1986 is frozen
+
+
+
+
+VVER
+1000
+construction
+started in 1987 is frozen
+
+
+Rivne
+Varash
+VVER
+440
+1980-
+
+
+
+
+VVER
+440
+1981-
+
+
+
+
+VVER
+1000
+1986-
+
+
+
+
+VVER
+1000
+2004-
+
+
+South Ukraine
+Yuzhnoukrainsk
+VVER
+1000
+1982-
+
+
+
+
+VVER
+1000
+1985-
+
+
+
+
+VVER
+1000
+1989-
+
+
+
+
+VVER
+1000
+construction
+started in 1987 is frozen
+
+
+Zaporizhzhia
+Enerhodar
+VVER
+1000
+1984-
+largest nuclear power plant in Europe
+
+
+
+
+VVER
+1000
+1985-
+
+
+
+
+VVER
+1000
+1986-
+
+
+
+
+VVER
+1000
+1987-
+
+
+
+
+VVER
+1000
+1989-
+
+
+
+
+VVER
+1000
+1995-
+
+
+Total
+Ukraine
+VVER
+13819
+1981 (1978)-
+
+
+Research reactors[edit]
+
+
+Name
+
+Location
+
+Type
+
+Capacity, MWe
+
+Operational
+
+Notes
+
+
+Sevastopol University
+Sevastopol
+IR-100[uk]
+100
+1967-
+ceased by the Russian Federation
+
+
+Institute for Nuclear Research NASU
+Kyiv
+VVR-M[uk]
+10
+1960-
+
+
+
+Kharkiv Institute of Physics and Technology
+Kharkiv
+The source of neutrons
+
+2016-
+
+
+Unfinished and closed plants[edit]
+ Chyhyryn NPP (draft)
+
+
+Name
+
+Location
+
+Type
+
+Capacity, MWe
+
+Operational
+
+Notes
+
+
+Chernobyl NPP
+Pripyat
+RBMK
+1000
+1977-1996
+
+
+
+
+RBMK
+1000
+1978-1991
+stopped after the 1991 accident
+
+
+
+
+RBMK
+1000
+1981-2000
+
+
+
+
+RBMK
+1000
+1984-1986
+exploded in the Chernobyl accident
+
+
+
+
+RBMK
+1000
+construction
+started in 1981, it was frozen 1987
+
+
+
+
+RBMK
+1000
+construction
+started in 1981, it was frozen 1987
+
+
+Crimean NPP
+Shcholkine
+VVER
+950
+construction
+started in 1982, it was frozen 1989
+
+
+
+
+VVER
+950
+construction
+started in 1983, it was frozen 1989
+
+
+
+
+VVER
+950
+plans
+
+
+
+
+VVER
+950
+plans
+
+
+Odessa NTEC
+Teplodar
+VVER
+940
+preparations
+ceased in 1989
+
+
+
+
+VVER
+940
+preparations
+ceased in 1989
+
+
+Kharkiv NTEC
+Birky
+VVER
+940
+preparations
+started in 1986, it was frozen 1989
+
+
+
+
+VVER
+940
+preparations
+started in 1986, it was frozen 1989
+
+
+
+
+VVER
+940
+plans
+
+
+
+
+VVER
+940
+plans
+
+
+Chyhyryn NPP
+Orbita
+VVER
+1000
+plans
+scratched in 1989
+
+
+
+
+VVER
+1000
+plans
+scratched in 1989
+
+
+
+
+VVER
+1000
+plans
+scratched in 1989
+
+
+
+
+VVER
+1000
+plans
+scratched in 1989
+
+
+See also[edit]
+Energoatom (Ukraine)
+Nuclear energy policy in general
+Electricity sector in Ukraine
+List of power stations in Ukraine
+List of Chernobyl-related articles
+References[edit]
+
+
+^ a b c d e Nuclear fuel imports from Sweden account for 41.6% in H1, balance from Russia, UNIAN (22 August 2016)
+
+^ PRIS - Country Details: Ukraine. Retrieved 2016-01-08.
+
+^ Energoatom chief Kim overstepped his powers when signing contract, failed to show up for questioning, says interior minister, Interfax-Ukraine (12 June 2013)
+
+^ a b Nuclear Power in Ukraine. World Nuclear Association. Retrieved 2007-12-22.
+
+^ Ukraine. Energy Information Administration (EIA). US government. Archived from the original on 2009-10-15. Retrieved 2007-12-22.
+
+^ Black, Richard (2011-04-12). ''Fukushima: As Bad as Chernobyl?''. Bbc.co.uk. Retrieved 2011-08-20.
+
+^ From interviews with Mikhail Gorbachev, Hans Blix and Vassili Nesterenko. The Battle of Chernobyl. Discovery Channel. Relevant video locations: 31:00, 1:10:00.
+
+^ Westinghouse and Ukraine's Energoatom extend nuclear fuel contract. Archived from the original on 2014-04-23. Retrieved 2014-04-23.CS1 maint: BOT: original-url status unknown (link)Westinghouse CEO: We are ready to put our fuel in all of Ukraines NPP, UNIAN (28 October 2015)
+
+^ Ukraine signs new fuel contract with Westinghouse. Nuclear Engineering International. 1 February 2018. Retrieved 3 February 2018.
+
+^ Ukraine aims to complete safety upgrade program in 2020. World Nuclear News. 7 August 2015. Retrieved 10 August 2015.
+
+^ Energoatom chief recalls highs and lows of first half-year. World Nuclear News. 12 August 2015. Retrieved 16 June 2016.
+
+^ Continued Ukraine-Russia tensions over fuel. Nuclear Engineering International. 7 June 2016. Retrieved 16 June 2016.
+
+^ Energoatom's accounts unblocked. Interfax-Ukraine. 29 June 2016. Retrieved 21 February 2017.
+
+^ Ukraine secures US funding for storage facility. World Nuclear News. 15 February 2018. Retrieved 19 February 2018.
+
+^ Energoatom counts cost of regulatory changes. World Nuclear News. 19 March 2018. Retrieved 20 March 2018.
+
+^ a b c About economic feasibility to attract investments in exploration and development of uranium deposits in Ukraine. Ukrainian geological projects.
+
+^ Sieroi, S. Uranium plus gold, is that a solution to crisis? Den. 22 May 1998.
+
+
+External links[edit]
+World-nuclear.org
+Nuclear Power Reactors
+News media[edit]
+   ? //
+ :  ,  
+vteNuclear energy in EuropeSovereign states
+Albania
+Andorra
+Armenia
+Austria
+Azerbaijan
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Georgia
+Germany
+Greece
+Hungary
+Iceland
+Ireland
+
+Italy
+Kazakhstan
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Malta
+Moldova
+Monaco
+Montenegro
+Netherlands
+North Macedonia
+Norway
+Poland
+Portugal
+Romania
+Russia
+San Marino
+Serbia
+Slovakia
+Slovenia
+Spain
+Sweden
+Switzerland
+Turkey
+Ukraine
+United Kingdom
+States with limitedrecognition
+Abkhazia
+Artsakh
+Northern Cyprus
+South Ossetia
+Transnistria
+Dependencies andother entities
+land
+Faroe Islands
+Gibraltar
+Guernsey
+Isle of Man
+Jersey
+Svalbard
+Other entities
+European Union
+
+vteNuclear power in Ukraine
+Energy in Ukraine
+Nuclear power
+List of power stations in Ukraine
+Reactors ofPower StationsActive
+Khmelnytskiy
+Rivne
+South Ukraine
+Zaporizhzhia
+Sevastopol
+Unfinished
+Crimean
+Chyhyryn
+Odessa
+Kharkiv
+Closed
+Chernobyl
+Other reactors
+NASU Institute of Nuclear Research
+Companies
+Energoatom
+Related topics
+History of the anti-nuclear movement
+Lists of nuclear disasters and radioactive incidents
+Nuclear power debate
+Nuclear weapons debate
+Environmental movement
+Anti-nuclear protests
+List of nuclear reactors
+Nuclear power phase-out
+
+vteHarvesting and resource extraction in UkraineMining
+Coal
+Ore
+Ferrous
+Non-ferrous
+Petroleum
+Gas
+Agriculture
+Forrestry
+Hunting
+Harvesting
+Food industry
+Light industry
+Energy
+Nuclear power
+Power stations
+Waste recycling
+Industry in Ukraine
+
+
+
+
+Retrieved from https://en.wikipedia.org/w/index.php?title=Nuclear_power_in_Ukraine&oldid=898696003
+Categories: Nuclear energy in UkraineIndustry in UkraineEnergy in UkraineHidden categories: CS1 maint: BOT: original-url status unknownWikipedia articles in need of updating from March 2013All Wikipedia articles in need of updatingInterlanguage link template link number
+
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+ArticleTalk 
+
+
+
+
+Variants
+
+
+
+
+
+
+
+Views
+
+ReadEditView history 
+
+
+
+More
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+DeutschFranaisItalianoSuomi 
+Edit links 
+
+
+
+
+
+ This page was last edited on 25 May 2019, at 09:49(UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+

@@ -1,0 +1,578 @@
+
+
+
+
+
+
+
+
+
+
+
+Energy in South Africa
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to navigation
+Jump to search
+This article may lack focus or may be about more than one topic. Please help improve this article, possibly by splitting the article and/or by introducing a disambiguation page, or discuss this issue on the talk page. (November 2016)
+This article needs to be updated. Please update this article to reflect recent events or newly available information. (November 2016)
+
+
+ Total Primary Energy Supply in South Africa, 2012
+South Africa was the world's sixth hard coal producer in 2009. 
+Hard coal production was 1,620 TWh in 2009 and total energy production 1,995 TWh in 2008.[1]
+
+Contents
+
+1 Overview
+2 Coal
+
+2.1 Coal and environment
+2.2 Coal business
+
+
+3 Electricity
+
+3.1 History
+
+
+4 Renewable energy
+
+4.1 Government incentives
+
+
+5 Controversies
+6 See also
+7 References
+8 External links
+
+
+Overview[edit]
+
+Energy in South Africa[2]
+
+
+
+
+Capita
+
+Prim. energy
+
+Production
+
+Export
+
+Electricity
+
+CO2-emission
+
+
+
+
+Million
+
+TWh
+
+TWh
+
+TWh
+
+TWh
+
+Mt
+
+
+2004
+45.5
+1,525
+1,814
+279
+226
+343
+
+
+2007
+47.6
+1,562
+1,856
+254
+239
+346
+
+
+2008
+48.7
+1,564
+1,895
+203
+232
+337
+
+
+2009
+49.3
+1,675
+1,868
+158
+224
+369
+
+
+2010
+50.0
+1,592
+1,889
+199
+240
+347
+
+
+2012
+50.6
+
+
+
+237
+368
+
+
+Change 2004-10
+9.8%
+4.4%
+4.1%
+-29%
+6.0%
+1.0%
+
+
+ Mtoe = 11.63 TWh, Prim. energy includes energy losses
+
+Coal[edit]
+Main article: Coal in South Africa
+Around 77% of South Africa's energy needs are directly derived from coal[3] and 92% of coal consumed on the African continent is mined in South Africa.[4]
+South Africa was the sixth top hard coal producer in 2009: 247 Mt hard coal, below Australia 335 Mt and Indonesia 263 Mt and above Russia 229 Mt. South Africa was the fifth top hard coal net exporter in 2009: 67 Mt hard coal of the world total hard coal export 836 Mt.[5]
+In 2009 247 Mt hard coal production is 247 Mt*0.564 toe/Mt*11.630 TWh/toe = 1620 TWh and export 67 Mt*0.564 toe/Mt*11.630 TWh/toe = 439 TWh.
+
+Coal and environment[edit]
+See also: Environmental impact of the coal industry
+Coal production and use creates in South Africa Coal combustion wastes (CCW), coal mine wastes (AMD) and toxic coal land fires. Coal combustion wastes (CCW), contain toxic substances like arsenic, cadmium, chromium and lead. Hundreds of South African old coal mines are filled with sulphate salts, heavy metals and carcinogenic substances like benzene and toluene. This AMD damages wildlife and spreads illness and disease. According to Greenpeace most shockingly is eMalahleni 'place of coal', Mpumalanga province, surrounded by 22 collieries and steel, vanadium and manganese plants. One of the biggest old mines is the Transvaal and Delagoa Bay (T&DB) mine, closed in 1953. 60km downstream from Emalahleni AMD leaked into the water supply in 2006 and 2007 killing thousands of fish, crocodiles and freshwater turtles and poisoning the water used by communities. Coal fires continue in the disused mines.[1]
+
+Coal business[edit]
+Coal mine owners include Anglo Coal (ex Amcoal) a subsidiary of Anglo American plc, Glencore, Exxaro and South 32.[1]
+
+Electricity[edit]
+See also: List of power stations in South Africa
+In 2008 electricity was produced 241 TWh with coal. In 2008 electricity production + imports  exports  losses was 232 TWh.[6]
+The government owned national power utility Eskom dominates the country's electricity sector.  With 27 operational power plants generating over 95% of the country's electricity and over 40% of all electricity on the African continent making it one of the ten largest power utilities in the world.  However government's inability to keep Eskom's generating capacity up with economic and population growth due to a lack of investment by government has created a large energy shortage and led to an energy crisis in late 2007. This has forced the company to implement loadshedding in specific areas of the country at certain times to reduce pressure on the national grid and initiate an ambitious program to increase energy production.[7][8]  This has led to speculation by the national newspaper, the Mail and Guardian, that the country might face a complete grid failure.[9]
+
+ A postcard photograph circa 1907 of the Kimberley Municipal Compound.  The Kimberley Power plant with its tall chimney stack opened in 1882 can be seen in the centre of the image.
+History[edit]
+Prior to the establishment of Eskom the provision of electricity was dominated by municipalities and private companies.  The city of Kimberley was the first user of public electricity in South Africa when it installed electric streetlights run off a coal fired power plant in 1882 to reduce crime at night.[10]:5  The first central power station and distribution system in South Africa consisting of a 150 kW generator with two boilers and located at Cape Town Harbour was completed in 1891 to supply power to government buildings in the nearby city.[11] In 1893 the town (now neighbourhood) of Wynberg in Cape Town opened a power station to provide power to a local tram system and public streetlights.[11]  This was followed by the first municipal power station built by the City of Cape Town in 1895 with the construction of the Graaff Electric Lighting Works to power 775 streetlights.[12]
+Eskom was founded by the Electricity Act of 1922 which allowed for the establishment of a government owned non-profit company to provide electricity.  In 1948 Eskom bought out the Victoria Falls and Transvaal Power Company with government support for 14.5 million (roughly equivalent to 2.55 billion in 2017) to become South Africa's primary electricity provider.  Eskom dropped its non-profit mandate in the late 1970s and government control over the company was expanded in 1998 with the passing of the Eskom Amendment Act.[13]:5-8
+
+Renewable energy[edit]
+Main article: Renewable energy in South Africa
+The portion of renewable energy as a percentage of final energy consumption in 2012 was 16.9%. Most of that was from the burning of traditional biofuels for heating.
+
+
+
+
+Source:[14]
+
+In terms of share of GDP in 2012, South Africa was the fourth largest investor in renewable power in the world after Uruguay, Mauritius and Costa Rica. That rate of investment is expected to continue. Renewable energy will play a larger role in future.[15]
+South Africa's per capita greenhouse gas emissions are the highest in Africa.[16]
+South Africa's commitment to renewable energy lags behind that of China, India, Brazil, and Russia. South Africa receives more than twice as much sunshine than Germany, where over 15 percent of the national electricity supply comes from renewable sources.[17][18][19][20]
+
+Government incentives[edit]
+South Africa's National Energy Regulator (NERSA) announced 31 March 2009 the introduction of a system of feed-in tariffs designed to produce 10 TWh of electricity per year by 2013. The feed-in tariffs announced were substantially higher than those in NERSA's original proposal. The tariffs, differentiated by technology, will be paid for a period of 20 years.
+NERSA said in its release that the tariffs were based, as in most European countries, on the cost of generation plus a reasonable profit. The tariffs for wind energy and concentrating solar power are among the most attractive worldwide.
+The tariff for wind energy, 1.25 ZAR/kWh (0.104/kWh) is greater than that offered in Germany and more than that proposed in Ontario, Canada.
+The tariff for concentrating solar, 2.10 ZAR/kWh, is less than that in Spain, but offers great promise in the bright sunlight of South Africa. NERSA's revised program followed extensive public consultation.
+Stefan Gsnger, Secretary General of the World Wind Energy Association said in a release that South Africa is the first African country to introduce a feed-in tariff for wind energy. Many small and big investors will now be able to contribute to the take-off of the wind industry in the country. Such decentralised investment will enable South Africa to overcome its current energy crisis. It will also help many South African communities to invest in wind farms and generate electricity, new jobs and new income. We are especially pleased as this decision comes shortly after the first North American feed-in law has been proposed by the Government of the Canadian Province of Ontario.[21]
+However, the feed-in tariff was abandoned before being promulgated in favor of a competitive bidding process launched on 3 August 2011. Under this bidding process, the South African government plans to procure 3,750MW of renewable energy: 1,850MW of onshore wind, 1,450MW of solar PV, 200MW of CSP, 75MW of small hydro, 25MW of landfill gas, 12.5MW of biogas, 12.5MW of biomass, and 100MW of small projects. The bidding process comprises two steps:
+
+Qualification phase. Projects are assessed based on structure of the project, legal, land acquisition and use, financial, environmental consent, technical, economic development and bid guarantee
+Evaluation phase. Compliant bids are then evaluated based on: (1) price relative to a ceiling provided in bid documentation, accounting for 70% of the decision, and (2) economic development, accounting for 30% of the decision.
+The first round of bids was due on 4 November 2011. The SA government is expected to announce preferred bidders before COP17 in December. PPA's are expected to be in place by June 2012. Projects should be commissioned by June 2014, except CSP projects which are expected by June 2015.
+The average indexed bid prices (2012)  for the supply of energy in the first bid window for the various renewable energy technologies were:
+
+Concentrating solar power (CSP): R2,69 per kWh
+Solar photo-voltaic (PV): R2,76 per kWh
+Wind: R1,14 per kWh
+The average indexed bid prices (2012) for the supply of energy in the second bid window
+
+Concentrating solar power (CSP): R2,51 per kWh
+Solar photo-voltaic (PV): R1,65 per kWh
+Wind: R0,90 per kWh
+Small hydro: R1,03 per kWh
+The average indexed bid prices (2013) for the supply of energy in the third bid window
+
+Concentrating solar power (CSP): R1,64 per kWh
+Solar photo-voltaic (PV): R0,99 per kWh
+Wind: R0,74 per kWh
+Landfill gas: R0,94 per kWh
+Biomass: R1,39 per kWh
+Eskom claims a standard electricity production price (2012)of R0.31 per kWh  (Eskom-predominately Coal and Nuclear),[22] however energy generated from Eskom's new coal power plants have been estimated to be R0.97 per kWh.
+
+Controversies[edit]
+Secret price contracts between Eskom and the Australian mining company BHP Billiton less than half Eskom's reported production price in the period.[23]
+Many abandoned mines have been burning since the 1940s. Persistent and toxic mine chemical leakages pollute waterways and kill animals. In 2006, about 80% of South Africa's coal exports was in Europe.[1]
+
+See also[edit]
+
+
+Energy portal
+Sustainable development portal
+South Africa portal
+Solar energy in South Africa
+Feed-in tariff
+References[edit]
+
+
+^ a b c d The True Cost of Coal Greenpeace 27 November 2008 pages 4853
+
+^ IEA Key World Energy Statistics Statistics 2013, 2012, 2011, 2010, 2009, 2006 IEA October, crude oil p.11, coal p. 13 gas p. 15
+
+^ Coal. Department of Energy (South Africa). Retrieved 8 January 2010.
+
+^ International Energy Outlook 2009, Chapter 4  Coal. Energy Information Administration. 27 May 2009. Retrieved 14 January 2010.
+
+^ IEA Key energy statistics 2010 Page 15
+
+^ IEA Key energy statistics 2010 Pages 25,56
+
+^ Jasson Urbach (9 August 2012). The electricity crisis  from bad to terrible. Moneyweb. Retrieved 10 August 2015.
+
+^ Sipho Hlongwane (12 January 2012). Hey Eskom, remember 2008?. Daily Maverick. Retrieved 10 August 2015.
+
+^ KATE WILKINSON (11 December 2014). Does South Africa face an electricity grid collapse?. Mail & Guardian. Retrieved 10 August 2015.
+
+^ Holtzhausen, Jacobus Petrus (March 2012). A comparative analysis of the coverage of the South African electrical energy crisis during the period 2005-2010 by Cape Town newspapers (PDF). Stellenbosch University. Retrieved 21 December 2018. line feed character in |title= at position 42 (help)
+
+^ a b Eskom Heritage: FIRST CENTRAL POWER STATION - 1891. Eskom. Retrieved 21 December 2018.
+
+^ Fox, Justin & Westwood, Alison (2016). Secret Cape Town (PDF). Cape Town: JONGLEZ. p.68. ISBN978-2-36195-140-5.CS1 maint: Multiple names: authors list (link)
+
+^ Conradie,, S. R.; Messerschmidt, L. J. M. (2000). A Symphony of Power: The Eskom Story. Johannesburg: Chris van Rensburg Publishers. p.77.
+
+^ Global Tracking Framework 2015. The World Bank. Retrieved 14 October 2015.
+
+^ RENEWABLES 2014 GLOBAL STATUS REPORT. REN21. Retrieved 30 March 2015.
+
+^ Laboratory, Oak Ridge National. Carbon Dioxide Information Analysis Center (CDIAC). cdiac.ess-dive.lbl.gov. Retrieved 26 November 2017.
+
+^ http://www.tips.org.za/files/184.pdf
+
+^ Statistics South Africa Category Archives: Energy. 27 July 2017. Retrieved 25 November 2017.
+
+^ CO2 Emissions from Fuel Combustion: 2011Highlights. IEA. Retrieved 17 October 2011.
+
+^ World's Largest Solar Park to be in South Africa?. CleanTechnica. 26 October 2010. Retrieved 17 October 2011.
+
+^ [1] South Africa Introduces Aggressive Feed-in Tariffs , Paul Gipe, Contributing Writer, 10 April 2009
+
+^ Renewable Energy IPP Procurement Programme: Window two Preferred Bidders' announcement. Department of Minerals and Energy. Retrieved 13 July 2013.
+
+^ Who's holding us back? Full report. Greenpeace, 23 November 2011
+
+
+External links[edit]
+
+
+
+Wikimedia Commons has media related to Energy in South Africa.
+
+Western Cape Industrial Symbiosis Programme (WISP)
+vtePower in South AfricaSectors
+Energy in South Africa
+Nuclear power
+Renewable energy
+Solar power
+Companies andorganisationsCurrent
+Eskom
+South African Nuclear Energy Corporation
+National Energy Regulator of South Africa
+Defunct
+Atomic Energy Corporation
+Activepower stationsCoal
+Arnot Power Station
+Bloemfontein Power Station
+Camden Power Station
+Duvha Power Station
+Grootvlei Power Station
+Hendrina Power Station
+Kelvin Power Station
+Kendal Power Station
+Komati Power Station
+Kriel Power Station
+Kusile Power Station
+Lethabo Power Station
+Majuba Power Station
+Matimba Power Station
+Matla Power Station
+Medupi Power Station
+Pretoria West Power Station
+Rooiwal Power Station
+Tutuka Power Station
+Hydro-electric
+Drakensberg Pumped Storage Scheme
+Gariep Dam
+Ingula Pumped Storage Scheme
+Kouga Dam Power Station
+Ncora Dam
+Palmiet Pumped Storage Scheme
+Steenbras Dam
+Vanderkloof Dam
+Nuclear
+Koeberg nuclear power station
+Oil and gas
+Acacia Power Station
+Ankerlig Power Station
+Gourikwa Power Station
+Newcastle Cogeneration Plant
+Port Rex Power Station
+Solar
+Bokpoort CSP
+De Aar Solar Power
+Droogfontein Solar Power
+Jasper Solar Energy Project
+Kalkbult
+Redstone Solar Thermal Power
+Kathu Solar Park
+KaXu Solar One
+Khi Solar One
+Lesedi Solar Park
+Letsatsi Solar Park
+SlimSun Swartland Solar Park
+Touwsrivier CPV Solar Project
+Wind
+Coega Wind Farm
+De Aar Wind Farm
+Darling Wind Farm
+Dassiesklip Wind Energy Facility
+Excelsior Wind Farm
+Jeffreys Bay Wind Farm
+Golden Valley Wind Farm
+Gouda Wind Facility
+Hopefield Wind Farm
+Kangans Wind Farm
+Klipheuwel Wind Farm
+Perdekraal Wind farm
+Loeriesfontein Wind Farm
+Sere Wind Farm
+Van Stadens Wind Farm
+Other
+Johannesburg Landfill Gas to Electricity
+Decommissionedpower stationsCoal
+Athlone Power Station
+Colenso Power Station
+Driehoek Power Station
+Graaff Electric Lighting Works
+Ingagane Power Station
+Kroonstad Power Station
+Mount Road Power Station
+Orlando Power Station
+Swartkops Power Station
+Other
+Department of Energy (South Africa)
+Coal in South Africa
+Renewable energy in Africa
+
+ Category
+ Commons
+
+vteEnergy in Africa Sovereign states
+Algeria
+Angola
+Benin
+Botswana
+Burkina Faso
+Burundi
+Cameroon
+Cape Verde (Cabo Verde)
+Central African Republic
+Chad
+Comoros
+Democratic Republic of the Congo
+Republic of the Congo
+Djibouti
+Egypt
+Equatorial Guinea
+Eritrea
+Eswatini (Swaziland)
+Ethiopia
+Gabon
+The Gambia
+Ghana
+Guinea
+Guinea-Bissau
+Ivory Coast (Cte d'Ivoire)
+Kenya
+Lesotho
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger
+Nigeria
+Rwanda
+So Tom and Prncipe
+Senegal
+Seychelles
+Sierra Leone
+Somalia
+South Africa
+South Sudan
+Sudan
+Tanzania
+Togo
+Tunisia
+Uganda
+Zambia
+Zimbabwe
+States with limitedrecognition
+Sahrawi Arab Democratic Republic
+Somaliland
+Dependencies andother territories
+Canary Islands/ Ceuta/ Melilla(Spain)
+Madeira(Portugal)
+Mayotte/ Runion(France)
+Saint Helena/ Ascension Island/ Tristan da Cunha(United Kingdom)
+
+
+
+
+
+Retrieved from https://en.wikipedia.org/w/index.php?title=Energy_in_South_Africa&oldid=885208887
+Categories: Energy in South AfricaHidden categories: Pages using TimelineCS1 errors: invisible charactersCS1 maint: Multiple names: authors listWikipedia articles lacking focus from November 2016All Wikipedia articles lacking focusWikipedia articles in need of updating from November 2016All Wikipedia articles in need of updatingEngvarB from May 2013Use dmy dates from May 2013Commons category link from Wikidata
+
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+ArticleTalk 
+
+
+
+
+Variants
+
+
+
+
+
+
+
+Views
+
+ReadEditView history 
+
+
+
+More
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+Franais 
+Edit links 
+
+
+
+
+
+ This page was last edited on 26 February 2019, at 17:22(UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+

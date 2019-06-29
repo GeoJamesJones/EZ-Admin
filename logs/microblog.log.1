@@ -1,0 +1,105 @@
+2019-06-27 11:47:55,901 ERROR: Exception on /index [GET] [in /home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1182, in _execute_context
+    context)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 470, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 2087, in preprocess_request
+    rv = func()
+  File "/home/dif_user/wdc-integration/app/routes/routes.py", line 25, in before_request
+    if current_user.is_authenticated:
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/werkzeug/local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/werkzeug/local.py", line 306, in _get_current_object
+    return self.__local()
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask_login/utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask_login/utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask_login/login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask_login/login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "/home/dif_user/wdc-integration/app/models/models.py", line 52, in load_user
+    return User.query.get(int(id))
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 864, in get
+    return self._get_impl(ident, loading.load_on_ident)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 897, in _get_impl
+    return fallback_fn(self, key)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/orm/loading.py", line 223, in load_on_ident
+    return q.one()
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2814, in one
+    ret = self.one_or_none()
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2784, in one_or_none
+    ret = list(self)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2878, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 945, in execute
+    return meth(self, multiparams, params)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 263, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1053, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1189, in _execute_context
+    context)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1402, in _handle_dbapi_exception
+    exc_info
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 186, in reraise
+    raise value.with_traceback(tb)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1182, in _execute_context
+    context)
+  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 470, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ [SQL: 'SELECT "user".id AS user_id, "user".username AS user_username, "user".email AS user_email, "user".password_hash AS user_password_hash, "user".last_seen AS user_last_seen \nFROM "user" \nWHERE "user".id = %(param_1)s'] [parameters: {'param_1': 1}]
+2019-06-27 11:48:44,325 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:48:44,475 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:48:44,481 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:48:44,496 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:56:12,180 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:56:12,188 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:56:12,395 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:56:12,550 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:57:04,204 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:58:19,724 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:58:19,778 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:58:20,012 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 11:58:20,056 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 12:19:21,914 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 12:19:22,032 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 12:19:22,089 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 12:19:22,147 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 12:40:39,979 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 12:40:40,151 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 12:40:40,291 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 12:40:40,344 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 15:43:06,432 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 15:43:06,522 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 15:43:06,674 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 15:43:06,760 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 15:53:29,062 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
+2019-06-27 17:36:04,443 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
