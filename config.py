@@ -3,7 +3,11 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config(object):
     SECRET_KEY = 'you-will-never-guess'
+<<<<<<< HEAD
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///' + os.path.join(basedir, 'app.db')
+=======
+    #SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///' + os.path.join(basedir, 'app.db')
+>>>>>>> b754cea78e988990e388b7edb1b9483a6d37658b
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     NETOWL_INT_FOLDER = os.getcwd() + '/static/temp'
     UPLOAD_FOLDER = os.getcwd() + '/static/uploads'
@@ -20,5 +24,10 @@ class Config(object):
     POSTGRES_DB="jones"
     ACS_FACE_API_KEY="53242be6635c420c807d15a44a7015cf"
     ACS_CV_API_KEY="b5c56de0406947f5a5ef90c6f32e0665"
+<<<<<<< HEAD
     # SQLALCHEMY_DATABASE_URI =  'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user=POSTGRES_USER,pw=POSTGRES_PW,url=POSTGRES_URL,db=POSTGRES_DB)
     
+=======
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user=POSTGRES_USER,pw=POSTGRES_PW,url=POSTGRES_URL,db=POSTGRES_DB)
+    
+>>>>>>> b754cea78e988990e388b7edb1b9483a6d37658b

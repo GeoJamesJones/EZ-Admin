@@ -16,12 +16,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ url_for('index') }}">Ease of Use Application</a>
+                <a class="navbar-brand" href="{{ url_for('index') }}">Home</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url_for('index') }}">Home</a></li>
-                    <li><a href="{{ url_for('ease_of_use') }}">Map</a></li>
                     <li class="dropdown">
                         <button class="navbar dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:transparent;">
                             Upload
@@ -33,6 +31,17 @@
                             <a class="dropdown-item" href="{{ url_for('form_upload_cmb') }}">Upload CMB</a><br>
                         </button>
                     </li>
+                    <li class="dropdown">
+                        <button class="navbar dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:transparent;">
+                            Admin
+                        </button>
+                        <button class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="{{ url_for('check_broken_items') }}">Check for Broken Links in Portal</a><br>
+                            <a class="dropdown-item" href="{{ url_for('check_federation_status') }}">Check Federation Status</a><br>
+                            <a class="dropdown-item" href="{{ url_for('form_create_user') }}">Create Portal User</a><br>
+                            <a class="dropdown-item" href="{{ url_for('form_get_users') }}">Get Portal Users</a><br>
+                            <a class="dropdown-item" href="{{ url_for('form_get_groups') }}">Get Portal Groups</a><br>
+                        </button>
                     <li class="dropdown">
                         <button class="navbar dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:transparent;">
                             Query
