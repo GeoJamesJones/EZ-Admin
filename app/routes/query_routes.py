@@ -42,4 +42,4 @@ def form_query_news():
         bucketizenews.main(query, "News Query")
         flash("Success!")
         return render_template('query_news_results.html')
-    return render_template('query_news.html', form=form)   
+    return render_template('query_news.html', form=form)

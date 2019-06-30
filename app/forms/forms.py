@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
 from flask_uploads import UploadSet
 from flask_wtf.file import FileField, FileAllowed, FileRequired
-from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField, SelectField
+from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField, SelectField, DecimalField
 from wtforms.validators import ValidationError, DataRequired, Email, EqualTo, Length
 from app.models.models import User
 
@@ -102,3 +102,11 @@ class QueryWeb(FlaskForm):
 class QueryNews(FlaskForm):
     query = StringField('Query Keywords', validators=[DataRequired()])
     submit = SubmitField('Submit')
+
+class DetectFaces(FlaskForm):
+    upload = FileField('Image File:', validators=[
+        FileRequired()
+    ])
+    lat = DecimalField("Latitude", places=12)
+    lon = DecimalField("Longitude", places=12)
+    submit = SubmitField('Upload File')

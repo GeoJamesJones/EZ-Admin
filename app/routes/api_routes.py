@@ -8,8 +8,7 @@ from werkzeug.utils import secure_filename
 from arcgis.gis import GIS
 from arcgis.mapping import WebMap
 
-from app.scripts import unzip
-from app.scripts import move_files
+from app.scripts import unzip, move_files, detect_faces
 #from app.scripts import consolidate_elevation
 from app.forms.forms import UploadShapes
 from app.models.models import Post
@@ -38,6 +37,13 @@ def job_info():
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+def post_to_geoevent(json_data, geoevent_url):
+    headers = {
+        'Content-Type': 'application/json',
+                }
+
+    requests.post((geoevent_url), headers=headers, data=json_data, verify=False)
 
 @app.route('/api/v1.0/upload-shapes', methods=['POST', 'GET'])
 def upload_shape():
@@ -193,7 +199,7 @@ def remove_user():
         return str(e)
         #return 'User {} does not exist in Target Portal'.format(request.form['username'])
 
-ALLOWED_EXTENSIONS = set(['doc', 'docx', 'txt', 'htm', 'html', 'pdf'])
+ALLOWED_EXTENSIONS = set(['doc', 'docx', 'txt', 'htm', 'html', 'pdf', 'jpg', 'png'])
 
 def allowed_file(filename):
     return '.' in filename and \
@@ -284,4 +290,44 @@ def google_netowl():
             os.remove(text_file_path + ".json")
 
     except Exception as e:
-        return str(e) 
+        return str(e)
+
+@app.route('/api/v1.0/detect-faces', methods=['POST', 'GET'])
+def detect_face():
+    job_number = int(len(jobs) + 1)
+    jobs[job_number] = "Job Recieved"
+    if request.method == 'POST':
+        # check if the post request has the file part
+        if 'file' not in request.files:
+            flash('No file part')
+            copied_shapes = 'Please submit files as an image file.'
+            return redirect(request.url)
+        file = request.files['file']
+        # if user does not select file, browser also
+        # submit an empty part without filename
+        if file.filename == '':
+            flash('No selected file')
+            copied_shapes = 'error'
+            return redirect(request.url)
+        if file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            file.save(os.path.join(app.config['IMAGE_FOLDER'], filename))
+            if filename.endswith(".jpg"):
+
+                lat = request.form['lat']
+                lon = request.form['lon']
+
+
+                print(app.config['IMAGE_BASE_URL'] + file.filename)
+                #image_url = app.config['IMAGE_BASE_URL'] + file.filename
+                image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Wayne.jpg'
+                try:
+                    faces = detect_faces.main(image_url, lat, lon)
+                    post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
+                    return jsonify(faces)
+                except Exception as e:
+                    return str(e)
+
+    if request.method == 'GET':
+        files = os.listdir(app.config['IMAGE_FOLDER'])
+        return jsonify(files)
