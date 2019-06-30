@@ -18,11 +18,14 @@ def is_weapon(image, subscription_key, region_code):
     #return resp
     return not set(weapon_tags).isdisjoint(resp['description']['tags'])
 
-def update_json(input_json_file, image_url, latitude, longitude, face_count, has_weapon):
+def update_json(input_json_file, image_url, latitude, longitude, face_count, male_count, female_count, children_count, has_weapon):
     input_json_file['image_url'] = image_url
     input_json_file['lat'] =latitude
     input_json_file['long'] = longitude
     input_json_file['number_faces'] = face_count
+    input_json_file['male'] = male_count
+    input_json_file['female'] = female_count
+    input_json_file['children'] = children_count
     input_json_file['has_weapon'] = has_weapon
 
 def main(img, lat, lon):
@@ -69,14 +72,25 @@ def main(img, lat, lon):
 
             else:
                 face_count = 0
+                male = 0
+                female = 0
+                children = 0
                 for face in faces:
                     face_count +=1
+                    if face["faceAttributes"]["gender"] == 'male':
+                        male +=1
+                    else:
+                        female +=1
+
+                    if face["faceAttributes"]["age"] <= 18:
+                        children +=1
 
                 geoevent_dict = {}                  
 
-                update_json(geoevent_dict, img, float(lat), float(lon), face_count, image_has_weapon)
+                update_json(geoevent_dict, img, float(lat), float(lon), face_count, int(male), int(female), int(children), image_has_weapon)
 
                 return geoevent_dict
                         
         else:
             print("No faces detected...")
+            return {200:'No faces detected in image.'}

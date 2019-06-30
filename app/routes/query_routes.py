@@ -21,15 +21,19 @@ from config import Config
 urllib3.disable_warnings()
 
 @app.route('/query/web', methods=['POST', 'GET'])
+@login_required
 def form_query_web():
     form = QueryWeb()
     if form.validate_on_submit():
         query = form.query.data
         category = form.category.data
-        flash("Searching...")
+        post_body = "Query Web: " + query
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
         bucketizebing.main(query, category)
         flash("Success!")
-        return render_template('query_web_results.html')
+        return render_template('query_web.html', form=form)
     return render_template('query_web.html', form=form)
 
 @app.route('/query/news', methods=['POST', 'GET'])
@@ -38,8 +42,34 @@ def form_query_news():
     form = QueryNews()
     if form.validate_on_submit():
         query = form.query.data
+        post_body = "Query News: " + query
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+        bucketizenews.main(query, "News Query")
+        flash("Success!")
+        return render_template('query_news.html', form=form)
+    return render_template('query_news.html', form=form)
+
+@app.route('/query-embed/web', methods=['POST', 'GET'])
+def embed_query_web():
+    form = QueryWeb()
+    if form.validate_on_submit():
+        query = form.query.data
+        category = form.category.data
+        flash("Searching...")
+        bucketizebing.main(query, category)
+        flash("Success!")
+        return render_template('query_web_clean.html', form=form)
+    return render_template('query_web_clean.html', form=form)
+
+@app.route('/query-embed/news', methods=['POST', 'GET'])
+def embed_query_news():
+    form = QueryNews()
+    if form.validate_on_submit():
+        query = form.query.data
         flash("Searching...")
         bucketizenews.main(query, "News Query")
         flash("Success!")
-        return render_template('query_news_results.html')
-    return render_template('query_news.html', form=form)
+        return render_template('query_news_clean.html', form=form)
+    return render_template('query_news_clean.html', form=form)
