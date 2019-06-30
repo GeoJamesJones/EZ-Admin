@@ -75,6 +75,7 @@ def main(img, lat, lon):
                 male = 0
                 female = 0
                 children = 0
+
                 for face in faces:
                     face_count +=1
                     if face["faceAttributes"]["gender"] == 'male':
