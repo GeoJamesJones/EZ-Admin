@@ -1,0 +1,945 @@
+
+
+
+
+
+
+
+
+
+
+
+List of power stations in Ukraine
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to navigation
+Jump to search
+KhmelnytskyRivneSouth UkraineZaporizhiaChernobylCrimeaChyhyrynOdesaKharkivVuhlehirskZaporizhiaBurshtynKryvyi RihZmiivTrypilliaLadyzhynDnieperStarobesheveLuhanskKurakhoveZuivSlovianskDobrotvirDniester/DniesterDnieperKanivKamianskeKievKievTashlykKremenchukKakhovka Location of major power stations in Ukraine:  Nuclear,  Coal, Hydroelectric
+
+
+Map all coordinates using: OpenStreetMap
+
+
+Download coordinates as: KMLGPX
+
+The following page lists power stations in Ukraine.
+
+Contents
+
+1 Nuclear
+
+1.1 In service
+1.2 Historic
+
+
+2 Hydroelectric
+3 Thermal
+4 See also
+5 References
+
+
+Nuclear[edit]
+Main article: Nuclear power in Ukraine
+In service[edit]
+
+
+Name
+
+Location
+
+Coordinates
+
+Type
+
+Capacity (MWe)
+
+Commissioned
+
+Notes
+
+Refs
+
+
+Khmelnytsky
+Netishyn
+501809N 263852E / 50.302512N 26.647875E / 50.302512; 26.647875 (Khmelnytsky CPP)
+VVER
+2000
+1987, 2004
+
+[1][2]
+
+
+Rivne
+Varash
+511937N 255326E / 51.326857N 25.890634E / 51.326857; 25.890634 (Rivne Nuclear Power Plant)
+VVER
+2819
+1980-2004
+
+[1][3]
+
+
+South Ukraine
+Yuzhnoukrainsk
+474843N 311303E / 47.812031N 31.217372E / 47.812031; 31.217372 (South Ukraine CPP)
+VVER
+3000
+1982, 1985, 1989
+
+[1][4]
+
+
+Zaporizhzhia
+Enerhodar
+473031N 343504E / 47.508519N 34.584392E / 47.508519; 34.584392 (Zaporizhzhia CPP, Unit 1)
+VVER
+6000
+1984-1995
+The largest nuclear power plant in Europe
+[1][5]
+
+
+Historic[edit]
+
+
+Name
+
+Location
+
+Coordinates
+
+Type
+
+Capacity, MWe
+
+Operational
+
+Notes
+
+Refs
+
+
+Chernobyl Unit 1
+Pripyat
+512322N 300625E / 51.389445N 30.10682E / 51.389445; 30.10682 (Chernobyl CPP, Unit 1)
+RBMK
+1000
+19771996
+
+[1]
+
+
+Chernobyl Unit 2
+Pripyat
+512322N 300616E / 51.389445N 30.104406E / 51.389445; 30.104406 (Chernobyl CPP, Unit 2)
+RBMK
+1000
+19781991
+
+[1]
+
+
+Chernobyl Unit 3
+Pripyat
+512323N 300602E / 51.389586N 30.100436E / 51.389586; 30.100436 (Chernobyl CPP, Unit 3)
+RBMK
+1000
+19812000
+
+[1]
+
+
+Chernobyl Unit 4
+Pripyat
+512323N 300556E / 51.389606N 30.09902E / 51.389606; 30.09902 (Chernobyl CPP, Unit 4)
+RBMK
+1000
+19831986
+Exploded in the Chernobyl accident
+[1][6]
+
+
+Chernobyl Unit 5
+Pripyat
+
+RBMK
+1000
+Never
+~75% Complete. Work stopped ~1989
+[1]
+
+
+Chernobyl Unit 6
+Pripyat
+
+RBMK
+1000
+Never
+Building foundation & floor laid. Work stopped ~1989
+[1]
+
+
+Crimea
+Shcholkine
+452331N 354813E / 45.391937N 35.803727E / 45.391937; 35.803727 (Crimea CPP, Unit 1)
+VVER
+1000
+
+Remains unfinishedCommenced 1975Unit 1 80% complete and Unit 2 18% finished in 1989
+[1]
+
+
+Chyhyryn
+Chyhyryn
+490505N 324707E / 49.08472N 32.78528E / 49.08472; 32.78528 (Chyhyryn CPP, Unit 1)
+VVER
+1000
+Never
+never finished since 1977 and stopped in 1989
+
+
+
+Odessa
+Teplodar
+462738N 301858E / 46.46056N 30.31611E / 46.46056; 30.31611 (Teplodar CPP, Unit 1)
+VVER
+1000
+Never
+never finished since 1980 and stopped in 1986
+[7]
+
+
+Kharkiv
+Birky
+
+VVER
+1000
+Never
+never finished since 1986 and stopped in 1990
+
+
+Hydroelectric[edit]
+Main articles: Hydroelectricity in Ukraine and Ukrhydroenerho
+
+
+Name
+
+Power (MW)
+
+Year of built[further explanation needed]
+
+Location
+
+Coordinates
+
+Refs
+
+
+Dnieper Hydroelectric Station
+1,500
+19271932
+Zaporizhia
+475210N 350510E / 47.869444N 35.086111E / 47.869444; 35.086111 (Dnieper Hydroelectric Station)
+
+
+
+Dniester Hydroelectric Power Plant
+702
+19731981
+Novodnistrovsk
+483538N 272710E / 48.59391N 27.452903E / 48.59391; 27.452903
+
+
+
+Dniester Pumped Storage Power Station
+972
+19832014
+Novodnistrovsk
+483052N 272828E / 48.514387N 27.47436E / 48.514387; 27.47436
+
+
+
+Middle Dnieper Hydroelectric Power Plant
+352
+1963
+Kamianske
+483255N 343228E / 48.548504N 34.541016E / 48.548504; 34.541016 (Dniprodzerzhynsk Hydroelectric Station)
+[8] [9]
+
+
+Kiev Hydroelectric Station
+388.8
+1964
+Vyshhorod
+503518N 303042E / 50.588305N 30.51178E / 50.588305; 30.51178 (Kiev Hydroelectric Station)
+
+
+
+Kaniv Hydroelectric Station
+444
+1972
+Kaniv
+494600N 312830E / 49.766667N 31.475E / 49.766667; 31.475 (Kaniv Hydroelectric Station)
+
+
+
+Kremenchuk Hydroelectric Station
+625
+1959
+Svitlovodsk
+490430N 301504E / 49.075N 30.251E / 49.075; 30.251 (Kremenchuk Hydroelectric Station)
+
+
+
+Kakhovka Hydroelectric Station
+351
+1955
+Nova Kakhovka
+464630N 302207E / 46.775N 30.368667E / 46.775; 30.368667 (Kakhovka Hydroelectric Station)
+
+
+
+Kiev Pumped Storage Power Plant
+235
+1970
+Vyshhorod
+503630N 302907E / 50.608333N 30.485333E / 50.608333; 30.485333 (Kiev Hydro-Accumulating Power Station)
+
+
+
+Tashlyk Pumped-Storage Power Plant
+302
+19812007
+Yuzhnoukrainsk
+474749N 311050E / 47.7968399N 31.1806154E / 47.7968399; 31.1806154 (Tashlyk Hydro-Accumulating Power Station)
+[10] [11]
+
+
+Kaniv Pumped Storage Power Station[uk]
+1 000
+2019-?
+Buchak, Kaniv[uk]
+
+
+
+Notes:
+
+the Tashlyk Hydro-Accumulating Power Station is controlled by the Ukrainian state agency Energoatom as it is located near the South Ukraine Nuclear Plant.
+Thermal[edit]
+Main article: Thermal power stations in Ukraine
+
+
+Name
+Adm.Company
+Capacity, MWe
+Units
+Fuel
+Location
+Coordinates
+
+
+Burshtyn thermal power plant[12]
+Zakhidenergo
+2,400
+12x200
+coal
+Burshtyn
+491234N 243946E / 49.209579N 24.662762E / 49.209579; 24.662762 (Burshtynska thermal power plant)
+
+
+Dobrotvir thermal power plant[12]
+Zakhidenergo
+600
+3x100+2x150
+coal
+Dobrotvir
+501248N 242230E / 50.213273N 24.374971E / 50.213273; 24.374971 (Dobrotvirska thermal power plant)
+
+
+Kryvyi Rih thermal power plant[12]
+Dniproenergo
+3,000
+10x300
+coal
+Zelenodolsk
+473221N 333943E / 47.539222N 33.661852E / 47.539222; 33.661852 (Kryvorizka thermal power plant)
+
+
+Kurakhove thermal power plant
+DTEK Skhidenergo
+1,482
+7x200
+coal
+Kurakhove
+475940N 371425E / 47.994402N 37.240219E / 47.994402; 37.240219 (Kurakhov thermal power plant)
+
+
+Ladyzhyn thermal power plant[12]
+Zakhidenergo
+1,800
+6x300
+coal
+Ladyzhyn
+484224N 291313E / 48.706709N 29.2202E / 48.706709; 29.2202 (Ladyzhinska thermal power plant)
+
+
+Lokachi thermal power plant
+Naftogaz Ukrainy
+
+
+
+Lokachi
+
+
+
+Luhansk thermal power plant
+DTEK Skhidenergo
+1,500
+1x100+7x200
+coal
+Shchastia
+484452N 391545E / 48.747814N 39.262389E / 48.747814; 39.262389 (Luhansk thermal power plant)
+
+
+Myronivsky power plant
+DTEK Donetskoblenergo
+100
+0
+coal
+Myronivskyi
+482851N 381723E / 48.480816N 38.289821E / 48.480816; 38.289821 (Mironivskaya TEC)
+
+
+Dnieper thermal power plant[12]
+Dniproenergo
+1,765
+4x150+4x300
+coal
+Dnipro
+475151N 350908E / 47.8640578N 35.1522669E / 47.8640578; 35.1522669 (Prydniprovska thermal power plant)
+
+
+Sievierodonetsk Power Station
+
+150
+1
+coal
+Sievierodonetsk
+485615N 382710E / 48.9375N 38.452778E / 48.9375; 38.452778 (Sievierodonetsk Power Station)
+
+
+Shteriv thermal power plant
+N/A
+dismantled
+?
+coal
+?
+
+
+
+Slovianska thermal power plant[12]
+Donbasenergo
+800
+1x800
+coal
+Mykolaivka
+485219N 374556E / 48.872054N 37.765675E / 48.872054; 37.765675 (Slovianska thermal power plant)
+
+
+Starobeshivska thermal power plant[12]
+Donbasenergo
+1,725
+10x200
+coal
+Novyi Svit
+474802N 380020E / 47.800688N 38.005657E / 47.800688; 38.005657 (Starobeshivska thermal power plant)
+
+
+Trypilska thermal power plant[12]
+Centrenergo
+1,800
+6x300
+coal, natural gas
+Ukrainka, Kiev Oblast
+500804N 304449E / 50.134417N 30.746806E / 50.134417; 30.746806 (Trypilska thermal power plant)
+
+
+Vuhlehirska thermal power plant[12]
+Centrenergo
+3,600
+4x300+3x800
+coal, natural gas
+Svitlodarske, Donetsk Oblast
+482755N 381218E / 48.465278N 38.205E / 48.465278; 38.205 (Vuhlehirska thermal power plant)
+
+
+Zaporizka thermal power plant[12]
+Dniproenergo
+3,600
+4x300+3x800
+coal, natural gas
+Enerhodar
+473034N 343728E / 47.509491N 34.624443E / 47.509491; 34.624443 (Zaporizhzhia thermal power station)
+
+
+Zmiivska thermal power plant[12]
+Centrenergo
+2,175
+6x200+4x300
+coal
+Komsomolske
+493515N 363150E / 49.5874N 36.530657E / 49.5874; 36.530657 (Zmiivska thermal power plant)
+
+
+Zuivska power station
+DTEK Skhidenergo
+1,245
+4x300
+coal, natural gas
+Zuhres
+480159N 381710E / 48.033101N 38.286152E / 48.033101; 38.286152 (Zuyiv thermal power plant)
+
+See also[edit]
+
+
+Energy portal
+Ukraine portal
+List of power stations in Europe
+List of largest power stations in the world
+DTEK
+Energy Company of Ukraine
+References[edit]
+
+
+^ a b c d e f g h i j k Nuclear Power Plants in Lithuania & Ukraine. Gallery. Power Plants Around The World. 26 June 2011. Retrieved 17 April 2014.[permanent dead link]
+
+^ KHMELNITSKI-1. Power Reactor Information System. International Atomic Energy Agency. Retrieved 20 April 2014.
+
+^ ROVNO-1. Power Reactor Information System. International Atomic Energy Agency. Retrieved 20 April 2014.
+
+^ SOUTH UKRAINE-1. Power Reactor Information System. International Atomic Energy Agency. Retrieved 20 April 2014.
+
+^ ZAPOROZHYE-1. Power Reactor Information System. International Atomic Energy Agency. Retrieved 20 April 2014.
+
+^ CHERNOBYL-4. Power Reactor Information System. International Atomic Energy Agency. Retrieved 20 April 2014.
+
+^ What is ATEC?. Blog. Sovietologist. 9 June 2008. Retrieved 20 April 2014.
+
+^ Hydroelectric Power Plants in Ukraine. Gallery. Power Plants Around The World. 26 July 2010. Retrieved 22 April 2014.[dead link]
+
+^ Dniprodzerzhynsk Hydroelectric Power Plant. Global Energy Observatory. Retrieved 22 April 2014.
+
+^ Tashlyk PSPs. Public Joint Stock Company Ukrhidroprogect. Retrieved 22 April 2014.
+
+^ Tashlyk Pumped Storage Hydroelectric Power Plant. Global Energy Observatory. Retrieved 22 April 2014.
+
+^ a b c d e f g h i j k NJSC - The characteristics of Thermal Power Plants Archived 2010-12-13 at the Wayback Machine
+
+
+vteNuclear power in Ukraine
+Energy in Ukraine
+Nuclear power
+List of power stations in Ukraine
+Reactors ofPower StationsActive
+Khmelnytskiy
+Rivne
+South Ukraine
+Zaporizhzhia
+Sevastopol
+Unfinished
+Crimean
+Chyhyryn
+Odessa
+Kharkiv
+Closed
+Chernobyl
+Other reactors
+NASU Institute of Nuclear Research
+Companies
+Energoatom
+Related topics
+History of the anti-nuclear movement
+Lists of nuclear disasters and radioactive incidents
+Nuclear power debate
+Nuclear weapons debate
+Environmental movement
+Anti-nuclear protests
+List of nuclear reactors
+Nuclear power phase-out
+
+vteLists of power stationsBy regionAfrica
+Algeria
+Angola
+Benin
+Botswana
+Burkina Faso
+Burundi
+Cameroon
+Cabo Verde
+Central African Republic
+Chad
+Comoros
+Congo-Brazzaville
+Congo-Kinshasa
+Djibouti
+Egypt
+Equatorial Guinea
+Eritrea
+Eswatini
+Ethiopia
+Gabon
+Gambia
+Ghana
+Guinea
+Guinea-Bissau
+Ivory Coast
+Kenya
+Lesotho
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger
+Nigeria
+Rwanda
+So Tom and Prncipe
+Senegal
+Seychelles
+Sierra Leone
+Somalia
+South Africa
+South Sudan
+Sudan
+Tanzania
+Togo
+Tunisia
+Uganda
+Zambia
+Zimbabwe
+Asia
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei
+Cambodia
+China
+Cyprus
+East Timor
+Georgia
+Hong Kong
+India
+Indonesia
+Iran
+Iraq
+Israel
+Japan
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Laos
+Lebanon
+Macau
+Malaysia
+Maldives
+Mongolia
+Myanmar
+Nepal
+North Korea
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+South Korea
+Sri Lanka
+Syria
+Taiwan
+Tajikistan
+Thailand
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+Europe
+Albania
+Andorra
+Austria
+Belarus
+Belgium
+Bosnia-Herzegovina
+Bulgaria
+Croatia
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Greece
+Hungary
+Iceland
+Ireland
+Italy
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Malta
+Moldova
+Monaco
+Montenegro
+Netherlands
+North Macedonia
+Norway
+Poland
+Portugal
+Romania
+Russia
+San Marino
+Serbia
+Slovakia
+Slovenia
+Spain
+Sweden
+Switzerland
+Ukraine
+United Kingdom
+North America
+Antigua and Barbuda
+Bahamas
+Barbados
+Belize
+Canada
+Costa Rica
+Cuba
+Dominica
+Dominican Republic
+El Salvador
+Grenada
+Guatemala
+Haiti
+Honduras
+Jamaica
+Mexico
+Nicaragua
+Panama
+Saint Kitts and Nevis
+Saint Lucia
+Saint Vincent and the Grenadines
+Trinidad and Tobago
+United States
+Oceania
+Australia
+Micronesia
+Fiji
+Kiribati
+Marshall Islands
+Nauru
+New Zealand
+Palau
+Papua New Guinea
+Samoa
+Solomon Islands
+Tonga
+Tuvalu
+Vanuatu
+South America
+Argentina
+Bolivia
+Brazil
+Chile
+Colombia
+Ecuador
+Guyana
+Paraguay
+Peru
+Suriname
+Uruguay
+Venezuela
+By typeNon-renewable
+Coal
+Fuel oil
+Natural gas
+Nuclear
+Oil shale
+Renewable
+Biomass
+Geothermal
+Hydroelectric
+conventional
+pumped-storage
+run-of-the-river
+tide
+Solar photovoltaic
+Solar thermal
+Wave
+Wind - Onshore
+Wind - Offshore
+
+Largest power stations
+Largest hydroelectric stations
+Least carbon-efficient stations
+
+vteHarvesting and resource extraction in UkraineMining
+Coal
+Ore
+Ferrous
+Non-ferrous
+Petroleum
+Gas
+Agriculture
+Forrestry
+Hunting
+Harvesting
+Food industry
+Light industry
+Energy
+Nuclear power
+Power stations
+Waste recycling
+Industry in Ukraine
+
+
+
+
+Retrieved from https://en.wikipedia.org/w/index.php?title=List_of_power_stations_in_Ukraine&oldid=898751800
+Categories: Lists of power stations by countryLists of buildings and structures in UkrainePower stations in UkraineHidden categories: All articles with dead external linksArticles with dead external links from January 2018Articles with permanently dead external linksWebarchive template wayback linksLists of coordinatesGeographic coordinate listsArticles with GeoWikipedia articles needing clarification from April 2014Interlanguage link template link number
+
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+ArticleTalk 
+
+
+
+
+Variants
+
+
+
+
+
+
+
+Views
+
+ReadEditView history 
+
+
+
+More
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+DeutschPolski 
+Edit links 
+
+
+
+
+
+ This page was last edited on 25 May 2019, at 17:53(UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+

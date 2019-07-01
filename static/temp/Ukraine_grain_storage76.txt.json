@@ -1,0 +1,40 @@
+{
+  "process":{
+    "version":"1.1"
+  },
+  "document":[
+    {
+      "text":[
+        {
+          "name":"main",
+          "text-id":"main",
+          "content":"\n\n\n406 Not Acceptable\nnginx\n\n\n"
+        }
+      ],
+      "section":[
+        {
+          "id":"s1",
+          "name":"main",
+          "processed-as":"english",
+          "allowed-as":[
+            "english"
+          ],
+          "text-id":"main",
+          "head":3,
+          "tail":21
+        },
+        {
+          "id":"s2",
+          "name":"main",
+          "processed-as":"english",
+          "allowed-as":[
+            "english"
+          ],
+          "text-id":"main",
+          "head":22,
+          "tail":27
+        }
+      ]
+    }
+  ]
+}

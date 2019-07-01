@@ -46,8 +46,8 @@ def form_detect_faces():
         db.session.commit()
 
         print(app.config['IMAGE_BASE_URL'] + f.filename)
-        #image_url = app.config['IMAGE_BASE_URL'] + f.filename
-        image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
+        image_url = app.config['IMAGE_BASE_URL'] + f.filename
+        # image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
         try:
             faces = detect_faces.main(image_url, lat, lon)
             post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
