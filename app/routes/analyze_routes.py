@@ -46,13 +46,10 @@ def form_detect_faces():
         db.session.commit()
 
         print(app.config['IMAGE_BASE_URL'] + f.filename)
-<<<<<<< HEAD
         image_url = app.config['IMAGE_BASE_URL'] + f.filename
         # image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
-=======
         #image_url = app.config['IMAGE_BASE_URL'] + f.filename
         image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Diverse-group-of-children.jpg'
->>>>>>> 5a3c2661f560ce63156fe3f49cf276461fd3acb7
         try:
             faces = detect_faces.main(image_url, lat, lon)
             post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
@@ -60,8 +57,6 @@ def form_detect_faces():
         except Exception as e:
             return str(e)
     return render_template('detect_faces.html', form=form)
-<<<<<<< HEAD
-=======
 
 @app.route('/analyze/simulate-netowl-feed', methods=['POST', 'GET'])
 @login_required
@@ -113,4 +108,3 @@ def simulate_netowl_feed():
         return render_template('simulate_netowl_results.html', data=data)
 
     return render_template('simulate_netowl.html', form=form)
->>>>>>> 5a3c2661f560ce63156fe3f49cf276461fd3acb7
