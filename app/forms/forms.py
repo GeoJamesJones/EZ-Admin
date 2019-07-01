@@ -5,6 +5,8 @@ from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextA
 from wtforms.validators import ValidationError, DataRequired, Email, EqualTo, Length
 from app.models.models import User
 
+from app import app
+
 class LoginForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired()])
     password = PasswordField('Password', validators=[DataRequired()])
@@ -110,3 +112,8 @@ class DetectFaces(FlaskForm):
     lat = DecimalField("Latitude", places=12)
     lon = DecimalField("Longitude", places=12)
     submit = SubmitField('Upload File')
+
+class SimulateNetOwl(FlaskForm):
+    myChoices = [(app.config['INVESTIGATION_REPORTS'], 'Investigation Reports'), (app.config['EARLY_BIRD'], 'News Articles')]
+    datatype = SelectField(u'Data Type', choices=myChoices)
+    submit = SubmitField('Start')

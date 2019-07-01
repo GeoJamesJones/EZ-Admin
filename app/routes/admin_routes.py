@@ -173,6 +173,7 @@ def form_create_user():
     return render_template('create_portal_user.html', form=form)
 
 @app.route('/admin/get-groups', methods=['GET', 'POST'])
+@login_required
 def form_get_groups():
     form = GetBrokenLinks()
     if form.validate_on_submit():
@@ -212,3 +213,32 @@ def form_get_groups():
         except Exception as e:
             return str(e)
     return render_template('get_portal_groups.html', form=form)
+
+@app.route('/admin/clean-temp', methods=['GET', 'POST'])
+@login_required
+def clean_temp_directories():
+    form = GetBrokenLinks()
+    if form.validate_on_submit():
+
+        deleted_items = []
+
+        content = os.listdir(app.config['UPLOAD_FOLDER'])
+
+        for item in content:
+            deleted_items.append({'file': item}) 
+            item_path = os.path.join(app.config['NETOWL_FINAL_FOLDER'], item)
+            os.remove(item_path)
+
+        content = os.listdir(app.config['NETOWL_FINAL_FOLDER'])
+
+        for item in content:
+            deleted_items.append({'file': item}) 
+            item_path = os.path.join(app.config['NETOWL_FINAL_FOLDER'], item)
+            os.remove(item_path)
+
+        post_body = "Clean temp directory."
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+        return render_template('clean_temp_dirs_results.html', deleted_items=deleted_items)
+    return render_template('clean_temp_dirs.html', form=form)

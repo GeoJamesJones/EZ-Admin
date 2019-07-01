@@ -51,7 +51,7 @@ def form_query_news():
         return render_template('query_news.html', form=form)
     return render_template('query_news.html', form=form)
 
-@app.route('/query-embed/web', methods=['POST', 'GET'])
+@app.route('/embed/web', methods=['POST', 'GET'])
 def embed_query_web():
     form = QueryWeb()
     if form.validate_on_submit():
@@ -63,7 +63,7 @@ def embed_query_web():
         return render_template('query_web_clean.html', form=form)
     return render_template('query_web_clean.html', form=form)
 
-@app.route('/query-embed/news', methods=['POST', 'GET'])
+@app.route('/embed/news', methods=['POST', 'GET'])
 def embed_query_news():
     form = QueryNews()
     if form.validate_on_submit():

@@ -10,9 +10,9 @@ from werkzeug.urls import url_parse
 from werkzeug.utils import secure_filename
 
 from app import app, db
-from app.scripts import detect_faces
+from app.scripts import detect_faces, process_netowl
 #from app.scripts import consolidate_rasters
-from app.forms.forms import DetectFaces
+from app.forms.forms import DetectFaces,SimulateNetOwl
 from app.models.models import User, Post, NetOwl_Entity
 
 from config import Config
@@ -46,8 +46,13 @@ def form_detect_faces():
         db.session.commit()
 
         print(app.config['IMAGE_BASE_URL'] + f.filename)
+<<<<<<< HEAD
         image_url = app.config['IMAGE_BASE_URL'] + f.filename
         # image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
+=======
+        #image_url = app.config['IMAGE_BASE_URL'] + f.filename
+        image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Diverse-group-of-children.jpg'
+>>>>>>> 5a3c2661f560ce63156fe3f49cf276461fd3acb7
         try:
             faces = detect_faces.main(image_url, lat, lon)
             post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
@@ -55,3 +60,57 @@ def form_detect_faces():
         except Exception as e:
             return str(e)
     return render_template('detect_faces.html', form=form)
+<<<<<<< HEAD
+=======
+
+@app.route('/analyze/simulate-netowl-feed', methods=['POST', 'GET'])
+@login_required
+def simulate_netowl_feed():
+    form = SimulateNetOwl()
+    if form.validate_on_submit():
+        folder = os.listdir(form.datatype.data)
+        print(folder)
+
+        for item in folder:
+            item_path = os.path.join(form.datatype.data, item)
+            if os.path.exists(item_path):
+                print(item_path)
+            
+                entities, links, events = process_netowl.netowl_pipeline(item_path)
+
+                entity_list = []
+                links_list = []
+                events_list = []
+                se_list = []
+
+                if type(entities).__name__ == 'list':
+
+                    for entity in entities:
+                        entity_list.append(vars(entity))
+                        if entity.geo_entity == True:
+                            se_list.append(vars(entity))
+                        if entity.ontology == "entity:address:mail":
+                            pass
+                    
+                    for link in links:
+                        links_list.append(vars(link))
+
+                    for event in events:
+                        events_list.append(vars(event))
+
+                    post_to_geoevent(json.dumps(entity_list), app.config['NETOWL_GE_ENTITIES'])
+                    post_to_geoevent(json.dumps(se_list), app.config['NETOWL_GE_SE'])
+                    post_to_geoevent(json.dumps(links_list), app.config['NETOWL_GE_LINKS'])
+                    post_to_geoevent(json.dumps(events_list), app.config['NETOWL_GE_EVENTS'])
+        
+        post_body = "Simulate NetOwl Pipeline: " + form.datatype.data
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+        
+        flash("Success!")
+        data = {"entities":len(entity_list), "links":len(links_list), "events":len(events_list)}
+        return render_template('simulate_netowl_results.html', data=data)
+
+    return render_template('simulate_netowl.html', form=form)
+>>>>>>> 5a3c2661f560ce63156fe3f49cf276461fd3acb7
