@@ -54,13 +54,13 @@ def detect_face():
             file.save(os.path.join(app.config['IMAGE_FOLDER'], filename))
             if filename.endswith(".jpg"):
 
-                lat = request.form['lat']
-                lon = request.form['lon']
+                lat = request.form['Latitude']
+                lon = request.form['Longitude']
 
 
                 print(app.config['IMAGE_BASE_URL'] + file.filename)
-                #image_url = app.config['IMAGE_BASE_URL'] + file.filename
-                image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Wayne.jpg'
+                image_url = app.config['IMAGE_BASE_URL'] + file.filename
+                #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Wayne.jpg'
                 try:
                     faces = detect_faces.main(image_url, lat, lon)
                     post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])

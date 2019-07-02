@@ -271,7 +271,7 @@ def process_netowl_json(document_file, json_data, web_url, query_string, categor
 def main(query, category):
 
 
-    term = query
+    term = query + " " + category
     category = category
     directory = app.config['NETOWL_INT_FOLDER']
     netowl_key = app.config['NETOWL_KEY']

@@ -18,7 +18,7 @@ def is_weapon(image, subscription_key, region_code):
     #return resp
     return not set(weapon_tags).isdisjoint(resp['description']['tags'])
 
-def update_json(input_json_file, image_url, latitude, longitude, face_count, male_count, female_count, children_count, has_weapon):
+def update_json(input_json_file, image_url, latitude, longitude, face_count, male_count, female_count, children_count, has_weapon, event_time):
     input_json_file['image_url'] = image_url
     input_json_file['lat'] =latitude
     input_json_file['long'] = longitude
@@ -27,6 +27,7 @@ def update_json(input_json_file, image_url, latitude, longitude, face_count, mal
     input_json_file['female'] = female_count
     input_json_file['children'] = children_count
     input_json_file['has_weapon'] = has_weapon
+    input_json_file['event_time'] = event_time
 
 def main(img, lat, lon):
 
@@ -86,9 +87,10 @@ def main(img, lat, lon):
                     if face["faceAttributes"]["age"] <= 18:
                         children +=1
 
+                event_time = time.time()
                 geoevent_dict = {}                  
 
-                update_json(geoevent_dict, img, float(lat), float(lon), face_count, int(male), int(female), int(children), image_has_weapon)
+                update_json(geoevent_dict, img, float(lat), float(lon), face_count, int(male), int(female), int(children), image_has_weapon, event_time)
 
                 return geoevent_dict
                         
