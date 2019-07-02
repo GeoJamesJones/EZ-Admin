@@ -108,3 +108,34 @@ def simulate_netowl_feed():
         return render_template('simulate_netowl_results.html', data=data)
 
     return render_template('simulate_netowl.html', form=form)
+
+@app.route('/embed/detect-faces', methods=['POST', 'GET'])
+def embed_detect_faces():
+    form = DetectFaces()
+    if form.validate_on_submit():
+        f = form.upload.data
+        filename = secure_filename(f.filename)
+        f.save(os.path.join(
+            app.config['IMAGE_FOLDER'], filename
+        ))
+
+        lat = form.lat.data
+        lon = form.lon.data
+
+        post_body = "Detect Faces: " + filename
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+
+        print(app.config['IMAGE_BASE_URL'] + f.filename)
+        image_url = app.config['IMAGE_BASE_URL'] + f.filename
+        # image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
+        image_url = app.config['IMAGE_BASE_URL'] + f.filename
+        #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Diverse-group-of-children.jpg'
+        try:
+            faces = detect_faces.main(image_url, lat, lon)
+            post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
+            return jsonify(faces)
+        except Exception as e:
+            return str(e)
+    return render_template('detect_faces.html', form=form)
