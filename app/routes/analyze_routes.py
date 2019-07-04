@@ -2,6 +2,7 @@ import os
 import urllib3
 import json
 import requests
+from elasticsearch import Elasticsearch
 
 from datetime import datetime
 from flask import jsonify, request, send_from_directory, flash, redirect, url_for, render_template
@@ -14,6 +15,7 @@ from app.scripts import detect_faces, process_netowl
 #from app.scripts import consolidate_rasters
 from app.forms.forms import DetectFaces,SimulateNetOwl
 from app.models.models import User, Post, NetOwl_Entity
+from app.search import add_to_index
 
 from config import Config
 
@@ -25,6 +27,13 @@ def post_to_geoevent(json_data, geoevent_url):
                 }
 
     requests.post((geoevent_url), headers=headers, data=json_data, verify=False)
+
+def put_to_geoevent(json_data, geoevent_url):
+    headers = {
+        'Content-Type': 'application/json',
+                }
+
+    requests.put((geoevent_url), headers=headers, data=json_data, verify=False)
 
 @app.route('/analyze/detect-faces', methods=['POST', 'GET'])
 @login_required
@@ -45,17 +54,31 @@ def form_detect_faces():
         db.session.add(post)
         db.session.commit()
 
-        print(app.config['IMAGE_BASE_URL'] + f.filename)
         image_url = app.config['IMAGE_BASE_URL'] + f.filename
-        # image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
-        image_url = app.config['IMAGE_BASE_URL'] + f.filename
+        #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
         #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Diverse-group-of-children.jpg'
         try:
-            faces = detect_faces.main(image_url, lat, lon)
-            post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
-            return jsonify(faces)
+            faces, report = detect_faces.main(image_url, lat, lon)
         except Exception as e:
-            return str(e)
+            print(faces)
+            return str(e), 400
+        try:
+            es = app.elasticsearch.index(index='detect-faces',doc_type='detect-faces', body=json.dumps(faces))
+            faces['id'] = es['_id']
+            for r in report:
+                app.elasticsearch.index(index='face-reports',doc_type='face-report', body=json.dumps(r))
+            print(str(es['_id']))
+        except Exception as e:
+            print("es error")
+            return str(e), 400
+        try:
+            post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
+        except Exception as e:
+            print("post to geoevent error")
+            return str(e), 400
+
+        return jsonify(faces)
+
     return render_template('detect_faces.html', form=form)
 
 @app.route('/analyze/simulate-netowl-feed', methods=['POST', 'GET'])
@@ -127,15 +150,29 @@ def embed_detect_faces():
         db.session.add(post)
         db.session.commit()
 
-        print(app.config['IMAGE_BASE_URL'] + f.filename)
         image_url = app.config['IMAGE_BASE_URL'] + f.filename
-        # image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
-        image_url = app.config['IMAGE_BASE_URL'] + f.filename
+        #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
         #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Diverse-group-of-children.jpg'
         try:
-            faces = detect_faces.main(image_url, lat, lon)
-            post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
-            return jsonify(faces)
+            faces, report = detect_faces.main(image_url, lat, lon)
         except Exception as e:
-            return str(e)
+            print(faces)
+            return str(e), 400
+        try:
+            es = app.elasticsearch.index(index='detect-faces',doc_type='detect-faces', body=json.dumps(faces))
+            faces['id'] = es['_id']
+            for r in report:
+                app.elasticsearch.index(index='face-reports',doc_type='face-report', body=json.dumps(r))
+            print(str(es['_id']))
+        except Exception as e:
+            print("es error")
+            return str(e), 400
+        try:
+            post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
+        except Exception as e:
+            print("post to geoevent error")
+            return str(e), 400
+
+        return jsonify(faces)
+
     return render_template('detect_faces.html', form=form)

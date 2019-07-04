@@ -5,15 +5,17 @@ import shutil
 import subprocess
 
 from datetime import datetime
-from flask import jsonify, request, send_from_directory, flash, redirect, url_for, render_template
+from flask import jsonify, request, send_from_directory, flash, redirect, url_for, render_template, g
 from flask_login import current_user, login_user, login_required, logout_user
 from werkzeug.urls import url_parse
 from werkzeug.utils import secure_filename
 
+from app.forms.forms import SearchForm
+
 from app import app, db
 from app.scripts import process_netowl, unzip, move_files, bucketizebing, bucketizenews
 #from app.scripts import consolidate_rasters
-from app.forms.forms import LoginForm, RegistrationForm, UploadForm, UploadShapes, UploadImagery, UploadCMB, QueryWeb, QueryNews
+from app.forms.forms import LoginForm, RegistrationForm, SearchForm
 from app.models.models import User, Post, NetOwl_Entity
 
 from config import Config
@@ -25,6 +27,7 @@ def before_request():
     if current_user.is_authenticated:
         current_user.last_seen = datetime.utcnow()
         db.session.commit()
+        g.search_form = SearchForm()
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -80,3 +83,15 @@ def user(username):
     user = User.query.filter_by(username=username).first_or_404()
     posts = user.posts.order_by(Post.timestamp.desc())
     return render_template('user.html', user=user, posts=posts)
+
+@app.route('/search')
+@login_required
+def search():
+    if not g.search_form.validate():
+        return redirect(url_for('main.explore'))
+    if g.search_form.validate():
+        query = g.search_form.q.data
+        res = app.elasticsearch.search(index="_all", body={"query": {"match": {"document": query}}})
+        return jsonify(res['hits']['hits'])
+
+

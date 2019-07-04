@@ -1,3 +1,4 @@
+from flask import request
 from flask_wtf import FlaskForm
 from flask_uploads import UploadSet
 from flask_wtf.file import FileField, FileAllowed, FileRequired
@@ -117,3 +118,13 @@ class SimulateNetOwl(FlaskForm):
     myChoices = [(app.config['INVESTIGATION_REPORTS'], 'Investigation Reports'), (app.config['EARLY_BIRD'], 'News Articles')]
     datatype = SelectField(u'Data Type', choices=myChoices)
     submit = SubmitField('Start')
+
+class SearchForm(FlaskForm):
+    q = StringField('Search', validators=[DataRequired()])
+
+    def __init__(self, *args, **kwargs):
+        if 'formdata' not in kwargs:
+            kwargs['formdata'] = request.args
+        if 'csrf_enabled' not in kwargs:
+            kwargs['csrf_enabled'] = False
+        super(SearchForm, self).__init__(*args, **kwargs)

@@ -7,6 +7,7 @@ import sys
 import time
 import copy
 
+from elasticsearch import Elasticsearch
 from app import app, db
 
 # NetOwl Class Objects
@@ -43,6 +44,8 @@ class NetOwl_Entity:
             self.query = value_dict['query']
         if 'category' in value_dict:
             self.category = value_dict['category']
+        if 'netowl-doc' in value_dict:
+            self.document = value_dict['netowl-doc']
 
         if 'geo_entity' in value_dict:
             self.geo_entity = value_dict['geo_entity']
@@ -84,6 +87,8 @@ class NetOwl_Link:
             self.ent_ontology = value_dict['ent-ontology']
         if 'link-ontology' in value_dict:
             self.link_ontology = value_dict['link-ontology']
+        if 'netowl-doc' in value_dict:
+            self.document = value_dict['netowl-doc']
 
 class NetOwl_Event:
     """Class object to hold events extracted by the NetOwl API"""
@@ -97,6 +102,8 @@ class NetOwl_Event:
         self.event_id = value_dict['event-id']
         self.predicate = value_dict['predicate']
         self.ent_ontology = value_dict['ent-ontology']
+        if 'netowl-doc' in value_dict:
+            self.document = value_dict['netowl-doc']
             
         if 'triple' in value_dict:
             self.arg_role = value_dict['arg-role']
@@ -282,7 +289,7 @@ def get_tail(text, tailpos, numchars):
     return thetail
 
 # Full NetOwl JSON Conversion
-def process_netowl_full_json(document_file, json_data):
+def process_netowl_full_json(document_file, json_data, document_id):
     doc_entities = []
     doc_links = []
     doc_events = []
@@ -315,6 +322,7 @@ def process_netowl_full_json(document_file, json_data):
                 e['id'] = rdfid
 
                 base_entity['id'] = rdfid
+                base_entity['netowl-doc'] = document_id
 
                 if 'ontology' in e:
                     base_entity['ontology'] = e['ontology']
@@ -398,6 +406,7 @@ def process_netowl_full_json(document_file, json_data):
                     base_link = {}
 
                     base_link['id'] = rdfid
+                    base_link['netowl-doc'] = document_id
 
                     if 'value' in e:
                         base_link['value'] = e['value']
@@ -434,7 +443,8 @@ def process_netowl_full_json(document_file, json_data):
             links = (document['link'])
             for link in links:
                 base_link = {}
-                
+
+                base_link['netowl-doc'] = document_id
                 base_link['ontology'] = link['ontology']
                 entity_arg1 = link['entity-arg'][0]
                 entity_arg2 = link['entity-arg'][1]
@@ -461,6 +471,7 @@ def process_netowl_full_json(document_file, json_data):
             for event in events:
                 base_event = {}
                 
+                base_event['netowl-doc'] = document_id
                 event_args = event['entity-arg']
                 event_properties = event['property'][0]
                     
@@ -527,7 +538,6 @@ def create_spatially_enabled_df(gis_connection, portal_item_id, item_layer_posti
 def netowl_pipeline(file):
     directory = app.config['NETOWL_INT_FOLDER']
     netowl_key = app.config['NETOWL_KEY']
-    geoevent_url = app.config['GEOEVENT_URL']
 
     start_time = time.time()
 
@@ -542,7 +552,10 @@ def netowl_pipeline(file):
             with open(os.path.join(directory, os.path.split(file)[1] +'.json'), 'rb') as json_file:
                 data = json.load(json_file)
 
-                entity_list, links_list, events_list = process_netowl_full_json(file, data)
+                es = app.elasticsearch.index(index='netowl',doc_type='document', body=data)
+                doc_id = es['_id']
+
+                entity_list, links_list, events_list = process_netowl_full_json(file, data, doc_id)
 
             end_time = time.time()
             total_time = end_time - start_time

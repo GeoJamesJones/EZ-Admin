@@ -1,6 +1,7 @@
 import logging
 import os
 import rq
+from elasticsearch import Elasticsearch
 
 from flask import Flask
 from flask_bootstrap import Bootstrap
@@ -22,6 +23,9 @@ migrate = Migrate(app, db)
 bootstrap = Bootstrap(app)
 
 app.logger.info("Starting API...")
+
+app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \
+    if app.config['ELASTICSEARCH_URL'] else None
 
 if not app.debug:
     if not os.path.exists('logs'):

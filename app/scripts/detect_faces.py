@@ -9,6 +9,8 @@ import requests
 import datetime
 import time
 
+from elasticsearch import Elasticsearch
+
 from app.scripts.azure_cognitive import ComputerVision
 
 def is_weapon(image, subscription_key, region_code):
@@ -91,8 +93,8 @@ def main(img, lat, lon):
                 geoevent_dict = {}                  
 
                 update_json(geoevent_dict, img, float(lat), float(lon), face_count, int(male), int(female), int(children), image_has_weapon, event_time)
-
-                return geoevent_dict
+                
+                return geoevent_dict, faces
                         
         else:
             print("No faces detected...")

@@ -1,7 +1,0 @@
-
-
-
-406 Not Acceptable
-nginx
-
-
