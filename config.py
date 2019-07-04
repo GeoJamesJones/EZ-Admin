@@ -34,7 +34,7 @@ class Config(object):
     NETOWL_GE_ENTITIES = r'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/netowl-entities-in'
     NETOWL_GE_ARTICLE = r'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/netowl-article-in'
     GEOEVENT_URL = r'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/ca-query-in'
-    INVESTIGATION_REPORTS = '/Users/jame9353/Documents/GitHub/SampleData/incident reports'
-    #INVESTIGATION_REPORTS = '/home/dif_user/SampleData/incident reports'
+    #INVESTIGATION_REPORTS = '/Users/jame9353/Documents/GitHub/SampleData/incident reports'
+    INVESTIGATION_REPORTS = '/home/dif_user/SampleData/incident reports'
     EARLY_BIRD = '/home/dif_user/SampleData/Early_Bird_Docs'
     
