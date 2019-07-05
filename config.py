@@ -17,12 +17,19 @@ class Config(object):
     GIS_USERNAME = "james_jones"
     GIS_PASSWORD = "QWerty654321@!"
 
-    # Microsoft Cognitive Services Faces API Affiliated Configuration Options
+    # Microsoft Cognitive Services Affiliated Configuration Options
     ACS_FACE_API_KEY="53242be6635c420c807d15a44a7015cf"
     ACS_CV_API_KEY="b5c56de0406947f5a5ef90c6f32e0665"
+    TRANSLATOR_TEXT_KEY = "02ca97eb388647cba3441b73b2515b83"
+    TEXT_API_KEY = "5e71e3baa54a476fad8d56a928af3e47"
+    CONTENT_MODERATION_KEY = "dde6ebc92c9c49b6a65a62d82d1530ea"
     IMAGE_BASE_URL='http://wdc-integration.eastus.cloudapp.azure.com/static/images/'
     MARKUP_BASE_URL='http://wdc-integration.eastus.cloudapp.azure.com/static/markup/'
     FACES_GE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/api-faces-in'
+    TWEETS_GE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-tweets-in'
+    TWEETS_ENTITIES_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-twitter-entities-in'
+    TWEETS_SE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-twitter-se-in'
+    
     
     # NetOwl Affiliated Configuration Options
     NETOWL_KEY='netowl ff5e6185-5d63-459b-9765-4ebb905affc8'

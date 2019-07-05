@@ -2,7 +2,7 @@ from flask import request
 from flask_wtf import FlaskForm
 from flask_uploads import UploadSet
 from flask_wtf.file import FileField, FileAllowed, FileRequired
-from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField, SelectField, DecimalField
+from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField, SelectField, DecimalField, IntegerField
 from wtforms.validators import ValidationError, DataRequired, Email, EqualTo, Length
 from app.models.models import User
 
@@ -112,6 +112,8 @@ class DetectFaces(FlaskForm):
     ])
     lat = DecimalField("Latitude", places=12)
     lon = DecimalField("Longitude", places=12)
+    ts = IntegerField("Timestamp")
+    ids = StringField("ID")
     submit = SubmitField('Upload File')
 
 class SimulateNetOwl(FlaskForm):

@@ -98,3 +98,22 @@
         {% block app_content %}{% endblock %}
     </div>
 {% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+
+    <script>
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.watchPosition(showPosition);
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+        function showPosition(position) {
+            document.getElementById("Latitude").value = position.coords.latitude;
+            document.getElementById("Latitude").value = position.coords.longitude;
+            showTime();
+        }
+    </script>
+{% endblock %}
