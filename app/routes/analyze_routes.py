@@ -136,13 +136,13 @@ def simulate_netowl_feed():
 def embed_detect_faces():
     form = DetectFaces()
     if form.validate_on_submit():
-        f = form.upload.data
+        f = request.form.file
         filename = secure_filename(f.filename)
         f.save(os.path.join(
             app.config['IMAGE_FOLDER'], filename
         ))
 
-        lat = form.lat.data
+        lat = re
         lon = form.lon.data
 
         post_body = "Detect Faces: " + filename
@@ -175,4 +175,4 @@ def embed_detect_faces():
 
         return jsonify(faces)
 
-    return render_template('detect_faces.html', form=form)
+    return render_template('detect-faces-geo.html', form=form)

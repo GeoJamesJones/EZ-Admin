@@ -319,7 +319,7 @@ def main(query, category):
                 os.remove(text_file_path)
                 os.remove(text_file_path + ".json")"""
 
-            for j in search_news(query, tld="com", num=int(10), stop=10, pause=2):
+            for j in search_news(query, tld="com", num=int(20), stop=10, pause=2):
                 r = requests.get(j)
                 soup = BeautifulSoup(r.content, features="html.parser")
 
