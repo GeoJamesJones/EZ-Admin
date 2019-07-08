@@ -5,7 +5,7 @@ import requests
 from elasticsearch import Elasticsearch
 
 from datetime import datetime
-from flask import jsonify, request, send_from_directory, flash, redirect, url_for, render_template
+from flask import jsonify, request, send_from_directory, flash, redirect, url_for, render_template, session
 from flask_login import current_user, login_user, login_required, logout_user
 from werkzeug.urls import url_parse
 from werkzeug.utils import secure_filename
@@ -132,47 +132,53 @@ def simulate_netowl_feed():
 
     return render_template('simulate_netowl.html', form=form)
 
-@app.route('/embed/detect-faces', methods=['POST', 'GET'])
-def embed_detect_faces():
+@app.route('/embed/detect-face', methods=['POST', 'GET'])
+def embed_detect_face():
+    print("I AM THINKING OF DOING SOMETHING")
     form = DetectFaces()
-    if form.validate_on_submit():
-        f = request.form.file
-        filename = secure_filename(f.filename)
-        f.save(os.path.join(
-            app.config['IMAGE_FOLDER'], filename
-        ))
+    try:
+        if form.validate_on_submit():
+        #if form.validate():
+            if len(form.errors) < 1:
+                print("I AM DOING SOMETHING")
+                f = form.upload.data
+                filename = secure_filename(f.filename)
+                print(filename)
+                f.save(os.path.join(
+                    app.config['IMAGE_FOLDER'], filename
+                ))
 
-        lat = re
-        lon = form.lon.data
+                lat = form.lat.data
+                lon = form.lon.data
 
-        post_body = "Detect Faces: " + filename
-        post = Post(body=post_body, author=current_user)
-        db.session.add(post)
-        db.session.commit()
+                image_url = app.config['IMAGE_BASE_URL'] + f.filename
+                #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
+                #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Diverse-group-of-children.jpg'
+                try:
+                    faces, report = detect_faces.main(image_url, lat, lon)
+                except Exception as e:
+                    print(faces)
+                    return str(e), 400
+                try:
+                    es = app.elasticsearch.index(index='detect-faces',doc_type='detect-faces', body=json.dumps(faces))
+                    faces['id'] = es['_id']
+                    for r in report:
+                        app.elasticsearch.index(index='face-reports',doc_type='face-report', body=json.dumps(r))
+                    print(str(es['_id']))
+                except Exception as e:
+                    print("es error")
+                    return str(e), 400
+                try:
+                    post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
+                except Exception as e:
+                    print("post to geoevent error")
+                    return str(e), 400
 
-        image_url = app.config['IMAGE_BASE_URL'] + f.filename
-        #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
-        #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Diverse-group-of-children.jpg'
-        try:
-            faces, report = detect_faces.main(image_url, lat, lon)
-        except Exception as e:
-            print(faces)
-            return str(e), 400
-        try:
-            es = app.elasticsearch.index(index='detect-faces',doc_type='detect-faces', body=json.dumps(faces))
-            faces['id'] = es['_id']
-            for r in report:
-                app.elasticsearch.index(index='face-reports',doc_type='face-report', body=json.dumps(r))
-            print(str(es['_id']))
-        except Exception as e:
-            print("es error")
-            return str(e), 400
-        try:
-            post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
-        except Exception as e:
-            print("post to geoevent error")
-            return str(e), 400
-
-        return jsonify(faces)
+                return jsonify(faces)
+            else:
+                return jsonify(form.errors)
+        #print(vars(form))
+    except Exception as e:
+        return jsonify({"Error": str(e)})
 
     return render_template('detect-faces-geo.html', form=form)

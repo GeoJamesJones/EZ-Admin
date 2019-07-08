@@ -112,9 +112,7 @@ class DetectFaces(FlaskForm):
     ])
     lat = DecimalField("Latitude", places=12)
     lon = DecimalField("Longitude", places=12)
-    ts = IntegerField("Timestamp")
-    ids = StringField("ID")
-    submit = SubmitField('Upload File')
+    submit = SubmitField('Submit')
 
 class SimulateNetOwl(FlaskForm):
     myChoices = [(app.config['INVESTIGATION_REPORTS'], 'Investigation Reports'), (app.config['EARLY_BIRD'], 'News Articles')]
