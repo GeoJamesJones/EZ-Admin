@@ -2,6 +2,7 @@ import os
 import urllib3
 import json
 import requests
+import time
 from elasticsearch import Elasticsearch
 
 from datetime import datetime
@@ -142,7 +143,8 @@ def embed_detect_face():
             if len(form.errors) < 1:
                 print("I AM DOING SOMETHING")
                 f = form.upload.data
-                filename = secure_filename(f.filename)
+                base_filename = f.filename + str(time.time.now()
+                filename = secure_filename(base_filename)
                 print(filename)
                 f.save(os.path.join(
                     app.config['IMAGE_FOLDER'], filename
@@ -151,9 +153,7 @@ def embed_detect_face():
                 lat = form.lat.data
                 lon = form.lon.data
 
-                image_url = app.config['IMAGE_BASE_URL'] + f.filename
-                #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/image.jpg'
-                #image_url = 'http://wdc-integration.eastus.cloudapp.azure.com/static/images/Diverse-group-of-children.jpg'
+                image_url = app.config['IMAGE_BASE_URL'] + base_filename
                 try:
                     faces, report = detect_faces.main(image_url, lat, lon)
                 except Exception as e:
