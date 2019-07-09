@@ -143,8 +143,7 @@ def embed_detect_face():
             if len(form.errors) < 1:
                 print("I AM DOING SOMETHING")
                 f = form.upload.data
-                base_filename = f.filename + str(time.time.now()
-                filename = secure_filename(base_filename)
+                filename = secure_filename(f.filename)
                 print(filename)
                 f.save(os.path.join(
                     app.config['IMAGE_FOLDER'], filename
@@ -153,7 +152,7 @@ def embed_detect_face():
                 lat = form.lat.data
                 lon = form.lon.data
 
-                image_url = app.config['IMAGE_BASE_URL'] + base_filename
+                image_url = app.config['IMAGE_BASE_URL'] + f.filename
                 try:
                     faces, report = detect_faces.main(image_url, lat, lon)
                 except Exception as e:
