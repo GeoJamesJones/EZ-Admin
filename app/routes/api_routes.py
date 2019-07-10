@@ -158,8 +158,8 @@ def news_rss():
             
                     return jsonify(article), 201
 
-                except Exception as e:
-                    return jsonify({"Error": str(e)}), 500
+            except Exception as e:
+                return jsonify({"Error": str(e)}), 500
 
 @app.route('/api/twitter', methods=['POST'])
 def twitter():
