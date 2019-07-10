@@ -121,42 +121,39 @@ def news_rss():
             document = ''
 
             try:
+                for entity in entities:
+                    entity_list.append(vars(entity))
+                    document = entity.document
+                    if entity.geo_entity == True:
+                        se_list.append(vars(entity))
+                        
+                    if entity.ontology == "entity:address:mail":
+                        pass
+                
+                for link in links:
+                    links_list.append(vars(link))
 
-                if type(entities).__name__ == 'list':
+                for event in events:
+                    events_list.append(vars(event))
 
-                    for entity in entities:
-                        entity_list.append(vars(entity))
-                        document = entity.document
-                        if entity.geo_entity == True:
-                            se_list.append(vars(entity))
-                            
-                        if entity.ontology == "entity:address:mail":
-                            pass
-                    
-                    for link in links:
-                        links_list.append(vars(link))
+                article = {"title":title,
+                            "article-link":article_link,
+                            "published":published,
+                            "updated":updated,
+                            "copyright": cright,
+                            "spatial-entities":len(se_list),
+                            "entities":len(entity_list),
+                            "events":len(events_list),
+                            "links":len(links_list), 
+                            "document":document}
 
-                    for event in events:
-                        events_list.append(vars(event))
-
-                    article = {"title":title,
-                                "article-link":article_link,
-                                "published":published,
-                                "updated":updated,
-                                "copyright": cright,
-                                "spatial-entities":len(se_list),
-                                "entities":len(entity_list),
-                                "events":len(events_list),
-                                "links":len(links_list), 
-                                "document":document}
-
-                    post_to_geoevent(json.dumps(entity_list), app.config['NETOWL_GE_ENTITIES'])
-                    post_to_geoevent(json.dumps(se_list), app.config['NETOWL_GE_SE'])
-                    post_to_geoevent(json.dumps(links_list), app.config['NETOWL_GE_LINKS'])
-                    post_to_geoevent(json.dumps(events_list), app.config['NETOWL_GE_EVENTS'])
-                    post_to_geoevent(json.dumps(article), app.config['NETOWL_GE_ARTICLE'])
-            
-                    return jsonify(article), 201
+                post_to_geoevent(json.dumps(entity_list), app.config['NETOWL_GE_ENTITIES'])
+                post_to_geoevent(json.dumps(se_list), app.config['NETOWL_GE_SE'])
+                post_to_geoevent(json.dumps(links_list), app.config['NETOWL_GE_LINKS'])
+                post_to_geoevent(json.dumps(events_list), app.config['NETOWL_GE_EVENTS'])
+                post_to_geoevent(json.dumps(article), app.config['NETOWL_GE_ARTICLE'])
+        
+                return jsonify(article), 201
 
             except Exception as e:
                 return jsonify({"Error": str(e)}), 500
