@@ -282,7 +282,7 @@ def twitter():
                 target_password = app.config['GIS_PASSWORD']
                 gis_url = app.config['GIS_URL']
 
-                target_portal = GIS(gis_url, gis_username, target_password)
+                target_portal = GIS(gis_url, gis_username, target_password, verify_cert=False)
 
                 tweets_fs = target_portal.content.get('e656ae3cfbe54a5d9fe06ac6c6e9a2c3')
                 tweets_flayer = tweets_fs.layers[0]
