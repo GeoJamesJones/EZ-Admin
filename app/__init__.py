@@ -41,8 +41,8 @@ all_features = tweets_fset.features
 app._tweet_original_feature = [f for f in all_features if f.attributes['handle'] == 'DerSPIEGEL'][0]
 
 if not app.debug:
-    if not os.path.exists('logs'):
-        os.mkdir('logs')
+    if not os.path.exists('static/logs'):
+        os.mkdir('static/logs')
     file_handler = RotatingFileHandler('logs/microblog.log', maxBytes=10240,
                                        backupCount=10)
     file_handler.setFormatter(logging.Formatter(
