@@ -27,6 +27,7 @@ class Config(object):
     MARKUP_BASE_URL='http://wdc-integration.eastus.cloudapp.azure.com/static/markup/'
     FACES_GE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/api-faces-in'
     TWEETS_GE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-tweets-in'
+    TWEETS_GE_ALT_URL = 'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/azure-tweets-in'
     TWEETS_ENTITIES_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-twitter-entities-in'
     TWEETS_SE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-twitter-se-in'
     

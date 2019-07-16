@@ -396,8 +396,8 @@ def process_netowl_full_json(document_file, json_data, document_id):
                         base_entity['tail'] = get_tail(content, int(em['tail']), 255)
 
                 # Turns entity information into a class object for storage and transformation
-                netowl_entity_object = NetOwl_Entity(base_entity)
-                doc_entities.append(netowl_entity_object)
+                #netowl_entity_object = NetOwl_Entity(base_entity)
+                doc_entities.append(base_entity)
 
                 # Returns extracted links from the entity
                 if 'link-ref' in e:
@@ -436,7 +436,7 @@ def process_netowl_full_json(document_file, json_data, document_id):
                             copy_link['ent-ontology'] = e['ontology']
 
                             netowl_link_object = NetOwl_Link(copy_link)
-                            doc_links.append(netowl_link_object)
+                            doc_links.append(copy_link)
             
         # Determines if there are extracted links in the document
         if 'link' in document:
@@ -462,7 +462,7 @@ def process_netowl_full_json(document_file, json_data, document_id):
                 base_link['link-id'] = document_file.split(".")[0] + "_e_" + entity_arg2['idref']
                 base_link['link-ontology'] = entity_arg2['ontology']
                 
-                netowl_link_object = NetOwl_Link(base_link)
+                #netowl_link_object = NetOwl_Link(base_link)
                 doc_links.append(netowl_link_object)
 
         # Determines if there are extracted events in the document
@@ -503,8 +503,8 @@ def process_netowl_full_json(document_file, json_data, document_id):
                             doc_events.append(netowl_event_object)
 
                 else:
-                    netowl_event_object = NetOwl_Event(base_event)
-                    doc_events.append(netowl_event_object)
+                    #netowl_event_object = NetOwl_Event(base_event)
+                    doc_events.append(base_event)
                 
         return doc_entities, doc_links, doc_events
 
