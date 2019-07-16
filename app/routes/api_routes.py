@@ -6,6 +6,7 @@ from werkzeug.utils import secure_filename
 from bs4 import BeautifulSoup
 from random import randint
 from copy import deepcopy
+from arcgis.gis import GIS
 
 
 from app.scripts import detect_faces
@@ -151,7 +152,7 @@ def news_rss():
                             "document":document}
 
             except Exception as e:
-                return jsonify({"Error": str(e)}), 500
+                return jsonify({"Error": str(e)}), 400
 
             try:
                 post_to_geoevent(json.dumps(entity_list), app.config['NETOWL_GE_ALT_ENTITIES'])
@@ -171,10 +172,12 @@ def news_rss():
                 return jsonify({"Error":"GeoEvent Sucks hard..."})
                 
 
+
+
 @app.route('/api/twitter', methods=['POST'])
 def twitter():
     job_number = int(len(jobs) + 1)
-    jobs[job_number] = "News RSS"
+    jobs[job_number] = "Twitter"
     if request.method == 'POST':
         try:        
             content = request.get_json()
@@ -274,8 +277,20 @@ def twitter():
                     pass
 
             try:
+
+                gis_username = app.config['GIS_USERNAME']
+                target_password = app.config['GIS_PASSWORD']
+                gis_url = app.config['GIS_URL']
+
+                target_portal = GIS(gis_url, gis_username, target_password)
+
+                tweets_fs = target_portal.content.get('e656ae3cfbe54a5d9fe06ac6c6e9a2c3')
+                tweets_flayer = tweets_fs.layers[0]
+                tweets_fset = tweets_flayer.query()
+                all_features = tweets_fset.features
+                _tweet_original_feature = [f for f in all_features if f.attributes['handle'] == 'DerSPIEGEL'][0]
                 features_to_be_added = []
-                template = deepcopy(app._tweet_original_feature)
+                template = deepcopy(_tweet_original_feature)
 
                 template.attributes['name'] = content['name']
                 template.attributes['elastic_id'] = content['elastic_id']
@@ -291,7 +306,7 @@ def twitter():
                 template.attributes['handle'] = content['handle']
 
                 features_to_be_added.append(template)
-                app.tweets_flayer.edit_features(adds=features_to_be_added)
+                tweets_flayer.edit_features(adds=features_to_be_added)
                 return str(features_to_be_added)
             except Exception as e:
                 return jsonify({"Error": "Failed to post to GeoEvent Server", "message":str(e)}), 501

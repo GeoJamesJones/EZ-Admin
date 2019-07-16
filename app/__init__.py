@@ -11,7 +11,7 @@ from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
 from logging.handlers import RotatingFileHandler
 from redis import Redis
-from arcgis.gis import GIS
+
 
 from config import Config
 
@@ -27,18 +27,6 @@ app.logger.info("Starting API...")
 
 app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \
     if app.config['ELASTICSEARCH_URL'] else None
-
-gis_username = app.config['GIS_USERNAME']
-target_password = app.config['GIS_PASSWORD']
-gis_url = app.config['GIS_URL']
-
-app.target_portal = GIS(gis_url, gis_username, target_password)
-
-tweets_fs = app.target_portal.content.get('e656ae3cfbe54a5d9fe06ac6c6e9a2c3')
-app.tweets_flayer = tweets_fs.layers[0]
-tweets_fset = app.tweets_flayer.query()
-all_features = tweets_fset.features
-app._tweet_original_feature = [f for f in all_features if f.attributes['handle'] == 'DerSPIEGEL'][0]
 
 if not app.debug:
     if not os.path.exists('static/logs'):
