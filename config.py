@@ -45,4 +45,8 @@ class Config(object):
     #INVESTIGATION_REPORTS = '/Users/jame9353/Documents/GitHub/SampleData/incident reports'
     INVESTIGATION_REPORTS = '/home/dif_user/SampleData/incident reports'
     EARLY_BIRD = '/home/dif_user/SampleData/Early_Bird_Docs'
-    
+    NETOWL_GE_ALT_ENTITIES = r'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/netowl-entities-in'
+    NETOWL_GE_ALT_EVENTS = r'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/netowl-events-in'
+    NETOWL_GE_ALT_SE = r'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/netowl-features-in'
+    NETOWL_GE_ALT_LINKS = r'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/netowl-links-in'
+    NETOWL_GE_ALT_ARTICLES = r'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/netowl-ge-articles-in'

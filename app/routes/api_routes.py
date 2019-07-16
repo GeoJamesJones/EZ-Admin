@@ -150,16 +150,26 @@ def news_rss():
                             "links":len(links_list), 
                             "document":document}
 
+            except Exception as e:
+                return jsonify({"Error": str(e)}), 500
+
+            try:
+                post_to_geoevent(json.dumps(entity_list), app.config['NETOWL_GE_ALT_ENTITIES'])
+                post_to_geoevent(json.dumps(se_list), app.config['NETOWL_GE_ALT_SE'])
+                post_to_geoevent(json.dumps(links_list), app.config['NETOWL_GE_ALT_LINKS'])
+                post_to_geoevent(json.dumps(events_list), app.config['NETOWL_GE_ALT_EVENTS'])
+                post_to_geoevent(json.dumps(article), app.config['NETOWL_GE_ALT_ARTICLE'])
+                return jsonify(article), 201
+            except:
                 post_to_geoevent(json.dumps(entity_list), app.config['NETOWL_GE_ENTITIES'])
                 post_to_geoevent(json.dumps(se_list), app.config['NETOWL_GE_SE'])
                 post_to_geoevent(json.dumps(links_list), app.config['NETOWL_GE_LINKS'])
                 post_to_geoevent(json.dumps(events_list), app.config['NETOWL_GE_EVENTS'])
                 post_to_geoevent(json.dumps(article), app.config['NETOWL_GE_ARTICLE'])
-        
                 return jsonify(article), 201
-
-            except Exception as e:
-                return jsonify({"Error": str(e)}), 500
+            else:
+                return jsonify({"Error":"GeoEvent Sucks hard..."})
+                
 
 @app.route('/api/twitter', methods=['POST'])
 def twitter():
