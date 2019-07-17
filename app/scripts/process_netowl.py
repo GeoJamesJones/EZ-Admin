@@ -314,6 +314,7 @@ def process_netowl_full_json(document_file, json_data, document_id):
 
                 web_path = r"http://40.76.87.212/camera/docs/" + os.path.split(document_file)[1]
                 base_entity['url'] = web_path
+                base_entity['geo_entity'] = False
 
                 # gather data from each entity
                 rdfvalue = cleanup_text(e['value'])  # value (ie name)
@@ -322,7 +323,7 @@ def process_netowl_full_json(document_file, json_data, document_id):
                 e['id'] = rdfid
 
                 base_entity['id'] = rdfid
-                base_entity['netowl-doc'] = document_id
+                base_entity['document'] = document_id
 
                 if 'ontology' in e:
                     base_entity['ontology'] = e['ontology']
@@ -391,9 +392,9 @@ def process_netowl_full_json(document_file, json_data, document_id):
                 if 'entity-mention' in e:
                     em = e['entity-mention'][0]
                     if 'head' in em:
-                        base_entity['head'] = get_head(content, int(em['head']), 255)
+                        base_entity['pre_text'] = get_head(content, int(em['head']), 255)
                     if 'tail' in em:
-                        base_entity['tail'] = get_tail(content, int(em['tail']), 255)
+                        base_entity['post_text'] = get_tail(content, int(em['tail']), 255)
 
                 # Turns entity information into a class object for storage and transformation
                 #netowl_entity_object = NetOwl_Entity(base_entity)
@@ -406,7 +407,7 @@ def process_netowl_full_json(document_file, json_data, document_id):
                     base_link = {}
 
                     base_link['id'] = rdfid
-                    base_link['netowl-doc'] = document_id
+                    base_link['document'] = document_id
 
                     if 'value' in e:
                         base_link['value'] = e['value']
@@ -444,7 +445,7 @@ def process_netowl_full_json(document_file, json_data, document_id):
             for link in links:
                 base_link = {}
 
-                base_link['netowl-doc'] = document_id
+                base_link['document'] = document_id
                 base_link['ontology'] = link['ontology']
                 entity_arg1 = link['entity-arg'][0]
                 entity_arg2 = link['entity-arg'][1]
@@ -463,7 +464,7 @@ def process_netowl_full_json(document_file, json_data, document_id):
                 base_link['link-ontology'] = entity_arg2['ontology']
                 
                 #netowl_link_object = NetOwl_Link(base_link)
-                doc_links.append(netowl_link_object)
+                doc_links.append(base_link)
 
         # Determines if there are extracted events in the document
         if 'event' in document:
@@ -500,7 +501,7 @@ def process_netowl_full_json(document_file, json_data, document_id):
                             arg_dict['triple'] = True
                     
                             netowl_event_object = NetOwl_Event(arg_dict)
-                            doc_events.append(netowl_event_object)
+                            doc_events.append(base_event)
 
                 else:
                     #netowl_event_object = NetOwl_Event(base_event)

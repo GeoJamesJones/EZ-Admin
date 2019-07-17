@@ -8,7 +8,6 @@ from random import randint
 from copy import deepcopy
 from arcgis.gis import GIS
 
-
 from app.scripts import detect_faces
 from app.models.models import User, Post, NetOwl_Entity
 from app.scripts.process_netowl import cleanup_text, netowl_pipeline, geocode_address
@@ -115,8 +114,7 @@ def news_rss():
         if os.path.exists(text_file_path):
             print(text_file_path)
         
-            entities, links, events = netowl_pipeline(text_file_path)
-            return jsonify(entities) 
+            entities, links, events = netowl_pipeline(text_file_path) 
 
             entity_list = []
             links_list = []
@@ -127,12 +125,13 @@ def news_rss():
             try:
                 for entity in entities:
                     entity_list.append(entity)
-                    document = entity.document
-                    if entity.geo_entity == True:
-                        se_list.append(vars(entity))
-                        
-                    if entity.ontology == "entity:address:mail":
-                        pass
+                    
+                    document = entity["document"]
+                    try:
+                        if entity["geo_entity"] == True:
+                            se_list.append(entity)
+                    except Exception as e:
+                        return jsonify(entity), 500
                 
                 for link in links:
                     links_list.append(link)
@@ -159,20 +158,10 @@ def news_rss():
                 post_to_geoevent(json.dumps(se_list), app.config['NETOWL_GE_ALT_SE'])
                 post_to_geoevent(json.dumps(links_list), app.config['NETOWL_GE_ALT_LINKS'])
                 post_to_geoevent(json.dumps(events_list), app.config['NETOWL_GE_ALT_EVENTS'])
-                post_to_geoevent(json.dumps(article), app.config['NETOWL_GE_ALT_ARTICLE'])
+                post_to_geoevent(json.dumps(article), app.config['NETOWL_GE_ALT_ARTICLES'])
                 return jsonify(article), 201
-            except:
-                post_to_geoevent(json.dumps(entity_list), app.config['NETOWL_GE_ENTITIES'])
-                post_to_geoevent(json.dumps(se_list), app.config['NETOWL_GE_SE'])
-                post_to_geoevent(json.dumps(links_list), app.config['NETOWL_GE_LINKS'])
-                post_to_geoevent(json.dumps(events_list), app.config['NETOWL_GE_EVENTS'])
-                post_to_geoevent(json.dumps(article), app.config['NETOWL_GE_ARTICLE'])
-                return jsonify(article), 201
-            else:
-                return jsonify({"Error":"GeoEvent Sucks hard..."})
-                
-
-
+            except Exception as e:
+                return jsonify({"Error":"GeoEvent Sucks hard...", "Actual error message": str(e)})
 
 @app.route('/api/twitter', methods=['POST'])
 def twitter():
@@ -269,7 +258,7 @@ def twitter():
                             e['lat'] = location['y']
                             e['long'] = location['x']
                             e['elastic-id'] = es['_id']
-                            #post_to_geoevent(json.dumps(e), app.config['TWEETS_SE_URL'])
+                            post_to_geoevent(json.dumps(e), app.config['TWEETS_SE_URL'])
 
                     #post_to_geoevent(json.dumps(e), app.config['TWEETS_ENTITIES_URL'])
                     
@@ -277,40 +266,10 @@ def twitter():
                     pass
 
             try:
-
-                gis_username = app.config['GIS_USERNAME']
-                target_password = app.config['GIS_PASSWORD']
-                gis_url = app.config['GIS_URL']
-
-                target_portal = GIS(gis_url, gis_username, target_password, verify_cert=False)
-
-                tweets_fs = target_portal.content.get('e656ae3cfbe54a5d9fe06ac6c6e9a2c3')
-                tweets_flayer = tweets_fs.layers[0]
-                tweets_fset = tweets_flayer.query()
-                all_features = tweets_fset.features
-                _tweet_original_feature = [f for f in all_features if f.attributes['handle'] == 'DerSPIEGEL'][0]
-                features_to_be_added = []
-                template = deepcopy(_tweet_original_feature)
-
-                template.attributes['name'] = content['name']
-                template.attributes['elastic_id'] = content['elastic_id']
-                template.attributes['tweet-id'] = content['tweet-id']
-                template.attributes['url'] = content['url']
-                template.attributes['language-confidence'] = content['language-confidence']
-                template.attributes['sentiment'] = content['sentiment']
-                template.attributes['created-at'] = datetime.datetime.now()
-                template.attributes['text'] = content['text']
-                template.attributes['user-location'] = content['user-location']
-                template.attributes['language'] = content['language']
-                template.attributes['original-text'] = content['original-text']
-                template.attributes['handle'] = content['handle']
-
-                features_to_be_added.append(template)
-                tweets_flayer.edit_features(adds=features_to_be_added)
-                return str(features_to_be_added)
+                post_to_geoevent(json.dumps(content), app.config['TWEETS_GE_ALT_URL'])
+                return jsonify(content), 201
             except Exception as e:
-                return jsonify({"Error": "Failed to post to GeoEvent Server", "message":str(e)}), 501
-                
-            return jsonify(content), 201
+                return jsonify({"Error": "Failed to post to GeoEvent Server", "message":str(e)}), 500
+            
         except Exception as e:
             return jsonify({"Error": str(e)}), 400
