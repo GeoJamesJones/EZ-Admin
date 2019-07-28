@@ -1,4 +1,4 @@
-{% extends 'bootstrap/base.html' %}
+{% extends 'bootstrap-base.html' %}
 {% import 'bootstrap/wtf.html' as wtf %}
 {% import "bootstrap/fixes.html" as fixes %}
 
@@ -25,7 +25,6 @@
                             Upload
                         </button>
                         <button class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="{{ url_for('upload') }}">Upload Document</a><br>
                             <a class="dropdown-item" href="{{ url_for('form_upload_shapes') }}">Upload Files</a><br>
                             <a class="dropdown-item" href="{{ url_for('form_upload_imagery') }}">Upload Raster</a><br>
                             <a class="dropdown-item" href="{{ url_for('form_upload_cmb') }}">Upload CMB</a><br>
@@ -36,40 +35,9 @@
                             Admin
                         </button>
                         <button class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="{{ url_for('check_broken_items') }}">Check for Broken Links in Portal</a><br>
-                            <a class="dropdown-item" href="{{ url_for('check_federation_status') }}">Check Federation Status</a><br>
                             <a class="dropdown-item" href="{{ url_for('clean_temp_directories') }}">Clean Temp Directories</a><br>
-                            <a class="dropdown-item" href="{{ url_for('form_create_user') }}">Create Portal User</a><br>
-                            <a class="dropdown-item" href="{{ url_for('form_get_users') }}">Get Portal Users</a><br>
-                            <a class="dropdown-item" href="{{ url_for('form_get_groups') }}">Get Portal Groups</a><br>
                         </button>
-                    <li class="dropdown">
-                        <button class="navbar dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:transparent;">
-                            Query
-                        </button>
-                        <button class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="{{ url_for('form_query_web') }}">Web Spatial Query for PAI</a><br>
-                            <a class="dropdown-item" href="{{ url_for('form_query_news') }}">Web Spatial Query for News Content</a><br>
-                        </button>
-                    </li>
-                    <li class="dropdown">
-                        <button class="navbar dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:transparent;">
-                            Analyze
-                        </button>
-                        <button class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="{{ url_for('form_detect_faces') }}">Detect Faces in Image</a><br>
-                            <a class="dropdown-item" href="{{ url_for('simulate_netowl_feed') }}">Simulate NetOwl Pipeline</a><br>
-                        </button>
-                    </li>
                 </ul>
-
-                {% if g.search_form %}
-                <form class="navbar-form navbar-left" method="get" action="{{ url_for('search') }}">
-                    <div class="form-group">
-                        {{ g.search_form.q(size=20, class='form-control', placeholder=g.search_form.q.label.text) }}
-                    </div>
-                </form>
-                {% endif %}
 
                 <ul class="nav navbar-nav navbar-right">
                     {% if current_user.is_anonymous %}

@@ -10,9 +10,6 @@ from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
 from logging.handlers import RotatingFileHandler
-from redis import Redis
-
-
 from config import Config
 
 app = Flask(__name__)
@@ -25,9 +22,6 @@ bootstrap = Bootstrap(app)
 
 app.logger.info("Starting API...")
 
-app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \
-    if app.config['ELASTICSEARCH_URL'] else None
-
 if not app.debug:
     if not os.path.exists('static/logs'):
         os.mkdir('static/logs')
@@ -39,9 +33,8 @@ if not app.debug:
     app.logger.addHandler(file_handler)
 
     app.logger.setLevel(logging.INFO)
-    app.logger.info('Microblog startup')
-    app.redis = ""
+    app.logger.info('Ease of Use Application startup')
     app.task_queue = rq.Queue('microblog-tasks', connection=app.redis)
 
-from app.routes import routes, errors, query_routes, api_routes, admin_routes, upload_routes, analyze_routes
+from app.routes import routes, errors, admin_routes, upload_routes
 from app.models import models
