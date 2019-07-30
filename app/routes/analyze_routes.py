@@ -105,30 +105,17 @@ def simulate_netowl_feed():
                 if type(entities).__name__ == 'list':
 
                     for entity in entities:
-<<<<<<< HEAD
-                        entity_list.append(vars(entity))
-                        if entity.geo_entity == True:
-                            se_list.append(vars(entity))
-=======
                         entity_list.append(entity)
                         if entity.geo_entity == True:
                             se_list.append(entity)
->>>>>>> parent of 4b1554c... Further refinements to app
                         if entity.ontology == "entity:address:mail":
                             pass
                     
                     for link in links:
-<<<<<<< HEAD
-                        links_list.append(vars(link))
-
-                    for event in events:
-                        events_list.append(vars(event))
-=======
                         links_list.append(link)
 
                     for event in events:
                         events_list.append(event)
->>>>>>> parent of 4b1554c... Further refinements to app
 
                     post_to_geoevent(json.dumps(entity_list), app.config['NETOWL_GE_ENTITIES'])
                     post_to_geoevent(json.dumps(se_list), app.config['NETOWL_GE_SE'])
