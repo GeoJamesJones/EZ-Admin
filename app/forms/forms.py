@@ -32,6 +32,12 @@ class RegistrationForm(FlaskForm):
         if user is not None:
             raise ValidationError('Please use a different email address.')
 
+class UploadForm(FlaskForm):
+    upload = FileField('Document', validators=[
+        FileRequired()
+    ])
+    submit = SubmitField('Upload File')
+
 class UploadShapes(FlaskForm):
     upload = FileField('ZIP File: ', validators=[
         FileRequired()
@@ -74,3 +80,51 @@ class UploadCMB(FlaskForm):
         FileRequired()
     ])
     submit = SubmitField('Upload File')
+
+class QueryWeb(FlaskForm):
+    query = StringField('Query Keywords', validators=[DataRequired()])
+    choices = [
+        ('Warehouse/Storage Facility', 'Warehouses'),
+        ('Commercial Food Distribution Center', 'Commercial Food Distribution Center'),
+        ('Farm/Ranch', 'Farms or Ranches'),
+        ('Food Distribution Center', 'Food Distribution Center'),
+        ('Food Production Center', 'Food Production Center'),
+        ('Food Retail', 'Food Retail'),
+        ('Food Retail', 'Grain Storage'),
+        ('Generation Station', 'Generation Station'),
+        ('Natural Gas Facility', 'Natural Gas Facility'),
+        ('Petroleum Facility', 'Petroleum Facility'),
+        ('Propane Facility', 'Propane Facility'),
+        ('Government Site Infrastructure', 'Government Site Infrastructure'),
+        ('Medical Treatment Facility (Hospital)', 'Hospitals'),
+        ('Civilian Television', 'Television Stations')
+    ]
+    category = SelectField(u'Category', choices=choices)
+    submit = SubmitField('Submit')
+
+class QueryNews(FlaskForm):
+    query = StringField('Query Keywords', validators=[DataRequired()])
+    submit = SubmitField('Submit')
+
+class DetectFaces(FlaskForm):
+    upload = FileField('Image File:', validators=[
+        FileRequired()
+    ])
+    lat = DecimalField("Latitude", places=12)
+    lon = DecimalField("Longitude", places=12)
+    submit = SubmitField('Submit')
+
+class SimulateNetOwl(FlaskForm):
+    myChoices = [(app.config['INVESTIGATION_REPORTS'], 'Investigation Reports'), (app.config['EARLY_BIRD'], 'News Articles')]
+    datatype = SelectField(u'Data Type', choices=myChoices)
+    submit = SubmitField('Start')
+
+class SearchForm(FlaskForm):
+    q = StringField('Search', validators=[DataRequired()])
+
+    def __init__(self, *args, **kwargs):
+        if 'formdata' not in kwargs:
+            kwargs['formdata'] = request.args
+        if 'csrf_enabled' not in kwargs:
+            kwargs['csrf_enabled'] = False
+        super(SearchForm, self).__init__(*args, **kwargs)
