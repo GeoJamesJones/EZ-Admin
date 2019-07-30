@@ -1,7 +1,183 @@
 <!--{% extends 'bootstrap/base.html' %}-->
 
 {% block head %}
-  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="description" content="Ease of Use Tool">
+
+  <title>Ease of Use Tool</title>
+
+  <!-- Calcite Maps Bootstrap -->
+  <link rel="stylesheet" href="http://localhost/arcgis_js_api/library/4.11/dojo/Calcite-Maps/dist/css/calcite-maps-bootstrap.min-v0.10.css">
+
+  <!-- Calcite Maps -->
+  <link rel="stylesheet" href="http://localhost/arcgis_js_api/library/4.11/dojo/Calcite-Maps/dist/css/calcite-maps-arcgis-4.x.min-v0.10.css">
+
+  <!-- ArcGIS JS 4 -->
+  <link rel="stylesheet" href="http://localhost/arcgis_js_api/library/4.11/esri/themes/light/main.css">
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    .panel-body {
+      width: 350px;
+    }
+    .esri-coordinate-conversion__conversions-view {
+      width: 350px;
+    }
+    #coordconvDiv {
+      right: 10px;
+    }
+  </style>
+{% endblock %}
+
+{% block body %}
+ 
+  <body class="calcite-maps calcite-nav-top">
+      <!-- Navbar -->
+    
+      <nav class="navbar calcite-navbar navbar-fixed-top calcite-text-light calcite-bg-dark">
+        <!-- Menu -->
+        <div class="dropdown calcite-dropdown calcite-text-dark calcite-bg-light" role="presentation">
+          <a class="dropdown-toggle" role="menubutton" aria-haspopup="true" aria-expanded="false" tabindex="0">
+            <div class="calcite-dropdown-toggle">
+              <span class="sr-only">Toggle dropdown menu</span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a role="menuitem" tabindex="0" data-target="#panelInfo" aria-haspopup="true"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+            <li><a role="menuitem" tabindex="0" href="#" data-target="#panelLegend" aria-haspopup="true"><span class="glyphicon glyphicon-list-alt"></span> Legend</a></li>
+            <li><a role="menuitem" tabindex="0" href="#" data-target="#panelCC" aria-haspopup="true"><span class="glyphicon glyphicon-list-alt"></span> Coordinate Conversion</a></li>
+            <li><a role="menuitem" tabindex="0" href="#" data-target="#panelAdd" aria-haspopup="true"><span class="glyphicon glyphicon-list-alt"></span> Add Layer</a></li>
+            <li><a role="menuitem" tabindex="0" href="#" id="calciteToggleNavbar" aria-haspopup="true"><span class="glyphicon glyphicon-fullscreen"></span> Full Map</a></li>
+          </ul>
+        </div>
+        <!-- Title -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ url_for('index') }}">Ease of Use Application</a>
+        <!-- Nav -->
+        <ul class="nav navbar-nav calcite-nav">
+          <li>
+            <div class="calcite-navbar-search calcite-search-expander">
+              <div id="searchWidgetDiv"></div>
+            </div>
+          </li>
+        </ul>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('form_upload_shapes') }}">Upload Files</a></li>
+                <li><a href="{{ url_for('ease_of_use') }}">Map</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                {% if current_user.is_anonymous %}
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+                {% else %}
+                <li><a href="{{ url_for('user', username=current_user.username) }}">Profile</a></li>
+                <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                {% endif %}
+            </ul>
+      </nav>
+    
+      <!--/.calcite-navbar -->
+    
+      <!-- Map  -->
+    
+      <div class="calcite-map calcite-map-absolute">
+        <div id="mapViewDiv"></div>
+      </div>
+    
+      <!-- /.calcite-map -->
+    
+      <!-- Panels -->
+    
+      <div class="calcite-panels calcite-panels-right calcite-text-light calcite-bg-dark panel-group">
+    
+        <!-- Panel - Basemaps -->
+    
+        <div id="panelInfo" class="panel collapse in">
+          <div id="headingInfo" class="panel-heading" role="tab">
+            <div class="panel-title">
+              <a class="panel-toggle" role="button" data-toggle="collapse" href="#collapseInfo"  aria-expanded="true" aria-controls="collapseInfo"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><span class="panel-label">About</span></a> 
+              <a class="panel-close" role="button" data-toggle="collapse" tabindex="0" href="#panelInfo"><span class="esri-icon esri-icon-close" aria-hidden="true"></span></a>  
+            </div>
+          </div>
+          <div id="collapseInfo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingInfo">
+            <div class="panel-body">
+              <p>This is my map app!</p>
+            </div>
+        </div>
+        </div>
+    
+        <!-- Panel - Legend -->
+    
+        <div id="panelLegend" class="panel collapse">
+          <div id="headingLegend" class="panel-heading" role="tab">
+            <div class="panel-title">
+              <a class="panel-toggle" role="button" data-toggle="collapse" href="#collapseLegend" aria-expanded="false" aria-controls="collapseLegend"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><span class="panel-label">Legend</span></a> 
+              <a class="panel-close" role="button" data-toggle="collapse" tabindex="0" href="#panelLegend"><span class="esri-icon esri-icon-close" aria-hidden="true"></span></a> 
+            </div>
+          </div>
+          <div id="collapseLegend" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingLegend">
+            <div class="panel-body">            
+              <div id="legendDiv"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Panel - Coordinate Conversion -->
+
+        <div id="panelCC" class="panel collapse">
+          <div id="headingCC" class="panel-heading" role="tab">
+            <div class="panel-title">
+              <a class="panel-toggle" role="button" data-toggle="collapse" href="#collapseCC" aria-expanded="false" aria-controls="collapseCC"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><span class="panel-label">Coordinate Conversion</span></a> 
+              <a class="panel-close" role="button" data-toggle="collapse" tabindex="0" href="#panelCC"><span class="esri-icon esri-icon-close" aria-hidden="true"></span></a> 
+            </div>
+          </div>
+          <div id="collapseCC" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingCC">
+            <div class="panel-body">            
+              <div id="coordconvDiv"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel - Add Layer -->
+        <div id="panelAdd" class="panel collapse">
+          <div id="headingAdd" class="panel-heading" role="tab">
+            <div class="panel-title">
+              <a class="panel-toggle" role="button" data-toggle="collapse" href="#collapseAdd" aria-expanded="false" aria-controls="collapseAdd"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><span class="panel-label">Add Layer</span></a> 
+              <a class="panel-close" role="button" data-toggle="collapse" tabindex="0" href="#panelAdd"><span class="esri-icon esri-icon-close" aria-hidden="true"></span></a> 
+            </div>
+          </div>
+          <div id="collapseAdd" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAdd">
+            <div class="panel-body">            
+              <div id="addDiv">
+                <label for="serviceURL" class="col-xs-4 control-label">Service URL:</label>
+                <div class="col-xs-8">
+                    <input type="text" class="form-control" id="serviceURL" placeholder="Please enter a service URL" />
+                </div>
+                <button type="submit" class="btn-primary" id="addSubmit">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    
       <!-- /.calcite-panels -->
     
       <script type="text/javascript">

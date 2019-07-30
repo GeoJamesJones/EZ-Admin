@@ -1,7 +1,7 @@
 {% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
 
 {% block app_content %}
-
     <script>
     function _(el) {
         return document.getElementById(el);
@@ -45,16 +45,6 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div class="container">
-            {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                {% for message in messages %}
-                <div class="alert alert-info" role="alert">{{ message }}</div>
-                {% endfor %}
-            {% endif %}
-            {% endwith %}
-    </div>
-    
-    <div class="container">
     <h2>Upload CMB Data</h2>
     <form action = "http://localhost:5000/uploads/cmb" method="post" enctype="multipart/form-data" role="form" >
     <div class="form-group">
@@ -65,7 +55,6 @@
     <h3 id="status"></h3>
     <p id="loaded_n_total"></p>
 
+
     </form>
-
-
 {% endblock %}
