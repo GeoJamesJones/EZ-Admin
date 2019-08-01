@@ -271,61 +271,19 @@ def process_netowl_json(document_file, json_data, web_url, query_string, categor
 def main(query, category):
 
 
-    term = query + " " + category
+    term = query
     category = category
     directory = app.config['NETOWL_INT_FOLDER']
     netowl_key = app.config['NETOWL_KEY']
     geoevent_url = app.config['GEOEVENT_URL']
 
     if len(subscriptionKey) == 32:
-
-        print('Searching the Web for: ', term)
-
-        headers, result = BingWebSearch(term)
-        print("\nRelevant HTTP Headers:\n")
-        print("\n".join(headers))
-        print("\nJSON Response:\n")
         try:
             spatial_entities = []
-            for value in json.loads(result)['webPages']['value']:
-
-                try:
-
-                    r = requests.get(value['url'], verify=False, timeout=10)
-                    soup = BeautifulSoup(r.content, features="html.parser")
-
-                    soup_list = [s.extract() for s in soup(['style', 'script', '[document]', 'head', 'title'])]
-                    visible_text = soup.getText()
-
-                    filename = term.replace(" ", "_") + str(randint(1,1000))
-                    text_file_path = os.path.join(directory, filename + '.txt')
-                    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-                        print_text = cleanup_text(visible_text)
-                        text_file.write(print_text)
-                        text_file.close()
-
-                    netowl_curl(text_file_path, directory, ".json", netowl_key)
-
-                    with open(text_file_path + ".json", 'rb') as json_file:
-                        data = json.load(json_file)
-
-                        entity_list = process_netowl_json(filename, data, value['url'], term, category, value['dateLastCrawled'], value['snippet'], value['language'])
-
-                        for entity in entity_list:
-                            if entity.geo_entity == True:
-                                if entity.geo_type == 'coordinate' or entity.geo_type == 'address' or entity.geo_subtype == 'city':
-                                    spatial_entities.append(vars(entity))
-                                    post_to_geoevent(json.dumps(vars(entity)), geoevent_url)
-                                    #print(vars(entity))
-                    
-                    os.remove(text_file_path)
-                    os.remove(text_file_path + ".json")
-                except Exception as e:
-                    print("Error:" + str(e))
 
             for j in search(query, tld="com", num=int(10), stop=10, pause=2):
                 try:
-
+                    
                     r = requests.get(j, verify=False, timeout=10)
                     soup = BeautifulSoup(r.content, features="html.parser")
 
@@ -351,9 +309,11 @@ def main(query, category):
                             if entity.geo_entity == True:
                                 if entity.geo_type == 'coordinate' or entity.geo_type == 'address' or entity.geo_subtype == 'city':
                                     spatial_entities.append(vars(entity))
-                                    post_to_geoevent(json.dumps(vars(entity)), geoevent_url)
+                                    
                                     #print(vars(entity))
                                     entity_count +=1
+
+                    post_to_geoevent(json.dumps(spatial_entities), geoevent_url)
                 except Exception as e:
                     print("Error: " + str(e))
 
