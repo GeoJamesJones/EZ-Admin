@@ -29,7 +29,7 @@ class Config(object):
     TWEETS_GE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-tweets-in'
     TWEETS_GE_ALT_URL = 'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/azure-tweets-in'
     TWEETS_ENTITIES_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-twitter-entities-in'
-    TWEETS_SE_URL = 'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/azure-tweets-entities-in'
+    TWEETS_SE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-twitter-se-in'
     
     
     # NetOwl Affiliated Configuration Options

@@ -154,11 +154,11 @@ def news_rss():
                 return jsonify({"Error": str(e)}), 400
 
             try:
-                post_to_geoevent(json.dumps(entity_list), app.config['NETOWL_GE_ALT_ENTITIES'])
-                post_to_geoevent(json.dumps(se_list), app.config['NETOWL_GE_ALT_SE'])
-                post_to_geoevent(json.dumps(links_list), app.config['NETOWL_GE_ALT_LINKS'])
-                post_to_geoevent(json.dumps(events_list), app.config['NETOWL_GE_ALT_EVENTS'])
-                post_to_geoevent(json.dumps(article), app.config['NETOWL_GE_ALT_ARTICLES'])
+                post_to_geoevent(json.dumps(entity_list), app.config['NETOWL_GE_ENTITIES'])
+                post_to_geoevent(json.dumps(se_list), app.config['NETOWL_GE_SE'])
+                post_to_geoevent(json.dumps(links_list), app.config['NETOWL_GE_LINKS'])
+                post_to_geoevent(json.dumps(events_list), app.config['NETOWL_GE_EVENTS'])
+                post_to_geoevent(json.dumps(article), app.config['NETOWL_GE_ARTICLE'])
                 return jsonify(article), 201
             except Exception as e:
                 return jsonify({"Error":"GeoEvent Sucks hard...", "Actual error message": str(e)})
@@ -266,7 +266,7 @@ def twitter():
                     pass
 
             try:
-                post_to_geoevent(json.dumps(content), app.config['TWEETS_GE_ALT_URL'])
+                post_to_geoevent(json.dumps(content), app.config['TWEETS_GE_URL'])
                 return jsonify(content), 201
             except Exception as e:
                 return jsonify({"Error": "Failed to post to GeoEvent Server", "message":str(e)}), 500
