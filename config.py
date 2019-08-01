@@ -6,9 +6,9 @@ class Config(object):
     SECRET_KEY = 'you-will-never-guess'
     SQLALCHEMY_DATABASE_URI =  'sqlite:///' + os.path.join(basedir, 'app.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    UPLOAD_FOLDER = os.getcwd() + '/static/uploads'
-    IMAGE_FOLDER = os.getcwd() + '/static/images'
-    MARKUP_FOLDER = os.getcwd() + '/static/markup'
+    UPLOAD_FOLDER = os.getcwd() + r'\static\uploads'
+    IMAGE_FOLDER = os.getcwd() + r'\static\images'
+    MARKUP_FOLDER = os.getcwd() + r'\static\markup'
     ELASTICSEARCH_URL = 'http://localhost:9200'
     POSTS_PER_PAGE = 25
     
@@ -34,8 +34,8 @@ class Config(object):
     
     # NetOwl Affiliated Configuration Options
     NETOWL_KEY='netowl ff5e6185-5d63-459b-9765-4ebb905affc8'
-    NETOWL_FINAL_FOLDER = os.getcwd() + '/static/temp'
-    NETOWL_INT_FOLDER = os.getcwd() + '/static/temp'
+    NETOWL_FINAL_FOLDER = os.getcwd() + r'\static\temp'
+    NETOWL_INT_FOLDER = os.getcwd() + r'\static\temp'
     NETOWL_GE_SE = r'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/netowl-features-in'
     NETOWL_GE_LINKS = r'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/netowl-links-in'
     NETOWL_GE_EVENTS = r'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/netowl-events-in'
