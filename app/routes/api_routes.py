@@ -253,12 +253,13 @@ def twitter():
 
                 try:
                     if e['type'] == 'Location':
-                            location = geocode_address(e['name'])  # returns x,y
-                            e['geo_entity'] = True
-                            e['lat'] = location['y']
-                            e['long'] = location['x']
-                            e['elastic-id'] = es['_id']
-                            post_to_geoevent(json.dumps(e), app.config['TWEETS_SE_URL'])
+                        location = geocode_address(e['name'])  # returns x,y
+                        e['geo_entity'] = True
+                        e['lat'] = location['y']
+                        e['long'] = location['x']
+                        e['elastic-id'] = es['_id']
+                        e['tweet-id'] = content['tweet-id']
+                        post_to_geoevent(json.dumps(e), app.config['TWEETS_SE_URL'])
 
                     #post_to_geoevent(json.dumps(e), app.config['TWEETS_ENTITIES_URL'])
                     
