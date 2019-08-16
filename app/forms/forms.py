@@ -128,3 +128,13 @@ class SearchForm(FlaskForm):
         if 'csrf_enabled' not in kwargs:
             kwargs['csrf_enabled'] = False
         super(SearchForm, self).__init__(*args, **kwargs)
+
+class ChangeUserPortal(FlaskForm):
+    portal_name = StringField('Portal Name', validators=[DataRequired()])
+    portal_url = StringField('Portal URL', validators=[DataRequired()])
+    username = StringField('Username', validators=[DataRequired()])
+    password = PasswordField('Password', validators=[DataRequired()])
+    password2 = PasswordField(
+        'Repeat Password', validators=[DataRequired(), EqualTo('password')])
+    login_to_portal = BooleanField('Login to Portal for ArcGIS / ArcGIS Online?')
+    submit = SubmitField('Submit')

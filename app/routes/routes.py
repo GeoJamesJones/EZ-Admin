@@ -43,6 +43,13 @@ def login():
         next_page = request.args.get('next')
         if not next_page or url_parse(next_page).netloc != '':
             next_page = url_for('index')
+
+        try:
+            global target_portal
+            target_portal = GIS(current_user.portal_url, current_user.portal_username, current_user.portal_password)
+            flash("Connected to {}".format(current_user.portal_name))
+        except:
+            flash("User has no Portal for ArcGIS Connection Information in profile.")
         return redirect(next_page)
     return render_template('login.html', title='Sign In', form=form)
 

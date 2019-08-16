@@ -1,5 +1,5 @@
 from app import app, db
-from flask import jsonify, request, send_from_directory, flash, redirect, url_for, render_template
+from flask import jsonify, request, send_from_directory, flash, redirect, url_for, render_template, session
 from flask_login import current_user, login_user, login_required, logout_user
 from werkzeug.urls import url_parse
 from werkzeug.utils import secure_filename
@@ -7,8 +7,8 @@ from arcgis.gis import GIS
 from arcgis.mapping import WebMap
 
 from app.scripts.get_broken_links import is_url_reachable, test_urls_in_webmap, handle_unreachable, get_items_to_check
-from app.forms.forms import GetBrokenLinks, AddPortalUser
-from app.models.models import Post
+from app.forms.forms import GetBrokenLinks, AddPortalUser, ChangeUserPortal
+from app.models.models import Post, User
 
 import requests
 import os
@@ -17,11 +17,7 @@ import string
 import urllib3
 import sys
 
-gis_username = os.environ.get('gis_username')
-target_password = os.environ.get('gis_password')
-gis_url = os.environ.get('gis_url')
 
-target_portal = GIS(gis_url, gis_username, target_password)
 
 @app.route('/admin/check-broken-items', methods=['GET', 'POST'])
 @login_required
@@ -242,3 +238,54 @@ def clean_temp_directories():
         db.session.commit()
         return render_template('clean_temp_dirs_results.html', deleted_items=deleted_items)
     return render_template('clean_temp_dirs.html', form=form)
+
+@app.route('/admin/get-inactive', methods=['GET', 'POST'])
+@login_required
+def form_get_inactive():
+    form = GetBrokenLinks()
+    if form.validate_on_submit():
+        # The number of days a user is inactive for before...
+        NUM_INACTIVE_DAYS_TO_NOTIFY = 60 # we notify about their inactivity
+        NUM_INACTIVE_DAYS_TO_DISABLE = 90 # we delete their account
+    return render_template('get_inactive_users.html', form=form)
+
+
+@app.route('/admin/add-portal', methods=['GET', 'POST'])
+@login_required
+def add_portal_info():
+    form = ChangeUserPortal()
+    if form.validate_on_submit():
+        portal_url = form.portal_url.data
+        portal_name = form.portal_name.data
+        portal_username = form.username.data
+        password = form.password.data
+        login_to_portal = form.login_to_portal.data
+
+        current_user.portal_name = portal_name
+        current_user.portal_url = portal_url
+        current_user.portal_username = portal_username
+        current_user.portal_password = password
+        db.session.commit()
+
+        flash("Successfully updated Portal for ArcGIS connection information")
+
+        if login_to_portal:
+            global target_portal
+            target_portal = GIS(portal_url, portal_username, password)
+            flash("Successfully logged in to {}".format(portal_name))
+
+        post_body = "Changed Portal for ArcGIS URL."
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+            
+        next_page = url_for('index')
+        return redirect(next_page), 200
+    return render_template('add_portal_info.html', form=form)
+
+
+
+
+
+
+    

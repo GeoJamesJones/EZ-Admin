@@ -14,6 +14,10 @@ class User(UserMixin, db.Model):
     posts = db.relationship('Post', backref='author', lazy='dynamic')
     queries = db.relationship('NetOwl_Entity', backref='author', lazy='dynamic')
     last_seen = db.Column(db.DateTime, default=datetime.utcnow)
+    portal_url = db.Column(db.String(500), index=True)
+    portal_username = db.Column(db.String(128), index=True)
+    portal_password = db.Column(db.String(128))
+    portal_name = db.Column(db.String(128), index=True)
 
     def __repr__(self):
         return '<User {}>'.format(self.username)
