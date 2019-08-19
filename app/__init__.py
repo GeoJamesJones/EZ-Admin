@@ -23,6 +23,7 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 bootstrap = Bootstrap(app)
 
+
 app.logger.info("Starting API...")
 
 app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \

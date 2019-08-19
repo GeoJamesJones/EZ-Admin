@@ -6,9 +6,9 @@ class Config(object):
     SECRET_KEY = 'you-will-never-guess'
     SQLALCHEMY_DATABASE_URI =  'sqlite:///' + os.path.join(basedir, 'app.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    UPLOAD_FOLDER = os.getcwd() + r'\static\uploads'
-    IMAGE_FOLDER = os.getcwd() + r'\static\images'
-    MARKUP_FOLDER = os.getcwd() + r'\static\markup'
+    UPLOAD_FOLDER = r'C:\xampp\htdocs\camera\streamMobile\uploads'
+    IMAGE_FOLDER =  r'C:\xampp\htdocs\camera\streamMobile\uploads'
+    MARKUP_FOLDER = r'C:\xampp\htdocs\camera\Image_MarkUp'
     ELASTICSEARCH_URL = 'http://localhost:9200'
     POSTS_PER_PAGE = 25
     
@@ -23,8 +23,8 @@ class Config(object):
     TRANSLATOR_TEXT_KEY = "02ca97eb388647cba3441b73b2515b83"
     TEXT_API_KEY = "5e71e3baa54a476fad8d56a928af3e47"
     CONTENT_MODERATION_KEY = "dde6ebc92c9c49b6a65a62d82d1530ea"
-    IMAGE_BASE_URL='http://wdc-integration.eastus.cloudapp.azure.com/static/images/'
-    MARKUP_BASE_URL='http://wdc-integration.eastus.cloudapp.azure.com/static/markup/'
+    IMAGE_BASE_URL='http://dif.eastus.cloudapp.azure.com/camera/streamMobile/uploads/'
+    MARKUP_BASE_URL='http://dif.eastus.cloudapp.azure.com/camera/Image_MarkUp/'
     FACES_GE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/api-faces-in'
     TWEETS_GE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-tweets-in'
     TWEETS_GE_ALT_URL = 'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/azure-tweets-in'

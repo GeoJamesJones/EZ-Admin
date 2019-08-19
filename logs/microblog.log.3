@@ -1,110 +1,119 @@
-2019-07-01 02:15:59,780 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-01 02:15:59,921 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-01 02:16:28,244 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-01 02:16:28,313 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-01 02:16:28,425 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-01 02:16:28,472 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-01 02:16:39,493 ERROR: Exception on /admin/clean-temp [POST] [in /home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py:1761]
+2019-08-18 16:19:30,245 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
-    return func(*args, **kwargs)
-  File "/home/dif_user/wdc-integration/app/routes/admin_routes.py", line 225, in clean_temp_directories
-    content = os.listdir(app.config['UPLOAD_FOLDER'])
-FileNotFoundError: [Errno 2] No such file or directory: '/home/dif_user/wdc-integration/static/uploads'
-2019-07-01 02:17:02,696 ERROR: Exception on /admin/clean-temp [POST] [in /home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py:1761]
-Traceback (most recent call last):
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
-    raise value
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
-    return func(*args, **kwargs)
-  File "/home/dif_user/wdc-integration/app/routes/admin_routes.py", line 225, in clean_temp_directories
-    content = os.listdir(app.config['UPLOAD_FOLDER'])
-FileNotFoundError: [Errno 2] No such file or directory: '/home/dif_user/wdc-integration/static/uploads'
-2019-07-01 02:19:06,365 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-01 02:19:06,357 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-01 02:19:06,539 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-01 02:19:06,721 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 16:11:00,140 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 16:11:00,369 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 16:11:00,636 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 16:11:00,668 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:26:42,312 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:26:42,436 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:26:42,714 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:26:42,723 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:34:46,413 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:34:46,643 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:34:46,761 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:34:46,847 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:40:44,269 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:40:44,423 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:40:44,506 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-02 17:40:44,527 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:37]
-2019-07-04 02:53:37,283 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-04 02:53:37,449 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-04 02:53:37,530 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-04 02:53:37,757 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-05 01:15:36,759 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-05 01:15:36,790 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-05 01:15:37,030 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-05 01:15:37,052 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-06 04:24:42,409 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-06 04:24:45,684 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-06 18:28:10,384 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-06 18:28:24,942 INFO: Microblog startup [in /home/dif_user/wdc-integration/app/__init__.py:41]
-2019-07-07 09:02:40,185 ERROR: Exception on /api/news-rss [POST] [in /home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py:1761]
-Traceback (most recent call last):
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
-    raise value
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/dif_user/wdc-integration/app/routes/api_routes.py", line 106, in news_rss
+  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
     with open(text_file_path, 'w', encoding='utf-8') as text_file:
-FileNotFoundError: [Errno 2] No such file or directory: '/home/dif_user/wdc-integration/static/temp/_Romania_approves_procurement_of_5_more_F-16A/B_fighters.txt'
-2019-07-07 09:02:46,843 ERROR: Exception on /api/news-rss [POST] [in /home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py:1761]
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
+2019-08-18 16:23:19,742 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "/home/dif_user/wdc-integration/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/dif_user/wdc-integration/app/routes/api_routes.py", line 106, in news_rss
+  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
     with open(text_file_path, 'w', encoding='utf-8') as text_file:
-FileNotFoundError: [Errno 2] No such file or directory: '/home/dif_user/wdc-integration/static/temp/_Romania_approves_procurement_of_5_more_F-16A/B_fighters.txt'
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
+2019-08-18 16:23:25,301 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
+    with open(text_file_path, 'w', encoding='utf-8') as text_file:
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
+2019-08-18 16:23:39,659 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
+    with open(text_file_path, 'w', encoding='utf-8') as text_file:
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
+2019-08-18 16:24:07,048 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
+    with open(text_file_path, 'w', encoding='utf-8') as text_file:
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
+2019-08-18 16:24:44,472 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
+    with open(text_file_path, 'w', encoding='utf-8') as text_file:
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
+2019-08-18 17:04:57,761 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
+    with open(text_file_path, 'w', encoding='utf-8') as text_file:
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
