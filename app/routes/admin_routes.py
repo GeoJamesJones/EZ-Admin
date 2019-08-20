@@ -226,7 +226,7 @@ def clean_temp_directories():
 
         for item in content:
             deleted_items.append({'file': item}) 
-            item_path = os.path.join(app.config['NETOWL_FINAL_FOLDER'], item)
+            item_path = os.path.join(app.config['UPLOAD_FOLDER'], item)
             os.remove(item_path)
 
         content = os.listdir(app.config['NETOWL_FINAL_FOLDER'])

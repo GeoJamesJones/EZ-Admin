@@ -1,4 +1,4 @@
-2019-08-18 12:15:18,746 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-18 12:16:31,031 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -15,7 +15,7 @@ Traceback (most recent call last):
   File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
     with open(text_file_path, 'w', encoding='utf-8') as text_file:
 OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 12:15:26,758 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-18 12:16:48,416 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -32,7 +32,7 @@ Traceback (most recent call last):
   File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
     with open(text_file_path, 'w', encoding='utf-8') as text_file:
 OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 12:15:31,212 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-18 13:03:11,058 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -49,7 +49,7 @@ Traceback (most recent call last):
   File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
     with open(text_file_path, 'w', encoding='utf-8') as text_file:
 OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 12:15:32,580 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-18 13:03:16,679 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -66,7 +66,7 @@ Traceback (most recent call last):
   File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
     with open(text_file_path, 'w', encoding='utf-8') as text_file:
 OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 12:15:42,550 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-18 13:03:30,202 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -83,7 +83,7 @@ Traceback (most recent call last):
   File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
     with open(text_file_path, 'w', encoding='utf-8') as text_file:
 OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 12:15:56,697 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-18 13:03:54,581 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -100,7 +100,7 @@ Traceback (most recent call last):
   File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
     with open(text_file_path, 'w', encoding='utf-8') as text_file:
 OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 12:16:08,894 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-18 13:04:35,418 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()

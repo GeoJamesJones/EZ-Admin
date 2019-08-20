@@ -6,11 +6,25 @@ class Config(object):
     SECRET_KEY = 'you-will-never-guess'
     SQLALCHEMY_DATABASE_URI =  'sqlite:///' + os.path.join(basedir, 'app.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    UPLOAD_FOLDER = r'C:\xampp\htdocs\camera\streamMobile\uploads'
+    UPLOAD_FOLDER = r'C:\Users\arcgis\Documents\GitHub\wdc-integration\static\temp'
     IMAGE_FOLDER =  r'C:\xampp\htdocs\camera\streamMobile\uploads'
     MARKUP_FOLDER = r'C:\xampp\htdocs\camera\Image_MarkUp'
     ELASTICSEARCH_URL = 'http://localhost:9200'
     POSTS_PER_PAGE = 25
+
+    # CMB Upload Specific Information
+    SHAPE_FINAL_FOLDER = r'C:\services\data\shapes'
+    ELEV1_FINAL_FOLDER = r'C:\services\data\elevation\DTED_1'
+    ELEV2_FINAL_FOLDER = r'C:\services\data\elevation\DTED_2'
+    ELEV_FINAL_FOLDER = r'C:\services\data\elevation'
+    CADRG_FINAL_FOLDER = r'C:\services\data\cadrg'
+    CIB_FINAL_FOLDER = r'C:\services\data\cib'
+    IMAGERY_FINAL_FOLDER = r'C:\services\data\imagery'
+    ELEVATION1_MOSAIC = r"C:\services\mosaics\geodata.gdb\DTED1"
+    ELEVATION2_MOSAIC = r'C:\services\mosaics\geodata.gdb\DTED2'
+    CADRG_MOSAIC = r'C:\services\mosaics\geodata.gdb\CADRG'
+    CIB_MOSAIC = r'C:\services\mosaics\geodata.gdb\CIB'
+    IMAGERY_MOSAIC = r'C:\services\mosaics\geodata.gdb\IMAGERY'
     
     # ArcGIS Enterprise or ArcGIS Online Configuration Options
     GIS_URL = 'https://wdcdefense.esri.com/portal'
