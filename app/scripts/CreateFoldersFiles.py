@@ -26,13 +26,17 @@ for key, value in to_check.items():
         if os.path.exists(path):
             print(path + " exists")
         else:
-            os.mkdir(path, mode=0o777)
+            os.makedirs(path, mode=0o777)
             print("Created " + path)
     elif file_type == "FGDB":
         if arcpy.Exists(path):
             print(path + " exists")
         else:
-            arcpy.CreateFileGDB_management(os.path.split(path)[0], os.path.split(path)[1])
+            if os.path.exists(os.path.split(path)[0]) == False:
+                os.makedirs(os.path.split(path)[0], mode=0o777)
+                arcpy.CreateFileGDB_management(os.path.split(path)[0], os.path.split(path)[1])
+            else:
+                arcpy.CreateFileGDB_management(os.path.split(path)[0], os.path.split(path)[1])
             print("Created " + path)
     elif file_type == "Mosaic":
         mosaic_fgdb = to_check["MOSAICS_GEODATABASE"][1]

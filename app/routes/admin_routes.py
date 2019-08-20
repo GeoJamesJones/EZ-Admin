@@ -16,6 +16,7 @@ import json
 import string
 import urllib3
 import sys
+import shutil
 
 gis_username = os.environ.get('gis_username')
 target_password = os.environ.get('gis_password')
@@ -222,19 +223,25 @@ def clean_temp_directories():
 
         deleted_items = []
 
-        content = os.listdir(app.config['UPLOAD_FOLDER'])
+        for root, dirname, filename in os.walk(app.config['UPLOAD_FOLDER']):
+            for f in filename:
+                filepath = os.path.join(root, f)
+                deleted_items.append({'file': f}) 
+                os.remove(filepath)
+            for d in dirname:
+                dirpath = os.path.join(root, d)
+                deleted_items.append({'directory': d})
+                shutil.rmtree(dirpath)
 
-        for item in content:
-            deleted_items.append({'file': item}) 
-            item_path = os.path.join(app.config['UPLOAD_FOLDER'], item)
-            os.remove(item_path)
-
-        content = os.listdir(app.config['NETOWL_FINAL_FOLDER'])
-
-        for item in content:
-            deleted_items.append({'file': item}) 
-            item_path = os.path.join(app.config['NETOWL_FINAL_FOLDER'], item)
-            os.remove(item_path)
+        for root, dirname, filename in os.walk(app.config['NETOWL_FINAL_FOLDER']):
+            for f in filename:
+                filepath = os.path.join(root, f)
+                deleted_items.append({'file': f}) 
+                os.remove(filepath)
+            for d in dirname:
+                dirpath = os.path.join(root, d)
+                deleted_items.append({'directory': d})
+                shutil.rmtree(dirpath)
 
         post_body = "Clean temp directory."
         post = Post(body=post_body, author=current_user)

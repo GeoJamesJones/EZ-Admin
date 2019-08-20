@@ -190,10 +190,10 @@ def form_upload_imagery():
 @app.route('/uploads/cmb', methods=['POST', 'GET'])
 @login_required
 def form_upload_cmb():
-    form = UploadCMB()
-    if form.validate_on_submit():
-        f = form.upload.data
-        filename = secure_filename(f.filename)
+    form = UploadCMB() 
+    if request.method == 'POST':
+        f = request.files['file']
+        filename = f.filename
         f.save(os.path.join(
             app.config['UPLOAD_FOLDER'], filename
         ))
@@ -317,7 +317,8 @@ def form_upload_cmb():
         #subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\start_service.bat'])
 
         return render_template('upload_cmb_results.html')
-    return render_template('upload.html', form=form)
+    if request.method == 'GET':
+            return render_template('upload.html', form=form)
 
 @app.route('/uploads/test-cmb')
 def form_test_cmb():
