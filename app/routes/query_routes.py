@@ -9,11 +9,13 @@ from flask import jsonify, request, send_from_directory, flash, redirect, url_fo
 from flask_login import current_user, login_user, login_required, logout_user
 from werkzeug.urls import url_parse
 from werkzeug.utils import secure_filename
+from arcgis.gis import GIS
+from arcgis import features
 
 from app import app, db
 from app.scripts import process_netowl, bucketizebing, bucketizenews
 #from app.scripts import consolidate_rasters
-from app.forms.forms import QueryWeb, QueryNews
+from app.forms.forms import QueryWeb, QueryNews, GetBrokenLinks
 from app.models.models import User, Post, NetOwl_Entity
 
 from config import Config
@@ -24,6 +26,7 @@ urllib3.disable_warnings()
 @login_required
 def form_query_web():
     form = QueryWeb()
+    title = 'PAI Query'
     if form.validate_on_submit():
         query = form.query.data
         category = form.category.data
@@ -33,13 +36,14 @@ def form_query_web():
         db.session.commit()
         bucketizebing.main(query, category)
         flash("Success!")
-        return render_template('query_web.html', form=form)
-    return render_template('query_web.html', form=form)
+        return render_template('simple_form.html', form=form, title=title)
+    return render_template('simple_form.html', form=form, title=title)
 
 @app.route('/query/news', methods=['POST', 'GET'])
 @login_required
 def form_query_news():
     form = QueryNews()
+    title = 'News Feed Query'
     if form.validate_on_submit():
         query = form.query.data
         post_body = "Query News: " + query
@@ -48,8 +52,8 @@ def form_query_news():
         db.session.commit()
         bucketizenews.main(query, "News Query")
         flash("Success!")
-        return render_template('query_news.html', form=form)
-    return render_template('query_news.html', form=form)
+        return render_template('simple_form.html', form=form, title=title)
+    return render_template('simple_form.html', form=form, title=title)
 
 @app.route('/embed/web', methods=['POST', 'GET'])
 def embed_query_web():
@@ -89,3 +93,27 @@ def embed_query_news():
         flash("Success!")
         return render_template('query_news_clean.html', form=form)
     return render_template('query_news_clean.html', form=form)
+
+@app.route('/query/clean-fc', methods=['GET', 'POST'])
+@login_required
+def clean_pai_fc():
+    form = GetBrokenLinks()
+    if form.validate_on_submit():
+        print("Connecting to GIS")
+        gis = GIS("https://esrifederal.maps.arcgis.com", "james_jones_federal", "QWerty654321@!")
+        
+        print("Querying for content")
+        item = gis.content.get("bea68adc5bc0491cb0091a4f9dbc3bf1")
+        item_flayer = item.layers[0]
+        item_fset = item_flayer.query()
+        all_features = item_fset.features
+
+        print("Deleting features")
+        results = item_flayer.delete_features(where='1=1')
+
+        print(results)        
+
+    title = 'Delete Features from PAI Query Feature Layer'
+    return render_template('simple_form.html', form=form, title=title)
+    
+    

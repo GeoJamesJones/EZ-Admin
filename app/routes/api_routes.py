@@ -274,3 +274,21 @@ def twitter():
             
         except Exception as e:
             return jsonify({"Error": str(e)}), 400
+
+@app.route('/api/clean-fc', methods=['GET', 'POST'])
+@login_required
+def api_clean_pai_fc():
+    if request.method == 'POST':
+        print("Connecting to GIS")
+        gis = GIS("https://esrifederal.maps.arcgis.com", "james_jones_federal", "QWerty654321@!")
+        
+        print("Querying for content")
+        item = gis.content.get("bea68adc5bc0491cb0091a4f9dbc3bf1")
+        item_flayer = item.layers[0]
+        item_fset = item_flayer.query()
+        all_features = item_fset.features
+
+        print("Deleting features")
+        results = item_flayer.delete_features(where='1=1')
+
+        return "Success!", 200
