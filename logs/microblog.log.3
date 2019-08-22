@@ -1,7 +1,4 @@
-2019-08-19 23:53:48,453 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-19 23:57:11,991 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-19 23:59:55,576 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 00:00:02,645 ERROR: Exception on /uploads/check-files-folders [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-20 16:42:15,376 ERROR: Exception on /query/clean-fc [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -17,16 +14,10 @@ Traceback (most recent call last):
     return self.view_functions[rule.endpoint](**req.view_args)
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
     return func(*args, **kwargs)
-  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\upload_routes.py", line 331, in check_files_folders
-    subprocess.call([r'CC:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\check_files_folders.bat'])
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\subprocess.py", line 287, in call
-    with Popen(*popenargs, **kwargs) as p:
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\subprocess.py", line 729, in __init__
-    restore_signals, start_new_session)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\subprocess.py", line 1017, in _execute_child
-    startupinfo)
-FileNotFoundError: [WinError 2] The system cannot find the file specified
-2019-08-20 00:00:17,253 ERROR: Exception on /uploads/check-files-folders [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\query_routes.py", line 113, in clean_pai_fc
+    features_for_delete.append(feature.attribute['objectid'])
+AttributeError: 'Feature' object has no attribute 'attribute'
+2019-08-20 16:42:24,425 ERROR: Exception on /query/clean-fc [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -42,22 +33,16 @@ Traceback (most recent call last):
     return self.view_functions[rule.endpoint](**req.view_args)
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
     return func(*args, **kwargs)
-  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\upload_routes.py", line 331, in check_files_folders
-    subprocess.call([r'CC:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\check_files_folders.bat'])
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\subprocess.py", line 287, in call
-    with Popen(*popenargs, **kwargs) as p:
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\subprocess.py", line 729, in __init__
-    restore_signals, start_new_session)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\subprocess.py", line 1017, in _execute_child
-    startupinfo)
-FileNotFoundError: [WinError 2] The system cannot find the file specified
-2019-08-20 00:07:15,161 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 00:10:03,088 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 00:21:11,471 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 00:26:39,345 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 00:36:32,047 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 00:39:09,401 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 00:41:56,269 ERROR: Exception on /uploads/cmb [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\query_routes.py", line 113, in clean_pai_fc
+    features_for_delete.append(feature.attribute['objectid'])
+AttributeError: 'Feature' object has no attribute 'attribute'
+2019-08-20 16:43:26,491 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 16:45:11,008 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 16:46:54,029 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-21 16:25:45,025 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-21 16:48:29,560 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-21 16:49:16,557 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-21 16:50:07,454 ERROR: Exception on /admin/create-user [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -73,18 +58,29 @@ Traceback (most recent call last):
     return self.view_functions[rule.endpoint](**req.view_args)
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
     return func(*args, **kwargs)
-  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\upload_routes.py", line 198, in form_upload_cmb
-    app.config['UPLOAD_FOLDER'], filename
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\werkzeug\datastructures.py", line 2725, in save
-    dst = open(dst, 'wb')
-FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\camera\\streamMobile\\uploads\\Initial_Download_03_26_19.zip'
-2019-08-20 00:44:44,157 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 00:47:10,023 INFO: Beginning unzip of file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:9]
-2019-08-20 00:50:19,801 INFO: Successfully unzipped file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:16]
-2019-08-20 00:57:00,892 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 01:00:29,576 INFO: Beginning unzip of file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:9]
-2019-08-20 01:03:25,738 INFO: Successfully unzipped file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:16]
-2019-08-20 01:08:02,088 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 140, in form_create_user
+    target_portal = GIS("https://swcs.maps.arcgis.com", "james_jones_swcs", "QWerty654321@!")
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\gis\__init__.py", line 334, in __init__
+    raise e
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\gis\__init__.py", line 322, in __init__
+    referer=self._referer)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\portalpy.py", line 163, in __init__
+    client_id=client_id)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\connection.py", line 308, in __init__
+    self.login(username, password, expiration, client_id)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\connection.py", line 559, in login
+    newtoken = self.generate_token(username, password, expiration, client_id)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\connection.py", line 424, in generate_token
+    ssl=True, add_token=False)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\connection.py", line 1177, in post
+    self._handle_json_error(resp_json['error'], errorcode)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\connection.py", line 1198, in _handle_json_error
+    raise RuntimeError(errormessage)
+RuntimeError: Unable to generate token.
+Invalid username or password.
+(Error Code: 400)
+2019-08-21 16:52:24,029 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-21 16:52:41,590 ERROR: Exception on /admin/create-user [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -100,7 +96,27 @@ Traceback (most recent call last):
     return self.view_functions[rule.endpoint](**req.view_args)
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
     return func(*args, **kwargs)
-  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 230, in clean_temp_directories
-    os.remove(item_path)
-FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\arcgis\\Documents\\GitHub\\wdc-integration\\static\\temp\\Initial_Download_03_26_19'
-2019-08-20 01:09:37,259 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 140, in form_create_user
+    target_portal = GIS("https://swcs.maps.arcgis.com", "james_jones_swcs", "QWerty654321@!")
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\gis\__init__.py", line 334, in __init__
+    raise e
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\gis\__init__.py", line 322, in __init__
+    referer=self._referer)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\portalpy.py", line 163, in __init__
+    client_id=client_id)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\connection.py", line 308, in __init__
+    self.login(username, password, expiration, client_id)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\connection.py", line 559, in login
+    newtoken = self.generate_token(username, password, expiration, client_id)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\connection.py", line 424, in generate_token
+    ssl=True, add_token=False)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\connection.py", line 1177, in post
+    self._handle_json_error(resp_json['error'], errorcode)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\arcgis\_impl\connection.py", line 1198, in _handle_json_error
+    raise RuntimeError(errormessage)
+RuntimeError: Unable to generate token.
+Invalid username or password.
+(Error Code: 400)
+2019-08-21 19:04:50,612 INFO: Beginning unzip of file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:9]
+2019-08-21 19:08:01,976 INFO: Successfully unzipped file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:16]
+2019-08-22 00:31:56,997 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]

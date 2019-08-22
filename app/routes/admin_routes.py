@@ -126,52 +126,59 @@ def form_get_users():
 @login_required
 def form_create_user():
     form = AddPortalUser()
+    title = 'Create CCAS User'
     if form.validate_on_submit():
-            firstname = form.firstname.data
-            lastname = form.lastname.data
-            username = form.username.data
-            password = form.password.data
-            email = form.email.data
-            role = form.role.data
-            organization = form.organization.data
-            licensepro = form.licensepro.data
-            # create user
-            target_user = target_portal.users.create(username, password, firstname, 
-                                                    lastname, email, role)
+        firstname = form.firstname.data
+        lastname = form.lastname.data
+        username = form.username.data
+        password = form.password.data
+        email = form.email.data
+        role = form.role.data
+        organization = form.organization.data
+        licensepro = form.licensepro.data
+        # create user
+        main_portal = GIS("https://swcs.maps.arcgis.com", "james_jones_swcs", "QWerty654321@!")
+        training_portal = GIS("https://swcs-training.maps.arcgis.com", "jjones_training", "QWerty654321@!")
 
-            if organization == 'EUCOM':
-                group = target_portal.groups.search("Featured Maps and Apps")[0]
-                group.add_users(target_user.username)
-            
-            if licensepro == 'Yes':
-                pro_license = target_portal.admin.license.get('ArcGIS Pro')
-                pro_license.assign(username=username, entitlements='desktopBasicN')
+        target_user = main_portal.users.create(username, password, firstname, 
+                                                lastname, email, role)
 
-            users = []
+        training_user = training_portal.users.create(username, password, firstname, 
+                                                lastname, email, role)
 
-            source_users = target_portal.users.search(username)
+        if organization == 'EUCOM':
+            group = target_portal.groups.search("Featured Maps and Apps")[0]
+            group.add_users(target_user.username)
+        
+        if licensepro == 'Yes':
+            pro_license = target_portal.admin.license.get('ArcGIS Pro')
+            pro_license.assign(username=username, entitlements='desktopBasicN')
 
-            for user in source_users:
-                user = {
-                    "username":user.username,
-                    "firstname":user.firstName,
-                    "lastname":user.lastName,
-                    "email":user.email,
-                    "licensetype":user.userLicenseTypeId,
-                    "role":user.role,
-                    "storageUsage":user.storageUsage,
-                    "storageQuota":user.storageQuota
-                }
-                users.append(user)
-            
-            portal_url = {"name":str(target_portal)}
+        users = []
 
-            post_body = "Created Portal User."
-            post = Post(body=post_body, author=current_user)
-            db.session.add(post)
-            db.session.commit()
-            return render_template('get_portal_users_results.html', portal_url=portal_url, users=users)
-    return render_template('create_portal_user.html', form=form)
+        source_users = target_portal.users.search(username)
+
+        for user in source_users:
+            user = {
+                "username":user.username,
+                "firstname":user.firstName,
+                "lastname":user.lastName,
+                "email":user.email,
+                "licensetype":user.userLicenseTypeId,
+                "role":user.role,
+                "storageUsage":user.storageUsage,
+                "storageQuota":user.storageQuota
+            }
+            users.append(user)
+        
+        portal_url = {"name":str(target_portal)}
+
+        post_body = "Created Portal User."
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+        return render_template('get_portal_users_results.html', portal_url=portal_url, users=users)
+    return render_template('simple_form.html', form=form, title=title)
 
 @app.route('/admin/get-groups', methods=['GET', 'POST'])
 @login_required

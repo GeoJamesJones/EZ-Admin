@@ -1,119 +1,124 @@
-2019-08-18 16:08:02,233 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-20 01:09:54,308 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 16:08:21,740 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 230, in clean_temp_directories
+    os.remove(item_path)
+PermissionError: [WinError 5] Access is denied: 'C:\\uploads\\Initial_Download_03_26_19'
+2019-08-20 01:11:57,413 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 16:09:01,134 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 230, in clean_temp_directories
+    os.remove(item_path)
+PermissionError: [WinError 5] Access is denied: 'C:\\uploads\\Initial_Download_03_26_19'
+2019-08-20 12:10:30,149 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 12:20:05,522 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 12:23:08,530 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 12:27:38,468 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 12:28:50,328 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 12:32:07,585 INFO: Beginning unzip of file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:9]
+2019-08-20 12:35:26,353 INFO: Successfully unzipped file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:16]
+2019-08-20 12:43:15,776 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 16:18:03,443 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 230, in clean_temp_directories
+    os.remove(item_path)
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\arcgis\\Documents\\GitHub\\wdc-integration\\static\\temp\\Initial_Download_03_26_19'
+2019-08-20 12:55:24,665 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 12:55:43,416 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 16:18:08,870 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 233, in clean_temp_directories
+    os.remove(d)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'Initial_Download_03_26_19'
+2019-08-20 13:00:16,403 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 13:00:37,041 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 16:18:21,376 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 233, in clean_temp_directories
+    os.remove(dirpath)
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\arcgis\\Documents\\GitHub\\wdc-integration\\static\\temp\\Initial_Download_03_26_19'
+2019-08-20 13:02:42,326 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 13:03:05,488 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 16:18:40,819 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
-Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 233, in clean_temp_directories
+    os.remove(dirpath)
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\arcgis\\Documents\\GitHub\\wdc-integration\\static\\temp\\Initial_Download_03_26_19'

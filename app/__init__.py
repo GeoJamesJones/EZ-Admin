@@ -23,11 +23,12 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 bootstrap = Bootstrap(app)
 
-
 app.logger.info("Starting API...")
 
 app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \
     if app.config['ELASTICSEARCH_URL'] else None
+
+app.config['BOOTSTRAP_SERVE_LOCAL'] = True
 
 if not app.debug:
     if not os.path.exists('static/logs'):

@@ -1,4 +1,4 @@
-2019-08-20 01:09:54,308 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-22 00:32:06,282 ERROR: Exception on /index [GET] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -14,10 +14,26 @@ Traceback (most recent call last):
     return self.view_functions[rule.endpoint](**req.view_args)
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
     return func(*args, **kwargs)
-  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 230, in clean_temp_directories
-    os.remove(item_path)
-PermissionError: [WinError 5] Access is denied: 'C:\\uploads\\Initial_Download_03_26_19'
-2019-08-20 01:11:57,413 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\routes.py", line 72, in index
+    return render_template('index.html', title='WDC Integration API')
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\templates\base.html", line 1, in top-level template code
+    <!--{% extends 'bootstrap/base.html' %}-->
+jinja2.exceptions.TemplateRuntimeError: extended multiple times
+2019-08-22 00:32:09,035 ERROR: Exception on /index [GET] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -33,92 +49,31 @@ Traceback (most recent call last):
     return self.view_functions[rule.endpoint](**req.view_args)
   File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
     return func(*args, **kwargs)
-  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 230, in clean_temp_directories
-    os.remove(item_path)
-PermissionError: [WinError 5] Access is denied: 'C:\\uploads\\Initial_Download_03_26_19'
-2019-08-20 12:10:30,149 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 12:20:05,522 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 12:23:08,530 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 12:27:38,468 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 12:28:50,328 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 12:32:07,585 INFO: Beginning unzip of file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:9]
-2019-08-20 12:35:26,353 INFO: Successfully unzipped file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:16]
-2019-08-20 12:43:15,776 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
-Traceback (most recent call last):
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\routes.py", line 72, in index
+    return render_template('index.html', title='WDC Integration API')
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
     reraise(exc_type, exc_value, tb)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
-    return func(*args, **kwargs)
-  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 230, in clean_temp_directories
-    os.remove(item_path)
-PermissionError: [WinError 5] Access is denied: 'C:\\Users\\arcgis\\Documents\\GitHub\\wdc-integration\\static\\temp\\Initial_Download_03_26_19'
-2019-08-20 12:55:24,665 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 12:55:43,416 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
-Traceback (most recent call last):
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
-    return func(*args, **kwargs)
-  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 233, in clean_temp_directories
-    os.remove(d)
-FileNotFoundError: [WinError 2] The system cannot find the file specified: 'Initial_Download_03_26_19'
-2019-08-20 13:00:16,403 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 13:00:37,041 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
-Traceback (most recent call last):
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
-    return func(*args, **kwargs)
-  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 233, in clean_temp_directories
-    os.remove(dirpath)
-PermissionError: [WinError 5] Access is denied: 'C:\\Users\\arcgis\\Documents\\GitHub\\wdc-integration\\static\\temp\\Initial_Download_03_26_19'
-2019-08-20 13:02:42,326 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
-2019-08-20 13:03:05,488 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
-Traceback (most recent call last):
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
-    return func(*args, **kwargs)
-  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 233, in clean_temp_directories
-    os.remove(dirpath)
-PermissionError: [WinError 5] Access is denied: 'C:\\Users\\arcgis\\Documents\\GitHub\\wdc-integration\\static\\temp\\Initial_Download_03_26_19'
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\templates\base.html", line 1, in top-level template code
+    <!--{% extends 'bootstrap/base.html' %}-->
+jinja2.exceptions.TemplateRuntimeError: extended multiple times
+2019-08-22 00:32:48,313 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-22 00:36:35,400 INFO: Beginning unzip of file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:9]
+2019-08-22 00:37:33,185 INFO: Successfully unzipped file. [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\unzip.py:16]
+2019-08-22 00:47:13,774 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-22 00:48:25,446 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-22 00:51:56,746 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-22 01:04:09,603 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-22 01:08:33,814 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-22 01:25:02,240 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]

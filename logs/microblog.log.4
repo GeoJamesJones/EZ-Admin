@@ -1,120 +1,115 @@
-2019-08-18 17:10:58,238 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+2019-08-20 13:06:33,974 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 13:06:43,119 ERROR: Exception on /admin/clean-temp [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 17:11:38,700 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\admin_routes.py", line 233, in clean_temp_directories
+    os.removedirs(dirpath)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\os.py", line 238, in removedirs
+    rmdir(name)
+OSError: [WinError 145] The directory is not empty: 'C:\\Users\\arcgis\\Documents\\GitHub\\wdc-integration\\static\\temp\\Initial_Download_03_26_19'
+2019-08-20 13:07:45,510 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 15:24:03,741 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 15:55:35,467 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 16:19:37,779 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 16:19:52,932 ERROR: Exception on /query/clean-fc [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 17:15:32,164 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\query_routes.py", line 110, in clean_pai_fc
+    return jsonify(all_features)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\json\__init__.py", line 321, in jsonify
+    dumps(data, indent=indent, separators=separators) + '\n',
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\json\__init__.py", line 179, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\json\__init__.py", line 81, in default
+    return _json.JSONEncoder.default(self, o)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Feature' is not JSON serializable
+2019-08-20 16:20:36,622 ERROR: Exception on /query/clean-fc [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 17:15:37,617 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\query_routes.py", line 110, in clean_pai_fc
+    return str(all_features)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\json\__init__.py", line 321, in jsonify
+    dumps(data, indent=indent, separators=separators) + '\n',
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\json\__init__.py", line 179, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\json\__init__.py", line 81, in default
+    return _json.JSONEncoder.default(self, o)
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Feature' is not JSON serializable
+2019-08-20 16:22:58,630 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 16:26:51,778 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 16:39:06,091 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 16:41:52,719 INFO: Microblog startup [in C:\Users\arcgis\Documents\GitHub\wdc-integration\app\__init__.py:43]
+2019-08-20 16:42:04,462 ERROR: Exception on /query/clean-fc [POST] [in c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
     raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 17:15:46,936 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
-Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 17:16:02,535 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
-Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 17:16:59,012 ERROR: Exception on /api/news-rss [POST] [in C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py:1761]
-Traceback (most recent call last):
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\dif_user\Anaconda3\envs\flask\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\dif_user\Documents\wdc-integration\app\routes\api_routes.py", line 108, in news_rss
-    with open(text_file_path, 'w', encoding='utf-8') as text_file:
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\dif_user\\Documents\\wdc-integration\\static\\temp\\_Her_Ex-Boyfriend_Killed_Her_Mother._Will_the_U.S._Offer_a_Refuge?.txt'
-2019-08-18 17:17:52,438 INFO: Microblog startup [in C:\Users\dif_user\Documents\wdc-integration\app\__init__.py:43]
+  File "c:\arcgis\pro\bin\python\envs\flask\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\arcgis\Documents\GitHub\wdc-integration\app\routes\query_routes.py", line 113, in clean_pai_fc
+    features_for_delete.append(feature.attribute['objectid'])
+AttributeError: 'Feature' object has no attribute 'attribute'
