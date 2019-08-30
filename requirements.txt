@@ -4,11 +4,6 @@ arcgis==1.6.1
 asn1crypto==0.24.0
 astroid==2.2.5
 attrs==19.1.0
-azure-cognitiveservices-nspkg==3.0.1
-azure-cognitiveservices-search-entitysearch==1.0.0
-azure-cognitiveservices-search-nspkg==3.0.1
-azure-common==1.1.22
-azure-nspkg==3.0.2
 Babel==2.5.1
 backcall==0.1.0
 beautifulsoup4==4.7.1

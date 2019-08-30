@@ -27,9 +27,9 @@ class Config(object):
     IMAGERY_MOSAIC = r'C:\services\mosaics\geodata.gdb\IMAGERY'
     
     # ArcGIS Enterprise or ArcGIS Online Configuration Options
-    GIS_URL = 'https://wdcdefense.esri.com/portal'
-    GIS_USERNAME = "james_jones"
-    GIS_PASSWORD = "QWerty654321@!"
+    GIS_URL = 'https://esri-kbi.mstacticalcloud.net/portal'
+    GIS_USERNAME = "admin"
+    GIS_PASSWORD = "Password12345"
 
     # Microsoft Cognitive Services Affiliated Configuration Options
     ACS_FACE_API_KEY="53242be6635c420c807d15a44a7015cf"

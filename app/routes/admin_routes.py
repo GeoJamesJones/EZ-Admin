@@ -18,11 +18,7 @@ import urllib3
 import sys
 import shutil
 
-gis_username = os.environ.get('gis_username')
-target_password = os.environ.get('gis_password')
-gis_url = os.environ.get('gis_url')
-
-target_portal = GIS(gis_url, gis_username, target_password)
+target_portal = GIS(current_user.portal_url, current_user.portal_username, current_user.portal_password)
 
 @app.route('/admin/check-broken-items', methods=['GET', 'POST'])
 @login_required
@@ -256,3 +252,36 @@ def clean_temp_directories():
         db.session.commit()
         return render_template('clean_temp_dirs_results.html', deleted_items=deleted_items)
     return render_template('clean_temp_dirs.html', form=form)
+
+@app.route('/admin/add-portal', methods=['GET', 'POST'])
+@login_required
+def add_portal_info():
+    form = ChangeUserPortal()
+    if form.validate_on_submit():
+        portal_url = form.portal_url.data
+        portal_name = form.portal_name.data
+        portal_username = form.username.data
+        password = form.password.data
+        login_to_portal = form.login_to_portal.data
+
+        current_user.portal_name = portal_name
+        current_user.portal_url = portal_url
+        current_user.portal_username = portal_username
+        current_user.portal_password = password
+        db.session.commit()
+
+        flash("Successfully updated Portal for ArcGIS connection information")
+
+        if login_to_portal:
+            global target_portal
+            target_portal = GIS(portal_url, portal_username, password)
+            flash("Successfully logged in to {}".format(portal_name))
+
+        post_body = "Changed Portal for ArcGIS URL."
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+            
+        next_page = url_for('index')
+        return redirect(next_page), 200
+    return render_template('add_portal_info.html', form=form)
