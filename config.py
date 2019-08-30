@@ -6,16 +6,30 @@ class Config(object):
     SECRET_KEY = 'you-will-never-guess'
     SQLALCHEMY_DATABASE_URI =  'sqlite:///' + os.path.join(basedir, 'app.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    UPLOAD_FOLDER = os.getcwd() + '/static/uploads'
-    IMAGE_FOLDER = os.getcwd() + '/static/images'
-    MARKUP_FOLDER = os.getcwd() + '/static/markup'
+    UPLOAD_FOLDER = r'C:\Users\arcgis\Documents\GitHub\wdc-integration\static\temp'
+    IMAGE_FOLDER =  r'C:\xampp\htdocs\camera\streamMobile\uploads'
+    MARKUP_FOLDER = r'C:\xampp\htdocs\camera\Image_MarkUp'
     ELASTICSEARCH_URL = 'http://localhost:9200'
     POSTS_PER_PAGE = 25
+
+    # CMB Upload Specific Information
+    SHAPE_FINAL_FOLDER = r'C:\services\data\shapes'
+    ELEV1_FINAL_FOLDER = r'C:\services\data\elevation\DTED_1'
+    ELEV2_FINAL_FOLDER = r'C:\services\data\elevation\DTED_2'
+    ELEV_FINAL_FOLDER = r'C:\services\data\elevation'
+    CADRG_FINAL_FOLDER = r'C:\services\data\cadrg'
+    CIB_FINAL_FOLDER = r'C:\services\data\cib'
+    IMAGERY_FINAL_FOLDER = r'C:\services\data\imagery'
+    ELEVATION1_MOSAIC = r"C:\services\mosaics\geodata.gdb\DTED1"
+    ELEVATION2_MOSAIC = r'C:\services\mosaics\geodata.gdb\DTED2'
+    CADRG_MOSAIC = r'C:\services\mosaics\geodata.gdb\CADRG'
+    CIB_MOSAIC = r'C:\services\mosaics\geodata.gdb\CIB'
+    IMAGERY_MOSAIC = r'C:\services\mosaics\geodata.gdb\IMAGERY'
     
     # ArcGIS Enterprise or ArcGIS Online Configuration Options
-    GIS_URL = 'https://wdcdefense.esri.com/portal'
-    GIS_USERNAME = "james_jones"
-    GIS_PASSWORD = "QWerty654321@!"
+    GIS_URL = 'https://esri-kbi.mstacticalcloud.net/portal'
+    GIS_USERNAME = "admin"
+    GIS_PASSWORD = "Password12345"
 
     # Microsoft Cognitive Services Affiliated Configuration Options
     ACS_FACE_API_KEY="53242be6635c420c807d15a44a7015cf"
@@ -23,8 +37,8 @@ class Config(object):
     TRANSLATOR_TEXT_KEY = "02ca97eb388647cba3441b73b2515b83"
     TEXT_API_KEY = "5e71e3baa54a476fad8d56a928af3e47"
     CONTENT_MODERATION_KEY = "dde6ebc92c9c49b6a65a62d82d1530ea"
-    IMAGE_BASE_URL='http://wdc-integration.eastus.cloudapp.azure.com/static/images/'
-    MARKUP_BASE_URL='http://wdc-integration.eastus.cloudapp.azure.com/static/markup/'
+    IMAGE_BASE_URL='http://dif.eastus.cloudapp.azure.com/camera/streamMobile/uploads/'
+    MARKUP_BASE_URL='http://dif.eastus.cloudapp.azure.com/camera/Image_MarkUp/'
     FACES_GE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/api-faces-in'
     TWEETS_GE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/azure-tweets-in'
     TWEETS_GE_ALT_URL = 'https://wdcrealtimeevents.esri.com:6143/geoevent/rest/receiver/azure-tweets-in'
@@ -34,8 +48,8 @@ class Config(object):
     
     # NetOwl Affiliated Configuration Options
     NETOWL_KEY='netowl ff5e6185-5d63-459b-9765-4ebb905affc8'
-    NETOWL_FINAL_FOLDER = os.getcwd() + '/static/temp'
-    NETOWL_INT_FOLDER = os.getcwd() + '/static/temp'
+    NETOWL_FINAL_FOLDER = os.getcwd() + r'\static\temp'
+    NETOWL_INT_FOLDER = os.getcwd() + r'\static\temp'
     NETOWL_GE_SE = r'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/netowl-features-in'
     NETOWL_GE_LINKS = r'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/netowl-links-in'
     NETOWL_GE_EVENTS = r'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/netowl-events-in'

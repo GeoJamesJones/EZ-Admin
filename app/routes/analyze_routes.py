@@ -153,10 +153,11 @@ def embed_detect_face():
                 lon = form.lon.data
 
                 image_url = app.config['IMAGE_BASE_URL'] + f.filename
+                print(image_url)
                 try:
                     faces, report = detect_faces.main(image_url, lat, lon)
                 except Exception as e:
-                    print(faces)
+                    print("error:" +str(e))
                     return str(e), 400
                 try:
                     es = app.elasticsearch.index(index='detect-faces',doc_type='detect-faces', body=json.dumps(faces))
@@ -168,6 +169,7 @@ def embed_detect_face():
                     print("es error")
                     return str(e), 400
                 try:
+                    print("THIS IS WHERE I AM AT")
                     post_to_geoevent(json.dumps(faces), app.config['FACES_GE_URL'])
                 except Exception as e:
                     print("post to geoevent error")

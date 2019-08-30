@@ -13,7 +13,7 @@ from werkzeug.utils import secure_filename
 from app import app, db
 from app.scripts import process_netowl, unzip, move_files
 #from app.scripts import consolidate_rasters
-from app.forms.forms import UploadForm, UploadShapes, UploadImagery, UploadCMB
+from app.forms.forms import UploadForm, UploadShapes, UploadImagery, UploadCMB, GetBrokenLinks
 from app.models.models import User, Post, NetOwl_Entity
 
 from config import Config
@@ -190,10 +190,10 @@ def form_upload_imagery():
 @app.route('/uploads/cmb', methods=['POST', 'GET'])
 @login_required
 def form_upload_cmb():
-    form = UploadCMB()
-    if form.validate_on_submit():
-        f = form.upload.data
-        filename = secure_filename(f.filename)
+    form = UploadCMB() 
+    if request.method == 'POST':
+        f = request.files['file']
+        filename = f.filename
         f.save(os.path.join(
             app.config['UPLOAD_FOLDER'], filename
         ))
@@ -297,18 +297,18 @@ def form_upload_cmb():
         #subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\stop_service.bat'])
         if IMAGERY:
             if os.path.exists(app.config['IMAGERY_FINAL_FOLDER']):
-                subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\update_imagery_mosaic.bat'])
+                subprocess.call([r'C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\update_imagery_mosaic.bat'])
         if CADRG:
             if os.path.exists(app.config['CADRG_FINAL_FOLDER']):
-                subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\update_cadrg_mosaic.bat'])
+                subprocess.call([r'C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\update_cadrg_mosaic.bat'])
         if DTD:
             if os.path.exists(os.path.join(app.config['ELEV_FINAL_FOLDER'], 'dted1')):
-                subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\update_dted1_mosaic.bat']) 
+                subprocess.call([r'C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\update_dted1_mosaic.bat']) 
             if os.path.exists(os.path.join(app.config['ELEV_FINAL_FOLDER'], 'dted2')):
-                subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\update_dted2_mosaic.bat'])
+                subprocess.call([r'C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\update_dted2_mosaic.bat'])
         if CIB:
              if os.path.exists(app.config['CIB_FINAL_FOLDER']):
-                subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\update_cib_mosaic.bat'])
+                subprocess.call([r'C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\update_cib_mosaic.bat'])
         
         print("Stopping services...")
         print("Updating footprints layer...")
@@ -317,8 +317,35 @@ def form_upload_cmb():
         #subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\start_service.bat'])
 
         return render_template('upload_cmb_results.html')
-    return render_template('upload.html', form=form)
+    if request.method == 'GET':
+            return render_template('upload.html', form=form)
 
 @app.route('/uploads/test-cmb')
 def form_test_cmb():
     return render_template('upload_cmb_results.html')
+
+@app.route('/uploads/check-files-folders', methods=['POST', 'GET'])
+@login_required
+def check_files_folders():
+    form = GetBrokenLinks()
+    if form.validate_on_submit():
+        subprocess.call([r'C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\check_files_folders.bat'])
+        post_body = "Validated Upload CMB Files and Folder"
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+        return "Success!"
+    return render_template('validate_upload_files.html', form=form)
+
+@app.route('/uploads/create-cadrg-gpkg', methods=['POST', 'GET'])
+@login_required
+def create_cadrg_gpkg():
+    form = GetBrokenLinks()
+    if form.validate_on_submit():
+        subprocess.call([r'C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\create_cadrg_gpkg.bat'])
+        post_body = "Created CADRG Geopackage"
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+        return "Success!"
+    return render_template('create_cadrg_gpkg.html', form=form)

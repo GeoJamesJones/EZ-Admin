@@ -16,8 +16,9 @@ import json
 import string
 import urllib3
 import sys
+import shutil
 
-
+target_portal = GIS(current_user.portal_url, current_user.portal_username, current_user.portal_password)
 
 @app.route('/admin/check-broken-items', methods=['GET', 'POST'])
 @login_required
@@ -121,52 +122,59 @@ def form_get_users():
 @login_required
 def form_create_user():
     form = AddPortalUser()
+    title = 'Create CCAS User'
     if form.validate_on_submit():
-            firstname = form.firstname.data
-            lastname = form.lastname.data
-            username = form.username.data
-            password = form.password.data
-            email = form.email.data
-            role = form.role.data
-            organization = form.organization.data
-            licensepro = form.licensepro.data
-            # create user
-            target_user = target_portal.users.create(username, password, firstname, 
-                                                    lastname, email, role)
+        firstname = form.firstname.data
+        lastname = form.lastname.data
+        username = form.username.data
+        password = form.password.data
+        email = form.email.data
+        role = form.role.data
+        organization = form.organization.data
+        licensepro = form.licensepro.data
+        # create user
+        main_portal = GIS("https://swcs.maps.arcgis.com", "james_jones_swcs", "QWerty654321@!")
+        training_portal = GIS("https://swcs-training.maps.arcgis.com", "jjones_training", "QWerty654321@!")
 
-            if organization == 'EUCOM':
-                group = target_portal.groups.search("Featured Maps and Apps")[0]
-                group.add_users(target_user.username)
-            
-            if licensepro == 'Yes':
-                pro_license = target_portal.admin.license.get('ArcGIS Pro')
-                pro_license.assign(username=username, entitlements='desktopBasicN')
+        target_user = main_portal.users.create(username, password, firstname, 
+                                                lastname, email, role)
 
-            users = []
+        training_user = training_portal.users.create(username, password, firstname, 
+                                                lastname, email, role)
 
-            source_users = target_portal.users.search(username)
+        if organization == 'EUCOM':
+            group = target_portal.groups.search("Featured Maps and Apps")[0]
+            group.add_users(target_user.username)
+        
+        if licensepro == 'Yes':
+            pro_license = target_portal.admin.license.get('ArcGIS Pro')
+            pro_license.assign(username=username, entitlements='desktopBasicN')
 
-            for user in source_users:
-                user = {
-                    "username":user.username,
-                    "firstname":user.firstName,
-                    "lastname":user.lastName,
-                    "email":user.email,
-                    "licensetype":user.userLicenseTypeId,
-                    "role":user.role,
-                    "storageUsage":user.storageUsage,
-                    "storageQuota":user.storageQuota
-                }
-                users.append(user)
-            
-            portal_url = {"name":str(target_portal)}
+        users = []
 
-            post_body = "Created Portal User."
-            post = Post(body=post_body, author=current_user)
-            db.session.add(post)
-            db.session.commit()
-            return render_template('get_portal_users_results.html', portal_url=portal_url, users=users)
-    return render_template('create_portal_user.html', form=form)
+        source_users = target_portal.users.search(username)
+
+        for user in source_users:
+            user = {
+                "username":user.username,
+                "firstname":user.firstName,
+                "lastname":user.lastName,
+                "email":user.email,
+                "licensetype":user.userLicenseTypeId,
+                "role":user.role,
+                "storageUsage":user.storageUsage,
+                "storageQuota":user.storageQuota
+            }
+            users.append(user)
+        
+        portal_url = {"name":str(target_portal)}
+
+        post_body = "Created Portal User."
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+        return render_template('get_portal_users_results.html', portal_url=portal_url, users=users)
+    return render_template('simple_form.html', form=form, title=title)
 
 @app.route('/admin/get-groups', methods=['GET', 'POST'])
 @login_required
@@ -218,21 +226,58 @@ def clean_temp_directories():
 
         deleted_items = []
 
-        content = os.listdir(app.config['UPLOAD_FOLDER'])
+        for root, dirname, filename in os.walk(app.config['UPLOAD_FOLDER']):
+            for f in filename:
+                filepath = os.path.join(root, f)
+                deleted_items.append({'file': f}) 
+                os.remove(filepath)
+            for d in dirname:
+                dirpath = os.path.join(root, d)
+                deleted_items.append({'directory': d})
+                shutil.rmtree(dirpath)
 
-        for item in content:
-            deleted_items.append({'file': item}) 
-            item_path = os.path.join(app.config['NETOWL_FINAL_FOLDER'], item)
-            os.remove(item_path)
-
-        content = os.listdir(app.config['NETOWL_FINAL_FOLDER'])
-
-        for item in content:
-            deleted_items.append({'file': item}) 
-            item_path = os.path.join(app.config['NETOWL_FINAL_FOLDER'], item)
-            os.remove(item_path)
+        for root, dirname, filename in os.walk(app.config['NETOWL_FINAL_FOLDER']):
+            for f in filename:
+                filepath = os.path.join(root, f)
+                deleted_items.append({'file': f}) 
+                os.remove(filepath)
+            for d in dirname:
+                dirpath = os.path.join(root, d)
+                deleted_items.append({'directory': d})
+                shutil.rmtree(dirpath)
 
         post_body = "Clean temp directory."
+        post = Post(body=post_body, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+        return render_template('clean_temp_dirs_results.html', deleted_items=deleted_items)
+    return render_template('clean_temp_dirs.html', form=form)
+
+@app.route('/admin/add-portal', methods=['GET', 'POST'])
+@login_required
+def add_portal_info():
+    form = ChangeUserPortal()
+    if form.validate_on_submit():
+        portal_url = form.portal_url.data
+        portal_name = form.portal_name.data
+        portal_username = form.username.data
+        password = form.password.data
+        login_to_portal = form.login_to_portal.data
+
+        current_user.portal_name = portal_name
+        current_user.portal_url = portal_url
+        current_user.portal_username = portal_username
+        current_user.portal_password = password
+        db.session.commit()
+
+        flash("Successfully updated Portal for ArcGIS connection information")
+
+        if login_to_portal:
+            global target_portal
+            target_portal = GIS(portal_url, portal_username, password)
+            flash("Successfully logged in to {}".format(portal_name))
+
+        post_body = "Changed Portal for ArcGIS URL."
         post = Post(body=post_body, author=current_user)
         db.session.add(post)
         db.session.commit()
