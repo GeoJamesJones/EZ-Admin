@@ -18,7 +18,6 @@ from config import Config
 # Makes connection to Elasticsearch Index
 # Creates logs and log directory if they do not exist
 
-
 app = Flask(__name__)
 app.config.from_object(Config)
 login = LoginManager(app)
@@ -49,7 +48,8 @@ if not app.debug:
 
 # Imports the necessary modules from the Routes and Models folder. 
 # Import is at the end of this file due to the Routes and Models being reliant upon the Flask application
-# that was created above
+# that was created above.  
+# Prevents circular imports. 
 
 from app.routes import routes, errors, query_routes, api_routes, admin_routes, upload_routes, analyze_routes
 from app.models import models
