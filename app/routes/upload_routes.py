@@ -12,13 +12,10 @@ from werkzeug.utils import secure_filename
 
 from app import app, db
 from app.scripts import process_netowl, unzip, move_files
-#from app.scripts import consolidate_rasters
 from app.forms.forms import UploadForm, UploadShapes, UploadImagery, UploadCMB, GetBrokenLinks
 from app.models.models import User, Post, NetOwl_Entity
 
 from config import Config
-
-urllib3.disable_warnings()
 
 @app.route('/uploads/cmb', methods=['POST', 'GET'])
 @login_required
@@ -126,8 +123,7 @@ def form_upload_cmb():
                     
                     shutil.copy(src_file, final_naip_dir)
 
-        
-        #subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\stop_service.bat'])
+    
         if IMAGERY:
             if os.path.exists(app.config['IMAGERY_FINAL_FOLDER']):
                 subprocess.call([r'C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\update_imagery_mosaic.bat'])
@@ -142,12 +138,7 @@ def form_upload_cmb():
         if CIB:
              if os.path.exists(app.config['CIB_FINAL_FOLDER']):
                 subprocess.call([r'C:\Users\arcgis\Documents\GitHub\wdc-integration\app\scripts\batch\update_cib_mosaic.bat'])
-        
-        print("Stopping services...")
-        print("Updating footprints layer...")
-        print("Restarting services...")
-        #subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\update_footprints.bat'])
-        #subprocess.call([r'C:\Users\localadmin\Documents\GitHub\bucketize-api\app\scripts\batch\start_service.bat'])
+
 
         return render_template('upload_cmb_results.html')
     if request.method == 'GET':

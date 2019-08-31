@@ -16,7 +16,9 @@ import datetime
 
 from bs4 import BeautifulSoup
 from random import randint
-from googlesearch import search 
+from googlesearch import search
+
+from app.scripts.geoevent import post_to_geoevent
 
 urllib3.disable_warnings()
 
@@ -147,13 +149,6 @@ def netowl_curl(infile, outpath, outextension, netowl_key):
         os.mkdir(outpath, mode=0o777, )
     outfile = os.path.join(outpath, filename + outextension)
     open(outfile, "w", encoding="utf-8").write(r)
-
-def post_to_geoevent(json_data, geoevent_url):
-    headers = {
-        'Content-Type': 'application/json',
-                }
-
-    response = requests.post((geoevent_url), headers=headers, data=json_data, verify=False)
 
 def process_netowl_json(document_file, json_data, web_url, query_string, category, date_crawled, snippet, language):
     doc_entities = []

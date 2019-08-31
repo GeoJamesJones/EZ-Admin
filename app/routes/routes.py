@@ -14,13 +14,14 @@ from app.forms.forms import SearchForm
 
 from app import app, db
 from app.scripts import process_netowl, unzip, move_files, bucketizebing, bucketizenews
-#from app.scripts import consolidate_rasters
 from app.forms.forms import LoginForm, RegistrationForm, SearchForm
 from app.models.models import User, Post, NetOwl_Entity
 
 from config import Config
 
-urllib3.disable_warnings()
+# Creates a function that occurs before any process is ran that 
+# updates the 'last_seen' variable inside of the user profile.
+# Also adds the search form to the layout. 
 
 @app.before_request
 def before_request():
@@ -29,6 +30,7 @@ def before_request():
         db.session.commit()
         g.search_form = SearchForm()
 
+# Login process
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if current_user.is_authenticated:
@@ -43,21 +45,16 @@ def login():
         next_page = request.args.get('next')
         if not next_page or url_parse(next_page).netloc != '':
             next_page = url_for('index')
-
-        try:
-            global target_portal
-            target_portal = GIS(current_user.portal_url, current_user.portal_username, current_user.portal_password)
-            flash("Connected to {}".format(current_user.portal_name))
-        except:
-            flash("User has no Portal for ArcGIS Connection Information in profile.")
         return redirect(next_page)
-    return render_template('login.html', title='Sign In', form=form)
+    return render_template('simple_form.html', title='Sign In', form=form)
 
+# Logout process
 @app.route('/logout')
 def logout():
     logout_user()
     return redirect(url_for('index'))
 
+# Allows a user to create an account
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if current_user.is_authenticated:
@@ -70,20 +67,16 @@ def register():
         db.session.commit()
         flash('Congratulations, you are now a registered user!')
         return redirect(url_for('login'))
-    return render_template('register.html', title='Register', form=form)
+    return render_template('simple_form.html', title='Register', form=form)
 
+# Homepage
 @app.route('/')
 @app.route('/index')
 @login_required
 def index():
     return render_template('index.html', title='WDC Integration API')
 
-
-@app.route('/ease-of-use')
-@login_required
-def ease_of_use():
-    return render_template('base_map.html')
-
+# User profile
 @app.route('/user/<username>')
 @login_required
 def user(username):
@@ -91,6 +84,7 @@ def user(username):
     posts = user.posts.order_by(Post.timestamp.desc())
     return render_template('user.html', user=user, posts=posts)
 
+# Search function
 @app.route('/search')
 @login_required
 def search():

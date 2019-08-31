@@ -11,8 +11,7 @@ from arcgis.gis import GIS
 from arcgis import features
 
 from app import app, db
-from app.scripts import process_netowl, bucketizebing, bucketizenews
-#from app.scripts import consolidate_rasters
+from app.scripts import bucketizebing, bucketizenews
 from app.forms.forms import QueryWeb, QueryNews, GetBrokenLinks
 from app.models.models import User, Post, NetOwl_Entity
 

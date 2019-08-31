@@ -316,11 +316,12 @@ def clean_temp_directories():
 @login_required
 def form_get_inactive():
     form = GetBrokenLinks()
+    title = 'Get Inactive Users'
     if form.validate_on_submit():
         # The number of days a user is inactive for before...
         NUM_INACTIVE_DAYS_TO_NOTIFY = 60 # we notify about their inactivity
         NUM_INACTIVE_DAYS_TO_DISABLE = 90 # we delete their account
-    return render_template('get_inactive_users.html', form=form)
+    return render_template('simple_form.html', form=form, title=title)
 
 # Allows a user to change their default portal that they are connected.
 # Updates the portal information stored in the users profile.  
