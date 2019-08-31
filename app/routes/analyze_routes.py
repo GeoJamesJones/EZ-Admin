@@ -82,4 +82,4 @@ def form_detect_faces():
 
         return jsonify(faces)
 
-    return render_template('detect_faces_geo.html', form=form)
+    return render_template('detect-faces-geo.html', form=form)

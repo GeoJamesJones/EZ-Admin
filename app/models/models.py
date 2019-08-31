@@ -14,8 +14,6 @@ class User(UserMixin, db.Model):
     email = db.Column(db.String(120), index=True, unique=True)
     password_hash = db.Column(db.String(128))
     posts = db.relationship('Post', backref='author', lazy='dynamic')
-    queries = db.relationship(
-        'NetOwl_Entity', backref='author', lazy='dynamic')
     last_seen = db.Column(db.DateTime, default=datetime.utcnow)
     portal_url = db.Column(db.String(500), index=True)
     portal_username = db.Column(db.String(128), index=True)

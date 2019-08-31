@@ -10,7 +10,7 @@ from arcgis.gis import GIS
 
 from app.scripts import detect_faces
 from app.scripts.geoevent import post_to_geoevent, put_to_geoevent
-from app.models.models import User, Post, NetOwl_Entity
+from app.models.models import User, Post
 from app.scripts.process_netowl import cleanup_text, netowl_pipeline, geocode_address
 
 import requests

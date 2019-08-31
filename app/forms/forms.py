@@ -19,7 +19,6 @@ class LoginForm(FlaskForm):
     remember_me = BooleanField('Remember Me')
     submit = SubmitField('Sign In')
 
-
 class RegistrationForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired()])
     email = StringField('Email', validators=[DataRequired(), Email()])
@@ -64,10 +63,8 @@ class UploadImagery(FlaskForm):
     datatype = SelectField(u'Field name', choices=myChoices)
     submit = SubmitField('Upload File')
 
-
 class GetBrokenLinks(FlaskForm):
     submit = SubmitField('Submit')
-
 
 class AddPortalUser(FlaskForm):
     firstname = StringField('First Name', validators=[DataRequired()])
@@ -88,13 +85,11 @@ class AddPortalUser(FlaskForm):
     licensepro = SelectField(u'License ArcGIS Pro?', choices=licenseChoices)
     submit = SubmitField('Submit')
 
-
 class UploadCMB(FlaskForm):
     upload = FileField('CMB ZIP File', validators=[
         FileRequired()
     ])
     submit = SubmitField('Upload File')
-
 
 class QueryWeb(FlaskForm):
     query = StringField('Query Keywords', validators=[DataRequired()])
@@ -118,11 +113,9 @@ class QueryWeb(FlaskForm):
     category = SelectField(u'Category', choices=choices)
     submit = SubmitField('Submit')
 
-
 class QueryNews(FlaskForm):
     query = StringField('Query Keywords', validators=[DataRequired()])
     submit = SubmitField('Submit')
-
 
 class DetectFaces(FlaskForm):
     upload = FileField('Image File:', validators=[
@@ -139,7 +132,6 @@ class SimulateNetOwl(FlaskForm):
     datatype = SelectField(u'Data Type', choices=myChoices)
     submit = SubmitField('Start')
 
-
 class SearchForm(FlaskForm):
     q = StringField('Search', validators=[DataRequired()])
 
@@ -149,7 +141,6 @@ class SearchForm(FlaskForm):
         if 'csrf_enabled' not in kwargs:
             kwargs['csrf_enabled'] = False
         super(SearchForm, self).__init__(*args, **kwargs)
-
 
 class ChangeUserPortal(FlaskForm):
     portal_name = StringField('Portal Name', validators=[DataRequired()])

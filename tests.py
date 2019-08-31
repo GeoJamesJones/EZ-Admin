@@ -1,9 +1,7 @@
-#!/usr/bin/env python
 from datetime import datetime, timedelta
 import unittest
 from app import app, db
-from app.models import User, Post
-
+from app.models.models import User, Post
 
 class UserModelCase(unittest.TestCase):
     def setUp(self):

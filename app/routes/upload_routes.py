@@ -13,7 +13,7 @@ from werkzeug.utils import secure_filename
 from app import app, db
 from app.scripts import process_netowl, unzip, move_files
 from app.forms.forms import UploadForm, UploadShapes, UploadImagery, UploadCMB, GetBrokenLinks
-from app.models.models import User, Post, NetOwl_Entity
+from app.models.models import User, Post
 
 from config import Config
 
