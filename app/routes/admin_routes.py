@@ -302,12 +302,15 @@ def clean_temp_directories():
                 deleted_items.append({'directory': d})
                 shutil.rmtree(dirpath)
 
+        # Logs that the Clean Temporary Directories task has ran and stores it in the Users Profile so that it can be returned to the user in the "Profile" section
         post_body = "Clean temp directory."
         post = Post(body=post_body, author=current_user)
         db.session.add(post)
         db.session.commit()
         return render_template('clean_temp_dirs_results.html', deleted_items=deleted_items)
     return render_template('simple_form.html', form=form, title=title)
+
+# Gets inaactive users.  Currently incomplete.
 
 @app.route('/admin/get-inactive', methods=['GET', 'POST'])
 @login_required
@@ -319,6 +322,10 @@ def form_get_inactive():
         NUM_INACTIVE_DAYS_TO_DISABLE = 90 # we delete their account
     return render_template('get_inactive_users.html', form=form)
 
+# Allows a user to change their default portal that they are connected.
+# Updates the portal information stored in the users profile.  
+# Updates the session's "current_user" with portal_name, portal_url, portal_username, portal_password.
+# This would be allowed to be completed by any user.
 
 @app.route('/admin/add-portal', methods=['GET', 'POST'])
 @login_required
@@ -344,7 +351,9 @@ def add_portal_info():
             global target_portal
             target_portal = GIS(portal_url, portal_username, password)
             flash("Successfully logged in to {}".format(portal_name))
-
+        
+        # Logs that the Change Portal task has ran and stores it in the Users Profile so 
+        # that it can be returned to the user in the "Profile" section
         post_body = "Changed Portal for ArcGIS URL."
         post = Post(body=post_body, author=current_user)
         db.session.add(post)

@@ -25,10 +25,7 @@
                             Upload
                         </button>
                         <button class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="{{ url_for('create_cadrg_gpkg') }}">Create CARDG Geopackage</a><br>
-                            <a class="dropdown-item" href="{{ url_for('upload') }}">Upload Document</a><br>
-                            <a class="dropdown-item" href="{{ url_for('form_upload_shapes') }}">Upload Files</a><br>
-                            <a class="dropdown-item" href="{{ url_for('form_upload_imagery') }}">Upload Raster</a><br>
+                            <a class="dropdown-item" href="{{ url_for('create_cadrg_gpkg') }}">Create CARDG Geopackage</a><br>
                             <a class="dropdown-item" href="{{ url_for('form_upload_cmb') }}">Upload CMB</a><br>
                             <a class="dropdown-item" href="{{ url_for('check_files_folders') }}">Validate Upload Files and Folders</a><br>
                         </button>
@@ -42,18 +39,16 @@
                             <a class="dropdown-item" href="{{ url_for('check_broken_items') }}">Check for Broken Links in Portal</a><br>
                             <a class="dropdown-item" href="{{ url_for('check_federation_status') }}">Check Federation Status</a><br>
                             <a class="dropdown-item" href="{{ url_for('clean_temp_directories') }}">Clean Temp Directories</a><br>
-                            <a class="dropdown-item" href="{{ url_for('form_create_user') }}">Create Portal User</a><br>
                             <a class="dropdown-item" href="{{ url_for('form_get_inactive') }}">Get Inactive Users</a><br>
                             <a class="dropdown-item" href="{{ url_for('form_get_users') }}">Get Portal Users</a><br>
                             <a class="dropdown-item" href="{{ url_for('form_get_groups') }}">Get Portal Groups</a><br>
                         </button>
                     <li class="dropdown">
                         <button class="navbar dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:transparent;">
-                            Query
+                            Civil Affairs Tasks
                         </button>
                         <button class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="{{ url_for('form_query_web') }}">Web Spatial Query for PAI</a><br>
-                            <a class="dropdown-item" href="{{ url_for('form_query_news') }}">Web Spatial Query for News Content</a><br>
+                                <a class="dropdown-item" href="{{ url_for('form_create_user') }}">Create CCAS User</a><br>
                             <a class="dropdown-item" href="{{ url_for('clean_pai_fc') }}">Delete Features from PAI Query Feature Layer</a><br>
                         </button>
                     </li>
@@ -63,7 +58,6 @@
                         </button>
                         <button class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="{{ url_for('form_detect_faces') }}">Detect Faces in Image</a><br>
-                            <a class="dropdown-item" href="{{ url_for('simulate_netowl_feed') }}">Simulate NetOwl Pipeline</a><br>
                         </button>
                     </li>
                 </ul>
