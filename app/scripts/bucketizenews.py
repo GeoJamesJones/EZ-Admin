@@ -1,11 +1,11 @@
-#Copyright (c) Microsoft Corporation. All rights reserved.
-#Licensed under the MIT License.
+# Copyright (c) Microsoft Corporation. All rights reserved.
+# Licensed under the MIT License.
 
 # -*- coding: utf-8 -*-
 
 from app import app, db
 
-import http.client 
+import http.client
 import urllib.parse
 import requests
 import os
@@ -35,10 +35,12 @@ host = "api.cognitive.microsoft.com"
 path = "/bing/v7.0/news/search"
 
 # NetOwl Class Objects
+
+
 class NetOwl_Entity:
     """Class to hold entities extracted from NetOwl API"""
-    
-    def __init__(self, value_dict=None): 
+
+    def __init__(self, value_dict=None):
         """Docstring."""
 
         if 'id' in value_dict:
@@ -72,6 +74,7 @@ class NetOwl_Entity:
         else:
             self.geo_entity = False
 
+
 def BingWebSearch(search):
     "Performs a Bing Web search and returns the results."
 
@@ -84,12 +87,14 @@ def BingWebSearch(search):
                    if k.startswith("BingAPIs-") or k.startswith("X-MSEdge-")]
     return headers, response.read().decode("utf8")
 
+
 def cleanup_text(intext):
     """Function to remove funky chars."""
     printable = set(string.printable)
     p = ''.join(filter(lambda x: x in printable, intext))
     g = p.replace('"', "")
     return g
+
 
 def geocode_address(address):
     """Use World Geocoder to get XY for one address at a time."""
@@ -103,6 +108,7 @@ def geocode_address(address):
     location = j['candidates'][0]['location']  # returns first location as X, Y
     return location
 
+
 def get_head(text, headpos, numchars):
     """Return text before start of entity."""
     wheretostart = headpos - numchars
@@ -111,6 +117,7 @@ def get_head(text, headpos, numchars):
     thehead = text[wheretostart: headpos]
     return thehead
 
+
 def get_tail(text, tailpos, numchars):
     """Return text at end of entity."""
     wheretoend = tailpos + numchars
@@ -118,6 +125,7 @@ def get_tail(text, tailpos, numchars):
         wheretoend = len(text)
     thetail = text[tailpos: wheretoend]
     return thetail
+
 
 def netowl_curl(infile, outpath, outextension, netowl_key):
     """Do James Jones code to query NetOwl API."""
@@ -148,25 +156,28 @@ def netowl_curl(infile, outpath, outextension, netowl_key):
     outfile = os.path.join(outpath, filename + outextension)
     open(outfile, "w", encoding="utf-8").write(r)
 
+
 def post_to_geoevent(json_data, geoevent_url):
     headers = {
         'Content-Type': 'application/json',
-                }
+    }
 
-    response = requests.post((geoevent_url), headers=headers, data=json_data, verify=False)
+    response = requests.post(
+        (geoevent_url), headers=headers, data=json_data, verify=False)
+
 
 def process_netowl_json(document_file, json_data, web_url, query_string, category, date_crawled, snippet, language):
     doc_entities = []
     doc_links = []
     doc_events = []
-    
+
     # Open main portion of output NetOwl JSON
     if 'document' in json_data:
         document = json_data['document'][0]
 
         if 'text' in document:
             content = document['text'][0]['content']
-                        
+
         if 'entity' in document:
             # Build entity objects
             ents = (document['entity'])  # gets all entities in doc
@@ -178,7 +189,8 @@ def process_netowl_json(document_file, json_data, web_url, query_string, categor
                 # gather data from each entity
                 rdfvalue = cleanup_text(e['value'])  # value (ie name)
                 rdfid = e['id']
-                rdfid = document_file.split(".")[0] + "_e_" + rdfid  # unique to each entity
+                rdfid = document_file.split(
+                    ".")[0] + "_e_" + rdfid  # unique to each entity
                 e['id'] = rdfid
 
                 base_entity['id'] = rdfid
@@ -203,7 +215,7 @@ def process_netowl_json(document_file, json_data, web_url, query_string, categor
                     base_entity['geo_entity'] = True
                     base_entity['lat'] = location['y']
                     base_entity['long'] = location['x']
-                    
+
                 # Sets the type of the geo-entity to allow for better symbology
 
                 if 'geo_entity' in base_entity:
@@ -246,14 +258,16 @@ def process_netowl_json(document_file, json_data, web_url, query_string, categor
                     if e['ontology'] == "entity:place:county":
                         base_entity['geo_type'] = "placename"
                         base_entity['geo_subtype'] = "county"
-                
+
                 if 'entity-mention' in e:
                     em = e['entity-mention'][0]
                     if 'head' in em:
-                        base_entity['head'] = get_head(content, int(em['head']), 255)
+                        base_entity['head'] = get_head(
+                            content, int(em['head']), 255)
                     if 'tail' in em:
-                        base_entity['tail'] = get_tail(content, int(em['tail']), 255)
-                #print(web_url)
+                        base_entity['tail'] = get_tail(
+                            content, int(em['tail']), 255)
+                # print(web_url)
                 base_entity['url'] = web_url
                 base_entity['query'] = query_string
                 base_entity['category'] = category
@@ -265,11 +279,11 @@ def process_netowl_json(document_file, json_data, web_url, query_string, categor
                 # Turns entity information into a class object for storage and transformation
                 netowl_entity_object = NetOwl_Entity(base_entity)
                 doc_entities.append(netowl_entity_object)
-                
+
         return doc_entities
 
-def main(query, category):
 
+def main(query, category):
 
     term = query
     category = category
@@ -287,46 +301,16 @@ def main(query, category):
         print("\nJSON Response:\n")
         try:
             spatial_entities = []
-            """for value in json.loads(result)['webPages']['value']:
-
-                r = requests.get(value['url'], verify=False, timeout=10)
-                soup = BeautifulSoup(r.content, features="html.parser")
-
-                soup_list = [s.extract() for s in soup(['style', 'script', '[document]', 'head', 'title'])]
-                visible_text = soup.getText()
-
-                filename = term.replace(" ", "_") + str(randint(1,1000))
-                text_file_path = os.path.join(directory, filename + '.txt')
-                with open(text_file_path, 'w', encoding='utf-8') as text_file:
-                    print_text = cleanup_text(visible_text)
-                    text_file.write(print_text)
-                    text_file.close()
-
-                netowl_curl(text_file_path, directory, ".json", netowl_key)
-
-                with open(text_file_path + ".json", 'rb') as json_file:
-                    data = json.load(json_file)
-
-                    entity_list = process_netowl_json(filename, data, value['url'], term, category, value['dateLastCrawled'], value['snippet'], value['language'])
-
-                    for entity in entity_list:
-                        if entity.geo_entity == True:
-                            if entity.geo_type == 'coordinate' or entity.geo_type == 'address' or entity.geo_subtype == 'city':
-                                spatial_entities.append(vars(entity))
-                                post_to_geoevent(json.dumps(vars(entity)), geoevent_url)
-                                #print(vars(entity))
-                
-                os.remove(text_file_path)
-                os.remove(text_file_path + ".json")"""
 
             for j in search_news(query, tld="com", num=int(20), stop=10, pause=2):
                 r = requests.get(j)
                 soup = BeautifulSoup(r.content, features="html.parser")
 
-                soup_list = [s.extract() for s in soup(['style', 'script', '[document]', 'head', 'title'])]
+                soup_list = [s.extract() for s in soup(
+                    ['style', 'script', '[document]', 'head', 'title'])]
                 visible_text = soup.getText()
 
-                filename = query.replace(" ", "_") + str(randint(1,1000))
+                filename = query.replace(" ", "_") + str(randint(1, 1000))
                 text_file_path = os.path.join(directory, filename + '.txt')
                 with open(text_file_path, 'w', encoding='utf-8') as text_file:
                     print_text = cleanup_text(visible_text)
@@ -338,23 +322,23 @@ def main(query, category):
                 with open(text_file_path + ".json", 'rb') as json_file:
                     data = json.load(json_file)
 
-                    entity_list = process_netowl_json(filename, data, j, query, category, '', '', '')
+                    entity_list = process_netowl_json(
+                        filename, data, j, query, category, '', '', '')
 
                     entity_count = 0
                     for entity in entity_list:
                         if entity.geo_entity == True:
                             if entity.geo_type == 'coordinate' or entity.geo_type == 'address' or entity.geo_subtype == 'city':
                                 spatial_entities.append(vars(entity))
-                                post_to_geoevent(json.dumps(vars(entity)), geoevent_url)
-                                #print(vars(entity))
-                                entity_count +=1
+                                post_to_geoevent(json.dumps(
+                                    vars(entity)), geoevent_url)
+                                # print(vars(entity))
+                                entity_count += 1
 
-                
-                #print("-------------------------------------------------------")
+                # print("-------------------------------------------------------")
 
-                
             return spatial_entities
-        
+
         except Exception as e:
             print(str(e))
 
@@ -362,6 +346,7 @@ def main(query, category):
 
         print("Invalid Bing Search API subscription key!")
         print("Please paste yours into the source code.")
+
 
 if __name__ == "__main__":
     main()

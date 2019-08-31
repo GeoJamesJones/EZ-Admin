@@ -4,19 +4,25 @@ from app import db, login
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 
+# Base user model that is used to create the schema im the SQLite database.
+# This class is used extensive throughout the application.
+
+
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
     email = db.Column(db.String(120), index=True, unique=True)
     password_hash = db.Column(db.String(128))
     posts = db.relationship('Post', backref='author', lazy='dynamic')
-    queries = db.relationship('NetOwl_Entity', backref='author', lazy='dynamic')
+    queries = db.relationship(
+        'NetOwl_Entity', backref='author', lazy='dynamic')
     last_seen = db.Column(db.DateTime, default=datetime.utcnow)
     portal_url = db.Column(db.String(500), index=True)
     portal_username = db.Column(db.String(128), index=True)
     portal_password = db.Column(db.String(128))
     portal_name = db.Column(db.String(128), index=True)
 
+    # Returns how the user model will be represented when printed
     def __repr__(self):
         return '<User {}>'.format(self.username)
 
@@ -32,23 +38,9 @@ class User(UserMixin, db.Model):
             digest, size)
 
     def followed_posts(self):
-        own = Post.query.filter_by(user_id=self.id).order_by(Post.timestamp.desc())
+        own = Post.query.filter_by(
+            user_id=self.id).order_by(Post.timestamp.desc())
         return own
-
-    def launch_task(self, name, description, *args, **kwargs):
-        rq_job = current_app.task_queue.enqueue('app.tasks.' + name, self.id,
-                                                *args, **kwargs)
-        task = Task(id=rq_job.get_id(), name=name, description=description,
-                    user=self)
-        db.session.add(task)
-        return task
-
-    def get_tasks_in_progress(self):
-        return Task.query.filter_by(user=self, complete=False).all()
-
-    def get_task_in_progress(self, name):
-        return Task.query.filter_by(name=name, user=self,
-                                    complete=False).first()
 
 
 @login.user_loader
@@ -56,8 +48,11 @@ def load_user(id):
     return User.query.get(int(id))
 
 
+# Post model used to create the Posts table in the SQLite database.
+# The posts is used as means of tracking application functions and when
+# they were last ran.  Acts as a high level log.
+# Logging is handled seperately.
 class Post(db.Model):
-    __searchable__ = ['body']
     id = db.Column(db.Integer, primary_key=True)
     body = db.Column(db.String(140))
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
@@ -65,4 +60,3 @@ class Post(db.Model):
 
     def __repr__(self):
         return '<Post {}>'.format(self.body)
-

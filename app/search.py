@@ -1,14 +1,19 @@
 from flask import app
 
+# Elasticsearch functions that allow for the add, remove, and query of data from/to an index
+
+
 def add_to_index(index, document, payload):
     if not app.elasticsearch:
         return
     app.elasticsearch.index(index=index, doc_type=document, body=payload)
 
+
 def remove_from_index(index, document, id):
     if not app.elasticsearch:
         return
     app.elasticsearch.delete(index=index, doc_type=document, id=id)
+
 
 def query_index(index, document, query, page, per_page):
     if not app.elasticsearch:

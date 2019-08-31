@@ -1,8 +1,9 @@
 import arcpy
 import os
 
+# Creates an OGC Geopackage from the CADRG Folder
+
 cwd = arcpy.env.workspace = r"C:\services\data\cadrg"
-out_wd = r'C:\geopackages'
 
 workspaces = arcpy.ListWorkspaces("*")
 
@@ -20,7 +21,6 @@ try:
 
         gpkgs.append(gpkg_name)
 
-
         toc_files = []
         for root, dirname, filename in arcpy.da.Walk(workspace):
             for file in filename:
@@ -29,8 +29,9 @@ try:
 
         count = 0
         for toc in toc_files:
-            arcpy.AddRasterToGeoPackage_conversion(toc, gpkg_name, os.path.split(workspace)[1] + "_" + str(count), "TILED")
-            count +=1
+            arcpy.AddRasterToGeoPackage_conversion(toc, gpkg_name, os.path.split(workspace)[
+                                                   1] + "_" + str(count), "TILED")
+            count += 1
             print("Successfully added files to " + gpkg_name)
 
 except Exception as e:

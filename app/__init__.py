@@ -1,3 +1,5 @@
+from app.models import models
+from app.routes import routes, errors, query_routes, api_routes, admin_routes, upload_routes, analyze_routes
 import logging
 import os
 from elasticsearch import Elasticsearch
@@ -34,8 +36,8 @@ app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \
 app.config['BOOTSTRAP_SERVE_LOCAL'] = True
 
 if not app.debug:
-    if not os.path.exists('static/logs'):
-        os.mkdir('static/logs')
+    if not os.path.exists('/logs'):
+        os.mkdir('/logs')
     file_handler = RotatingFileHandler('logs/wdc_integration.log', maxBytes=10240,
                                        backupCount=10)
     file_handler.setFormatter(logging.Formatter(
@@ -46,8 +48,7 @@ if not app.debug:
     app.logger.setLevel(logging.INFO)
     app.logger.info('Application startup')
 
-# Imports the necessary modules from the Routes and Models folder. 
+# Imports the necessary modules from the Routes and Models folder.
 # Import is at the end of this file due to the Routes and Models being reliant upon the Flask application
-# that was created above.  
-# Prevents circular imports. 
-
+# that was created above.
+# Prevents circular imports.
