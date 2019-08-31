@@ -51,5 +51,3 @@ if not app.debug:
 # that was created above.  
 # Prevents circular imports. 
 
-from app.routes import routes, errors, query_routes, api_routes, admin_routes, upload_routes, analyze_routes
-from app.models import models
