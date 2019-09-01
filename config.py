@@ -25,18 +25,13 @@ class Config(object):
     CADRG_MOSAIC = r'C:\services\mosaics\geodata.gdb\CADRG'
     CIB_MOSAIC = r'C:\services\mosaics\geodata.gdb\CIB'
     IMAGERY_MOSAIC = r'C:\services\mosaics\geodata.gdb\IMAGERY'
-    
-    # ArcGIS Enterprise or ArcGIS Online Configuration Options
-    GIS_URL = 'https://esri-kbi.mstacticalcloud.net/portal'
-    GIS_USERNAME = "admin"
-    GIS_PASSWORD = "Password12345"
 
     # Microsoft Cognitive Services Affiliated Configuration Options
-    ACS_FACE_API_KEY="53242be6635c420c807d15a44a7015cf"
-    ACS_CV_API_KEY="b5c56de0406947f5a5ef90c6f32e0665"
-    TRANSLATOR_TEXT_KEY = "02ca97eb388647cba3441b73b2515b83"
-    TEXT_API_KEY = "5e71e3baa54a476fad8d56a928af3e47"
-    CONTENT_MODERATION_KEY = "dde6ebc92c9c49b6a65a62d82d1530ea"
+    ACS_FACE_API_KEY=os.environ['ACS_FACE_API_KEY']
+    ACS_CV_API_KEY=os.environ['ACS_CV_API_KEY']
+    TRANSLATOR_TEXT_KEY = os.environ['TRANSLATOR_TEXT_KEY']
+    TEXT_API_KEY = os.environ['TEXT_API_KEY']
+    CONTENT_MODERATION_KEY = os.environ['CONTENT_MODERATION_KEY']
     IMAGE_BASE_URL='http://dif.eastus.cloudapp.azure.com/camera/streamMobile/uploads/'
     MARKUP_BASE_URL='http://dif.eastus.cloudapp.azure.com/camera/Image_MarkUp/'
     FACES_GE_URL = 'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/api-faces-in'
@@ -47,7 +42,7 @@ class Config(object):
     
     
     # NetOwl Affiliated Configuration Options
-    NETOWL_KEY='netowl ff5e6185-5d63-459b-9765-4ebb905affc8'
+    NETOWL_KEY=os.environ['NETOWL_KEY']
     NETOWL_FINAL_FOLDER = os.getcwd() + r'\static\temp'
     NETOWL_INT_FOLDER = os.getcwd() + r'\static\temp'
     NETOWL_GE_SE = r'https://wdcrealtime.esri.com:6143/geoevent/rest/receiver/netowl-features-in'
