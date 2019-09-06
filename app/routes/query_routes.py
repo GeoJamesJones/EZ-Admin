@@ -33,33 +33,16 @@ urllib3.disable_warnings()
 @app.route('/embed/web', methods=['POST', 'GET'])
 def embed_query_web():
     if request.method == 'POST':
-        # Categories used to sort the results into usable feature class layers
-        # Based on information obtained from Lynn Copeland
-        categories = {
-            "warehouses":"Warehouses",
-            "commercial_food_distribution_center":"Commercial Food Distribution Center",
-            "farms_or_ranches":"Farms or Ranches",
-            "food_distribution_center":"Food Distribution Center",
-            "food_production_center":"Food Production Center",
-            "food_retail":"Food Retail",
-            "grain_storage":"Grain Storage",
-            "generation_station":"Generation Station",
-            "natural_gas_facility":"Natural Gas Facility",
-            "petroleum_facility":"Petroleum Facility",
-            "propane_facility":"Propane Facility",
-            "government_site_infrastructure":"Government Site Infrastructure",
-            "hospitals":"Hospitals",
-            "television_stations":"Television Stations"
-        }
-
         # turns HTTP POST request into a JSON object
         content = request.get_json()
 
         # Extracts the query and the category from the Survey123 request and turns them into
         # variables
+        # Categories used to sort the results into usable feature class layers
+        # Based on information obtained from Lynn Copeland
         query = content['applyEdits'][0]['adds'][0]['attributes']['query_term']
         cat = content['applyEdits'][0]['adds'][0]['attributes']['category']
-        category = categories[cat]
+        category = cat.title().replace("_", " ")
         print(query, category)
 
         # Runs the main script, which will in turn POST the results to GeoEvent Server.

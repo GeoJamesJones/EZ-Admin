@@ -169,49 +169,52 @@ def form_create_user():
         username = form.username.data
         password = form.password.data
         email = form.email.data
-        role = form.role.data
         organization = form.organization.data
-        licensepro = form.licensepro.data
         # Creates connections to Production (main_portal) and Training (training_portal)
-        main_portal = GIS("https://swcs.maps.arcgis.com", "james_jones_swcs", "QWerty654321@!")
-        training_portal = GIS("https://swcs-training.maps.arcgis.com", "jjones_training", "QWerty654321@!")
-
-        # Creates the users
-        target_user = main_portal.users.create(username, password, firstname, 
-                                                lastname, email, role)
-
-        training_user = training_portal.users.create(username, password, firstname, 
-                                                lastname, email, role)
-
-        # Allows the user to be added to a specific Group
-        # Note that this will be updated to match the groups associated with CCAS
-        if organization == 'EUCOM':
-            group = target_portal.groups.search("Featured Maps and Apps")[0]
-            group.add_users(target_user.username)
+        res = app.elasticsearch.search(index="ca_units", body={"query": {"match": {"Unit": organization}}})
+        organization_info = res['hits']['hits'][0]
         
-        # Allows an admin to automatically assign a user an ArcGIS Pro license
-        if licensepro == 'Yes':
-            pro_license = target_portal.admin.license.get('ArcGIS Pro')
-            pro_license.assign(username=username, entitlements='desktopBasicN')
+        portals = [("https://swcs.maps.arcgis.com", "james_jones_SWCS", "QWerty654321@!"),
+                    ("https://swcs-training.maps.arcgis.com", "jjones_training", "QWerty654321@!")]
+        for portal in portals:
+            gis = GIS(portal[0], portal[1], portal[2])
 
-        users = []
+            # Creates the users
+            target_user = gis.users.create(username = username,
+                                            password = password,
+                                            firstname = firstname,
+                                            lastname = lastname,
+                                            email = email,
+                                            description = 'CCAS User',
+                                            role = 'org_publisher',
+                                            level = 2,
+                                            provider = 'arcgis')
 
-        source_users = target_portal.users.search(username)
+            # Allows the user to be added to a specific Group
+            # Note that this will be updated to match the groups associated with CCAS
 
-        for user in source_users:
-            user = {
-                "username":user.username,
-                "firstname":user.firstName,
-                "lastname":user.lastName,
-                "email":user.email,
-                "licensetype":user.userLicenseTypeId,
-                "role":user.role,
-                "storageUsage":user.storageUsage,
-                "storageQuota":user.storageQuota
-            }
-            users.append(user)
-        
-        portal_url = {"name":str(target_portal)}
+            if organization == 'EUCOM':
+                group = target_portal.groups.search("Featured Maps and Apps")[0]
+                group.add_users(target_user.username)
+
+            users = []
+
+            source_users = gis.users.search(username)
+
+            for user in source_users:
+                user = {
+                    "username":user.username,
+                    "firstname":user.firstName,
+                    "lastname":user.lastName,
+                    "email":user.email,
+                    "licensetype":user.userLicenseTypeId,
+                    "role":user.role,
+                    "storageUsage":user.storageUsage,
+                    "storageQuota":user.storageQuota
+                }
+                users.append(user)
+            
+            portal_url = {"name":str(gis)}
 
         # Logs that the Check Federation Status task has ran and stores it in the Users Profile so that it can be returned to the user in the "Profile" section
         post_body = "Created Portal User."
