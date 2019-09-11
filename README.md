@@ -10,43 +10,43 @@ root:<br>
 ez_admin.py<br>
 config.py<br>
 app<br>
-    \forms<br>
-        \forms.py<br>
-    \models<br>
-        \models.py<br>
-    \routes<br>
-        admin_routes.py<br>
-        analyze_routes.py<br>
-        api_routes.py<br>
-        errors.py<br>
-        query_routes.py<br>
-        routes.py<br>
-        upload_routes.py<br>
-    \scripts<br>
-        \batch<br>
-            check_files_folders.bat<br>
-            create_cadrg_gpkg.bat<br>
-            update_cadrg_mosaic.bat<br>
-            update_cib_mosaic.bat<br>
-            update_dted1_mosaic.bat<br>
-            update_dted2_mosaic.bat<br>
-            update_imagery_mosaic.bat<br>
-        \data<br>
-            CCAS_Affiliations.csv<br>
-        azure_cognitive.py<br>
-        bucketizebing.py<br>
-        bucketizenews.py<br>
-        check_for_inactive_users.py<br>
-        consolidate_rasters.py<br>
-        create_ca_list.py<br>
-        CreateFoldersFiles.py<br>
-        detect_faces.py<br>
-        geoevent.py<br>
-        GeopackageCADRG.py<br>
-        get_broken_links.py<br>
-        load_CA_affiliations.py<br>
-        move_files.py<br>
-        process_netowl.py<br>
++\forms<br>
+-\forms.py<br>
++\models<br>
+-\models.py<br>
++\routes<br>
+-admin_routes.py<br>
+-analyze_routes.py<br>
+-api_routes.py<br>
+-errors.py<br>
+-query_routes.py<br>
+-routes.py<br>
+-upload_routes.py<br>
++\scripts<br>
+-\batch<br>
+*check_files_folders.bat<br>
+*create_cadrg_gpkg.bat<br>
+*update_cadrg_mosaic.bat<br>
+*update_cib_mosaic.bat<br>
+*update_dted1_mosaic.bat<br>
+*update_dted2_mosaic.bat<br>
+*update_imagery_mosaic.bat<br>
+*\data<br>
+*CCAS_Affiliations.csv<br>
+-azure_cognitive.py<br>
+-bucketizebing.py<br>
+-bucketizenews.py<br>
+-check_for_inactive_users.py<br>
+-consolidate_rasters.py<br>
+-create_ca_list.py<br>
+-CreateFoldersFiles.py<br>
+-detect_faces.py<br>
+-geoevent.py<br>
+-GeopackageCADRG.py<br>
+-get_broken_links.py<br>
+-load_CA_affiliations.py<br>
+-move_files.py<br>
+process_netowl.py<br>
     templates<br>
     __init__.py<br>
     search.py<br>
