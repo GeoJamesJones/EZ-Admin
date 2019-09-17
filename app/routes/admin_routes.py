@@ -186,6 +186,7 @@ def form_create_user():
                                             lastname = lastname,
                                             email = email,
                                             description = 'CCAS User',
+                                            user_type="creatorUT"
                                             role = 'org_publisher',
                                             level = 2,
                                             provider = 'arcgis')
